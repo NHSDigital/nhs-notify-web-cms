@@ -5,9 +5,12 @@ git clone https://github.com/asdf-vm/asdf.git ~/.asdf;
 chmod +x ~/.asdf/asdf.sh;
 echo '. $HOME/.asdf/asdf.sh' >> ~/.zshrc
 echo '. $HOME/.asdf/completions/asdf.bash' >> ~/.zshrc
-zsh
+
+source ~/.zshrc
 
 echo 'asdf setup complete'
+
+make -f $CODESPACE_VSCODE_FOLDER/Makefile config
 
 jekyll --version && cd docs && bundle install
 
