@@ -1,0 +1,13 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "jekyll",
+      "options": {
+        "cwd": "${workspaceFolder}/docs/"
+    },
+      "command": "bundle exec jekyll serve --config _config.yml,_config.dev.yml",
+      "type": "shell"
+    }
+  ]
+}
