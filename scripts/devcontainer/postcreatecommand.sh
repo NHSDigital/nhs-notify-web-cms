@@ -10,7 +10,7 @@ source ~/.zshrc
 
 echo 'asdf setup complete'
 
-make -f $CODESPACE_VSCODE_FOLDER/Makefile config
+make config
 
 jekyll --version && cd docs && bundle install
 
