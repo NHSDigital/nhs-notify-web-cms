@@ -9,8 +9,8 @@
   // Use 'forwardPorts' to make a list of ports inside the container available locally.
   // "forwardPorts": [],
   // Uncomment the next line to run commands after the container is created.
-  "postCreateCommand": "bash -i scripts/devcontainer/postcreatecommand.sh",
-  "postStartCommand": "bash -i scripts/devcontainer/poststartcommand.sh",
+  "postCreateCommand": "bash scripts/devcontainer/postcreatecommand.sh",
+  "postStartCommand": "bash scripts/devcontainer/poststartcommand.sh",
   // Configure tool-specific properties.
   "customizations": {
     "codespaces": {

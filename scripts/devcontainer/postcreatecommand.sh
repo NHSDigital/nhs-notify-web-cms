@@ -8,3 +8,7 @@ echo '. $HOME/.asdf/completions/asdf.bash' >> ~/.zshrc
 zsh
 
 echo 'asdf setup complete'
+
+jekyll --version && cd docs && bundle install
+
+echo 'jekyll setup complete'
