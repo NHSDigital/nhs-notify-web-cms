@@ -9,7 +9,8 @@
   // Use 'forwardPorts' to make a list of ports inside the container available locally.
   // "forwardPorts": [],
   // Uncomment the next line to run commands after the container is created.
-  "postCreateCommand": "git clone https://github.com/asdf-vm/asdf.git ~/.asdf && chmod +x ~/.asdf/asdf.sh && echo '. $HOME/.asdf/asdf.sh' >> ~/.zshrc && echo '. $HOME/.asdf/completions/asdf.bash' >> ~/.zshrc && cd $CODESPACE_VSCODE_FOLDER && make config && jekyll --version && cd docs && bundle install",
+  "postCreateCommand": "$CODESPACE_VSCODE_FOLDER/.devcontainer/postcreatecommand.sh",
+  "postStartCommand": "$CODESPACE_VSCODE_FOLDER/.devcontainer/poststartcommand.sh",
   // Configure tool-specific properties.
   "customizations": {
     "codespaces": {
