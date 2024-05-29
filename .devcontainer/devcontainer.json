@@ -9,7 +9,9 @@
   // Use 'forwardPorts' to make a list of ports inside the container available locally.
   // "forwardPorts": [],
   // Uncomment the next line to run commands after the container is created.
-  "postCreateCommand": "jekyll --version && cd docs && bundle install",
+  "postCreateCommand": "zsh scripts/devcontainer/postcreatecommand.sh",
+  "postStartCommand": "zsh scripts/devcontainer/poststartcommand.sh",
+  "forwardPorts": [4000],
   // Configure tool-specific properties.
   "customizations": {
     "codespaces": {
