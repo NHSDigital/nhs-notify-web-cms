@@ -1,0 +1,60 @@
+// Totally custom here.
+
+.nav-category {
+  text-transform: none;
+  color: $grey-dk-300;
+  @include fs-4;
+  font-weight: 600;
+}
+
+.main-content {
+  ul > {
+    li::before {
+      color: $grey-dk-300;
+    }
+  }
+}
+
+.site-title {
+  font-weight: 600;
+  font-size: 1.2rem !important;
+}
+
+.nav-list {
+  .nav-list-item {
+    @include fs-4;
+    font-weight: 400;
+    -webkit-font-smoothing: antialiased;
+  }
+}
+
+body {
+  color: $grey-dk-300;
+  font-size: 1.2rem !important;
+  //line-height: 28px;
+  //@include fs-5;
+}
+
+@media (min-width: 31.25rem) {
+  h1,
+  .text-alpha {
+    font-size: 3rem !important;
+    font-weight: 600;
+  }
+}
+
+@media (min-width: 31.25rem) {
+  h2,
+  .text-alpha {
+    font-size: 2rem !important;
+    font-weight: 600;
+  }
+}
+
+@media (min-width: 31.25rem) {
+  h3,
+  .text-alpha {
+    font-size: 1.5rem !important;
+    font-weight: 600;
+  }
+}

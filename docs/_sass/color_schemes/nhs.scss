@@ -1,18 +1,37 @@
 @import "./color_schemes/light";
 
+
+@font-face {
+  font-family: "Frutiger W01";
+  font-style: normal;
+  src: url("https://assets.nhs.uk/fonts/FrutigerLTW01-55Roman.woff2") format('woff2');
+}
+
+@font-face {
+  font-family: "Frutiger W01";
+  font-weight: 800;
+  font-style: normal;
+  src: url("https://assets.nhs.uk/fonts/FrutigerLTW01-65Bold.woff2") format('woff2');
+}
+
+
 // Typography
 
 // prettier-ignore
-$body-font-family: "Frutiger W01", Arial, Sans-serif;
-$mono-font-family: "Frutiger W01", Arial, Sans-serif;
+$body-font-family: Frutiger W01,Arial,Sans-serif;
+$mono-font-family: Frutiger W01,Arial,Sans-serif;
 
 
 
 $blue-000: #005eb8;
 $grey-dk-000: #d8dde0;
 $grey-dk-100: #f0f4f5;
-$sidebar-color: $grey-dk-000;
+$grey-dk-300: #212B32;
+$sidebar-color: $grey-dk-100;
 $body-background-color: $grey-dk-100;
 $link-color: $blue-000;
 
 $font-size-7: 1.25rem;
+$font-size-6: 2rem;
+$font-size-8: 3rem;
+//$font-size-5: 1.188rem; // h3
