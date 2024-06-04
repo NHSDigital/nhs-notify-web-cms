@@ -2,7 +2,8 @@
 
 terraform 1.7.0
 pre-commit 3.6.0
-
+nodejs 18.18.2
+gitleaks 8.15.3
 # ==============================================================================
 # The section below is reserved for Docker image versions.
 
