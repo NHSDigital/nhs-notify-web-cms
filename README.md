@@ -6,7 +6,7 @@
 ## About this project
 
 - This site includes the content for the public NHS Notify web site
-- It uses Jekyll to generate static web html files from markdown content
+- It uses Jekyll to generate static web HTML files from markdown content
 - the source code for the web site is in /docs folder
 - page content is inside the `/docs/pages` folder
 - page css is inside `/docs/_sass` folder
@@ -19,13 +19,13 @@ To get started, please create a new GitHub workspace from the main branch.
 
 This will setup a development environment for you to edit the web site in. The first time this runs, it will take approximately 10 minutes. You do not need to install ANY tools on your local computer.
 
-### Pre requisites
+### Pre-requisites
 
-- A github account
+- A GitHub account
 - For submitting changes, code must be signed.
 - To sign code using GitHub code spaces, please configure GPG signing for the repository, from your Settings page.
 
-### 1. From a web browser, goto the Web CMS Repository
+### 1. From a web browser, visit the Web CMS GitHub Repository page
 
 [https://github.com/NHSDigital/nhs-notify-web-cms](https://github.com/NHSDigital/nhs-notify-web-cms)
 
@@ -124,6 +124,6 @@ You must:
 
 - create a new branch in your workspace
 - commit the changes to your new branch
-- push the new branch to your remote
-- create a Pull Request for requesting that your branch is merged into main
+- push (publish) the new branch to your remote
+- create a Pull Request for requesting that your remote branch is merged into main
 - await approval
