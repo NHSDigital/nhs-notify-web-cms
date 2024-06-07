@@ -3,18 +3,8 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: page
-title: Features
+title: Pricing
 nav_order: 3
 has_children: true
-permalink: /features/
+permalink: /pricing/
 ---
-
-- [Holadddd](#holadddd)
-  - [Some thing else](#some-thing-else)
-  - [opmething else](#opmething-else)
-
-## Holadddd
-
-### Some thing else
-
-### opmething else
