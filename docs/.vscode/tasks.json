@@ -4,9 +4,9 @@
     {
       "label": "jekyll",
       "options": {
-        "cwd": "${workspaceFolder}/docs/"
+        "cwd": "${workspaceFolder}"
     },
-      "command": "bundle exec jekyll serve --config _config.yml,_config.dev.yml",
+      "command": "make debug",
       "type": "shell"
     }
   ]
