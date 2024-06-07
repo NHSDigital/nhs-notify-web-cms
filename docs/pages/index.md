@@ -9,6 +9,8 @@ nav_order: 1
 permalink: /
 ---
 
+{% include components/do-dont-list/do-dont-list.html %}
+
 Convallis aenean et tortor at. Sagittis nisl rhoncus mattis rhoncus. Odio eu feugiat pretium nibh ipsum. Sit amet venenatis urna cursus eget. Aliquet nec ullamcorper sit amet risus nullam eget felis.
 
 ## Lorem ipsum dolor sit amet
