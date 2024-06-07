@@ -3,10 +3,8 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: page
-title: Using NHS Notify
-nav_order: 4
-has_children: true
-permalink: /using-nhs-notify/
+title: Recipients you cannot messages
+parent: Using NHS Notify
+nav_order: 14
+permalink: /using-nhs-notify/recipients-you-cannot-message
 ---
-
-This guidance is to help teams understand how to use NHS Notify.

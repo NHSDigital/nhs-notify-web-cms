@@ -3,10 +3,9 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: page
-title: Using NHS Notify
-nav_order: 4
-has_children: true
-permalink: /using-nhs-notify/
+title: Delivery times
+parent: Using NHS Notify
+nav_order: 9
+permalink: /using-nhs-notify/delivery-times
 ---
 
-This guidance is to help teams understand how to use NHS Notify.

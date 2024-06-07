@@ -3,10 +3,8 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: page
-title: Using NHS Notify
-nav_order: 4
-has_children: true
-permalink: /using-nhs-notify/
+title: Editing and formatting
+parent: Using NHS Notify
+nav_order: 5
+permalink: /using-nhs-notify/editing-and-formatting
 ---
-
-This guidance is to help teams understand how to use NHS Notify.
