@@ -7,6 +7,8 @@ install:
 	bundle config set --local path vendor/bundle
 	bundle install
 	npm install
+  rm node_modules/nhsuk-frontend/packages/core/vendor/sass-mq.scss
+  cp ../src/sass-mq.scss node_modules/nhsuk-frontend/packages/core/vendor/sass-mq.scss
 
 s serve:
 	bundle exec jekyll serve --trace --livereload
