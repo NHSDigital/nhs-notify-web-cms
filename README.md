@@ -3,116 +3,138 @@
 [![CI/CD Pull Request](https://github.com/nhs-england-tools/repository-template/actions/workflows/cicd-1-pull-request.yaml/badge.svg)](https://github.com/nhs-england-tools/repository-template/actions/workflows/cicd-1-pull-request.yaml)
 [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=repository-template&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=repository-template)
 
-Start with an overview or a brief description of what the project is about and what it does. For example -
+## About this project
 
-Welcome to our repository template designed to streamline your project setup! This robust template provides a reliable starting point for your new projects, covering an essential tech stack and encouraging best practices in documenting.
+- This site includes the content for the public NHS Notify web site
+- It uses Jekyll to generate static web HTML files from markdown content
+- the source code for the web site is in /docs folder
+- page content is inside the `/docs/pages` folder
+- page css is inside `/docs/_sass` folder
 
-This repository template aims to foster a user-friendly development environment by ensuring that every included file is concise and adequately self-documented. By adhering to this standard, we can promote increased clarity and maintainability throughout your project's lifecycle. Bundled within this template are resources that pave the way for seamless repository creation. Currently supported technologies are:
+## Getting Started - First time setup
 
-- Terraform
-- Docker
+This is only needed once.
 
-Make use of this repository template to expedite your project setup and enhance your productivity right from the get-go. Enjoy the advantage of having a well-structured, self-documented project that reduces overhead and increases focus on what truly matters - coding!
+To get started, please create a new GitHub workspace from the main branch.
 
-## Table of Contents
+This will setup a development environment for you to edit the web site in. The first time this runs, it will take approximately 10 minutes. You do not need to install ANY tools on your local computer.
 
-- [NHS Notify Web CMS Repository](#nhs-notify-web-cms-repository)
-  - [Table of Contents](#table-of-contents)
-  - [Documentation](#documentation)
-  - [Setup](#setup)
-    - [Prerequisites](#prerequisites)
-    - [Configuration](#configuration)
-  - [Usage](#usage)
-    - [Testing](#testing)
-  - [Design](#design)
-    - [Diagrams](#diagrams)
-    - [Modularity](#modularity)
-  - [Contributing](#contributing)
-  - [Contacts](#contacts)
-  - [Licence](#licence)
+### Pre-requisites
 
-## Documentation
+- A GitHub account
+- For submitting changes, code must be signed.
+- To sign code using GitHub code spaces, please configure GPG signing for the repository, from your Settings page.
 
-- [Built](/)
-- [Source](/docs/README.md)
+### 1. From a web browser, visit the Web CMS GitHub Repository page
 
-## Setup
+[https://github.com/NHSDigital/nhs-notify-web-cms](https://github.com/NHSDigital/nhs-notify-web-cms)
 
-By including preferably a one-liner or if necessary a set of clear CLI instructions we improve user experience. This should be a frictionless installation process that works on various operating systems (macOS, Linux, Windows WSL) and handles all the dependencies.
+### 2. Click Code
 
-Clone the repository
+Click the green `<> Code` button.
 
-```shell
-git clone https://github.com/nhs-england-tools/repository-template.git
-cd nhs-england-tools/repository-template
-```
+![alt text](assets/img/image.png)
 
-### Prerequisites
+### 3. Create Codespace on main
 
-The following software packages, or their equivalents, are expected to be installed and configured:
+Click create code space on main
 
-- [Docker](https://www.docker.com/) container runtime or a compatible tool, e.g. [Podman](https://podman.io/),
-- [asdf](https://asdf-vm.com/) version manager,
-- [GNU make](https://www.gnu.org/software/make/) 3.82 or later,
-- [GNU coreutils](https://www.gnu.org/software/coreutils/) and [GNU binutils](https://www.gnu.org/software/binutils/) may be required to build dependencies like Python, which may need to be compiled during installation. For macOS users, this has been scripted and automated by the `dotfiles` project; please see this [script](https://github.com/nhs-england-tools/dotfiles/blob/main/assets/20-install-base-packages.macos.sh) for details,
-- [Python](https://www.python.org/) required to run Git hooks,
-- [`jq`](https://jqlang.github.io/jq/) a lightweight and flexible command-line JSON processor.
+![alt text](assets/img/image-1.png)
 
-> [!NOTE]<br>
-> The version of GNU make available by default on macOS is earlier than 3.82. You will need to upgrade it or certain `make` tasks will fail. On macOS, you will need [Homebrew](https://brew.sh/) installed, then to install `make`, like so:
->
-> ```shell
-> brew install make
-> ```
->
-> You will then see instructions to fix your `$PATH` variable to make the newly installed version available. If you are using [dotfiles](https://github.com/nhs-england-tools/dotfiles), this is all done for you.
+### 4. Wait
 
-### Configuration
+- a new browser tab should open
+- you will need to wait around 5 - 10 minutes
 
-Installation and configuration of the toolchain dependencies
+When it first starts it will look something like this. At it will say opening remote at the bottom left.
 
-```shell
-make config
-```
+![alt text](assets/img/image-2.png)
 
-## Usage
+### 5. Launch workspace
 
-After a successful installation, provide an informative example of how this project can be used. Additional code snippets, screenshots and demos work well in this space. You may also link to the other documentation resources, e.g. the [User Guide](./docs/user-guide.md) to demonstrate more use cases and to show more features.
+You will see a box pop up bottom right notifying you there is a workspace file.
 
-### Testing
+- click the Green button to `Open Workspace`
 
-There are `make` tasks for you to configure to run your tests.  Run `make test` to see how they work.  You should be able to use the same entry points for local development as in your CI pipeline.
+![alt text](assets/img/image-3.png)
 
-## Design
+### 6 . Open parent git repository
 
-### Diagrams
+Another box will pop up saying a parent git repository has been found. Click the Green `Yes` button to open it.
 
-The [C4 model](https://c4model.com/) is a simple and intuitive way to create software architecture diagrams that are clear, consistent, scalable and most importantly collaborative. This should result in documenting all the system interfaces, external dependencies and integration points.
+![alt text](assets/img/image-4.png)
 
-![Repository Template](./docs/diagrams/Repository_Template_GitHub_Generic.png)
+An option should appear at the top of the screen, select the `nhs-notify-web-cms` repository.
 
-### Modularity
+![alt text](assets/img/image-5.png)
 
-Most of the projects are built with customisability and extendability in mind. At a minimum, this can be achieved by implementing service level configuration options and settings. The intention of this section is to show how this can be used. If the system processes data, you could mention here for example how the input is prepared for testing - anonymised, synthetic or live data.
+### 5. Test it works
 
-## Contributing
+You should be able to run a live version of your changes before you submit them (via a Pull request) for updating the live content.
 
-Describe or link templates on how to raise an issue, feature request or make a contribution to the codebase. Reference the other documentation files, like
+To do this, click the Run and Debug button, and then click the "Play" icon. Alternatively you can press F5 (warning, if you are not "clicked" in the window, it will refresh your page instead of launching the site).
 
-- Environment setup for contribution, i.e. `CONTRIBUTING.md`
-- Coding standards, branching, linting, practices for development and testing
-- Release process, versioning, changelog
-- Backlog, board, roadmap, ways of working
-- High-level requirements, guiding principles, decision records, etc.
+- click the run and debug button:
 
-## Contacts
+![alt text](assets/img/image-6.png)
 
-Provide a way to contact the owners of this project. It can be a team, an individual or information on the means of getting in touch via active communication channels, e.g. opening a GitHub discussion, raising an issue, etc.
+- click the green "Play" button to the left of where it says `Attatch (NHS Notify`
 
-## Licence
+![alt text](assets/img/image-7.png)
 
-> The [LICENCE.md](./LICENCE.md) file will need to be updated with the correct year and owner
+- after a few seconds, you should see moving text at the bottom of the screen and it say `server running`
 
-Unless stated otherwise, the codebase is released under the MIT License. This covers both the codebase and any sample code in the documentation.
+![alt text](assets/img/image-8.png)
 
-Any HTML or Markdown documentation is [© Crown Copyright](https://www.nationalarchives.gov.uk/information-management/re-using-public-sector-information/uk-government-licensing-framework/crown-copyright/) and available under the terms of the [Open Government Licence v3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).
+- a box should appear bottom right saying your application is running. Click the green `Open in browser button`
+
+![alt text](assets/img/image-9.png)
+
+- a new browser tab will open (with a random address), this is live updating as you change the content of the site.
+
+![alt text](assets/img/image-10.png)
+
+### 6. Make a preview change
+
+- In the previous browser tab, click on the file `Explorer` button to show the file list.
+
+![alt text](assets/img/image-11.png)
+
+- Click on the `pages` folder, and then `index.md`. This will open the content of the home page.
+
+![alt text](assets/img/image-12.png)
+
+- you can now edit this page. To see a basic preview side by side, click the markdown preview button
+
+![alt text](assets/img/image-13.png)
+
+- this will open a preview to the right
+
+![alt text](assets/img/image-14.png)
+
+- If you now edit some text in the left, it will update in the basic preview on the right in real time. If you click `File` - `Save` (or `Ctrl-S`) this will save the file.
+
+- Saving the file will update the Full preview site in the other browser tab.
+
+- Open the other tab, and Press `F5` to refresh the page.
+
+### 7. Making a change permanent and live
+
+You must:
+
+- create a new branch in your workspace
+- commit the changes to your new branch
+- push (publish) the new branch to your remote
+- create a Pull Request for requesting that your remote branch is merged into main
+- await approval
+
+## Making further changes
+
+### Open existing CodeSpaces
+
+- You can reuse existing CodeSpaces that have been setup.
+- Visit [https://github.com/codespaces](https://github.com/codespaces) to see a list of code spaces
+- Active code spaces are charged. Everyone gets 150 hours free per month.
+- Click on the `three dots` and then click `stop codespace` to change it to inactive
+- A stopped code space does not loose data
+- You can delete a CodeSpace, but this will loose any data that you have not pushed (published) to a remote git branch.
