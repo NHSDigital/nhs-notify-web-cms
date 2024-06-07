@@ -127,3 +127,14 @@ You must:
 - push (publish) the new branch to your remote
 - create a Pull Request for requesting that your remote branch is merged into main
 - await approval
+
+## Making further changes
+
+### Open existing CodeSpaces
+
+- You can reuse existing CodeSpaces that have been setup.
+- Visit [https://github.com/codespaces](https://github.com/codespaces) to see a list of code spaces
+- Active code spaces are charged. Everyone gets 150 hours free per month.
+- Click on the `three dots` and then click `stop codespace` to change it to inactive
+- A stopped code space does not loose data
+- You can delete a CodeSpace, but this will loose any data that you have not pushed (published) to a remote git branch.
