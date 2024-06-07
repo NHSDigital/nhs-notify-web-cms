@@ -8,6 +8,4 @@ vendor
 *Zone.Identifier
 
 # this is needed for a bug about no return specified in sass-mq.scss. Need to look into it
-node_modules/**
-!node_modules/**/
-!node_modules/nhsuk-frontend/packages/core/vendor/sass-mq.scss
+node_modules
