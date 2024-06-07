@@ -2,10 +2,15 @@
   "version": "0.2.0",
   "configurations": [
     {
+      "name": "ROOT Debug Web CMS",
+      "request": "launch",
+      "runtimeArgs": ["run-script", "debug"],
+      "runtimeExecutable": "npm",
+      "skipFiles": ["<node_internals>/**"],
       "type": "node",
-      "request": "attach",
-      "name": "Root Launch",
-      "preLaunchTask": "root-jekyll"
+      "preLaunchTask": "root-stop-already-running",
+      "console": "integratedTerminal",
+      "cwd": "${workspaceFolder}/docs"
     }
   ]
 }
