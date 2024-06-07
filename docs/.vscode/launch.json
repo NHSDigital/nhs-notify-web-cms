@@ -2,10 +2,14 @@
   "version": "0.2.0",
   "configurations": [
     {
+      "name": "Debug Web CMS",
+      "request": "launch",
+      "runtimeArgs": ["run-script", "debug"],
+      "runtimeExecutable": "npm",
+      "skipFiles": ["<node_internals>/**"],
       "type": "node",
-      "request": "attach",
-      "name": "Attach",
-      "preLaunchTask": "jekyll"
+      "preLaunchTask": "stop-already-running",
+      "console": "integratedTerminal"
     }
   ]
 }
