@@ -4,3 +4,7 @@ _site
 .jekyll-metadata
 vendor
 #Gemfile.lock
+*Zone.Identifier
+node_modules
+#!node_modules/nhsuk-frontend/packages/
+#!node_modules/nhsuk-frontend/packages/core/vendor/sass-mq.scss

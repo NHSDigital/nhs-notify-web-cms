@@ -1,5 +1,9 @@
 // Totally custom here.
-//@import "./_do-dont-list.scss";
+
+//@import "../node_modules/nhsuk-frontend/packages/nhsuk";
+
+@import "../node_modules/nhsuk-frontend/packages/core/all";
+@import "../node_modules/nhsuk-frontend/packages/components/do-dont-list/_do-dont-list";
 
 .nav-category {
   text-transform: none;

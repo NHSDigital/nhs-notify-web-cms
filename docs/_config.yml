@@ -84,8 +84,22 @@ exclude:
   - gemfiles/
   - Gemfile
   - Gemfile.lock
+  #   - node_modules/
+  #- vendor/bundle/
+  #- vendor/cache/
+  #- vendor/gems/
+  #- vendor/ruby/
+
+include:
+  - vendor/
   - node_modules/
   - vendor/bundle/
   - vendor/cache/
   - vendor/gems/
   - vendor/ruby/
+sass:
+  #sass_dir: _sass/
+  load_paths:
+    - .
+    - _sass/
+    - ../node_modules/nhsuk-frontend/packages/
