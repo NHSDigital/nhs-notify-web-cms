@@ -1,7 +1,20 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: 'en' }}">
+  {%- include head.html -%}
 
-<h1>{{page.site_title}}</h1>
+  <body class="wrap">
+    <script>
+      document.body.className = ((document.body.className) ? document.body.className + ' js-enabled' : 'js-enabled');
+    </script>
 
-{{ content }}
+    <a class="nhsuk-skip-link" href="#maincontent">Skip to main content</a>
+
+    {%- include header.html -%}
+
+    <main id="maincontent" role="main">
+      {{- content -}}
+    </main>
+
+    {%- include footer.html -%}
+  </body>
+</html>
