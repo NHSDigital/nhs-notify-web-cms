@@ -15,21 +15,11 @@
   // Configure tool-specific properties.
   "customizations": {
     "codespaces": {
-      "openFiles": [
-        "README.md",
-        ".github/SECURITY.md",
-        "docs/index.md"
-      ]
+      "openFiles": ["README.md", ".github/SECURITY.md", "docs/pages/index.md"]
     },
     "vscode": {
       // Set *default* container specific settings.json values on container create.
       "settings": {
-        "editor.formatOnSave": true,
-        "files.insertFinalNewline": true,
-        "[makefile]": {
-          "editor.insertSpaces": false,
-          "editor.detectIndentation": false
-        }
       },
       // Add the IDs of extensions you want installed when the container is created.
       "extensions": [
@@ -63,7 +53,10 @@
         "wayou.vscode-todo-highlight",
         "yzane.markdown-pdf",
         "yzhang.dictionary-completion",
-        "yzhang.markdown-all-in-one"
+        "yzhang.markdown-all-in-one",
+        "joshx.workspace-terminals",
+        "takumii.markdowntable",
+        "chdsbd.github-code-owners"
       ]
     }
   },
