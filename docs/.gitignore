@@ -3,8 +3,10 @@ _site
 .jekyll-cache
 .jekyll-metadata
 vendor
-#Gemfile.lock
+
 *Zone.Identifier
-node_modules
-#!node_modules/nhsuk-frontend/packages/
-#!node_modules/nhsuk-frontend/packages/core/vendor/sass-mq.scss
+
+# this is needed for a bug about no return specified in sass-mq.scss. Need to look into it
+node_modules/**
+!node_modules/**/
+!node_modules/nhsuk-frontend/packages/core/vendor/sass-mq.scss
