@@ -8,3 +8,9 @@ parent: Using NHS Notify
 nav_order: 1
 permalink: /using-nhs-notify/api
 ---
+
+NHS England organisations and services can integrate the NHS Notify API with their web applications or back office systems.
+
+Read our API documentation (opens in a new tab).
+
+If you’re a developer you can also try our sandbox test environment (opens in a new tab).

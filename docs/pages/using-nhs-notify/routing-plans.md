@@ -8,3 +8,14 @@ parent: Using NHS Notify
 nav_order: 13
 permalink: /using-nhs-notify/routing-plans
 ---
+
+You will need to create a routing plan to decide how messages will be sent to your recipients.
+
+Setting up a routing plan can make your messages more effective and sometimes lower messaging costs.
+
+You can set up routing plans to:
+
+- use certain templates for specific groups of recipients
+- message a recipient with each channel in the order you choose
+- set up fallbacks for messages that fail
+- stop sending messages after a chosen channel is successful
