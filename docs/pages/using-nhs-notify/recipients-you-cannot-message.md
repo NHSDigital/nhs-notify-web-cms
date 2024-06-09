@@ -3,7 +3,7 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: page
-title: Recipients you cannot messages
+title: Recipients you cannot message
 parent: Using NHS Notify
 nav_order: 14
 permalink: /using-nhs-notify/recipients-you-cannot-message
