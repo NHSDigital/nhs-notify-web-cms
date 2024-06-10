@@ -11,7 +11,7 @@ permalink: /support/
 
 ## I'm already using NHS Notify
 
-If you're already using NHS Notify and you need help, you can contact us using our service portal.
+If you're already using NHS Notify and you need help, you can contact us using our [service portal](https://nhsdigitallive.service-now.com/csm).
 
 This is for NHS England teams that are technically integrated and set up.
 
@@ -19,11 +19,11 @@ This is for NHS England teams that are technically integrated and set up.
 
 We can only respond to your support queries during office hours. Our office hours are 8am to 6pm, Monday to Friday (excluding bank holidays).
 
-NHS Notify is a silver service. This means it's available 24 hours a day, 365 days a year.
+NHS Notify is a [silver service](https://digital.nhs.uk/services/reference-guide#service-levels). This means it's available 24 hours a day, 365 days a year.
 
 ## I want to start using NHS Notify
 
-If you work in NHS England and want to start using NHS Notify, find out how to get started.
+If you work in NHS England and want to start using NHS Notify, find out how to [get started](/get-started).
 
 ## I have questions about NHS Notify
 

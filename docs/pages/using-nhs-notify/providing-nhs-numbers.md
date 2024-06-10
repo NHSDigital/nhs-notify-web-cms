@@ -9,9 +9,9 @@ nav_order: 12
 permalink: /using-nhs-notify/providing-nhs-numbers
 ---
 
-You only need a patient's NHS number to send them messages.
+You only need a patient's [NHS number](https://digital.nhs.uk/services/personal-demographics-service/nhs-number) to send them messages.
 
-NHS Notify finds people's contact details using their NHS numbers in the Personal Demographics Service (PDS).
+NHS Notify finds people's contact details using their NHS numbers in the [Personal Demographics Service (PDS)](https://digital.nhs.uk/services/personal-demographics-service).
 
 ## How to provide recipients' NHS Numbers
 
@@ -19,12 +19,12 @@ NHS Notify finds people's contact details using their NHS numbers in the Perso
 
 Send recipients' NHS numbers as part of your request.
 
-Our API documentation shows the format to use.
+[Our API documentation](https://digital.nhs.uk/developer/api-catalogue/nhs-notify) shows the format to use.
 
 ### If you're using MESH
 
-If you're using the Message Exchange for Social Care and Health (MESH), upload NHS numbers in a CSV file.
+If you're using the [Message Exchange for Social Care and Health (MESH)](https://digital.nhs.uk/services/message-exchange-for-social-care-and-health-mesh), upload NHS numbers in a CSV file.
 
 The onboarding team will give you an example CSV file on request.
 
-Use the format shown in the API documentation.
+Use the format shown in the [API documentation](https://digital.nhs.uk/developer/api-catalogue/nhs-notify#post-/v1/message-batches).

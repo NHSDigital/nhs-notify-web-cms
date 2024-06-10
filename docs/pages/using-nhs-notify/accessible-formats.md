@@ -11,7 +11,7 @@ permalink: /using-nhs-notify/accessible-formats
 
 Before you start to send messages, consider the access needs of your recipients.
 
-All organisations that provide NHS care or publicly-funded adult social care are legally required to follow the Accessible Information Standard.
+All organisations that provide NHS care or publicly-funded adult social care are legally required to follow the [Accessible Information Standard](https://www.england.nhs.uk/about/equality/equality-hub/patient-equalities-programme/equality-frameworks-and-information-standards/accessibleinfo/).
 
 ## Accessible letter formats
 
@@ -34,8 +34,8 @@ This is available for NHS App messages, emails, text messages and letters
 
 You'll need to tell us if you require letters in accessible formats. Do this by:
 
-- speaking to our engagement team when you first get started with NHS Notify
-- raising a support request on our service portal if you're already using NHS Notify and have existing templates
+- speaking to our engagement team when you first [get started](/get-started) with NHS Notify
+- raising a [support request on our service portal](https://nhsdigitallive.service-now.com/csm) if you're already using NHS Notify and have existing templates
 
 Set up a routing plan that requests accessible formats.
 

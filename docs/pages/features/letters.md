@@ -22,12 +22,12 @@ This page will tell you:
 
 You might want to understand more about:
 
-- letter pricing
-- delivery times for letters
-- return addresses
-- how to edit and format letters
-- sending letters to people with access needs
-- sending letters to people who speak other languages
+- [letter pricing](/pricing/letters)
+- [delivery times for letters](/using-nhs-notify/delivery-times)
+- [return addresses](/using-nhs-notify/tell-recipients-who-your-messages-are-from)
+- [how to edit and format letters](/using-nhs-notify/editing-and-formatting)
+- [sending letters to people with access needs](/using-nhs-notify/accessible-formats)
+- [sending letters to people who speak other languages](/using-nhs-notify/letters-in-other-languages)
 
 ## Letter specification
 

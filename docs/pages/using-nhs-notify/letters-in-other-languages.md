@@ -13,7 +13,7 @@ NHS Notify allows you to message patients and members of the public using other 
 
 ## Language (A to Z)
 
-NHS Notify can support any languages and character sets that are listed in the Personal Demographics Service (PDS).
+NHS Notify can support any languages and character sets that are listed in the [Personal Demographics Service (PDS)](https://digital.nhs.uk/services/personal-demographics-service).
 
 We currently support the following languages and their character sets:
 

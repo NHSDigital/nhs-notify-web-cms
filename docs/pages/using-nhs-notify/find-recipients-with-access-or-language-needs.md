@@ -11,7 +11,7 @@ permalink: /using-nhs-notify/find-recipients-with-access-or-language-needs
 
 NHS Notify identifies people who need messages in accessible formats or other languages (sometimes called preferences).
 
-We check this information using the Personal Demographics Service (PDS).
+We check this information using the [Personal Demographics Service (PDS)](https://digital.nhs.uk/services/personal-demographics-service).
 
 You need to decide whether to message recipients based on their access or language needs.
 
@@ -19,7 +19,7 @@ You need to decide whether to message recipients based on their access or langua
 
 To send messages in accessible formats or other languages, you need to create templates for them.
 
-Read more about sending messages in accessible formats or other languages.
+Read more about sending messages in [accessible formats](/using-nhs-notify/accessible-formats) or [other languages](/using-nhs-notify/letters-in-other-languages).
 
 ## Message channel preferences
 

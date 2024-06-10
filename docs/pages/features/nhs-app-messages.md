@@ -6,7 +6,7 @@ layout: page
 title: NHS App messages
 parent: Features
 nav_order: 3
-permalink: /features/nhs-app-features
+permalink: /features/nhs-app-messages
 ---
 
 Send free unlimited messages to patients and members of the public that have the NHS App.

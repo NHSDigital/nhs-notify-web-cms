@@ -3,7 +3,7 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: page
-title: Get started with NHS Notify
+title: Get started
 nav_order: 6
 has_children: true
 permalink: /get-started/
@@ -15,13 +15,15 @@ You can send messages with NHS Notify if your organisation or service is part of
 
 You might want to learn more about:
 
-- our features
-- how to use NHS Notify
-- how much it costs to send messages
-- NHS Notify API and its sandbox environment
+- [our features](/features)
+- [how to use NHS Notify](/using-nhs-notify)
+- [how much it costs to send messages](/pricing)
+- [NHS Notify API and its sandbox environment](https://digital.nhs.uk/developer/api-catalogue/nhs-notify)
 
 ## 2. Get in touch to register your interest
 
 If you think NHS Notify is right for your organisation or service, you can get in touch by emailing our engagement team.
+
+<onboarding-email@nhs.net>
 
 We'll contact you within 10 working days to find out more about what your service needs.

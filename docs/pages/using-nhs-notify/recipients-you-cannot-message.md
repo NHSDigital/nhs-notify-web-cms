@@ -11,7 +11,7 @@ permalink: /using-nhs-notify/recipients-you-cannot-message
 
 NHS Notify automatically prevents you from sending messages to people who you should not contact. This includes patients with certain information on their records.
 
-We check the Personal Demographics Service (PDS) for patients with:
+We check the [Personal Demographics Service (PDS)](https://digital.nhs.uk/services/personal-demographics-service) for patients with:
 
 - flagged records
 - exit codes
@@ -19,7 +19,7 @@ We check the Personal Demographics Service (PDS) for patients with:
 
 You will not be charged for messages we could not send due to information in PDS.
 
-These messages will show as failed messages in your reports. Learn more about message statuses.
+These messages will show as failed messages in your reports.
 
 ## Flagged records
 
@@ -27,7 +27,7 @@ Some patients' data is strictly controlled. These records have flags on them in 
 
 ### Sensitive flag (S flag)
 
-Patients with a sensitive flag (sometimes called an S flag) have restricted contact details. We do not have access to any information that could reveal their location.
+Patients with a sensitive flag (sometimes called an S flag) have [restricted contact details](https://digital.nhs.uk/services/personal-demographics-service/restricting-access-to-a-patients-demographic-record). We do not have access to any information that could reveal their location.
 
 S flags help to protect patients who may be at risk, such as victims of domestic violence, law court witnesses or vulnerable children awaiting adoption.
 
