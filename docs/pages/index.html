@@ -16,7 +16,6 @@ permalink: /
 <div id="title" class="nhsnotify-banner--blue">
     <div class="nhsuk-main-wrapper nhsuk-width-container">
         <div class="nhsuk-grid-row">
-            <!-- TODO: don't use inline styles -->
             <div class="nhsuk-grid-column-one-half">
                 <h1 class="nhsuk-heading-l">
                     Send NHS App messages, emails, tests and letters to patients and the public
@@ -24,9 +23,8 @@ permalink: /
                 <p>You can use NHS Notify if you work in NHS England and support direct care</p>
             </div>
             <div class="nhsuk-grid-column-one-half">
-                <!-- TODO: Implement NHS styling for an image -->
-                <figure>
-                    <img src="{{ 'assets/images/landing-main-image.svg' | relative_url }}" class="" alt="A graphic representation of NHS Notify&#39;s message channels: NHS App messages, emails, text messages and letters."></img>
+                <figure class="nhsuk-image nhsnotify-image">
+                    <img src="{{ 'assets/images/landing-main-image.svg' | relative_url }}" class="nhsuk-image__img" alt="A graphic representation of NHS Notify&#39;s message channels: NHS App messages, emails, text messages and letters."></img>
                 </figure>
             </div>
         </div>
@@ -68,100 +66,84 @@ permalink: /
 </div>
 
 <!-- HOW IT WORKS -->
-<div id="how-it-works" class="">
+<div id="how-it-works">
     <div class="nhsuk-width-container nhsuk-main-wrapper">
         <h2>How it works</h2>
 
         <ol class="nhsnotify-list">
-            <!-- WRITE YOUR MESSAGES -->
-            <li class="nhsnotify-list--item">
-                <h3 class="nhsuk-heading-m">
-                    Write your messages
-                </h3>
-                <p>Create and edit reusable templates for each message channel:</p>
-                <ul>
-                    <li class="nhsuk-u-margin-bottom-0">NHS App messages</li>
-                    <li class="nhsuk-u-margin-bottom-0">emails</li>
-                    <li class="nhsuk-u-margin-bottom-0">text messages (SMS)</li>
-                    <li class="nhsuk-u-margin-bottom-0">letters</li>
-                </ul>
-            </li>
-            <!-- CHOOSE YOUR RECIPIENTS -->
-            <li class="nhsnotify-list--item">
-                <h3 class="nhsuk-heading-m">
-                    Write your messages
-                </h3>
-                <p>Create and edit reusable templates for each message channel:</p>
-                <ul>
-                    <li class="nhsuk-u-margin-bottom-0">NHS App messages</li>
-                    <li class="nhsuk-u-margin-bottom-0">emails</li>
-                    <li class="nhsuk-u-margin-bottom-0">text messages (SMS)</li>
-                    <li class="nhsuk-u-margin-bottom-0">letters</li>
-                </ul>
-            </li>
-        </ol>
-        <div id="choose-your-recipients" class="nhsuk-grid-row nhsuk-u-margin-bottom-8">
-            <div class="nhsuk-grid-column-one-half nhsuk-u-padding-left-0">
-                <div class="nhsuk-grid-column-one-quarter">
-                    <p class="nhsnotify-circle">2</p>
+
+            <!-- WRITE YOUR MESSAGE -->
+            <li id="write-your-message" class="nhsnotify-list--item nhsuk-grid-row">
+                <div class="nhsuk-grid-column-one-half">
+                    <h3 class="nhsuk-heading-m">
+                        Write your messages
+                    </h3>
+                    <p>Create and edit reusable templates for each message channel:</p>
+                    <ul>
+                        <li class="nhsuk-u-margin-bottom-0">NHS App messages</li>
+                        <li class="nhsuk-u-margin-bottom-0">emails</li>
+                        <li class="nhsuk-u-margin-bottom-0">text messages (SMS)</li>
+                        <li class="nhsuk-u-margin-bottom-0">letters</li>
+                    </ul>
                 </div>
-                <div class="nhsuk-grid-column-three-quarters">
+                <div class="nhsuk-grid-column-one-half">
+                    <figure class="nhsuk-image nhsnotify-image">
+                        <img class="nhsuk-image__img" src="{{ 'assets/images/1-write-your-message.svg' | relative_url }}"
+                            alt="A screenshot showing how you write messages using NHS Notify&#39;s user interface.">
+                    </figure>
+                </div>
+            </li>
+
+            <!-- CHOOSE YOUR RECIPIENTS -->
+            <li id="choose-your-recipients" class="nhsnotify-list--item nhsuk-grid-row">
+                <div class="nhsuk-grid-column-one-half">
                     <h3 class="nhsuk-heading-m">
                         Choose your recipients
                     </h3>
-                    <p>Provide the NHS numbers of the people you want to send messages to.</p>
+                    <p>CProvide the NHS numbers of the people you want to send messages to.</p>
                 </div>
-            </div>
-            <div class="nhsuk-grid-column-one-half">
-                <figure class="nhsuk-image nhsnotify-image">
-                    <img class="nhsuk-image__img" src="{{ 'assets/images/2-choose-your-recipients.svg' | relative_url }}"
-                        alt="A screenshot of computer code showing how you choose your message recipients.">
-                </figure>
-            </div>
-        </div>
+                <div class="nhsuk-grid-column-one-half">
+                    <figure class="nhsuk-image nhsnotify-image">
+                        <img class="nhsuk-image__img" src="{{ 'assets/images/2-choose-your-recipients.svg' | relative_url }}"
+                            alt="A screenshot of computer code showing how you choose your message recipients.">
+                    </figure>
+                </div>
+            </li>
 
-        <!-- PLAN HOW YOUR MESSAGES WILL BE SENT -->
-        <div id="plan-how-your-messages-will-be-sent" class="nhsuk-grid-row nhsuk-u-margin-bottom-8">
-            <div class="nhsuk-grid-column-one-half nhsuk-u-padding-left-0">
-                <div class="nhsuk-grid-column-one-quarter">
-                    <p class="nhsnotify-circle">3</p>
-                </div>
-                <div class="nhsuk-grid-column-three-quarters">
+            <!-- PLAN HOW YOUR MESSAGES WILL BE SENT -->
+            <li id="how-your-messages-will-be-sent" class="nhsnotify-list--item nhsuk-grid-row">
+                <div class="nhsuk-grid-column-one-half">
                     <h3 class="nhsuk-heading-m">
                         Plan how your messages will be sent
                     </h3>
                     <p>Set up routing plans to decide how your messages will be sent to your recipients.</p>
                 </div>
-            </div>
-            <div class="nhsuk-grid-column-one-half">
-                <figure class="nhsuk-image nhsnotify-image">
-                    <img class="nhsuk-image__img" src="{{ 'assets/images/3-plan-your-messages.svg' | relative_url }}"
-                        alt="A graphic of a phone, laptop and letter (numbered 1,2 and 3 in that order) to show that you can send messages with each message channel in a specific order.">
-                </figure>
-            </div>
-        </div>
-
-        <!-- SEE YOUR MESSAGES PERFORM -->
-        <div id="see-your-messages-perform" class="nhsuk-grid-row nhsuk-u-margin-bottom-8">
-            <div class="nhsuk-grid-column-one-half nhsuk-u-padding-left-0">
-                <div class="nhsuk-grid-column-one-quarter">
-                    <p class="nhsnotify-circle">4</p>
+                <div class="nhsuk-grid-column-one-half">
+                    <figure class="nhsuk-image nhsnotify-image">
+                        <img class="nhsuk-image__img" src="{{ 'assets/images/3-plan-your-messages.svg' | relative_url }}"
+                            alt="A graphic of a phone, laptop and letter (numbered 1,2 and 3 in that order) to show that you can send messages with each message channel in a specific order.">
+                    </figure>
                 </div>
-                <div class="nhsuk-grid-column-three-quarters">
+            </li>
+
+            <!-- SEE YOUR MESSAGES PERFORM -->
+            <li id="see-your-messages-perform" class="nhsnotify-list--item nhsuk-grid-row">
+                <div class="nhsuk-grid-column-one-half">
                     <h3 class="nhsuk-heading-m">
                         See how your messages perform
                     </h3>
                     <p>Track how many messages you&#39;ve sent and find out which ones are not being delivered.</p>
                 </div>
-            </div>
-            <div class="nhsuk-grid-column-one-half">
-                <figure class="nhsuk-image nhsnotify-image">
-                    <img class="nhsuk-image__img" src="{{ 'assets/images/4-see-message-performance.svg' | relative_url }}"
-                        alt="A screenshot of NHS Notify showing counts of NHS App messages and text messages that have been sent.">
-                </figure>
-            </div>
+                <div class="nhsuk-grid-column-one-half">
+                    <figure class="nhsuk-image nhsnotify-image">
+                        <img class="nhsuk-image__img" src="{{ 'assets/images/4-see-message-performance.svg' | relative_url }}"
+                            alt="A screenshot of NHS Notify showing counts of NHS App messages and text messages that have been sent.">
+                    </figure>
+                </div>
+            </li>
 
-        </div>
+        </ol>
+
     </div>
 </div>
 
