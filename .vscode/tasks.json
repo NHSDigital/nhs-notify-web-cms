@@ -2,9 +2,9 @@
   "version": "2.0.0",
   "tasks": [
     {
-      "label": "stop-already-running",
+      "label": "root-stop-already-running",
       "options": {
-        "cwd": "${workspaceFolder}"
+        "cwd": "${workspaceFolder}/docs"
       },
       "command": "kill $(lsof -ti :4000); exit 0;",
       "type": "shell"

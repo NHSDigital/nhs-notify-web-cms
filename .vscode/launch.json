@@ -2,14 +2,15 @@
   "version": "0.2.0",
   "configurations": [
     {
-      "name": "Debug Web CMS",
+      "name": "ROOT Debug Web CMS",
       "request": "launch",
       "runtimeArgs": ["run-script", "debug"],
       "runtimeExecutable": "npm",
       "skipFiles": ["<node_internals>/**"],
       "type": "node",
-      "preLaunchTask": "stop-already-running",
-      "console": "integratedTerminal"
+      "preLaunchTask": "root-stop-already-running",
+      "console": "integratedTerminal",
+      "cwd": "${workspaceFolder}/docs"
     }
   ]
 }
