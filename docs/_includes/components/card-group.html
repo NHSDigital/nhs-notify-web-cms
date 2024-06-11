@@ -1,0 +1,11 @@
+<ul class="nhsuk-grid-row nhsuk-card-group">
+    {% for item in include.data %}
+    <li class="nhsuk-grid-column-one-quarter nhsuk-card-group__item">
+        {% if item.pricing %}
+            {% include components/card-with-price.html heading=item.heading description=item.description pricing=item.pricing %}
+        {% else %}
+            {% include components/card.html heading=item.heading description=item.description %}
+        {% endif %}
+    </li>
+    {% endfor %}
+</ul>

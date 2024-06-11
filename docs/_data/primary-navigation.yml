@@ -1,6 +1,11 @@
 - title: Home
   link: /
+
 - title: About
   link: /about/
+
 - title: Features
   link: /features/
+  
+- title: Examples
+  link: /examples/

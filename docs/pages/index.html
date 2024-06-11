@@ -1,29 +1,15 @@
 ---
-# Feel free to add content and custom Front Matter to this file.
-# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-
 layout: home
 title: Home
 site_title: NHS Notify CMS
 nav_order: 1
 permalink: /
 ---
-
-<!-- TITLE -->
-<div id="title" class="nhsnotify-banner--blue">
+<!-- HEADING -->
+<div id="heading" class="nhsnotify-banner--blue">
     <div class="nhsuk-main-wrapper nhsuk-width-container">
         <div class="nhsuk-grid-row">
-            <div class="nhsuk-grid-column-one-half">
-                <h1 class="nhsuk-heading-l">
-                    Send NHS App messages, emails, tests and letters to patients and the public
-                </h1>
-                <p>You can use NHS Notify if you work in NHS England and support direct care</p>
-            </div>
-            <div class="nhsuk-grid-column-one-half">
-                <figure class="nhsuk-image nhsnotify-image">
-                    <img src="{{ 'assets/images/landing-main-image.svg' | relative_url }}" class="nhsuk-image__img" alt="A graphic representation of NHS Notify&#39;s message channels: NHS App messages, emails, text messages and letters."></img>
-                </figure>
-            </div>
+            {% include components/banner.html data=site.data.home.heading %}
         </div>
     </div>
 </div>
@@ -32,32 +18,12 @@ permalink: /
 <div id="benefits" class="nhsnotify-banner--white">
     <div class="nhsuk-width-container nhsuk-main-wrapper">
         <div class="nhsuk-grid-row">
+            {% for item in site.data.home.benefits %}
             <div class="nhsuk-grid-column-one-third">
-                <p class="nhsuk-heading-m">
-                    Lower your messaging costs
-                </p>
-                <p>
-                    Pay less for messages with out competitive rates and never pay any service or integration fees.
-                </p>
+                <p class="nhsuk-heading-m">{{ item.heading }}</p>
+                <p>{{ item.description }}</p>
             </div>
-
-            <div class="nhsuk-grid-column-one-third">
-                <p class="nhsuk-heading-m">
-                    Increase your operating efficiency
-                </p>
-                <p>
-                    Make procuring messages easier by using NHS Notify as a centralised all in one provider.
-                </p>
-            </div>
-
-            <div class="nhsuk-grid-column-one-third">
-                <p class="nhsuk-heading-m">
-                    Message your audiences more effectively
-                </p>
-                <p>
-                    Use a range of channels and formats to message people in the ways that works best for them.
-                </p>
-            </div>
+            {% endfor %}
         </div>
     </div>
 </div>
@@ -66,106 +32,7 @@ permalink: /
 <div id="how-it-works">
     <div class="nhsuk-width-container nhsuk-main-wrapper">
         <h2>How it works</h2>
-
-        <div class="nhsnotify-list">
-            <!-- WRITE YOUR MESSAGES -->
-            <div id="write-your-messages" class="nhsuk-grid-row nhsnotify-list__item">
-                <div class="nhsuk-grid-column-one-half">
-                    <div class="nhsnotify-list__item-header">
-                        <span class="nhsnotify-list__item-header-number">
-                            <p>1</p>
-                        </span>
-                        <span class="nhsnotify-list__item-header-title">
-                            <h3 class="nhsuk-heading-m">
-                                Write your messages
-                            </h3>
-                            <p>Create and edit reusable templates for each message channel:</p>
-                            <ul>
-                                <li class="nhsuk-u-margin-bottom-0">NHS App messages</li>
-                                <li class="nhsuk-u-margin-bottom-0">emails</li>
-                                <li class="nhsuk-u-margin-bottom-0">text messages (SMS)</li>
-                                <li class="nhsuk-u-margin-bottom-0">letters</li>
-                            </ul>
-                        </span>
-                    </div>
-                </div>
-                <div class="nhsuk-grid-column-one-half">
-                <figure class="nhsuk-image nhsnotify-image">
-                    <img class="nhsuk-image__img" src="{{ 'assets/images/1-write-your-message.svg' | relative_url }}"
-                        alt="A screenshot showing how you write messages using NHS Notify&#39;s user interface.">
-                </figure>
-                </div>
-            </div>
-
-            <!-- CHOOSE YOUR RECIPIENTS -->
-            <div id="choose-your-recipients" class="nhsuk-grid-row nhsnotify-list__item">
-                <div class="nhsuk-grid-column-one-half">
-                    <div class="nhsnotify-list__item-header">
-                        <span class="nhsnotify-list__item-header-number">
-                            <p>2</p>
-                        </span>
-                        <span class="nhsnotify-list__item-header-title">
-                            <h3 class="nhsuk-heading-m">
-                                Choose your recipients
-                            </h3>                    
-                            <p>Provide the NHS numbers of the people you want to send messages to.</p>
-                        </span>
-                    </div>
-                </div>
-                <div class="nhsuk-grid-column-one-half">
-                    <figure class="nhsuk-image nhsnotify-image">
-                        <img class="nhsuk-image__img" src="{{ 'assets/images/2-choose-your-recipients.svg' | relative_url }}"
-                            alt="A screenshot of computer code showing how you choose your message recipients.">
-                    </figure>
-                </div>
-            </div>
-
-            <!-- PLAN HOW YOUR MESSAGES WILL BE SENT -->
-            <div id="plan-your-messages" class="nhsuk-grid-row nhsnotify-list__item">
-                <div class="nhsuk-grid-column-one-half">
-                    <div class="nhsnotify-list__item-header">
-                        <span class="nhsnotify-list__item-header-number">
-                            <p>3</p>
-                        </span>
-                        <span class="nhsnotify-list__item-header-title">
-                            <h3 class="nhsuk-heading-m">
-                                Plan how your messages will be sent
-                            </h3>              
-                            <p>Set up routing plans to decide how your messages will be sent to your recipients.</p>
-                        </span>
-                    </div>
-                </div>
-                <div class="nhsuk-grid-column-one-half">
-                    <figure class="nhsuk-image nhsnotify-image">
-                        <img class="nhsuk-image__img" src="{{ 'assets/images/3-plan-your-messages.svg' | relative_url }}"
-                            alt="A graphic of a phone, laptop and letter (numbered 1,2 and 3 in that order) to show that you can send messages with each message channel in a specific order.">
-                    </figure>
-                </div>
-            </div>
-
-            <!-- SEE YOUR MESSAGES PERFORM -->
-            <div id="see-your-messages-perform" class="nhsuk-grid-row nhsnotify-list__item">
-                <div class="nhsuk-grid-column-one-half">
-                    <div class="nhsnotify-list__item-header">
-                        <span class="nhsnotify-list__item-header-number">
-                            <p>4</p>
-                        </span>
-                        <span class="nhsnotify-list__item-header-title">
-                            <h3 class="nhsuk-heading-m">
-                                See how your messages perform
-                            </h3>              
-                            <p>Track how many messages you&#39;ve sent and find out which ones are not being delivered.</p>
-                        </span>
-                    </div>
-                </div>
-                <div class="nhsuk-grid-column-one-half">
-                    <figure class="nhsuk-image nhsnotify-image">
-                        <img class="nhsuk-image__img" src="{{ 'assets/images/4-see-message-performance.svg' | relative_url }}"
-                            alt="A screenshot of NHS Notify showing counts of NHS App messages and text messages that have been sent.">
-                    </figure>
-                </div>
-            </div>
-        </div>
+        {% include components/styled-list.html data=site.data.home.how-it-works %}
     </div>
 </div>
 
@@ -173,101 +40,14 @@ permalink: /
 <div id="pricing" class="nhsnotify-banner--white">
     <div class="nhsuk-width-container nhsuk-main-wrapper">
         <h2>Pricing</h2>
-        <p class="nhsuk-body">There&#39;s no monthly charge, no setup fee and <br /> no procurement process.</p>
-        <ul class="nhsuk-grid-row nhsuk-card-group">
-
-            <!-- NHS APP -->
-            <li class="nhsuk-grid-column-one-quarter nhsuk-card-group__item">
-                <div class="nhsuk-card">
-                    <div class="nhsuk-card__content">
-                        <p class="nhsuk-heading-m">
-                            NHS app
-                        </p>
-                        <p class="nhsuk-body nhsuk-u-margin-bottom-2">
-                            unlimited messages
-                        </p>
-                        <p class="nhsuk-heading-m">
-                            Free
-                        </p>
-                    </div>
-                </div>
-            </li>
-
-            <!-- EMAILS -->
-            <li class="nhsuk-grid-column-one-quarter nhsuk-card-group__item">
-                <div class="nhsuk-card">
-                    <div class="nhsuk-card__content">
-                        <p class="nhsuk-heading-m">
-                            Emails
-                        </p>
-                        <p class="nhsuk-body nhsuk-u-margin-bottom-2">
-                            unlimited emails
-                        </p>
-                        <p class="nhsuk-heading-m">
-                            Free
-                        </p>
-                    </div>
-                </div>
-            </li>
-
-            <!-- TEXTS (SMS) -->
-            <li class="nhsuk-grid-column-one-quarter nhsuk-card-group__item">
-                <div class="nhsuk-card">
-                    <div class="nhsuk-card__content">
-                        <p class="nhsuk-heading-m">
-                            Texts (SMS)
-                        </p>
-                        <p class="nhsuk-body nhsuk-u-margin-bottom-2">
-                            up to 30,000 free texts then
-                        </p>
-                        <p class="nhsuk-heading-m">
-                            2.27p
-                        </p>
-                    </div>
-                </div> 
-            </li>
-
-            <!-- LETTERS -->
-            <li class="nhsuk-grid-column-one-quarter nhsuk-card-group__item">
-                <div class="nhsuk-card">
-                    <div class="nhsuk-card__content">
-                        <p class="nhsuk-heading-m">
-                            Letters
-                        </p>
-                        <p class="nhsuk-body nhsuk-u-margin-bottom-2">
-                            A4, two sides, send 2nd class
-                        </p>
-                        <p class="nhsuk-heading-m">
-                            54p
-                        </p>
-                    </div>
-                </div>
-            </li>
-        </ul>
+        <p>There&#39;s no monthly charge, no setup fee and no procurement process.</p>
+        {% include components/card-group.html data=site.data.home.pricing %}
     </div>
 </div>  
 
 <!-- FIND OUT MORE -->
 <div id="find-out-more" class="nhsnotify-banner--blue">
     <div class="nhsuk-width-container nhsuk-main-wrapper">
-        <div class="nhsuk-grid-row">
-            <div class="nhsuk-grid-column-one-half">
-
-                <h2>Find out how you can start using NHS Notify</h2>
-
-                <p>
-                    NHS England organisations and services that support direct care can register their interest and get
-                    started with NHS Notify.
-                </p>
-            </div>
-
-            <div class="nhsuk-grid-column-one-half">
-                <figure class="nhsuk-image nhsnotify-image">
-                    <img class="nhsuk-image__img" src="{{ 'assets/images/CTA-register-your-interest.svg' | relative_url }}"
-                        alt="A graphic of a laptop screen with a draft email open." />
-                </figure>
-            </div>
-
-        </div>
+        {% include components/banner.html data=site.data.home.find-out-more %}
     </div>
 </div>
