@@ -28,7 +28,7 @@ permalink: /examples/
 ![This is alt text](/nhs-notify-web-cms/assets/images/1-write-your-message.svg)
 
 ### Caption image
-{% include components/image.html 
+{% include components/image.html
   src='https://assets.nhs.uk/prod/images/ABF9YH_GDGeL2X.2e16d0ba.fill-320x213.jpg'
   alt='random alt text'
   caption='

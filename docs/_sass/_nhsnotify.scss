@@ -36,7 +36,7 @@
 
 .nhsnotify-list__item-header-number {
   width: 15%; // this overwrites nhsuk 1/4 and 3/4
-  padding-right: 5em; 
+  padding-right: 5em;
 
   & > p {
     display: inline-block;
@@ -60,7 +60,7 @@
 
 .nhsuk-card__description {
   @media screen and (min-width: 990px) {
-    height: 56px;    
+    height: 56px;
   }
 }
 
