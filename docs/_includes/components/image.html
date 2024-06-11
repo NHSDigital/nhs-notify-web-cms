@@ -1,5 +1,6 @@
 <figure class="nhsuk-image {{ include.class }}">
-    <img class="nhsuk-image__img" src='{{ include.src | absolute_url }}' alt='{{ include.alt }}' />
+  {% assign src = 'assets/images/' | append: include.src %}
+    <img class="nhsuk-image__img" src='{{ src | absolute_url }}' alt='{{ include.alt }}' />
     {% if include.caption %}
     <figcaption class="nhsuk-image__caption">
         {{ include.caption }}

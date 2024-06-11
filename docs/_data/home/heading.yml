@@ -1,7 +1,7 @@
 heading: Send NHS App messages, emails, tests and letters to patients and the public
 description: |
   You can use NHS Notify if you work in NHS England and support direct care
-image: assets/images/landing-main-image.svg
+image: landing-main-image.svg
 image_alt: |
   A graphic representation of NHS Notify&#39;s message channels: 
   NHS App messages, emails, text messages and letters.

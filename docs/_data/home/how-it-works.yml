@@ -5,23 +5,23 @@
     - emails
     - text messages (SMS)
     - letters
-  image: assets/images/1-write-your-message.svg
+  image: 1-write-your-message.svg
   image_alt: A screenshot showing how you write messages using NHS Notify&#39;s user interface.
 
 - heading: Choose your recipients
   description: |
     Provide the NHS numbers of the people you want to send messages to.
-  image: assets/images/2-choose-your-recipients.svg
+  image: 2-choose-your-recipients.svg
   image_alt: A screenshot of computer code showing how you choose your message recipients.
 
 - heading: Plan how your messages will be sent
   description: |
     Set up routing plans to decide how your messages will be sent to your recipients.
-  image: assets/images/3-plan-your-messages.svg
+  image: 3-plan-your-messages.svg
   image_alt: A graphic of a phone, laptop and letter (numbered 1,2 and 3 in that order) to show that you can send messages with each message channel in a specific order.
 
 - heading: See how your messages perform
   description: |
     Set up routing plans to decide how your messages will be sent to your recipients.
-  image: assets/images/4-see-message-performance.svg
+  image: 4-see-message-performance.svg
   image_alt: Track how many messages you&#39;ve sent and find out which ones are not being delivered.
