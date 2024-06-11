@@ -7,49 +7,49 @@ permalink: /
 ---
 <!-- HEADING -->
 <div id="heading" class="nhsnotify-banner--blue">
-    <div class="nhsuk-main-wrapper nhsuk-width-container">
-        <div class="nhsuk-grid-row">
-            {% include components/banner.html data=site.data.home.heading %}
-        </div>
+  <div class="nhsuk-main-wrapper nhsuk-width-container">
+    <div class="nhsuk-grid-row">
+      {% include components/banner.html data=site.data.home.heading %}
     </div>
+  </div>
 </div>
 
 <!-- BENEFITS -->
 <div id="benefits" class="nhsnotify-banner--white">
-    <div class="nhsuk-width-container nhsuk-main-wrapper">
-        <div class="nhsuk-grid-row">
-            {% for item in site.data.home.benefits %}
-            <div class="nhsuk-grid-column-one-third">
-                <p class="nhsuk-heading-m">{{ item.heading }}</p>
-                <p>{{ item.description }}</p>
-            </div>
-            {% endfor %}
-        </div>
+  <div class="nhsuk-width-container nhsuk-main-wrapper">
+    <div class="nhsuk-grid-row">
+      {% for item in site.data.home.benefits %}
+      <div class="nhsuk-grid-column-one-third">
+        <p class="nhsuk-heading-m">{{ item.heading }}</p>
+        <p>{{ item.description }}</p>
+      </div>
+      {% endfor %}
     </div>
+  </div>
 </div>
 
 <!-- HOW IT WORKS -->
 <div id="how-it-works">
-    <div class="nhsuk-width-container nhsuk-main-wrapper">
-        <h2>How it works</h2>
-        {% include components/styled-list.html data=site.data.home.how-it-works %}
-    </div>
+  <div class="nhsuk-width-container nhsuk-main-wrapper">
+    <h2>How it works</h2>
+    {% include components/styled-list.html data=site.data.home.how-it-works %}
+  </div>
 </div>
 
 <!-- PRICING -->
 <div id="pricing" class="nhsnotify-banner--white">
-    <div class="nhsuk-width-container nhsuk-main-wrapper">
-        <h2>Pricing</h2>
-        <p>There&#39;s no monthly charge, no setup fee and no procurement process.</p>
-        {% include components/card-group.html data=site.data.home.pricing %}
-    </div>
+  <div class="nhsuk-width-container nhsuk-main-wrapper">
+    <h2>Pricing</h2>
+    <p>There&#39;s no monthly charge, no setup fee and no procurement process.</p>
+    {% include components/card-group.html data=site.data.home.pricing %}
+  </div>
 </div>
 
 <!-- FIND OUT MORE -->
 <div id="find-out-more" class="nhsnotify-banner--blue">
-    <div class="nhsuk-width-container nhsuk-main-wrapper">
-        <div class="nhsuk-grid-row">
-            {% include components/banner.html data=site.data.home.find-out-more %}
-        </div>
+  <div class="nhsuk-width-container nhsuk-main-wrapper">
+    <div class="nhsuk-grid-row">
+      {% include components/banner.html data=site.data.home.find-out-more %}
     </div>
+  </div>
 </div>

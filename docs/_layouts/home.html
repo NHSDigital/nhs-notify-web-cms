@@ -1,20 +1,21 @@
 <!DOCTYPE html>
 <html lang="{{ site.lang | default: 'en' }}">
-  {%- include head.html -%}
+{%- include head.html -%}
 
-  <body class="wrap">
-    <script>
-      document.body.className = ((document.body.className) ? document.body.className + ' js-enabled' : 'js-enabled');
-    </script>
+<body class="wrap">
+  <script>
+    document.body.className = ((document.body.className) ? document.body.className + ' js-enabled' : 'js-enabled');
+  </script>
 
-    <a class="nhsuk-skip-link" href="#maincontent">Skip to main content</a>
+  <a class="nhsuk-skip-link" href="#maincontent">Skip to main content</a>
 
-    {%- include header.html -%}
+  {%- include header.html -%}
 
-    <main id="maincontent" role="main">
-      {{- content -}}
-    </main>
+  <main id="maincontent" role="main">
+    {{- content -}}
+  </main>
 
-    {%- include footer.html -%}
-  </body>
+  {%- include footer.html -%}
+</body>
+
 </html>

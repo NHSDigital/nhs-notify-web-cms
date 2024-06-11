@@ -6,12 +6,12 @@ permalink: /examples/
 
 - [Table](#table)
 - [Images](#images)
-  - [Standard](#standard-image)
-  - [Caption](#caption-image)
+  - [Standard image](#standard-image)
+  - [Caption image](#caption-image)
 - [Links](#links)
-  - [Standard](#standard-link)
-  - [Customised](#customised-link)
-  - [Action](#action-link)
+  - [Standard link](#standard-link)
+  - [Customised link](#customised-link)
+  - [Action link](#action-link)
 
 ## Table
 
@@ -32,7 +32,7 @@ Example of a standard image and an image with a caption.
 ### Caption image
 
 {% include components/image.html
-  src='https://assets.nhs.uk/prod/images/ABF9YH_GDGeL2X.2e16d0ba.fill-320x213.jpg'
+  src='1-write-your-message.svg'
   alt='random alt text'
   caption='
     1. Chickenpox starts with red spots. They can appear anywhere on the body.'
@@ -44,11 +44,11 @@ Examples of different types of links.
 
 ### Standard link
 
-[A link](#)
+[A link](#standard-link)
 
 ### Customised link
 
-[A link with a custom class and styling](#){: class="random-css-class" style="color:red;"}
+[A link with a custom class and styling](#customised-link){: class="random-css-class" style="color:red;"}
 
 ### Action link
 
