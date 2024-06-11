@@ -14,16 +14,17 @@
     background-color: white;
 }
 
+.nhsnotify-list {
+  padding-top: 2em;
+}
+
 .nhsnotify-list__item {
   padding-bottom: 5em;
 
   &:last-child {
     padding-bottom: 0;
   }
-}
 
-.nhsnotify-list__item {
-  
   li {
     margin-bottom: 0;
   }
@@ -39,10 +40,11 @@
 
   & > p {
     display: inline-block;
-    width: 2.5em;
-    height: 2.5em;
-    line-height: 2.5em;
+    width: 2em;
+    height: 2em;
+    line-height: 2em;
     border-radius: 50%;
+    font-size: 24px;
 
     background-color: $blue-000;
     color: white;
@@ -55,4 +57,14 @@
   width: 85%; // this overwrites nhsuk 1/4 and 3/4
   padding-top: 0.5em;
 }
-  
+
+.nhsuk-card__description {
+  @media screen and (min-width: 990px) {
+    height: 56px;    
+  }
+}
+
+.nhsuk-card__pricing {
+  @extend .nhsuk-heading-m;
+  margin: 0;
+}
