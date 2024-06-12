@@ -22,6 +22,6 @@
 
 - heading: See how your messages perform
   description: |
-    Set up routing plans to decide how your messages will be sent to your recipients.
+    Track how many messages you've sent and find out which ones are not being delivered.
   image: 4-see-message-performance.svg
   image_alt: Track how many messages you&#39;ve sent and find out which ones are not being delivered.
