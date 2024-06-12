@@ -33,7 +33,6 @@ collections:
     sort_by: order
 
 # Build settings
-# theme: just-the-docs
 plugins:
   - jekyll-feed
 
