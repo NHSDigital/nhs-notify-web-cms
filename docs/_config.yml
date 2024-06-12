@@ -22,7 +22,7 @@ title: NHS Notify CMS
 # email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
   NHS Notify Web CMS
-baseurl: "/nhs-notify-web-cms" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://nhsdigital.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
 collections_dir: collections

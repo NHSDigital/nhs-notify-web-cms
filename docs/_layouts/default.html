@@ -3,9 +3,7 @@
 {%- include head.html -%}
 
 <body class="wrap">
-  <script>
-    document.body.className = ((document.body.className) ? document.body.className + ' js-enabled' : 'js-enabled');
-  </script>
+  <script src="/assets/js/nhs-frontend-js-check.js" defer="" nonce="{{ 'nonce' | random_string }}"></script>
 
   <a class="nhsuk-skip-link" href="#maincontent">Skip to main content</a>
 

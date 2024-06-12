@@ -27,7 +27,7 @@ Example of a standard image and an image with a caption.
 
 ### Standard image
 
-![This is alt text](/nhs-notify-web-cms/assets/images/1-write-your-message.svg)
+![This is alt text](/assets/images/1-write-your-message.svg)
 
 ### Caption image
 
