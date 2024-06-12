@@ -18,7 +18,7 @@
   description: |
     Set up routing plans to decide how your messages will be sent to your recipients.
   image: 3-plan-your-messages.svg
-  image_alt: A graphic of a phone, laptop and letter (numbered 1,2 and 3 in that order) to show that you can send messages with each message channel in a specific order.
+  image_alt: A graphic of a phone, laptop and letter (numbered 1, 2 and 3 in that order) to show that you can send messages with each message channel in a specific order.
 
 - heading: See how your messages perform
   description: |
