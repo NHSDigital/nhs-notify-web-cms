@@ -71,7 +71,7 @@ sass:
   style: compact # possible values: nested expanded compact compressed
   load_paths:
     - _sass/
-    - ../node_modules/nhsuk-frontend/packages/
+    - node_modules/nhsuk-frontend/packages/
 
 # Exclude from processing.
 # The following items will not be processed, by default.
@@ -95,6 +95,3 @@ exclude:
   - vendor/gems/
   - vendor/ruby/
   - pages/examples/
-
-include:
-  - ../node_modules/nhsuk-frontend/dist/nhsuk.min.js
