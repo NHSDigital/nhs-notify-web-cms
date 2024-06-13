@@ -1,23 +1,6 @@
 ---
 layout: default
 ---
-
-<!DOCTYPE html>
-<html lang="{{ site.lang | default: 'en' }}">
-{%- include head.html -%}
-
-<body class="wrap">
-  <script src="/assets/js/nhs-frontend-js-check.js" defer=""></script>
-
-  <a class="nhsuk-skip-link" href="#maincontent">Skip to main content</a>
-
-  {%- include header.html -%}
-
-  <main id="maincontent" role="main">
-    {{- content -}}
-  </main>
-
-  {%- include footer.html -%}
-</body>
-
-</html>
+<main id="maincontent" role="main">
+  {{ content }}
+</main>
