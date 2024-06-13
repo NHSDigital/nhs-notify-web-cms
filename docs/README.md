@@ -2,8 +2,12 @@
 
 Document here.
 
-## Setup (Mac)
+## Setup
 
-Mac by default has ruby installed. However the default version is 2.2.x. For this project we need ruby version 3, so we can installed the 2.5.10 gem bundler.
+In the `docs` directory run the following command:
 
-Run through the solution listed on this [StackOverflow](https://stackoverflow.com/questions/38194032/how-can-i-update-ruby-version-2-0-0-to-the-latest-version-in-mac-os-x-v10-10-yo) page
+```bash
+make install
+```
+
+This will install dependencies required by `Jekyll` and `npm`. On this install step we copy out `nhsuk.min.js` from `node_modules/nhsuk-frontend/dist`.
