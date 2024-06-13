@@ -6,7 +6,7 @@
         <ul class="nhsuk-footer__list">
           {% for item in site.data.footer-navigation %}
           <li class="nhsuk-footer__list-item nhsuk-footer-default__list-item">
-            <a class="nhsuk-footer__list-item-link" href="{{ item.link }}">{{ item.title }}</a>
+            <a class="nhsuk-footer__list-item-link" href="{{ item.link | uri_escape }}">{{ item.title }}</a>
           </li>
           {% endfor %}
           <div>

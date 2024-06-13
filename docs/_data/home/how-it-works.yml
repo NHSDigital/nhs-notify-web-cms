@@ -6,7 +6,7 @@
     - text messages (SMS)
     - letters
   image: 1-write-your-message.svg
-  image_alt: A screenshot showing how you write messages using NHS Notify&#39;s user interface.
+  image_alt: A screenshot showing how you write messages using NHS Notify's user interface.
 
 - heading: Choose your recipients
   description: |
@@ -24,4 +24,4 @@
   description: |
     Track how many messages you've sent and find out which ones are not being delivered.
   image: 4-see-message-performance.svg
-  image_alt: Track how many messages you&#39;ve sent and find out which ones are not being delivered.
+  image_alt: Track how many messages you've sent and find out which ones are not being delivered.
