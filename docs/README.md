@@ -58,4 +58,4 @@ When writing content you may need to `encode` special characters. What this mean
 | <                                 | `&lt;`    | Less than sign    |
 | >                                 | `&gt;`    | Greater than sign |
 
-The above table are the main characters which could cause issues a more extensive list can be found [here](https://psdtowp.net/html-codes-special-characters.html).
+The above table contains the main characters which could cause issues. A more extensive list can be found [here](https://psdtowp.net/html-codes-special-characters.html).
