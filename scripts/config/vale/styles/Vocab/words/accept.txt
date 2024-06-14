@@ -19,6 +19,5 @@ endfor
 npm
 src
 url
-inset
-Inset
+[iI]nset
 [A-Z]+s
