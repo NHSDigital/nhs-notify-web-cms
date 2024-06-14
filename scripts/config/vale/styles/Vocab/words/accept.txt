@@ -15,4 +15,5 @@ idempotence
 onboarding
 toolchain
 bundler
+endfor
 [A-Z]+s
