@@ -95,3 +95,4 @@ exclude:
   - vendor/gems/
   - vendor/ruby/
   - pages/examples/
+  - adr/
