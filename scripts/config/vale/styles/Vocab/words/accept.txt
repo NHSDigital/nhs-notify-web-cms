@@ -18,4 +18,5 @@ bundler
 endfor
 npm
 src
+url
 [A-Z]+s
