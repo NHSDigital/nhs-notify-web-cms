@@ -96,3 +96,4 @@ exclude:
   - vendor/ruby/
   - pages/examples/
   - adr/
+  - '*.component.md'

@@ -1,9 +1,9 @@
 <figure class="nhsuk-image {{ include.class | xml_escape }}">
-  {% assign src = 'assets/images/' | append: include.src %}
+  {% assign src = '/assets/images/' | append: include.src %}
   {% if include.src contains 'https://' %}
   <img class="nhsuk-image__img" src='{{ include.src | uri_escape }}' alt='{{ include.alt | xml_escape }}' />
   {% else %}
-  <img class="nhsuk-image__img" src='{{ src | absolute_url | uri_escape }}' alt='{{ include.alt | xml_escape }}' />
+  <img class="nhsuk-image__img" src='{{ src }}' alt='{{ include.alt | xml_escape }}' />
   {% endif %}
   {% if include.caption %}
   <figcaption class="nhsuk-image__caption">
