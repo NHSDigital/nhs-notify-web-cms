@@ -10,6 +10,7 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "devDependencies": {},
   "dependencies": {
     "nhsuk-frontend": "^8.2.0"
   }
