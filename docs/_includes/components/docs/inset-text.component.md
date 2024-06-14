@@ -3,7 +3,7 @@
 > |          |                                                                                          |
 > | -------- | ---------------------------------------------------------------------------------------- |
 > | Theme    | `nhsuk`                                                                                  |
-> | Link     | [nhsuk inset element](https://service-manual.nhs.uk/design-system/components/inset-text)   |
+> | Link     | [nhsuk inset element](https://service-manual.nhs.uk/design-system/components/inset-text) |
 > | location | `/_includes/components/inset-text.html`                                                  |
 
 ## Usage
@@ -52,7 +52,7 @@ Please note when using markdown the wording content is aligned all the way to th
 ```Jekyll
 {% include components/inset-text.html
     text='
-this is with markdown here is a [link](#attributes)
+this is with markdown here is a [action-link](https://service-manual.nhs.uk/design-system/components/inset-text)
 
 - list item 1
 - list item 2
