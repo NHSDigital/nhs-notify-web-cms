@@ -17,4 +17,5 @@ toolchain
 bundler
 endfor
 npm
+src
 [A-Z]+s
