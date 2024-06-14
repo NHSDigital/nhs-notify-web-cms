@@ -63,7 +63,7 @@ Examples of different types of links.
 
 {% include components/inset-text.html
     text='
-this is with markdown here is a [link](#attributes)
+this is with markdown here is a [link](#inset-text)
 
 - list item 1
 - list item 2
