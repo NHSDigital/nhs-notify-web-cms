@@ -3,4 +3,6 @@ _site
 .jekyll-cache
 .jekyll-metadata
 vendor
+.bundle
+node_modules
 #Gemfile.lock
