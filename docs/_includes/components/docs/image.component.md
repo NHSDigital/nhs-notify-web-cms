@@ -36,6 +36,10 @@ Above is an image.
 > | state       | `required`                                 |
 > | description | The path to the image you want to display. |
 
+This image component supports both local images in the [assets folder](README.md#assets) and external images.
+
+#### local images
+
 If you want to display an image from the [assets folder](README.md#assets) then you do not need to use the full folder path just the file name. For example:
 
 ```Jeykll
@@ -44,6 +48,8 @@ If you want to display an image from the [assets folder](README.md#assets) then 
     alt="this is the landing page image"
 %}
 ```
+
+#### external images
 
 If you need to display and image from an external address then `src` needs to start with `https://` for example:
 

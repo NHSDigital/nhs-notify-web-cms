@@ -12,6 +12,7 @@ permalink: /examples/
   - [Standard link](#standard-link)
   - [Customised link](#customised-link)
   - [Action link](#action-link)
+- [Inset text](#inset-text)
 
 ## Table
 
@@ -53,3 +54,20 @@ Examples of different types of links.
 ### Action link
 
 {% include components/action-link.html url='#' text='Example action link' %}
+
+## Inset text
+
+{% include components/inset-text.html
+  text='This is an example of inset text with a [link](#inset-text)'
+%}
+
+{% include components/inset-text.html
+    text='
+this is with markdown here is a [link](#attributes)
+
+- list item 1
+- list item 2
+- list item 3
+  - nested 3.1
+    '
+%}

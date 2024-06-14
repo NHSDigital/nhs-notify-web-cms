@@ -19,4 +19,5 @@ endfor
 npm
 src
 url
+inset
 [A-Z]+s

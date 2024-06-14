@@ -63,8 +63,9 @@ The above table contains the main characters which could cause issues. A more ex
 
 Below is a list of the supported nhsuk [design system components](https://service-manual.nhs.uk/design-system/components) to use in `markdown` and `html` files.
 
-- [Image](image.component.md)
-- [Action link](action-link.component.md)
+- [Image](_includes/components/docs/image.component.md)
+- [Action link](_includes/components/docs/action-link.component.md)
+- [Inset text](_includes/components/docs/inset-text.component.md)
 
 ## Assets
 
