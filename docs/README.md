@@ -46,7 +46,6 @@ To write a Jekyll component please follow the guidance in [Jekyll _includes](htt
 ### Encoding special characters
 
 > This only applies to a `Jekyll component` in your markdown file.
-
 > At time of writing this doc (14/06/2024) all `Jekyll` components will encode values correctly.
 
 When writing content you may need to `encode` special characters. What this means is for certain characters we need to use the encoded value:

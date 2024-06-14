@@ -16,4 +16,5 @@ onboarding
 toolchain
 bundler
 endfor
+npm
 [A-Z]+s
