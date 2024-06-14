@@ -1,4 +1,4 @@
-# **ADR**-001: Using NPM for nhsuk styling
+# **ADR**-001: Using npm for nhsuk styling
 
 >|              |                                   |
 >| ------------ | --------------------------------- |
@@ -10,7 +10,7 @@
 
 ---
 
-- [**ADR**-001: Using NPM for nhsuk styling](#adr-001-using-npm-for-nhsuk-styling)
+- [**ADR**-001: Using npm for nhsuk styling](#adr-001-using-npm-for-nhsuk-styling)
   - [Context](#context)
   - [Decision](#decision)
     - [Assumptions](#assumptions)
