@@ -75,4 +75,4 @@ We have an assets folder which is used to put files such as;
 - Javascript
 - CSS
 
-If you have new images, favicons or other assets place them in the corresponding folder and the asset will be avliable via `/assets/<assert_type>/<asset_name>` for example `/assets/images/landing-main-image.svg`.
+If you have new images, favicons or other assets place them in the corresponding folder and the asset will be available via `/assets/<assert_type>/<asset_name>` for example `/assets/images/landing-main-image.svg`.

@@ -70,7 +70,7 @@ This applies the alt text to the image. Used for accessibility.
 > | state       | `optional`                               |
 > | description | Adds additional CSS classes to the image |
 
-If you need to style the image in a different way than the standard you can use `class` attribute todo so. For example:
+If you need to style the image in a different way than the standard you can use `class` attribute. For example:
 
 ```Jeykll
 {% include components/image.html

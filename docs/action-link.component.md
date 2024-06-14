@@ -45,7 +45,6 @@ The `url` supports both external urls and anchor links. For example;
 %}
 ```
 
-
 #### anchor link
 
 ```Jeykll
