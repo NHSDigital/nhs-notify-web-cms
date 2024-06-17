@@ -11,10 +11,10 @@ permalink: /features/
 
 Use NHS Notify to send:
 
-- [NHS App messages](/features/nhs-app-messages)
-- [emails](/features/emails)
-- [text messages (SMS)](/features/text-messages-sms)
-- [letters](/features/letters)
+- [NHS App messages]({% link pages/features/nhs-app-messages.md %})
+- [emails]({% link pages/features/emails.md %})
+- [text messages (SMS)]({% link pages/features/text-messages-sms.md %})
+- [letters]({% link pages/features/letters.md %})
 
 ## Send messages in bulk to different audiences
 
@@ -26,12 +26,12 @@ Create reusable templates for the message channels you want to use.
 
 Once you’ve created a template you can:
 
-- [edit and format your messages](/using-nhs-notify/editing-and-formatting)
-- [add personalisation](/using-nhs-notify/personalisation)
-- [include links and URLs](/using-nhs-notify/links-and-urls)
-- [add email branding](/using-nhs-notify/email-branding)
-- [add letter branding](/using-nhs-notify/letter-branding)
-- [tell recipients who your messages are from](/using-nhs-notify/tell-recipients-who-your-messages-are-from)
+- [edit and format your messages]({% link pages/using-nhs-notify/editing-and-formatting.md %})
+- [add personalisation]({% link pages/using-nhs-notify/personalisation.md %})
+- [include links and URLs]({% link pages/using-nhs-notify/links-and-urls%})
+- [add email branding]({%. link pages/using-nhs-notify/email-branding.md %})
+- [add letter branding]({% link pages/using-nhs-notify/letter-branding.md %})
+- [tell recipients who your messages are from]({% link pages/using-nhs-notify/tell-recipients-who-your-messages-are-from.md %})
 
 ## Plan how your messages will be sent
 
@@ -52,9 +52,9 @@ NHS Notify uses the Personal Demographics Service to automatically prevent you f
 
 You can use NHS Notify to:
 
-- [find recipients with access or language needs](/using-nhs-notify/find-recipients-with-access-or-language-needs)
-- [send letters in other languages](/using-nhs-notify/letters-in-other-languages)
-- [send letters in accessible formats](/using-nhs-notify/accessible-formats)
+- [find recipients with access or language needs]({% link pages/using-nhs-notify/find-recipients-with-access-or-language-needs.md %})
+- [send letters in other languages]({% link pages/using-nhs-notify/letters-in-other-languages.md %})
+- [send letters in accessible formats]({% link pages/using-nhs-notify/accessible-formats.md %})
 
 ## See how your messages perform
 
@@ -64,11 +64,11 @@ Track how many messages you’ve sent and find out which ones are not being deli
 
 To send messages automatically, you’ll need a developer to integrate with the NHS Notify API.
 
-[Read our API documentation (opens in a new tab)](https://digital.nhs.uk/developer/api-catalogue/nhs-notify).
+<a href="https://digital.nhs.uk/developer/api-catalogue/nhs-notify" target="_blank">Read our API documentation (opens in a new tab)</a>.
 
 ## Keep your data secure
 
-[Learn more about NHS Notify’s security features.](/features/security)
+[Learn more about NHS Notify’s security features.]({% link pages/features/security.md %})
 
 ## Get support when you need it
 

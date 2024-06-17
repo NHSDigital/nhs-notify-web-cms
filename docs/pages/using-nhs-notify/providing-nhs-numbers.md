@@ -27,4 +27,5 @@ If you're using the [Message Exchange for Social Care and Health (MESH)](https:/
 
 The onboarding team will give you an example CSV file on request.
 
-Use the format shown in the [API documentation](https://digital.nhs.uk/developer/api-catalogue/nhs-notify#post-/v1/message-batches).
+Use the format shown in the
+<a href="https://digital.nhs.uk/developer/api-catalogue/nhs-notify" target="_blank">API documentation (opens in a new tab)</a>.

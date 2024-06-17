@@ -19,10 +19,9 @@ This page will tell you about push notifications from the NHS App.
 
 You might also want to understand more about:
 
-- delivery times for NHS App messages
-- how to tell recipients who your NHS App messages are from
-- how to edit and format NHS App messages
-- message statuses for NHS App messages
+- [delivery times for NHS App messages]({% link pages/using-nhs-notify/delivery-times.md %})
+- [how to tell recipients who your NHS App messages are from]({% link pages/using-nhs-notify/tell-recipient-who-your-messages-are-from.md %})
+- [how to edit and format NHS App messages]({% link pages/using-nhs-notify/editing-and-formatting.md %})
 
 ## Push notifications
 

@@ -22,12 +22,12 @@ This page will tell you:
 
 You might want to understand more about:
 
-- [letter pricing](/pricing/letters)
-- [delivery times for letters](/using-nhs-notify/delivery-times)
-- [return addresses](/using-nhs-notify/tell-recipients-who-your-messages-are-from)
-- [how to edit and format letters](/using-nhs-notify/editing-and-formatting)
-- [sending letters to people with access needs](/using-nhs-notify/accessible-formats)
-- [sending letters to people who speak other languages](/using-nhs-notify/letters-in-other-languages)
+- [letter pricing]({% link pages/pricing/letters.md %})
+- [delivery times for letters]({% link pages/using-nhs-notify/delivery-times.md %})
+- [return addresses]({% link pages/using-nhs-notify/tell-recipients-who-your-messages-are-from.md %})
+- [how to edit and format letters]({% link pages/using-nhs-notify/editing-and-formatting.md %})
+- [sending letters to people with access needs]({% link pages/using-nhs-notify/accessible-formats.md %})
+- [sending letters to people who speak other languages]({% link pages/using-nhs-notify/letters-in-other-languages.md %})
 
 ## Letter specification
 

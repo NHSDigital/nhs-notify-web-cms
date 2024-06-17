@@ -17,18 +17,18 @@ You can see formatting instructions while you’re editing a template.
 
 Email templates can include:
 
-- bullet points
-- headings
-- horizontal lines
-- inset text
-- numbered steps
+- [bullet points](#bullet-points)
+- [headings](#headings)
+- [horizontal lines](#horizontal-lines)
+- [inset text](#inset-text)
+- [numbered steps](#numbered-steps)
 
 Letter templates can include:
 
-- bullet points
-- headings
-- horizontal lines
-- inset text
+- [bullet points](#bullet-points)
+- [headings](#headings)
+- [horizontal lines](#horizontal-lines)
+- [inset text](#inset-text)
 
 ## Guidance
 

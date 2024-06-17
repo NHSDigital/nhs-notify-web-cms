@@ -17,7 +17,7 @@ NHS Notify can send NHS App messages to recipients with the NHS App at any time 
 
 Recipients will only get push notifications from the NHS App between 6am and 10pm.
 
-[Learn more about NHS App messages](/features/nhs-app-messages).
+[Learn more about NHS App messages]({% link pages/features/nhs-app-messages.md %}).
 
 ## Emails
 

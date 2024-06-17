@@ -13,9 +13,9 @@ NHS Notify automatically prevents you from sending messages to people who you sh
 
 We check the [Personal Demographics Service (PDS)](https://digital.nhs.uk/services/personal-demographics-service) for patients with:
 
-- flagged records
-- exit codes
-- a death status
+- [Flagged records](#flagged-records)
+- [Exit codes](#exit-codes)
+- [Patient death status](#patient-death-status)
 
 You will not be charged for messages we could not send due to information in PDS.
 
