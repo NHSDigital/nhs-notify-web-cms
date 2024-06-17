@@ -3,19 +3,17 @@
   {% for item in include.data %}
   <div class="nhsuk-grid-row nhsnotify-list__item">
     <div class="nhsuk-grid-column-one-half">
-      <div class="nhsnotify-list__item-header">
-        <span class="nhsnotify-list__item-header-number">
-          <p>{{ i }}</p>
-        </span>
-        <span class="nhsnotify-list__item-header-title">
-          <h3 class="nhsuk-heading-m">
-            {{ item.heading }}
-          </h3>
-          <div>
-            {{ item.description | markdownify }}
+        <h3 class="nhsnotify-list__item-header">
+          <div class="nhsnotify-list__item-header-number">
+            <p class="nhsuk-heading-m">{{ i }}</p>
           </div>
-        </span>
-      </div>
+          <div class="nhsnotify-list__item-header-title">
+              {{ item.heading }}
+          </div>
+        </h3>
+        <div class="nhsnotify-list__item-description">
+            {{ item.description | markdownify }}
+        </div>
     </div>
     <div class="nhsuk-grid-column-one-half">
       {% include components/image.html src=item.image alt=item.image_alt class="nhsnotify-image" %}

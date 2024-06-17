@@ -9,7 +9,15 @@ permalink: /
 <div id="heading" class="nhsnotify-banner--blue">
   <div class="nhsuk-main-wrapper nhsuk-width-container">
     <div class="nhsuk-grid-row">
-      {% include components/banner.html data=site.data.home.heading %}
+      <div class="nhsuk-grid-column-one-half">
+        <h1 class="nhsuk-heading-l">{{ site.data.home.heading.heading }}</h1>
+        <p>
+          {{ site.data.home.heading.description }}
+        </p>
+      </div>
+      <div class="nhsuk-grid-column-one-half">
+        {% include components/image.html src=site.data.home.heading.image alt=site.data.home.heading.image_alt class="nhsnotify-image" %}
+      </div>
     </div>
   </div>
 </div>
@@ -20,7 +28,7 @@ permalink: /
     <div class="nhsuk-grid-row">
       {% for item in site.data.home.benefits %}
       <div class="nhsuk-grid-column-one-third">
-        <p class="nhsuk-heading-m">{{ item.heading }}</p>
+        <h2 class="nhsuk-heading-m">{{ item.heading }}</h2>
         <p>{{ item.description }}</p>
       </div>
       {% endfor %}
@@ -59,7 +67,15 @@ permalink: /
 <div id="find-out-more" class="nhsnotify-banner--blue">
   <div class="nhsuk-width-container nhsuk-main-wrapper">
     <div class="nhsuk-grid-row">
-      {% include components/banner.html data=site.data.home.find-out-more %}
+      <div class="nhsuk-grid-column-one-half">
+        <h2>{{ site.data.home.find-out-more.heading }}</h2>
+        <p>
+          {{ site.data.home.find-out-more.description }}
+        </p>
+      </div>
+      <div class="nhsuk-grid-column-one-half">
+        {% include components/image.html src=site.data.home.find-out-more.image alt=site.data.home.find-out-more.image_alt class="nhsnotify-image" %}
+      </div>
     </div>
   </div>
 </div>

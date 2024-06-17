@@ -35,27 +35,34 @@
 }
 
 .nhsnotify-list__item-header-number {
-  width: 15%; // this overwrites nhsuk 1/4 and 3/4
-  padding-right: 5em;
+  width: 15%;
 
   & > p {
-    display: inline-block;
-    width: 2em;
-    height: 2em;
-    line-height: 2em;
-    border-radius: 50%;
-    font-size: 24px;
+    margin: 0;
 
-    background-color: $blue-000;
-    color: white;
-    font-weight: bold;
-    text-align: center;
+    @media screen and (min-width: 990px) {
+      width: 2em;
+      height: 2em;
+      line-height: 2em;
+      border-radius: 50%;
+
+      background-color: $blue-000;
+      color: white;
+      font-weight: bold;
+      text-align: center;
+    }
   }
 }
 
 .nhsnotify-list__item-header-title {
-  width: 85%; // this overwrites nhsuk 1/4 and 3/4
-  padding-top: 0.5em;
+  width: 85%;
+  padding-top: 0.3em;
+}
+
+.nhsnotify-list__item-description {
+    @media screen and (min-width: 990px) {
+      padding-left: 4.5em;
+    }
 }
 
 .nhsuk-card__description {
