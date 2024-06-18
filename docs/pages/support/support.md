@@ -23,7 +23,7 @@ NHS Notify is a [silver service](https://digital.nhs.uk/services/reference-guide
 
 ## I want to start using NHS Notify
 
-If you work in NHS England and want to start using NHS Notify, find out how to [get started](/get-started).
+If you work in NHS England and want to start using NHS Notify, find out how to [get started]({% link pages/get-started/get-started.md %}).
 
 ## I have questions about NHS Notify
 

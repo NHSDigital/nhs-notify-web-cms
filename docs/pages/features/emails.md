@@ -23,6 +23,5 @@ You might also want to understand more about:
 - [how to edit and format emails]({% link pages/using-nhs-notify/editing-and-formatting.md %})
 - [adding links to emails]({% link pages/using-nhs-notify/links-and-urls.md %})
 - [how to tell recipients who your emails are from]({% link pages/using-nhs-notify/tell-recipients-who-your-messages-are-from.md %})
-- [add branding to your emails]({% link pages/using-nhs-notify/email-branding.md %})
 
 ## Email layout and specification

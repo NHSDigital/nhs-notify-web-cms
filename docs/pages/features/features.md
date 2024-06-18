@@ -13,7 +13,7 @@ Use NHS Notify to send:
 
 - [NHS App messages]({% link pages/features/nhs-app-messages.md %})
 - [emails]({% link pages/features/emails.md %})
-- [text messages (SMS)]({% link pages/features/text-messages-sms.md %})
+- [text messages (SMS)]({% link pages/features/text-messages.md %})
 - [letters]({% link pages/features/letters.md %})
 
 ## Send messages in bulk to different audiences
@@ -28,9 +28,7 @@ Once you’ve created a template you can:
 
 - [edit and format your messages]({% link pages/using-nhs-notify/editing-and-formatting.md %})
 - [add personalisation]({% link pages/using-nhs-notify/personalisation.md %})
-- [include links and URLs]({% link pages/using-nhs-notify/links-and-urls%})
-- [add email branding]({%. link pages/using-nhs-notify/email-branding.md %})
-- [add letter branding]({% link pages/using-nhs-notify/letter-branding.md %})
+- [include links and URLs]({% link pages/using-nhs-notify/links-and-urls.md %})
 - [tell recipients who your messages are from]({% link pages/using-nhs-notify/tell-recipients-who-your-messages-are-from.md %})
 
 ## Plan how your messages will be sent

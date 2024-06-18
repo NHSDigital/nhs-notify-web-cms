@@ -24,6 +24,7 @@ This guidance is to help teams understand how to use NHS Notify.
 - [Sender IDs]({% link pages/using-nhs-notify/tell-recipients-who-your-messages-are-from.md %})
 
 ## Sending a message
+
 - [Delivery times]({% link pages/using-nhs-notify/delivery-times.md %})
 - [Accessible formats]({% link pages/using-nhs-notify/accessible-formats.md %})
 - [Letters in other languages]({% link pages/using-nhs-notify/letters-in-other-languages.md %})
