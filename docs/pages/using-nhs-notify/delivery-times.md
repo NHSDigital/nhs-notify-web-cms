@@ -9,7 +9,7 @@ nav_order: 9
 permalink: /using-nhs-notify/delivery-times
 ---
 
-It can take different amounts of time for messages to be delivered depending on the message channel used. You can use our Splunk dashboard to check the status of a message.
+It can take different amounts of time for messages to be delivered depending on the message channel used.
 
 ## NHS App messages
 
