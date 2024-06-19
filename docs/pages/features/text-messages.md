@@ -17,6 +17,6 @@ Use NHS Notify to bulk send text messages such as invitations, alerts, notificat
 
 You might want to understand more about:
 
-- [text message pricing](/pricing/text-messages)
-- [delivery times for text messages](/using-nhs-notify/delivery-times)
-- [how to tell audiences who your text messages are from](/using-nhs-notify/tell-recipients-who-your-messages-are-from)
+- [text message pricing]({% link pages/pricing/text-messages.md %})
+- [delivery times for text messages]({% link pages/using-nhs-notify/delivery-times.md %})
+- [how to tell audiences who your text messages are from]({% link pages/using-nhs-notify/tell-recipients-who-your-messages-are-from.md %})

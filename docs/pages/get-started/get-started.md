@@ -15,9 +15,9 @@ You can send messages with NHS Notify if your organisation or service is part of
 
 You might want to learn more about:
 
-- [our features](/features)
-- [how to use NHS Notify](/using-nhs-notify)
-- [how much it costs to send messages](/pricing)
+- [our features]({% link pages/features/features.md %})
+- [how to use NHS Notify]({% link pages/using-nhs-notify/using-nhs-notify.md %})
+- [how much it costs to send messages]({% link pages/pricing/pricing.md %})
 - [NHS Notify API and its sandbox environment](https://digital.nhs.uk/developer/api-catalogue/nhs-notify)
 
 ## 2. Get in touch to register your interest
