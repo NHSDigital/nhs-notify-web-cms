@@ -1,8 +1,14 @@
-# - title: Home
-#   link: /
+- title: Features
+  link: /features/
 
-# - title: About
-#   link: /about/
+# - title: Pricing
+#   link: /pricing/
 
-# - title: Features
-#   link: /features/
+# - title: Using NHS Notify
+#   link: /using-nhs-notify/
+
+# - title: Support
+#   link: /support/
+
+# - title: Get started
+#   link: /get-started/
