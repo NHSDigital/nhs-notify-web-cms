@@ -1,0 +1,24 @@
+<div class="nhsnotify-list">
+  {% assign i = 1 %}
+  {% for item in include.data %}
+  <div class="nhsuk-grid-row nhsnotify-list__item">
+    <div class="nhsuk-grid-column-one-half">
+        <h3 class="nhsnotify-list__item-header">
+          <div class="nhsnotify-list__item-header-number">
+            {{ i }}
+          </div>
+          <div class="nhsnotify-list__item-header-title">
+              {{ item.heading }}
+          </div>
+        </h3>
+        <div class="nhsnotify-list__item-description">
+            {{ item.description | markdownify }}
+        </div>
+    </div>
+    <div class="nhsuk-grid-column-one-half">
+      {% include components/image.html src=item.image alt=item.image_alt class="nhsnotify-image" %}
+    </div>
+  </div>
+  {% assign i = i | plus:1 %}
+  {% endfor %}
+</div>

@@ -1,0 +1,11 @@
+<nav class="nhsuk-navigation" id="header-navigation" role="navigation" aria-label="Primary navigation">
+  <ul class="nhsuk-header__navigation-list">
+    {% for p in site.data.primary-navigation -%}
+    <li class="nhsuk-header__navigation-item">
+      <a href="{{ p.link | xml_escape }}" class="nhsuk-header__navigation-link">
+        {{ p.title }}
+      </a>
+    </li>
+    {% endfor -%}
+  </ul>
+</nav>

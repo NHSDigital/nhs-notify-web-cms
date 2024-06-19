@@ -8,4 +8,3 @@ parent: About
 nav_order: 1
 permalink: /about/child-about
 ---
-

@@ -1,2 +1,4 @@
-
 baseurl: "" # the subpath of your site, e.g. /blog
+
+include:
+  - pages/examples/
