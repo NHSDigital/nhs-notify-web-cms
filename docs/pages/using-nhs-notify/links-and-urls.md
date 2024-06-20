@@ -32,7 +32,7 @@ Link text may be useful if you have:
 - unsubscribe links
 - emails that contain more than 2 links
 
-If the recipient is not expecting to receive an email from you, we recommend using the URL instead of link text.
+If the recipient is not expecting to receive an email from you, we recommend using the url instead of link text.
 
 Link text should tell the recipient what action they need to take and where the link goes.
 
@@ -42,7 +42,7 @@ Never use ‘click here’, ‘click link’, ‘this link’ or ‘more’, as 
 
 NHS Notify uses Markdown to format link text.
 
-To convert text into a link, use square brackets around the link text and round brackets around the URL. Make sure there are no spaces between the brackets or the link will not work. For example:
+To convert text into a link, use square brackets around the link text and round brackets around the url. Make sure there are no spaces between the brackets or the link will not work. For example:
 
 [inset text here]
 | [Book now](https://www.nhs.uk/example)
