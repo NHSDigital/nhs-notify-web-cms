@@ -12,6 +12,6 @@ echo 'asdf setup complete'
 
 make config
 
-jekyll --version && cd docs && bundle install
+jekyll --version && cd docs && bundle install && npm install
 
 echo 'jekyll setup complete'

@@ -14,4 +14,10 @@ bot
 idempotence
 onboarding
 toolchain
+bundler
+endfor
+npm
+src
+url
+[iI]nset
 [A-Z]+s

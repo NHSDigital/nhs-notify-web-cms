@@ -7,6 +7,7 @@ title: Emails
 parent: Features
 nav_order: 4
 permalink: /features/emails
+section: Message channels
 ---
 
 Use NHS Notify to bulk send free unlimited emails to patients and members of the public.

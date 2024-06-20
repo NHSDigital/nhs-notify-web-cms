@@ -1,0 +1,80 @@
+.nhsnotify-image {
+  width: unset;
+  background-color: unset;
+  border-bottom: 0;
+  margin:unset;
+}
+
+.nhsnotify-banner--blue {
+  background-color: $blue-000;
+  color: white;
+}
+
+.nhsnotify-banner--white {
+  background-color: white;
+}
+
+.nhsnotify-list {
+  padding-top: 2em;
+}
+
+.nhsnotify-list__item {
+  padding-bottom: 5em;
+
+  &:last-child {
+    padding-bottom: 0;
+  }
+
+  li {
+    margin-bottom: 0;
+  }
+}
+
+.nhsnotify-list__item-header {
+  display: flex;
+  @extend .nhsuk-u-margin-bottom-3;
+}
+
+.nhsnotify-list__item-header-number {
+  width: 2em;
+  height: 2em;
+  line-height: 2em;
+  border-radius: 50%;
+
+  background-color: $blue-000;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+}
+
+.nhsnotify-list__item-header-title {
+  width: 85%;
+  padding: 0.3em 0 0 1.5em;
+}
+
+.nhsnotify-list__item-description {
+  padding-left: 5.5em;
+}
+
+.nhsuk-card__description {
+  @media screen and (min-width: 990px) {
+    height: 56px;
+  }
+}
+
+.nhsuk-card__pricing {
+  @extend .nhsuk-heading-m;
+  margin: 0;
+}
+
+.nhsuk-header__navigation-list {
+  justify-content: flex-start;
+}
+
+.nhsuk-header__navigation-link {
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}

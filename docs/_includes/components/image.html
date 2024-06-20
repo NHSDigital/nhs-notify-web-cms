@@ -1,0 +1,13 @@
+<figure class="nhsuk-image {{ include.class | xml_escape }}">
+  {% assign src = '/assets/images/' | prepend: site.baseurl | append: include.src %}
+  {% if include.src contains 'https://' %}
+  <img class="nhsuk-image__img" src='{{ include.src | uri_escape }}' alt='{{ include.alt | xml_escape }}' />
+  {% else %}
+  <img class="nhsuk-image__img" src='{{ src }}' alt='{{ include.alt | xml_escape }}' />
+  {% endif %}
+  {% if include.caption %}
+  <figcaption class="nhsuk-image__caption">
+    {{ include.caption }}
+  </figcaption>
+  {% endif %}
+</figure>
