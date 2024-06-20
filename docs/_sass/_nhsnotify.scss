@@ -66,3 +66,15 @@
   @extend .nhsuk-heading-m;
   margin: 0;
 }
+
+.nhsuk-header__navigation-list {
+  justify-content: flex-start;
+}
+
+.nhsuk-header__navigation-link {
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}

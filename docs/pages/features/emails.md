@@ -3,7 +3,8 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: page
-title: Features
-nav_order: 1
-permalink: /features/
+title: Emails
+nav_order: 2
+permalink: /features/emails
+section: Message channels
 ---

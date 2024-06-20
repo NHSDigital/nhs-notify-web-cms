@@ -2,7 +2,7 @@
   <ul class="nhsuk-header__navigation-list">
     {% for p in site.data.primary-navigation -%}
     <li class="nhsuk-header__navigation-item">
-      <a href="{{ p.link | xml_escape }}" class="nhsuk-header__navigation-link">
+      <a href="{{ site.baseurl | append: p.link | xml_escape }}" class="nhsuk-header__navigation-link">
         {{ p.title }}
       </a>
     </li>
