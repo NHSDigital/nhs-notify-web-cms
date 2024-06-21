@@ -3,7 +3,10 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: page
-title: Features
-nav_order: 1
-permalink: /features/
+title: Letter branding
+parent: Using NHS Notify
+nav_order: 4
+permalink: /using-nhs-notify/letter-branding
+published: false
 ---
+

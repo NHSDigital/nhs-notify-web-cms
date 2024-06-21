@@ -1,5 +1,5 @@
 Bitwarden
-Cyber
+[cC]yber
 Dependabot
 Gitleaks
 Grype
