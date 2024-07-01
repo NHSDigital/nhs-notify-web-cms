@@ -5,13 +5,18 @@
 layout: page
 title: Text messages (SMS)
 parent: Features
-nav_order: 5
+nav_order: 3
 permalink: /features/text-messages-sms
+section: Message channels
 ---
 
 Use NHS Notify to bulk send text messages such as invitations, alerts, notifications or reminders to your audiences.
 
-[insert image with caption here]
+{% include components/image.html
+    src="nhs-notify-iphone-android-sms-example.svg"
+    alt="An image of two mobile devices side by side showing a received text message, one displayed on iPhone and the other displayed on an Android device."
+    caption="An example of a text message (SMS) sent by NHS Notify to a iPhone or Android mobile device."
+%}
 
 ## What you need to know
 

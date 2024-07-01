@@ -5,7 +5,7 @@
 layout: page
 title: Security
 parent: Features
-nav_order: 2
+nav_order: 3
 permalink: /features/security
 ---
 
@@ -21,16 +21,16 @@ This means NHS Notify:
 
 NHS Notify also has approaches for:
 
-- identity and access management
-- risk assessments
-- network security
-- security groups and policies
-- secure development practices
-- data protection
-- patch management
-- security monitoring and logging
-- secure configuration
-- regulatory compliance
+- [Identity and access management (IAM)](#identity-and-access-management-iam)
+- [Risk assessments](#risk-assessments)
+- [Network security](#network-security)
+- [Security groups and policies](#security-groups-and-policies)
+- [Secure development practices](#secure-development-practices)
+- [Data protection](#data-protection)
+- [Patch management](#patch-management)
+- [Security monitoring and logging](#security-monitoring-and-logging)
+- [Security configuration](#security-configuration)
+- [Regulatory compliance](#regulatory-compliance)
 
 ## Identity and access management (IAM)
 
