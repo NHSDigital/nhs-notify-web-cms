@@ -2,6 +2,8 @@
 
 ## Setup
 
+> For a non-technical approach read the instructions [here](../README.md).
+
 In the `docs` directory run the following command:
 
 ```bash
@@ -77,3 +79,17 @@ We have an assets folder which is used to put files such as;
 - CSS
 
 If you have new images, favicons or other assets place them in the corresponding folder and the asset will be available via `/assets/<assert_type>/<asset_name>` for example `/assets/images/landing-main-image.svg`.
+
+## Accessibility
+
+This project uses `pa11y-ci` which is a wrapper over the `pa11y` project. It allows us to run `pa11y` in the CI/CD pipeline more easily.
+
+To run an accessibility test ensure the web application in running by following the instruction in [Running the application](#running-the-application).
+
+Run the following command:
+
+```bash
+npm run test:accessibility
+```
+
+The accessibility results are output in both the terminal and in the following location `.reports/accessibility/index.html`.
