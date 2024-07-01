@@ -5,13 +5,22 @@
   "private": true,
   "engines": {},
   "scripts": {
-    "debug": "JEKYLL_ENV=development BUNDLE_GEMFILE=Gemfile bundle exec jekyll serve --config _config.yml,_config.dev.yml --limit_posts 100 --trace --livereload"
+    "debug": "JEKYLL_ENV=development BUNDLE_GEMFILE=Gemfile bundle exec jekyll serve --config _config.yml,_config.dev.yml --limit_posts 100 --trace --livereload",
+    "test:accessibility": "pa11y-ci --config .pa11y-ci.js",
+    "app:start": "pm2 start make -- serve",
+    "app:stop": "pm2 kill"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "devDependencies": {},
   "dependencies": {
     "nhsuk-frontend": "^8.2.0"
+  },
+  "devDependencies": {
+    "fast-xml-parser": "^4.4.0",
+    "pa11y-ci": "^3.1.0",
+    "pa11y-ci-reporter-html": "^6.0.2",
+    "pm2": "^5.4.1",
+    "sitemap": "^8.0.0"
   }
 }

@@ -97,3 +97,6 @@ exclude:
   - pages/examples/
   - adr/
   - '*.component.md'
+
+plugins:
+  - jekyll-sitemap

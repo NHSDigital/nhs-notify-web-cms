@@ -21,8 +21,6 @@ This means NHS Notify:
 
 NHS Notify also has approaches for:
 
-- [Identity and access management (IAM)](#identity-and-access-management-iam)
-- [Risk assessments](#risk-assessments)
 - [Network security](#network-security)
 - [Security groups and policies](#security-groups-and-policies)
 - [Secure development practices](#secure-development-practices)
@@ -31,21 +29,6 @@ NHS Notify also has approaches for:
 - [Security monitoring and logging](#security-monitoring-and-logging)
 - [Security configuration](#security-configuration)
 - [Regulatory compliance](#regulatory-compliance)
-
-## Identity and access management (IAM)
-
-NHS Notify:
-
-- implements strong authentication methods, including multi-factor authentication
-- uses identity and access controls to ensure least privilege access
-- regularly reviews and audits user access permissions
-
-## Risk assessments
-
-NHS Notify uses risk assessments to:
-
-- identify and assess potential cybersecurity risks
-- evaluate the impact and likelihood of various cyber threats
 
 ## Network security
 
