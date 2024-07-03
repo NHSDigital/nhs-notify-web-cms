@@ -10,6 +10,8 @@ h help:
 include-npm-deps:
 	@cp node_modules/nhsuk-frontend/dist/nhsuk.min.js assets/js/nhsuk.min.js
 
+config: install
+
 install:
 	bundle config set --local path vendor/bundle
 	bundle install
