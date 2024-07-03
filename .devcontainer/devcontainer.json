@@ -1,7 +1,7 @@
 {
   "customizations": {
     "codespaces": {
-      "openFiles": ["README.md", ".github/SECURITY.md", "docs/index.md"]
+      "openFiles": ["README.md", ".github/SECURITY.md", "docs/pages/index.md"]
     },
     "vscode": {
       "extensions": [
