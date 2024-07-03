@@ -6,7 +6,7 @@
 *vulnerabilities*report*.json
 *report*json.zip
 .version
-
+version.json
 *.code-workspace
 !project.code-workspace
 

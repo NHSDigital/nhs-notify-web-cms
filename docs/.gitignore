@@ -5,4 +5,4 @@ _site
 vendor
 .bundle
 node_modules
-#Gemfile.lock
+_config.version.yml
