@@ -5,7 +5,7 @@
 layout: page
 title: Text messages
 parent: Pricing
-nav_order: 1
+nav_order: 2
 permalink: /pricing/text-messages
 ---
 
@@ -28,7 +28,13 @@ You may pay more for each message, if you:
 
 If a text message is longer than 160 characters (including spaces), it counts as more than one message.
 
-[insert table here]
+| Message length       | Charge          |
+| -------------------- | ----------------|
+| Up to 306 characters | 2 text messages |
+| Up to 459 characters | 3 text messages |
+| Up to 612 characters | 4 text messages |
+| Up to 765 characters | 5 text messages |
+| Up to 918 characters | 6 text messages |
 
 ## Signs and symbols
 
@@ -44,4 +50,10 @@ The following accented characters do not affect the cost of sending text message
 
 Using other accented characters can increase the cost of sending text messages.
 
-[insert table here]
+| Message length                | Charge                    |
+| ----------------------------- | ------------------------- |
+| Up to 70 characters           | 2 text messages           |
+| Up to 134 characters          | 3 text messages           |
+| Up to 201 characters          | 4 text messages           |
+| Up to 268 characters          | 5 text messages           |
+| Each additional 67 characters | 1 additional text message |
