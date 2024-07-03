@@ -5,7 +5,7 @@
   "private": true,
   "engines": {},
   "scripts": {
-    "debug": "JEKYLL_ENV=development BUNDLE_GEMFILE=Gemfile bundle exec jekyll serve --config _config.yml,_config.dev.yml --limit_posts 100 --trace --livereload",
+    "debug": "JEKYLL_ENV=development BUNDLE_GEMFILE=Gemfile bundle exec jekyll serve --config _config.yml,_config.dev.yml --limit_posts 100 --trace",
     "test:accessibility": "pa11y-ci --config .pa11y-ci.js",
     "app:start": "pm2 start make -- serve",
     "app:stop": "pm2 kill"

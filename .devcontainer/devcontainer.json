@@ -1,37 +1,19 @@
-// For format details, see https://aka.ms/devcontainer.json. For config options, see the
-// README at: https://github.com/devcontainers/templates/tree/main/src/jekyll
 {
-  "name": "Jekyll",
-  // Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
-  "build": {
-    "dockerfile": "Dockerfile"
-  },
-  // Features to add to the dev container. More info: https://containers.dev/features.
-  // "features": {},
-  // Use 'forwardPorts' to make a list of ports inside the container available locally.
-  // "forwardPorts": [],
-  // Uncomment the next line to run commands after the container is created.
-  "postCreateCommand": "zsh scripts/devcontainer/postcreatecommand.sh",
-  "postStartCommand": "zsh scripts/devcontainer/poststartcommand.sh",
-  "forwardPorts": [4000],
-  // Configure tool-specific properties.
   "customizations": {
     "codespaces": {
-      "openFiles": ["README.md", ".github/SECURITY.md", "docs/pages/index.md"]
+      "openFiles": ["README.md", ".github/SECURITY.md", "docs/index.md"]
     },
     "vscode": {
-      // Set *default* container specific settings.json values on container create.
-      "settings": {
-      },
-      // Add the IDs of extensions you want installed when the container is created.
       "extensions": [
         "alefragnani.bookmarks",
+        "AmazonWebServices.aws-toolkit-vscode",
+        "chdsbd.github-code-owners",
         "davidanson.vscode-markdownlint",
         "dbaeumer.vscode-eslint",
         "donjayamanne.githistory",
-        "eamodio.gitlens",
         "editorconfig.editorconfig",
         "esbenp.prettier-vscode",
+        "fvclaus.sort-json-array",
         "github.codespaces",
         "github.github-vscode-theme",
         "github.remotehub",
@@ -39,6 +21,8 @@
         "github.vscode-pull-request-github",
         "hediet.vscode-drawio",
         "johnpapa.vscode-peacock",
+        "joshx.workspace-terminals",
+        "maattdd.gitless",
         "mhutchie.git-graph",
         "ms-azuretools.vscode-docker",
         "ms-vscode-remote.remote-containers",
@@ -48,6 +32,7 @@
         "ms-vsliveshare.vsliveshare",
         "redhat.vscode-xml",
         "streetsidesoftware.code-spell-checker-british-english",
+        "takumii.markdowntable",
         "tamasfe.even-better-toml",
         "tomoki1207.pdf",
         "vscode-icons-team.vscode-icons",
@@ -56,44 +41,22 @@
         "yzane.markdown-pdf",
         "yzhang.dictionary-completion",
         "yzhang.markdown-all-in-one",
-        "joshx.workspace-terminals",
-        "takumii.markdowntable",
-        "chdsbd.github-code-owners"
-      ]
+        "zoma.vscode-auto-open-workspace"
+      ],
+      "settings": {
+        "[makefile]": {
+          "editor.detectIndentation": false,
+          "editor.insertSpaces": false
+        },
+        "autoOpenWorkspace.enableAutoOpenIfSingleWorkspace": true,
+        "editor.formatOnSave": true,
+        "extensions.ignoreRecommendations": true,
+        "files.insertFinalNewline": true
+      }
     }
   },
-  "features": {
-    "ghcr.io/devcontainers/features/aws-cli:1": {
-      "version": "latest"
-    },
-    "ghcr.io/devcontainers/features/docker-in-docker:2": {
-      "moby": true,
-      "azureDnsAutoDetection": true,
-      "installDockerBuildx": true,
-      "installDockerComposeSwitch": true,
-      "version": "latest",
-      "dockerDashComposeVersion": "latest"
-    },
-    "ghcr.io/devcontainers/features/node:1": {
-      "nodeGypDependencies": true,
-      "version": "lts",
-      "nvmVersion": "latest"
-    },
-    "ghcr.io/devcontainers/features/github-cli:1": {
-      "installDirectlyFromGitHubRelease": true,
-      "version": "latest"
-    },
-    "ghcr.io/devcontainers/features/common-utils:2": {
-      "installZsh": true,
-      "configureZshAsDefaultShell": true,
-      "installOhMyZsh": true,
-      "installOhMyZshConfig": true,
-      "upgradePackages": true,
-      "username": "automatic",
-      "userUid": "automatic",
-      "userGid": "automatic"
-    }
-  }
-  // Uncomment to connect as root instead. More info: https://aka.ms/dev-containers-non-root.
-  // "remoteUser": "root"
+  "forwardPorts": [4000],
+  "image": "ghcr.io/nhsdigital/nhs-notify-template-repository:latest",
+  "name": "Jekyll",
+  "runArgs": ["--platform=linux/amd64"]
 }
