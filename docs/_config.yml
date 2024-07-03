@@ -35,6 +35,7 @@ collections:
 # Build settings
 plugins:
   - jekyll-feed
+  - jekyll-sitemap
 
 color_scheme: nhs
 mermaid:
@@ -81,6 +82,9 @@ sass:
 # Excluded items can be processed by explicitly listing the directories or
 # their entries' file path in the `include:` list.
 #
+include:
+  - .version
+  - version.json
 exclude:
   - .vscode/
   - README.md
@@ -96,7 +100,7 @@ exclude:
   - vendor/ruby/
   - pages/examples/
   - adr/
-  - '*.component.md'
-
-plugins:
-  - jekyll-sitemap
+  - "*.component.md"
+  - Makefile
+  - package-lock.json
+  - package.json

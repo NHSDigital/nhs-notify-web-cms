@@ -1,1 +1,1 @@
-${yyyy}${mm}${dd}
+0.0.1-${yyyy}${mm}${dd}.${HH}${MM}${SS}+${hash}
