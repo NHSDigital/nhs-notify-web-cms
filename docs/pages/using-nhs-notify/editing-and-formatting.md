@@ -42,7 +42,16 @@ You can either:
 - add personalised bullet points each time you send a message
 
 Copy this example to add bullet points:
-[inset text component here]
+
+{% include components/inset-text.html
+    text='Introduce bullet points with a lead-in line ending with a colon:
+
+- leave one empty line space after the lead-in line
+- use an asterisk or a dash followed by a space to add an item
+- start each item with a lowercase letter, do not end with a full stop
+- leave one empty line space after the last item'
+%}
+
 Introduce bullet points with a lead-in line ending with a colon:
 
 • leave one empty line space after the lead-in line
