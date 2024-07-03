@@ -13,7 +13,7 @@ section: Message channels
 Send free unlimited messages to patients and members of the public that have the NHS App.
 
 {% include components/image.html
-    src="nhs-notify-nhs-app-example.svg"
+    src="nhs-notify-nhs-app-example-2.svg"
     alt="A screenshot of an opened message in the NHS App inbox."
     caption="An example of a message sent with the NHS App."
 %}
