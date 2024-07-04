@@ -5,8 +5,9 @@
 layout: page
 title: Letters in other languages
 parent: Using NHS Notify
-nav_order: 11
+nav_order: 6
 permalink: /using-nhs-notify/letters-in-other-languages
+section: Writing a message
 ---
 
 NHS Notify allows you to message patients and members of the public using other languages, including their matching character sets.
@@ -46,8 +47,9 @@ We currently support the following languages and their character sets:
 - Turkish
 - Urdu
 
-[inset text here]
-| You can request additional languages, as long as they're in PDS. We’ll need to test these languages so make sure you leave enough time for this.
+{% include components/inset-text.html
+  text="You can request additional languages, as long as they’re in PDS. We’ll need to test these languages so make sure you leave enough time for this."
+%}
 
 ## How to send letters in other languages
 

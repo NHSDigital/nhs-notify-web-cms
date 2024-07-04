@@ -5,8 +5,9 @@
 layout: page
 title: Accessible formats
 parent: Using NHS Notify
-nav_order: 10
+nav_order: 5
 permalink: /using-nhs-notify/accessible-formats
+section: Writing a message
 ---
 
 Before you start to send messages, consider the access needs of your recipients.
@@ -17,7 +18,11 @@ All organisations that provide NHS care or publicly-funded adult social care are
 
 NHS Notify offers the following letter formats so you can reach people with access needs.
 
-[insert 3 column table here]
+| Accessible format    | Description |
+| -------- | ------- |
+| Large print  | Letters that have a larger font than usual. Large print letters typically have a point size of 16 and above.    |
+| Braille | Includes the original letter and a Braille insert. NHS Notify uses the Royal National Institute of Blind People (RNIB) to translate your content into Braille so that blind and partially sighted people can read your messages.    |
+| Audio CD | Includes the original letter and a CD that plays a spoken recording of your letter's content.  |
 
 ## Other accessible formats
 
