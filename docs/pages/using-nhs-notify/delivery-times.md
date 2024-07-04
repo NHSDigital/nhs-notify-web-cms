@@ -5,7 +5,7 @@
 layout: page
 title: Delivery times
 parent: Using NHS Notify
-nav_order: 5
+nav_order: 7
 permalink: /using-nhs-notify/delivery-times
 section: Writing a message
 ---

@@ -37,15 +37,32 @@ This is available for NHS App messages, emails, text messages and letters
 
 ## How to send messages in accessible formats
 
-You'll need to tell us if you require letters in accessible formats. Do this by:
+### 1. Tell us if you’ll need accessible formats
+
+Do this by:
 
 - speaking to our engagement team when you first [get started]({% link pages/get-started/get-started.md %}) with NHS Notify
-- raising a [support request on our service portal](https://nhsdigitallive.service-now.com/csm) if you're already using NHS Notify and have existing templates
+- raising a [Service Now request](https://nhsdigitallive.service-now.com/csm) if you're already using NHS Notify and have existing templates
+
+### 2. Create your templates and routing plans
 
 Set up a routing plan that requests accessible formats.
 
-Create your messages using standard templates.
+Create separate templates for each type of accessible format you’ll need. Select the ‘standard letter’ template type.
+
+### 3. Provide recipients' NHS numbers
 
 Provide recipients' NHS numbers as separate data files for each type of accessible format.
 
-NHS Notify will arrange for your letters to be sent in your required accessible format.
+### 4. We'll check for recipients with access needs
+
+It’s your responsibility to message recipients based on their access needs.
+
+NHS Notify can check who needs accessible formats, but we’ll only send them an accessible format if you've created a template that matches.
+
+We’ll send the accessible letter format if:
+
+- you've given us the accessible template
+- PDS confirms there are recipients with access needs
+
+We’ll send the standard letter if you've not given us the accessible template, even if PDS says there are recipients with access needs.

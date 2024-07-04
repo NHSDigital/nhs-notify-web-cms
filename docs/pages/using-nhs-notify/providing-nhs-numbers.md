@@ -5,7 +5,7 @@
 layout: page
 title: Providing NHS Numbers
 parent: Using NHS Notify
-nav_order: 7
+nav_order: 8
 permalink: /using-nhs-notify/providing-nhs-numbers
 section: Writing a message
 ---

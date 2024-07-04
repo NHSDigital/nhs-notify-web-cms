@@ -53,24 +53,30 @@ We currently support the following languages and their character sets:
 
 ## How to send letters in other languages
 
-### 1. Create your templates
+### Create your templates
 
 You're responsible for translating your message content. NHS Notify does not offer a translation service.
 
-Create your messages using standard templates.
+Create your messages using the 'standard letter' template type.
 
-You’ll need to include both the English version and the translated version in a single template.
+Include both the English version and the translated version in a single template.
 
 The letter will be on double-sided paper.
 
-Aim to keep your message content to 2 double-sided sheets to save costs. This will include the English version on one double-sided sheet and the translation on another double-sided sheet.
+Aim to keep your message content to 2 double-sided sheets to save costs. This will include:
 
-### 2. Find recipients who need letters in other languages
+- the English version on one double-sided sheet
+- the translation on another double-sided sheet
 
-NHS Notify checks recipients’ language preferences in PDS.
+### We'll check for recipients who need letters in other languages
 
 You can decide whether to message recipients based on their language preferences.
 
-We’ll send the letter with the translation and the English version if you've given us the translation and PDS says it's the recipient's preferred language.
+NHS Notify checks who needs letters in other languages, but we’ll only send them these if you've created a template that matches.
 
-We’ll send the letter in English if you've not given us the translation, even if PDS says the recipient has another preferred language.
+We’ll send the translation (along with the English version) if:
+
+- you've given us the translation
+- PDS confirms there are recipients who need messages in this language
+
+We’ll send the letter in English if you've not given us the translation, even if PDS says recipients need messages in other languages.

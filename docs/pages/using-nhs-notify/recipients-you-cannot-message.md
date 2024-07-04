@@ -5,8 +5,9 @@
 layout: page
 title: Recipients you cannot message
 parent: Using NHS Notify
-nav_order: 14
+nav_order: 10
 permalink: /using-nhs-notify/recipients-you-cannot-message
+section: Writing a message
 ---
 
 NHS Notify automatically prevents you from sending messages to people who you should not contact. This includes patients with certain information on their records.
@@ -14,8 +15,12 @@ NHS Notify automatically prevents you from sending messages to people who you sh
 We check the [Personal Demographics Service (PDS)](https://digital.nhs.uk/services/personal-demographics-service) for patients with:
 
 - [Flagged records](#flagged-records)
+  - [Sensitive flag (S flag)](#sensitive-flag-s-flag)
+  - [Invalid flag](#invalid-flag)
 - [Exit codes](#exit-codes)
 - [Patient death status](#patient-death-status)
+  - [Formal death status](#formal-death-status)
+  - [Informal death status](#informal-death-status)
 
 You will not be charged for messages we could not send due to information in PDS.
 
