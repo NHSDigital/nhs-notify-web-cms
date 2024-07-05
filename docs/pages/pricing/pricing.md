@@ -4,7 +4,7 @@
 
 layout: page
 title: Pricing
-nav_order: 3
+nav_order: 1
 has_children: true
 permalink: /pricing/
 ---
@@ -25,10 +25,18 @@ NHS England organisations and service have an annual allowance of free text mess
 
 When you've used your annual allowance, it costs 2.27 pence (plus VAT) per text message.
 
-[More about text message pricing]({% link pages/pricing/text-messages.md %})
+{% include components/action-link.html
+    url='/pricing/text-messages'
+    text='More about text message pricing'
+%}
 
 ## Letters
 
 It costs up to 55p (plus VAT) to send a 1 sheet letter with both sides printed using 2nd class postage.
 
 [Learn more about letter pricing]({% link pages/pricing/letters.md %})
+
+{% include components/action-link.html
+    url='/pricing/letters'
+    text='Learn more about letter pricing'
+%}

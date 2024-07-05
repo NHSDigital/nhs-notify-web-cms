@@ -4,7 +4,7 @@
 
 layout: page
 title: Features
-nav_order: 3
+nav_order: 1
 has_children: true
 permalink: /features/
 ---
@@ -62,7 +62,7 @@ Track how many messages you’ve sent and find out which ones are not being deli
 
 To send messages automatically, you’ll need a developer to integrate with the NHS Notify API.
 
-<a href="https://digital.nhs.uk/developer/api-catalogue/nhs-notify" target="_blank">Read our API documentation (opens in a new tab)</a>.
+[Read our API documentation (opens in a new tab)](https://digital.nhs.uk/developer/api-catalogue/nhs-notify){:target="_blank"}.
 
 ## Keep your data secure
 

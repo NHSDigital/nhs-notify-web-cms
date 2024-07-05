@@ -5,7 +5,7 @@
 layout: page
 title: How to pay
 parent: Pricing
-nav_order: 3
+nav_order: 4
 permalink: /pricing/how-to-pay
 ---
 

@@ -5,7 +5,7 @@
 layout: page
 title: Letters
 parent: Pricing
-nav_order: 2
+nav_order: 3
 permalink: /pricing/letters
 ---
 
@@ -18,7 +18,13 @@ Prices include:
 - double-sided black and white printing
 - C5 size envelopes with an address window
 
-[insert 3 column table here]
+| Paper     | 1st class            | 2nd class            |
+| --------- | -------------------- | -------------------- |
+| 1 sheet   | Up to 82 pence + VAT | Up to 55 pence + VAT |
+| 2 sheets  | Up to 86 pence + VAT | Up to 60 pence + VAT |
+| 3 sheets  | Up to 90 pence + VAT | Up to 63 pence + VAT |
+| 4 sheets  | Up to 96 pence + VAT | Up to 68 pence + VAT |
+| 5 sheets  | Up to £1.00 + VAT    | Up to 73 pence + VAT |
 
 ## Letters in accessible formats
 
@@ -26,7 +32,12 @@ You can use a range of accessible formats to send letters to people with accessi
 
 Learn more about NHS Notify’s accessible letter formats.
 
-[insert 2 column table here]
+| Accessible format           | Cost                      |
+| --------------------------- | ------------------------- |
+| Large print (16 point font) | Same as a standard letter |
+| Easy read                   | £1.70 + VAT               |
+| Braille                     | £1.98 + VAT               |
+| Audio CD                    | £2.80 + VAT               |
 
 ## Letter inserts
 
@@ -36,7 +47,11 @@ If you include an insert with your letter, you will need to pay an insert fee of
 
 You can print your inserts elsewhere or use NHS Notify. If you use NHS Notify, you will need to pay the print cost.
 
-[insert 2 columns table here]
+| Insert type             | Print cost              |
+| ----------------------- | ----------------------- |
+| Simplex colour sheet    | Up to 2.47 pence + VAT  |
+| Duplex colour sheet     | Up to 2.65 pence + VAT  |
+| Additional colour toner | Up to 0.031 pence + VAT |
 
 ## Returned letter costs
 

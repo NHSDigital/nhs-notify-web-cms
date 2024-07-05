@@ -5,7 +5,7 @@
 layout: page
 title: Security
 parent: Features
-nav_order: 2
+nav_order: 3
 permalink: /features/security
 ---
 
@@ -21,31 +21,14 @@ This means NHS Notify:
 
 NHS Notify also has approaches for:
 
-- identity and access management
-- risk assessments
-- network security
-- security groups and policies
-- secure development practices
-- data protection
-- patch management
-- security monitoring and logging
-- secure configuration
-- regulatory compliance
-
-## Identity and access management (IAM)
-
-NHS Notify:
-
-- implements strong authentication methods, including multi-factor authentication
-- uses identity and access controls to ensure least privilege access
-- regularly reviews and audits user access permissions
-
-## Risk assessments
-
-NHS Notify uses risk assessments to:
-
-- identify and assess potential cybersecurity risks
-- evaluate the impact and likelihood of various cyber threats
+- [Network security](#network-security)
+- [Security groups and policies](#security-groups-and-policies)
+- [Secure development practices](#secure-development-practices)
+- [Data protection](#data-protection)
+- [Patch management](#patch-management)
+- [Security monitoring and logging](#security-monitoring-and-logging)
+- [Security configuration](#security-configuration)
+- [Regulatory compliance](#regulatory-compliance)
 
 ## Network security
 

@@ -10,7 +10,6 @@ permalink: /examples/
   - [Caption image](#caption-image)
 - [Links](#links)
   - [Standard link](#standard-link)
-  - [Customised link](#customised-link)
   - [Action link](#action-link)
 - [Inset text](#inset-text)
 
@@ -46,10 +45,6 @@ Examples of different types of links.
 ### Standard link
 
 [A link](#standard-link)
-
-### Customised link
-
-[A link with a custom class and styling](#customised-link){: class="random-css-class" style="color:red;"}
 
 ### Action link
 

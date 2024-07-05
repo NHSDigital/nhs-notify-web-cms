@@ -54,9 +54,7 @@ Copy this example to add bullet points:
 - leave one empty line space after the lead-in line
 - use an asterisk or a dash followed by a space to add an item
 - start each item with a lowercase letter, do not end with a full stop
-- leave one empty line space after the last item
-
-'
+- leave one empty line space after the last item'
 %}
 
 To create sub-items, add an indent of 2 spaces before the asterisk or dash.
