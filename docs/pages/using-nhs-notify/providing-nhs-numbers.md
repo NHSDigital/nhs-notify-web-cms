@@ -5,8 +5,9 @@
 layout: page
 title: Providing NHS Numbers
 parent: Using NHS Notify
-nav_order: 12
+nav_order: 8
 permalink: /using-nhs-notify/providing-nhs-numbers
+section: Writing a message
 ---
 
 You only need a patient's [NHS number](https://digital.nhs.uk/services/personal-demographics-service/nhs-number) to send them messages.
