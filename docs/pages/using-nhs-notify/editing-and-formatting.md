@@ -91,13 +91,19 @@ Write all headings and subheadings in sentence case.
 Use one hash symbol followed by a space for a heading in emails and letters, for example:
 
 {% include components/inset-text.html
-    text='# This is a heading'
+    text='
+
+    # This is a heading'
+
 %}
 
 Use 2 hash symbols followed by a space for a subheading in emails, for example:
 
 {% include components/inset-text.html
-    text='## This is a subheading'
+    text='
+    
+    ## This is a subheading'
+
 %}
 
 ### Horizontal lines
