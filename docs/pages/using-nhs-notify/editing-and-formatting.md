@@ -19,21 +19,21 @@ You can see formatting instructions while you’re editing a template.
 Email templates can include:
 
 <!-- no toc -->
-  - [bullet points](#bullet-points)
-  - [headings](#headings)
-  - [horizontal lines](#horizontal-lines)
-  - [inset text](#inset-text)
-  - [numbered steps](#numbered-steps)
-  - [page breaks](#page-breaks)
+- [bullet points](#bullet-points)
+- [headings](#headings)
+- [horizontal lines](#horizontal-lines)
+- [inset text](#inset-text)
+- [numbered steps](#numbered-steps)
+- [page breaks](#page-breaks)
 
 Letter templates can include:
 <!-- no toc -->
-  - [bullet points](#bullet-points)
-  - [headings](#headings)
-  - [horizontal lines](#horizontal-lines)
-  - [inset text](#inset-text)
-  - [numbered steps](#numbered-steps)
-  - [page breaks](#page-breaks)
+- [bullet points](#bullet-points)
+- [headings](#headings)
+- [horizontal lines](#horizontal-lines)
+- [inset text](#inset-text)
+- [numbered steps](#numbered-steps)
+- [page breaks](#page-breaks)
 
 ## Guidance
 
