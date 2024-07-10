@@ -5,8 +5,9 @@
 layout: page
 title: Editing and formatting
 parent: Using NHS Notify
-nav_order: 5
+nav_order: 1
 permalink: /using-nhs-notify/editing-and-formatting
+section: Writing a message
 ---
 
 NHS Notify uses Markdown to format content for emails and letters.
@@ -17,18 +18,22 @@ You can see formatting instructions while you’re editing a template.
 
 Email templates can include:
 
+<!-- no toc -->
 - [bullet points](#bullet-points)
 - [headings](#headings)
 - [horizontal lines](#horizontal-lines)
 - [inset text](#inset-text)
 - [numbered steps](#numbered-steps)
+- [page breaks](#page-breaks)
 
 Letter templates can include:
-
+<!-- no toc -->
 - [bullet points](#bullet-points)
 - [headings](#headings)
 - [horizontal lines](#horizontal-lines)
 - [inset text](#inset-text)
+- [numbered steps](#numbered-steps)
+- [page breaks](#page-breaks)
 
 ## Guidance
 
@@ -52,21 +57,26 @@ Copy this example to add bullet points:
 - leave one empty line space after the last item'
 %}
 
-Introduce bullet points with a lead-in line ending with a colon:
-
-• leave one empty line space after the lead-in line
-• use an asterisk or a dash followed by a space to add an item
-• start each item with a lowercase letter, do not end with a full stop
-• leave one empty line space after the last item
-
-[end inset text]
-
 To create sub-items, add an indent of 2 spaces before the asterisk or dash.
 
-[details component]
-How to add personalised bullet points
+#### How to add personalised bullet points
 
-There's more guidance about bullet points on GOV.UK.
+Copy this example to add a placeholder to your message template:
+
+{% include components/inset-text.html
+    text='Introduce bullet points with a lead-in line ending in a colon:
+
+((bullet points))
+
+Leave one empty line space before the next paragraph.
+To send the message, upload a list of recipient details.
+
+Your spreadsheet should include one column for each bullet point. The column names must match the placeholder in the template.
+
+Notify will fill in the placeholder with your bullet points.'
+%}
+
+There's more [guidance about bullet points on GOV.UK](https://www.gov.uk/guidance/style-guide/a-to-z-of-gov-uk-style#bullet-points-steps).
 
 ### Headings
 
@@ -80,13 +90,15 @@ Write all headings and subheadings in sentence case.
 
 Use one hash symbol followed by a space for a heading in emails and letters, for example:
 
-[inset text]
-| # This is a heading
+{% include components/inset-text.html
+    text='# This is a heading'
+%}
 
 Use 2 hash symbols followed by a space for a subheading in emails, for example:
 
-[inset text]
-| ## This is a subheading
+{% include components/inset-text.html
+    text='## This is a subheading'
+%}
 
 ### Horizontal lines
 
@@ -94,10 +106,11 @@ Use a horizontal line to create separate sections in an email template.
 
 To add a horizontal line between 2 paragraphs, use 3 dashes. Leave one empty line space after the first paragraph. For example:
 
-[inset text]
-| First paragraph
-| ---
-| Second paragraph
+{% include components/inset-text.html
+    text='First paragraph
+ ---
+Second paragraph'
+%}
 
 ### Inset text
 
@@ -109,12 +122,13 @@ Use inset text to differentiate a block of text from the content that surrounds 
 
 To add inset text, use a caret. For example:
 
-[inset text]
-| ^ You must tell us if your circumstances change.
+{% include components/inset-text.html
+    text='^ You must tell us if your circumstances change.'
+%}
 
 Use inset text very sparingly – it’s less effective if it’s overused.
 
-There’s more guidance about inset text in the GOV.UK Design System.
+There’s more [guidance about inset text in the GOV.UK Design System](https://design-system.service.gov.uk/components/inset-text/).
 
 ### Numbered steps
 
@@ -124,11 +138,16 @@ You do not need a lead-in line for a numbered list.
 
 Copy this example to add numbered steps:
 
-[inset text]
-| 1. Leave one empty line space before starting your list.
-| 2. Enter a number followed by a full stop and a space to add an item.
-| 3. Start each item with a capital letter and end it with a full stop.
-| 4. Leave one empty line space after the last item.
+{% include components/inset-text.html
+    text='
+
+1. Leave one empty line space before starting your list.
+2. Enter a number followed by a full stop and a space to add an item.
+3. Start each item with a capital letter and end it with a full stop.
+4. Leave one empty line space after the last item.
+
+'
+%}
 
 To create sub-items, add an indent of 2 spaces before the number.
 
@@ -138,7 +157,8 @@ There’s more guidance about numbered lists in the GOV.UK Design System.
 
 To insert a page break in a letter template, use 3 asterisks. For example:
 
-[inset text]
-| Content on page 1
-| •••
-| Content on page 2
+{% include components/inset-text.html
+    text='Content on page 1
+***
+Content on page 2'
+%}

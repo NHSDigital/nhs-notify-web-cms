@@ -5,14 +5,16 @@
 layout: page
 title: Links and URLs
 parent: Using NHS Notify
-nav_order: 6
+nav_order: 2
 permalink: /using-nhs-notify/links-and-urls
+section: Writing a message
 ---
 
 When composing a message, write URLs in full. For example:
 
-[inset text here]
-| Book now at https://www.nhs.uk/example
+{% include components/inset-text.html
+    text='Book now at https://www.nhs.uk/example'
+%}
 
 URLs should be easy to read.
 
@@ -44,8 +46,9 @@ NHS Notify uses Markdown to format link text.
 
 To convert text into a link, use square brackets around the link text and round brackets around the url. Make sure there are no spaces between the brackets or the link will not work. For example:
 
-[inset text here]
-| [Book now](https://www.nhs.uk/example)
+{% include components/inset-text.html
+    text='[Book now](https://www.nhs.uk/example)'
+%}
 
 You cannot use Markdown to add link text to a text message or letter template.
 

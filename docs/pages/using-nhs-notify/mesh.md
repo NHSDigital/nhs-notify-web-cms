@@ -7,6 +7,7 @@ title: MESH
 parent: Using NHS Notify
 nav_order: 2
 permalink: /using-nhs-notify/mesh
+section: Accessing NHS Notify
 ---
 
 NHS England organisations and services can use the Message Exchange for Social care and Health (MESH) to send messages with NHS Notify.
