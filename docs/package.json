@@ -5,7 +5,8 @@
   "private": true,
   "engines": {},
   "scripts": {
-    "debug": "JEKYLL_ENV=development BUNDLE_GEMFILE=Gemfile bundle exec jekyll serve --config _config.yml,_config.dev.yml --limit_posts 100 --trace --livereload",
+    "build": "JEKYLL_ENV=production bundle exec jekyll build --trace --config _config.yml,_config.version.yml",
+    "debug": "JEKYLL_ENV=development BUNDLE_GEMFILE=Gemfile bundle exec jekyll serve --config _config.yml,_config.dev.yml,_config.version.yml --limit_posts 100 --trace",
     "test:accessibility": "pa11y-ci --config .pa11y-ci.js",
     "app:start": "pm2 start make -- serve",
     "app:stop": "pm2 kill"
@@ -22,5 +23,10 @@
     "pa11y-ci-reporter-html": "^6.0.2",
     "pm2": "^5.4.1",
     "sitemap": "^8.0.0"
+  },
+  "overrides": {
+    "pa11y-ci": {
+      "pa11y": "^8.0.0"
+    }
   }
 }

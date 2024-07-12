@@ -1,3 +1,7 @@
+BASE_URL ?= "/"
+VERSION ?= ""
+SHELL = /bin/bash
+
 default: install
 
 h help:
@@ -5,6 +9,8 @@ h help:
 
 include-npm-deps:
 	@cp node_modules/nhsuk-frontend/dist/nhsuk.min.js assets/js/nhsuk.min.js
+
+config: install
 
 install:
 	bundle config set --local path vendor/bundle
@@ -15,8 +21,22 @@ install:
 s serve:
 	bundle exec jekyll serve --trace --livereload
 
-build:
-	JEKYLL_ENV=production bundle exec jekyll build --trace
+build: version
+	npm run build $(baseurlparam)
 
-debug:
+debug: version
 	npm run debug
+
+version:
+	touch _config.version.yml
+	if [[ $(VERSION) == "" ]]; then \
+		(cd .. && make version); \
+		ver=$$(head -n 1 ../.version 2> /dev/null || echo unknown); \
+		echo "version: $$ver" > _config.version.yml; \
+		echo "$$ver" > .version; \
+	else \
+		echo "version: $(VERSION)" > _config.version.yml; \
+		echo "$(VERSION)" > .version; \
+	fi
+
+	echo "{ \"schemaVersion\": 1, \"label\": \"version\", \"message\": \"$$(head -n 1 .version 2> /dev/null || echo unknown)\", \"color\": \"orange\" }" > version.json
