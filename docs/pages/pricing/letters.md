@@ -20,11 +20,11 @@ Prices include:
 
 | Paper     | 1st class            | 2nd class            |
 | --------- | -------------------- | -------------------- |
-| 1 sheet   | Up to 82 pence + VAT | Up to 55 pence + VAT |
-| 2 sheets  | Up to 86 pence + VAT | Up to 60 pence + VAT |
-| 3 sheets  | Up to 90 pence + VAT | Up to 63 pence + VAT |
-| 4 sheets  | Up to 96 pence + VAT | Up to 68 pence + VAT |
-| 5 sheets  | Up to £1.00 + VAT    | Up to 73 pence + VAT |
+| 1 sheet   | Up to 97 pence + VAT | Up to 61 pence + VAT |
+| 2 sheets  | Up to £1.01 + VAT | Up to 65 pence + VAT |
+| 3 sheets  | Up to £1.05 + VAT | Up to 68 pence + VAT |
+| 4 sheets  | Up to £1.11 + VAT | Up to 75 pence + VAT |
+| 5 sheets  | Up to £1.15 + VAT    | Up to 79 pence + VAT |
 
 ## Letters in accessible formats
 

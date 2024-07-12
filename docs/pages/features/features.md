@@ -42,9 +42,14 @@ You can set up routing plans to:
 - set up fallbacks for messages that fail
 - stop sending messages after a channel is successful
 
+{% include components/action-link.html
+    url='/using-nhs-notify/routing-plans'
+    text='More about routing plans'
+%}
+
 ## Prevent sending people unnecessary messages
 
-NHS Notify uses the Personal Demographics Service to automatically prevent you from messaging recipients you cannot message.
+NHS Notify uses the Personal Demographics Service to automatically prevent you from messaging [recipients you cannot message]({% link pages/using-nhs-notify/recipients-you-cannot-message.md %}).
 
 ## Reach audiences with additional needs
 
