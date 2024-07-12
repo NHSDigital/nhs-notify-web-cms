@@ -26,9 +26,13 @@ module.exports = {
     chromeLaunchConfig: {
       args: ['--no-sandbox']
     },
+    rules: [
+      'Principle1.Guideline1_3.1_3_1_AAA',
+    ],
     useIncognitoBrowserContext: false,
     standard: 'WCAG2AA',
     userAgent: 'pa11y-ci',
+    concurrency: 8,
   },
   urls: getUrlsFromSiteMap()
 };;
