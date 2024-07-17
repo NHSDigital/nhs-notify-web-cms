@@ -9,14 +9,7 @@ nav_order: 2
 permalink: /pricing/text-messages
 ---
 
-NHS England organisations and services have an annual allowances of free text messages.
-
-The current allowance is:
-
-- 30,000 free text messages for national services
-- 10,000 free text messages for regional services
-
-When a service has used its annual allowance, it costs 2.27 pence (plus VAT) for each text message you send.
+It costs 2.27 pence (plus VAT) for each text message you send.
 
 You may pay more for each message, if you:
 
@@ -29,7 +22,7 @@ You may pay more for each message, if you:
 If a text message is longer than 160 characters (including spaces), it counts as more than one message.
 
 | Message length       | Charge          |
-| -------------------- | ----------------|
+| -------------------- | --------------- |
 | Up to 306 characters | 2 text messages |
 | Up to 459 characters | 3 text messages |
 | Up to 612 characters | 4 text messages |
@@ -44,7 +37,7 @@ Using them can increase the cost of sending text messages.
 
 ## Accents and accented characters
 
-Some languages, such as Welsh, use accented characters.
+Some languages use accented characters.
 
 The following accented characters do not affect the cost of sending text messages: Ä, É, Ö, Ü, à, ä, é, è, ì, ò, ö, ù, ü.
 
