@@ -18,13 +18,13 @@ Prices include:
 - double-sided black and white printing
 - C5 size envelopes with an address window
 
-| Paper     | 1st class            | 2nd class            |
-| --------- | -------------------- | -------------------- |
-| 1 sheet   | Up to 97 pence + VAT | Up to 61 pence + VAT |
-| 2 sheets  | Up to £1.01 + VAT | Up to 65 pence + VAT |
-| 3 sheets  | Up to £1.05 + VAT | Up to 68 pence + VAT |
-| 4 sheets  | Up to £1.11 + VAT | Up to 75 pence + VAT |
-| 5 sheets  | Up to £1.15 + VAT    | Up to 79 pence + VAT |
+| Paper    | 1st class            | 2nd class            |
+| -------- | -------------------- | -------------------- |
+| 1 sheet  | Up to 97 pence + VAT | Up to 61 pence + VAT |
+| 2 sheets | Up to £1.01 + VAT    | Up to 65 pence + VAT |
+| 3 sheets | Up to £1.05 + VAT    | Up to 68 pence + VAT |
+| 4 sheets | Up to £1.11 + VAT    | Up to 75 pence + VAT |
+| 5 sheets | Up to £1.15 + VAT    | Up to 79 pence + VAT |
 
 ## Letters in accessible formats
 
@@ -35,7 +35,6 @@ Learn more about NHS Notify’s accessible letter formats.
 | Accessible format           | Cost                      |
 | --------------------------- | ------------------------- |
 | Large print (16 point font) | Same as a standard letter |
-| Easy read                   | £1.70 + VAT               |
 | Braille                     | £1.98 + VAT               |
 | Audio CD                    | £2.80 + VAT               |
 

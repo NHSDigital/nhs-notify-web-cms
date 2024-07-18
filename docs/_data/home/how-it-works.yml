@@ -1,7 +1,7 @@
 - heading: Write your messages
   description: |
     Create and edit reusable templates for each message channel:
-    - NHS App messages
+    - NHS App messages and notifications
     - emails
     - text messages (SMS)
     - letters
