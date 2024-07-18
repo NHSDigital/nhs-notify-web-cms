@@ -6,6 +6,7 @@
 *.code-workspace          @NHSDigital/nhs-notify-amet
 
 /docs/                    @NHSDigital/nhs-notify-amet
+/docs/_data/              @NHSDigital/nhs-notify-web-cms
 /docs/_sass/              @NHSDigital/nhs-notify-web-cms
 /docs/_includes/          @NHSDigital/nhs-notify-web-cms
 /docs/_layouts/           @NHSDigital/nhs-notify-web-cms
