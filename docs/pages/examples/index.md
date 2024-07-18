@@ -68,7 +68,6 @@ this is with markdown here is a [link](#inset-text)
     '
 %}
 
-
 ## Details component
 
 {% include components/details.html
