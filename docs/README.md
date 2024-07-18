@@ -68,6 +68,7 @@ Below is a list of the supported nhsuk [design system components](https://servic
 - [Image](_includes/components/docs/image.component.md)
 - [Action link](_includes/components/docs/action-link.component.md)
 - [Inset text](_includes/components/docs/inset-text.component.md)
+- [Details](_includes/components/docs/details.component.md)
 
 ## Assets
 
