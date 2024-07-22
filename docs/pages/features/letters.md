@@ -15,7 +15,7 @@ You can use NHS Notify to print and bulk send letters to patients and members of
 {% include components/image.html
     src="nhs-notify-letter-two-sides-example.svg"
     alt="An image showing both sides of a letter sent by NHS Notify"
-    caption="An example of a black and white two sided letter sent by NHS Notify."
+    caption="An example of a black and white double-sided letter sent by NHS Notify."
 %}
 
 ## What you need to know
@@ -38,11 +38,11 @@ You might want to understand more about:
 
 To send letters with NHS Notify, your content must meet our letter specification. This is done automatically for you when you create a letter template using NHS Notify.
 
-Page size and layout: A4 portrait (210 x 297mm)
+The page size and layout is A4 portrait (210 x 297mm).
 
 ## Envelopes
 
-NHS Notify uses C5 size envelopes with an address window. This means the A4 letter is folded in half with the recipients address displayed in the address window.
+NHS Notify uses C5 size envelopes with an address window. This means the A4 letter is folded in half with the recipient's address displayed in the address window.
 
 {% include components/image.html
     src="nhs-notify-envelope-example.svg"
