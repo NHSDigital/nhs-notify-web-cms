@@ -12,6 +12,7 @@ permalink: /examples/
   - [Standard link](#standard-link)
   - [Action link](#action-link)
 - [Inset text](#inset-text)
+- [Details component](#details-component)
 
 ## Table
 
@@ -59,6 +60,20 @@ Examples of different types of links.
 {% include components/inset-text.html
     text='
 this is with markdown here is a [link](#inset-text)
+
+- list item 1
+- list item 2
+- list item 3
+  - nested 3.1
+    '
+%}
+
+## Details component
+
+{% include components/details.html
+    heading='Example details expander'
+    text='
+this is with markdown here is a [link](https://service-manual.nhs.uk/design-system/components/details)
 
 - list item 1
 - list item 2
