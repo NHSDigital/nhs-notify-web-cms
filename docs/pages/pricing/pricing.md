@@ -15,15 +15,13 @@ There’s also:
 
 - no monthly charge
 - no setup or integration fee
-- no procurement cost
+- no procurement fees
 
 Find out [how to pay]({% link pages/pricing/how-to-pay.md %}).
 
 ## Text messages (SMS)
 
-NHS England organisations and service have an annual allowance of free text messages.
-
-When you've used your annual allowance, it costs 2.27 pence (plus VAT) per text message.
+It costs 2.27 pence (plus VAT) for every text message you send.
 
 {% include components/action-link.html
     url='/pricing/text-messages'

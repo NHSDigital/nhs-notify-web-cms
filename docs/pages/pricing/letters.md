@@ -35,7 +35,6 @@ Learn more about NHS Notify’s [accessible letter formats]({% link pages/using-
 | Accessible format           | Cost                      |
 | --------------------------- | ------------------------- |
 | Large print (16 point font) | Same as a standard letter |
-| Easy read                   | £1.70 + VAT               |
 | Braille                     | £1.98 + VAT               |
 | Audio CD                    | £2.80 + VAT               |
 
