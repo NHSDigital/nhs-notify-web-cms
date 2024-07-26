@@ -18,9 +18,7 @@ You need to decide whether to message recipients based on their access or langua
 
 ## Sending messages in accessible formats and other languages
 
-We’ll only send messages in accessible formats or other languages if you’ve created templates that meet recipients’ access or language needs.
-
-Read more about sending messages in [accessible formats]({% link pages/using-nhs-notify/accessible-formats.md %}) or [other languages]({% link pages/using-nhs-notify/letters-in-other-languages.md %}).
+We’ll only send messages in [accessible formats]({% link pages/using-nhs-notify/accessible-formats.md %}) or [other languages]({% link pages/using-nhs-notify/letters-in-other-languages.md %}) if you’ve created templates that meet recipients’ access or language needs.
 
 ## Message channel preferences
 

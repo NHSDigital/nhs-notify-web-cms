@@ -18,29 +18,19 @@ You can see formatting instructions while you’re editing a template.
 
 Email templates can include:
 
-<!-- no toc -->
-
-- [Formatting options](#formatting-options)
-- [Guidance](#guidance)
-  - [Bullet points](#bullet-points)
-    - [How to add personalised bullet points](#how-to-add-personalised-bullet-points)
-  - [Headings](#headings)
-  - [Horizontal lines](#horizontal-lines)
-  - [Numbered lists](#numbered-lists)
-  - [Page breaks](#page-breaks)
+- [bullet points](#bullet-points)<!-- markdownlint-disable-line -->
+- [headings](#headings)
+- [horizontal lines](#horizontal-lines)
+- [numbered lists](#numbered-lists)
+- [page breaks](#page-breaks)
 
 Letter templates can include:
 
-<!-- no toc -->
-
-- [Formatting options](#formatting-options)
-- [Guidance](#guidance)
-  - [Bullet points](#bullet-points)
-    - [How to add personalised bullet points](#how-to-add-personalised-bullet-points)
-  - [Headings](#headings)
-  - [Horizontal lines](#horizontal-lines)
-  - [Numbered lists](#numbered-lists)
-  - [Page breaks](#page-breaks)
+- [bullet points](#bullet-points)<!-- markdownlint-disable-line -->
+- [headings](#headings)
+- [horizontal lines](#horizontal-lines)
+- [numbered lists](#numbered-lists)
+- [page breaks](#page-breaks)
 
 ## Guidance
 

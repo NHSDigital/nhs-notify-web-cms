@@ -14,9 +14,11 @@ It’s important that your recipients know and trust who has sent them a message
 
 You can change the:
 
-- [NHS App sender ID](#nhs-app-sender-id)
-- [Text message sender ID](#text-message-sender-id)
-- [Reply-to email address](#reply-to-email-address)
+- [NHS App sender ID](#nhs-app-sender-id)<!-- markdownlint-disable-line -->
+- [text message sender ID](#text-message-sender-id)
+- [reply-to email address](#reply-to-email-address)
+
+## Return addresses
 
 You cannot change the return addresses of letters. These are set by NHS Notify’s suppliers and are printed on the envelopes.
 

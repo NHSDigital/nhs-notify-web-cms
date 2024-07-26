@@ -16,7 +16,9 @@ NHS Notify allows you to message patients and members of the public using other 
 
 NHS Notify can support any languages and character sets that are listed in the [Personal Demographics Service (PDS)](https://digital.nhs.uk/services/personal-demographics-service).
 
-We currently support the following languages and their character sets:
+{% include components/details.html
+heading='Languages and character sets we support'
+text='
 
 - Albanian
 - Arabic
@@ -45,7 +47,8 @@ We currently support the following languages and their character sets:
 - Spanish
 - Tamil
 - Turkish
-- Urdu
+- Urdu'
+  %}
 
 {% include components/inset-text.html
   text="You can request additional languages, as long as they’re in PDS. We’ll need to test these languages so make sure you leave enough time for this."
