@@ -15,7 +15,7 @@ You can send personalised messages using a single template.
 To personalise a message, use double brackets to add a placeholder to your content. For example:
 
 {% include components/inset-text.html
-    text='Hello ((firstName)), your NHS Number is ((nhsNumber))'
+    text='<code>Hello ((firstName)), your NHS Number is ((nhsNumber))'
 %}
 
 NHS Notify uses the Personal Demographics Service to find and populate certain personalisation fields.

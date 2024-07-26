@@ -3,7 +3,7 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: page
-title: Providing NHS Numbers
+title: Providing NHS numbers
 parent: Using NHS Notify
 nav_order: 8
 permalink: /using-nhs-notify/providing-nhs-numbers
@@ -14,13 +14,14 @@ You only need a patient's [NHS number](https://digital.nhs.uk/services/personal
 
 NHS Notify finds people's contact details using their NHS numbers in the [Personal Demographics Service (PDS)](https://digital.nhs.uk/services/personal-demographics-service).
 
-## How to provide recipients' NHS Numbers
+## How to provide recipients' NHS numbers
 
 ### If you're using the API
 
 Send recipients' NHS numbers as part of your request.
 
-[Our API documentation](https://digital.nhs.uk/developer/api-catalogue/nhs-notify) shows the format to use.
+Use the format shown in the
+<a href="https://digital.nhs.uk/developer/api-catalogue/nhs-notify" target="_blank">API documentation (opens in a new tab)</a>.
 
 ### If you're using MESH
 

@@ -18,7 +18,7 @@ You can change the:
 - [Text message sender ID](#text-message-sender-id)
 - [Reply-to email address](#reply-to-email-address)
 
-You cannot change the return addresses of letters. These are set by NHS Notify’s suppliers and are printed on each letter’s envelope.
+You cannot change the return addresses of letters. These are set by NHS Notify’s suppliers and are printed on the envelopes.
 
 ## NHS App sender ID
 
@@ -26,7 +26,7 @@ The NHS App uses your service or organisation’s ODS code to set up your NHS Ap
 
 NHS Notify will ask you for your ODS code during onboarding.
 
-Find your ODS code with the ODS Portal.
+Find your ODS code with the [ODS Portal](https://odsportal.digital.nhs.uk/).
 
 ## Text message sender ID
 
@@ -40,6 +40,6 @@ You can choose the email address that your emails are sent from and if your reci
 
 Emails with a reply-to address seem more trustworthy and are less likely to be labelled as spam.
 
-You will set your reply-to email address during onboarding.
+You'll set your reply-to email address during onboarding.
 
 If you want to allow recipients to reply to your emails, your service or organisation must have appropriate processes in place.

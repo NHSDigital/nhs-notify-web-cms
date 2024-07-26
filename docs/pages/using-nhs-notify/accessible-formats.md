@@ -18,11 +18,16 @@ All organisations that provide NHS care or publicly-funded adult social care are
 
 NHS Notify offers the following letter formats so you can reach people with access needs.
 
-| Accessible format    | Description |
-| -------- | ------- |
-| Large print  | Letters that have a larger font than usual. Large print letters typically have a point size of 16 and above.    |
-| Braille | Includes the original letter and a Braille insert. NHS Notify uses the Royal National Institute of Blind People (RNIB) to translate your content into Braille so that blind and partially sighted people can read your messages.    |
-| Audio CD | Includes the original letter and a CD that plays a spoken recording of your letter's content.  |
+| Accessible format | Description                                                                                                                                                                                                                      |
+| ----------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Large print       | Letters that have a larger font than usual. Large print letters typically have a point size of 16 and above.                                                                                                                     |
+| Braille           | Includes the original letter and a Braille insert. NHS Notify uses the Royal National Institute of Blind People (RNIB) to translate your content into Braille so that blind and partially sighted people can read your messages. |
+| Audio CD          | Includes the original letter and a CD that plays a spoken recording of your letter's content.                                                                                                                                    |
+
+{% include components/action-link.html
+    url='/pricing/letters'
+    text='More about accessible letter format pricing'
+%}
 
 ## Other accessible formats
 
@@ -33,7 +38,7 @@ You can include links in your messages to take recipients to other accessible fo
 
 You’ll need to arrange these accessible formats. NHS Notify does not provide them for you.
 
-This is available for NHS App messages, emails, text messages and letters
+This is available for all message channels.
 
 ## How to send messages in accessible formats
 
@@ -58,11 +63,9 @@ Provide recipients' NHS numbers as separate data files for each type of accessib
 
 It’s your responsibility to message recipients based on their access needs.
 
-NHS Notify can check who needs accessible formats, but we’ll only send them an accessible format if you've created a template that matches.
+NHS Notify can check who needs accessible formats, but we’ll only send them an accessible format if:
 
-We’ll send the accessible letter format if:
-
-- you've given us the accessible template
-- PDS confirms there are recipients with access needs
+- you've created an accessible template that matches
+- PDS confirms they have access needs
 
 We’ll send the standard letter if you've not given us the accessible template, even if PDS says there are recipients with access needs.

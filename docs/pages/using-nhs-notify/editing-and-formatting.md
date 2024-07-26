@@ -19,21 +19,28 @@ You can see formatting instructions while you’re editing a template.
 Email templates can include:
 
 <!-- no toc -->
-- [bullet points](#bullet-points)
-- [headings](#headings)
-- [horizontal lines](#horizontal-lines)
-- [inset text](#inset-text)
-- [numbered steps](#numbered-steps)
-- [page breaks](#page-breaks)
+
+- [Formatting options](#formatting-options)
+- [Guidance](#guidance)
+  - [Bullet points](#bullet-points)
+    - [How to add personalised bullet points](#how-to-add-personalised-bullet-points)
+  - [Headings](#headings)
+  - [Horizontal lines](#horizontal-lines)
+  - [Numbered lists](#numbered-lists)
+  - [Page breaks](#page-breaks)
 
 Letter templates can include:
+
 <!-- no toc -->
-- [bullet points](#bullet-points)
-- [headings](#headings)
-- [horizontal lines](#horizontal-lines)
-- [inset text](#inset-text)
-- [numbered steps](#numbered-steps)
-- [page breaks](#page-breaks)
+
+- [Formatting options](#formatting-options)
+- [Guidance](#guidance)
+  - [Bullet points](#bullet-points)
+    - [How to add personalised bullet points](#how-to-add-personalised-bullet-points)
+  - [Headings](#headings)
+  - [Horizontal lines](#horizontal-lines)
+  - [Numbered lists](#numbered-lists)
+  - [Page breaks](#page-breaks)
 
 ## Guidance
 
@@ -49,13 +56,8 @@ You can either:
 Copy this example to add bullet points:
 
 {% include components/inset-text.html
-    text='Introduce bullet points with a lead-in line ending with a colon:
-
-- leave one empty line space after the lead-in line
-- use an asterisk or a dash followed by a space to add an item
-- start each item with a lowercase letter, do not end with a full stop
-- leave one empty line space after the last item'
-%}
+  text='<code>Introduce bullet points with a lead-in line ending with a colon:<br><br>- leave one empty line space after the lead-in line <br>- use an asterisk or a dash followed by a space to add an item<br>&nbsp;</code>'
+    %}
 
 To create sub-items, add an indent of 2 spaces before the asterisk or dash.
 
@@ -64,16 +66,7 @@ To create sub-items, add an indent of 2 spaces before the asterisk or dash.
 Copy this example to add a placeholder to your message template:
 
 {% include components/inset-text.html
-    text='Introduce bullet points with a lead-in line ending in a colon:
-
-((bullet points))
-
-Leave one empty line space before the next paragraph.
-To send the message, upload a list of recipient details.
-
-Your spreadsheet should include one column for each bullet point. The column names must match the placeholder in the template.
-
-Notify will fill in the placeholder with your bullet points.'
+text='<code>Introduce bullet points with a lead-in line ending in a colon:<br><br>((bullet points))<br><br>Leave one empty line space before the next paragraph. To send the message, upload a list of recipient details.<br><br>Your spreadsheet should include one column for each bullet point. The column names must match the placeholder in the template.<br><br>NHS Notify will fill in the placeholder with your bullet points.'
 %}
 
 There's more [guidance about bullet points on GOV.UK](https://www.gov.uk/guidance/style-guide/a-to-z-of-gov-uk-style#bullet-points-steps).
@@ -91,13 +84,13 @@ Write all headings and subheadings in sentence case.
 Use one hash symbol followed by a space for a heading in emails and letters, for example:
 
 {% include components/inset-text.html
-    text='# This is a heading'
+    text='<code># This is a heading'
 %}
 
 Use 2 hash symbols followed by a space for a subheading in emails, for example:
 
 {% include components/inset-text.html
-    text='## This is a subheading'
+    text='<code>## This is a subheading'
 %}
 
 ### Horizontal lines
@@ -107,46 +100,19 @@ Use a horizontal line to create separate sections in an email template.
 To add a horizontal line between 2 paragraphs, use 3 dashes. Leave one empty line space after the first paragraph. For example:
 
 {% include components/inset-text.html
-    text='First paragraph
- ---
-Second paragraph'
+text='<code>First paragraph<br><br>---<br><br>Second paragraph'
 %}
 
-### Inset text
+### Numbered lists
 
-Use inset text to differentiate a block of text from the content that surrounds it, for example:
-
-- quotes
-- examples
-- additional information
-
-To add inset text, use a caret. For example:
-
-{% include components/inset-text.html
-    text='^ You must tell us if your circumstances change.'
-%}
-
-Use inset text very sparingly – it’s less effective if it’s overused.
-
-There’s more [guidance about inset text in the GOV.UK Design System](https://design-system.service.gov.uk/components/inset-text/).
-
-### Numbered steps
-
-Use numbered steps instead of bullet points to guide a user through a process, or when the order of the items in a list is relevant.
+Use numbered lists instead of bullet points to guide a user through a process, or when the order of the items in a list is relevant.
 
 You do not need a lead-in line for a numbered list.
 
 Copy this example to add numbered steps:
 
 {% include components/inset-text.html
-    text='
-
-1. Leave one empty line space before starting your list.
-2. Enter a number followed by a full stop and a space to add an item.
-3. Start each item with a capital letter and end it with a full stop.
-4. Leave one empty line space after the last item.
-
-'
+text='<code><br><br>1. Leave one empty line space before starting your list.<br>2. Enter a number followed by a full stop and a space to add an item.<br>3. Start each item with a capital letter and end it with a full stop.<br>4. Leave one empty line space after the last item.'
 %}
 
 To create sub-items, add an indent of 2 spaces before the number.
@@ -158,7 +124,5 @@ There’s more guidance about numbered lists in the GOV.UK Design System.
 To insert a page break in a letter template, use 3 asterisks. For example:
 
 {% include components/inset-text.html
-    text='Content on page 1
-***
-Content on page 2'
+text='<code>Content on page 1<br><br>***<br><br>Content on page 2'
 %}

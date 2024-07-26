@@ -11,7 +11,7 @@ section: Writing a message
 
 ---
 
-You will need to create a routing plan to decide how messages will be sent to your recipients.
+You'll need to create a routing plan to decide how messages will be sent to your recipients.
 
 Setting up a routing plan can make your messages more effective and sometimes lower messaging costs.
 

@@ -72,11 +72,9 @@ Aim to keep your message content to 2 double-sided sheets to save costs. This wi
 
 You can decide whether to message recipients based on their language preferences.
 
-NHS Notify checks who needs letters in other languages, but we’ll only send them these if you've created a template that matches.
+NHS Notify checks who needs letters in other languages, but we’ll only send them these if:
 
-We’ll send the translation (along with the English version) if:
-
-- you've given us the translation
-- PDS confirms there are recipients who need messages in this language
+- you've created a template in another language that matches
+- PDS confirms they need messages in this language
 
 We’ll send the letter in English if you've not given us the translation, even if PDS says recipients need messages in other languages.
