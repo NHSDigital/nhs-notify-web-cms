@@ -102,7 +102,7 @@ You do not need a lead-in line for a numbered list.
 Copy this example to add numbered steps:
 
 {% include components/inset-text.html
-text='<code><br><br>1. Leave one empty line space before starting your list.<br>2. Enter a number followed by a full stop and a space to add an item.<br>3. Start each item with a capital letter and end it with a full stop.<br>4. Leave one empty line space after the last item.'
+text='<code><br>1. Leave one empty line space before starting your list.<br>2. Enter a number followed by a full stop and a space to add an item.<br>3. Start each item with a capital letter and end it with a full stop.<br>4. Leave one empty line space after the last item.'
 %}
 
 To create sub-items, add an indent of 2 spaces before the number.
