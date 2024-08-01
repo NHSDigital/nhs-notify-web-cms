@@ -27,4 +27,4 @@ If you work in NHS England and want to start using NHS Notify, find out how to [
 
 ## I have questions about NHS Notify
 
-If you work in an NHS England team that’s not currently using NHS Notify and you have further questions, email our engagement team.
+If you work in an NHS England team that’s not currently using NHS Notify and you have further questions, email our engagement team via <onboarding-email@nhs.net>.

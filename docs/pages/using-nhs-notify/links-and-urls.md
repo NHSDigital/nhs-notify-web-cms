@@ -13,7 +13,7 @@ section: Writing a message
 When composing a message, write URLs in full. For example:
 
 {% include components/inset-text.html
-    text='Book now at https://www.nhs.uk/example'
+    text='<code>Book now at https://www.nhs.uk/example'
 %}
 
 URLs should be easy to read.
@@ -47,13 +47,13 @@ NHS Notify uses Markdown to format link text.
 To convert text into a link, use square brackets around the link text and round brackets around the url. Make sure there are no spaces between the brackets or the link will not work. For example:
 
 {% include components/inset-text.html
-    text='[Book now](https://www.nhs.uk/example)'
+    text='<code>[Book now](https://www.nhs.uk/example)'
 %}
 
 You cannot use Markdown to add link text to a text message or letter template.
 
-To see formatting instructions while you’re editing an email template:
+To see message formatting instructions while you’re editing an email template:
 
 1. Go to the Templates page.
-2. Add a new email template or choose an existing email template and select Edit.
-3. Scroll down to see a guide to the available Markdown.
+2. Create a new email template or choose an existing email template and select Edit.
+3. The formatting guide with the available Markdown is on the right-hand side of the page.

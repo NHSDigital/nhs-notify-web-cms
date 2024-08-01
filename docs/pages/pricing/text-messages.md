@@ -11,7 +11,7 @@ permalink: /pricing/text-messages
 
 It costs 2.27 pence (plus VAT) for each text message you send.
 
-You may pay more for each message, if you:
+You may pay more for each message if you:
 
 - send text messages longer than 160 characters
 - use certain signs and symbols
@@ -23,6 +23,7 @@ If a text message is longer than 160 characters (including spaces), it counts as
 
 | Message length       | Charge          |
 | -------------------- | --------------- |
+| Up to 160 characters | 1 text messages |
 | Up to 306 characters | 2 text messages |
 | Up to 459 characters | 3 text messages |
 | Up to 612 characters | 4 text messages |
@@ -31,7 +32,7 @@ If a text message is longer than 160 characters (including spaces), it counts as
 
 ## Signs and symbols
 
-The following signs and symbols count as 2 characters each: []{}^\|~€
+The following signs and symbols count as 2 characters each: []{}^\|~€.
 
 Using them can increase the cost of sending text messages.
 
@@ -43,10 +44,10 @@ The following accented characters do not affect the cost of sending text message
 
 Using other accented characters can increase the cost of sending text messages.
 
-| Message length                | Charge                    |
-| ----------------------------- | ------------------------- |
-| Up to 70 characters           | 2 text messages           |
-| Up to 134 characters          | 3 text messages           |
-| Up to 201 characters          | 4 text messages           |
-| Up to 268 characters          | 5 text messages           |
-| Each additional 67 characters | 1 additional text message |
+| Message length                          | Charge                    |
+| --------------------------------------- | ------------------------- |
+| Up to 70 accented characters            | 1 text messages           |
+| Up to 134 accented characters           | 2 text messages           |
+| Up to 201 accented characters           | 3 text messages           |
+| Up to 268 accented characters           | 4 text messages           |
+| Every additional 67 accented characters | 1 additional text message |

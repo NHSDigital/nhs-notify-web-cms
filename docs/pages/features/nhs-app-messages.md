@@ -10,7 +10,7 @@ permalink: /features/nhs-app-messages
 section: Message channels
 ---
 
-Send free unlimited messages to patients and members of the public that have the NHS App.
+Send free unlimited messages to patients and members of the public who have the NHS App.
 
 {% include components/image.html
     src="nhs-notify-nhs-app-example-2.svg"
@@ -38,11 +38,13 @@ Recipients can choose if they want to receive notifications in the NHS App or in
 
 Banner notifications are short messages that appear on the lock screen of a recipient’s device. They show the recipient that there is an unopened message waiting in their NHS App inbox.
 
+When a user selects the banner notification, this opens their message in the NHS App.
+
 To protect recipients, banner notifications pushed by the NHS App do not include any of your message content.
 
 {% include components/image.html
     src="nhs-notify-nhs-app-banner-notification.svg"
-    alt="An image of two mobile devices side by side showing an example banner notification for both iPhone and Android devices pushed by the NHS App."
+    alt="An image of 2 mobile devices side by side showing an example banner notification for both iPhone and Android devices pushed by the NHS App."
     caption="An example of a banner notification pushed to an iPhone and an Android device by the NHS App."
 %}
 
@@ -53,5 +55,5 @@ When a recipient receives a NHS App message, a badge notification will appear on
 {% include components/image.html
     src="nhs-notify-nhs-app-badge-notification.svg"
     alt="A screenshot of the NHS App icon with a red badge showing 1 notification."
-    caption="An example of a badge notification pushed by NHS App when a message is sent to a recipient’s NHS App inbox."
+    caption="An example of a badge notification pushed by the NHS App when a message is sent to a recipient’s NHS App inbox."
 %}

@@ -23,18 +23,18 @@ You can [contact us]({% link pages/support/support.md %}) if you:
 ## Things we're working on now
 
 - Let users provide alternative contact details in certain approved circumstances
-- Standardise letter printing using PDFs
 - Improve onboarding for new users
 - Increase print capacity and resilience by bringing in an additional supplier
 - Let users create and manage their own templates
 - Publish a new website with information about NHS Notify
-- Let users manage their own routing plans
 - Provide real-time message statuses to show whether messages have been successfully delivered
 - Show users which recipients have NHS App accounts and notifications enabled
 - Let users subscribe to more detailed NHS APP message statuses
 
 ## Things we'll do later
 
+- Let users manage their own routing plans
+- Standardise letter printing using PDFs
 - Improve how we validate postal addresses
 - Develop more efficient onboarding processes
 - Provide more granular message statuses for all channels

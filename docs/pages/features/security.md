@@ -13,30 +13,31 @@ NHS Notify is part of NHS England and is built for the security needs of its org
 
 This means NHS Notify:
 
-- uses the Data Security and Protection Toolkit (DSPT) self-assessment return and holds the status “Standards Met”
-- is a GDPR compliant service
-- aligns to the Information Security Management System standard (ISO 27001:2022)
+- uses the Data Security and Protection Toolkit (DSPT) self-assessment return and holds the status 'Standards Met'
+- is a General Data Protection Regulation (GDPR) compliant service
+- aligns to the information security management system standard (ISO 27001:2022)
 - uses the Cyber Assessment Framework (CAF), developed by the National Cyber Security Centre (NCSC)
-- adheres to the 10 National Data Guardian's Data Security Standards
+- adheres to the 10 National Data Guardian's data security standards
 
 NHS Notify also has approaches for:
 
-- [Network security](#network-security)
-- [Security groups and policies](#security-groups-and-policies)
-- [Secure development practices](#secure-development-practices)
-- [Data protection](#data-protection)
-- [Patch management](#patch-management)
-- [Security monitoring and logging](#security-monitoring-and-logging)
-- [Security configuration](#security-configuration)
-- [Regulatory compliance](#regulatory-compliance)
+<!-- no toc -->
+- [network security](#network-security)
+- [security groups and policies](#security-groups-and-policies)
+- [secure development practices](#secure-development-practices)
+- [data protection](#data-protection)
+- [patch management](#patch-management)
+- [security monitoring and logging](#security-monitoring-and-logging)
+- [security configuration](#security-configuration)
+- [regulatory compliance](#regulatory-compliance)
 
 ## Network security
 
 NHS Notify maintains network security by:
 
-- configure and managing virtual networks securely
-- using firewalls, network security groups, and other tools to control and monitor inbound and outbound traffic
-- implementing Virtual Private Clouds (VPCs) for private network environments
+- configuring and managing virtual networks securely
+- using firewalls, network security groups and other tools to control and monitor inbound and outbound traffic
+- implementing virtual private clouds (VPCs) for private network environments
 - performing intrusion detection and prevention monitoring to identify and respond to potential threats via the Cyber Security Operations Centre (CSOC)
 
 ## Security groups and policies
@@ -44,14 +45,14 @@ NHS Notify maintains network security by:
 NHS Notify:
 
 - defines and enforces security groups and policies
-- restrict communications between different components in the cloud environment
+- restricts communications between different components in the cloud environment
 - regularly reviews and updates security group configurations
 
 ## Secure development practices
 
 NHS Notify develops its service securely by:
 
-- following secure coding practices for applications.
+- following secure coding practices for applications
 - conducting regular security assessments, code reviews, and testing
 - implementing continuous integration and continuous deployment (CI/CD) security controls within the pipeline
 
@@ -78,7 +79,7 @@ NHS Notify monitors and logs its security by:
 
 - implementing continuous monitoring for suspicious activities
 - observing and monitoring resources and applications
-- maintaining logs for auditing, analysis, and forensic purposes
+- maintaining logs for auditing, analysis and forensic purposes
 
 ## Security configuration
 

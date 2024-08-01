@@ -16,7 +16,9 @@ NHS Notify allows you to message patients and members of the public using other 
 
 NHS Notify can support any languages and character sets that are listed in the [Personal Demographics Service (PDS)](https://digital.nhs.uk/services/personal-demographics-service).
 
-We currently support the following languages and their character sets:
+{% include components/details.html
+heading='Languages and character sets we support'
+text='
 
 - Albanian
 - Arabic
@@ -45,7 +47,8 @@ We currently support the following languages and their character sets:
 - Spanish
 - Tamil
 - Turkish
-- Urdu
+- Urdu'
+  %}
 
 {% include components/inset-text.html
   text="You can request additional languages, as long as they’re in PDS. We’ll need to test these languages so make sure you leave enough time for this."
@@ -72,11 +75,9 @@ Aim to keep your message content to 2 double-sided sheets to save costs. This wi
 
 You can decide whether to message recipients based on their language preferences.
 
-NHS Notify checks who needs letters in other languages, but we’ll only send them these if you've created a template that matches.
+NHS Notify checks who needs letters in other languages, but we’ll only send them these if:
 
-We’ll send the translation (along with the English version) if:
-
-- you've given us the translation
-- PDS confirms there are recipients who need messages in this language
+- you've created a template in another language that matches
+- PDS confirms they need messages in this language
 
 We’ll send the letter in English if you've not given us the translation, even if PDS says recipients need messages in other languages.

@@ -105,9 +105,8 @@
     "githubCodeOwners.format.enabled": true,
     "markdownlint.config": {
       "MD013": false,
-      "MD024": {
-        "siblings_only": true
-      },
+      "MD024": { "siblings_only": true },
+      "MD032": false,
       "MD033": false
     },
     "window.title": "${separator}${activeRepositoryName}${separator}${activeRepositoryBranchName}${separator}[${remoteName}]",

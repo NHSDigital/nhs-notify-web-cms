@@ -11,7 +11,7 @@ permalink: /pricing/how-to-pay
 
 This page describes how NHS England organisations and services pay for the messages they send using NHS Notify.
 
-If you’re not part of NHS England but will soon be using NHS Notify, we are currently developing another payment process.
+If you’re not part of NHS England but will soon be using NHS Notify, we're currently developing another payment process.
 
 ## Before you start
 
@@ -21,8 +21,8 @@ You must provide your cost centre number before you start sending messages. This
 
 ## Cross charging
 
-NHS Notify checks invoices from its suppliers against your monthly message volumes to see if they are correct. You will soon be able to use our dashboard to track how much you’ve spent.
+NHS Notify checks invoices from its suppliers against your monthly message volumes to see if they're correct. You'll soon be able to use our dashboard to track how much you’ve spent.
 
-We then receipt supplier invoices with the NHS England finance team and cross-charge your service or organisation at the end of the month.
+We then receipt supplier invoices with the NHS England finance team and cross charge your service or organisation at the end of the month.
 
-You will only ever be charged for text messages and letters that you have sent.
+You'll only ever be charged for the text messages and letters that you've sent.

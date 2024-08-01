@@ -30,7 +30,7 @@ It costs 2.27 pence (plus VAT) for every text message you send.
 
 ## Letters
 
-It costs up to 61p (plus VAT) to send 1 A4 sheet letter with both sides printed using 2nd class postage.
+It costs up to 61p (plus VAT) to send a one-sheet letter with both sides printed using 2nd class postage.
 
 {% include components/action-link.html
     url='/pricing/letters'
