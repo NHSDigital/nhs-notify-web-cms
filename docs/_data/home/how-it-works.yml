@@ -1,6 +1,6 @@
 - heading: Write your messages
   description: |
-    Create reusable templates or use free-text templates for each message channel:
+    Create reusable templates or free-text messages for each message channel:
     - NHS App messages and notifications
     - emails
     - text messages (SMS)

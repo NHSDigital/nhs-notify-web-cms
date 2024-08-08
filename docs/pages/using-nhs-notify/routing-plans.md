@@ -5,7 +5,7 @@
 layout: page
 title: Routing plans
 parent: Using NHS Notify
-nav_order: 3
+nav_order: 4
 permalink: /using-nhs-notify/routing-plans
 section: Sending a message
 ---
