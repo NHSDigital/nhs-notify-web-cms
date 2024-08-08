@@ -8,6 +8,7 @@ parent: Using NHS Notify
 nav_order: 1
 permalink: /using-nhs-notify/editing-and-formatting
 section: Writing a message
+published: false
 ---
 
 NHS Notify uses Markdown to format content for emails and letters.

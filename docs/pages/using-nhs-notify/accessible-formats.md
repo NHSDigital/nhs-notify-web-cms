@@ -5,9 +5,9 @@
 layout: page
 title: Accessible formats
 parent: Using NHS Notify
-nav_order: 5
+nav_order: 4
 permalink: /using-nhs-notify/accessible-formats
-section: Writing a message
+section: Sending a message
 ---
 
 Before you start to send messages, consider the access needs of your recipients.

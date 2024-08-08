@@ -8,6 +8,7 @@ parent: Using NHS Notify
 nav_order: 2
 permalink: /using-nhs-notify/links-and-urls
 section: Writing a message
+published: false
 ---
 
 When composing a message, write URLs in full. For example:

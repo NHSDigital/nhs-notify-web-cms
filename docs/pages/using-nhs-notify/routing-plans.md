@@ -5,10 +5,9 @@
 layout: page
 title: Routing plans
 parent: Using NHS Notify
-nav_order: 9
+nav_order: 3
 permalink: /using-nhs-notify/routing-plans
-section: Writing a message
-
+section: Sending a message
 ---
 
 You'll need to create a routing plan to decide how messages will be sent to your recipients.
