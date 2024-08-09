@@ -1,6 +1,6 @@
 - heading: Write your messages
   description: |
-    Create and edit reusable templates for each message channel:
+    Create reusable templates or free-text messages for each message channel:
     - NHS App messages and notifications
     - emails
     - text messages (SMS)
@@ -8,15 +8,15 @@
   image: 1-write-your-message.svg
   image_alt: A screenshot showing how you write messages using NHS Notify's user interface.
 
-- heading: Choose your recipients
+- heading: Tell us who to message using their NHS number
   description: |
-    Provide the NHS numbers of the people you want to send messages to.
+    You only need a person’s NHS number to send them messages.
   image: 2-choose-your-recipients.svg
-  image_alt: A screenshot of computer code showing how you choose your message recipients.
+  image_alt: A screenshot of computer code showing how you provide your recipients.
 
 - heading: Plan how your messages will be sent
   description: |
-    Set up routing plans to decide how your messages will be sent to your recipients.
+    Set up routing plans to decide how your messages will be sent to recipients.
   image: 3-plan-your-messages.svg
   image_alt: A graphic of a phone, laptop and letter (numbered 1, 2 and 3 in that order) to show that you can send messages with each message channel in a specific order.
 

@@ -26,9 +26,7 @@ Create reusable templates for the message channels you want to use.
 
 Once you’ve created a template you can:
 
-- [edit and format your messages]({% link pages/using-nhs-notify/editing-and-formatting.md %})
 - [add personalisation]({% link pages/using-nhs-notify/personalisation.md %})
-- [include links and URLs]({% link pages/using-nhs-notify/links-and-urls.md %})
 - [tell recipients who your messages are from]({% link pages/using-nhs-notify/tell-recipients-who-your-messages-are-from.md %})
 
 ## Plan how your messages will be sent
@@ -67,7 +65,7 @@ Track how many messages you’ve sent and find out which ones are not being deli
 
 To send messages automatically, you’ll need a developer to integrate with the NHS Notify API.
 
-[Read our API documentation (opens in a new tab)](https://digital.nhs.uk/developer/api-catalogue/nhs-notify){:target="_blank"}.
+[Read our API documentation (opens in a new tab)](https://digital.nhs.uk/developer/api-catalogue/nhs-notify){:target="\_blank"}.
 
 ## Keep your data secure
 

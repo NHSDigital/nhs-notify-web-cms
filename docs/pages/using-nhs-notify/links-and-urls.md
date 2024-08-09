@@ -8,6 +8,7 @@ parent: Using NHS Notify
 nav_order: 2
 permalink: /using-nhs-notify/links-and-urls
 section: Writing a message
+published: false
 ---
 
 When composing a message, write URLs in full. For example:
@@ -57,3 +58,5 @@ To see message formatting instructions while you’re editing an email template:
 1. Go to the Templates page.
 2. Create a new email template or choose an existing email template and select Edit.
 3. The formatting guide with the available Markdown is on the right-hand side of the page.
+
+CCM-6061 and CCM-6075 commit workaround.
