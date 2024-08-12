@@ -5,9 +5,9 @@
 layout: page
 title: Recipients you cannot message
 parent: Using NHS Notify
-nav_order: 10
+nav_order: 6
 permalink: /using-nhs-notify/recipients-you-cannot-message
-section: Writing a message
+section: Sending a message
 ---
 
 NHS Notify automatically prevents you from sending messages to people who you should not contact. This includes recipients with certain information on their records.

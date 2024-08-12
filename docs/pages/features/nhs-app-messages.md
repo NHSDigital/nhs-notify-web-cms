@@ -26,7 +26,6 @@ You might also want to understand more about:
 
 - [delivery times for NHS App messages]({% link pages/using-nhs-notify/delivery-times.md %})
 - [how to tell recipients who your NHS App messages are from]({% link pages/using-nhs-notify/tell-recipients-who-your-messages-are-from.md %})
-- [how to edit and format NHS App messages]({% link pages/using-nhs-notify/editing-and-formatting.md %})
 
 ## Push notifications
 

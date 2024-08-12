@@ -5,7 +5,7 @@
 layout: page
 title: Letters in other languages
 parent: Using NHS Notify
-nav_order: 6
+nav_order: 2
 permalink: /using-nhs-notify/letters-in-other-languages
 section: Writing a message
 ---

@@ -5,9 +5,9 @@
 layout: page
 title: Tell recipients who your messages are from
 parent: Using NHS Notify
-nav_order: 4
+nav_order: 1
 permalink: /using-nhs-notify/tell-recipients-who-your-messages-are-from
-section: Writing a message
+section: Sending a message
 ---
 
 It’s important that your recipients know and trust who has sent them a message.

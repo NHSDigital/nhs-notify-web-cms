@@ -18,17 +18,15 @@ This guidance is to help teams understand how to use NHS Notify.
 
 ## Writing a message
 
-- [Editing and formatting]({% link pages/using-nhs-notify/editing-and-formatting.md %})
-- [Links and URLs]({% link pages/using-nhs-notify/links-and-urls.md %})
 - [Personalisation]({% link pages/using-nhs-notify/personalisation.md %})
-- [Sender IDs]({% link pages/using-nhs-notify/tell-recipients-who-your-messages-are-from.md %})
+- [Tell recipients who your messages are from]({% link pages/using-nhs-notify/tell-recipients-who-your-messages-are-from.md %})
 
 ## Sending a message
 
 - [Delivery times]({% link pages/using-nhs-notify/delivery-times.md %})
-- [Accessible formats]({% link pages/using-nhs-notify/accessible-formats.md %})
-- [Letters in other languages]({% link pages/using-nhs-notify/letters-in-other-languages.md %})
 - [Providing NHS Numbers]({% link pages/using-nhs-notify/providing-nhs-numbers.md %})
 - [Routing plans]({% link pages/using-nhs-notify/routing-plans.md %})
-- [Recipients you cannot message]({% link pages/using-nhs-notify/recipients-you-cannot-message.md %})
+- [Accessible formats]({% link pages/using-nhs-notify/accessible-formats.md %})
+- [Letters in other languages]({% link pages/using-nhs-notify/letters-in-other-languages.md %})
 - [Find recipients with access or language needs]({% link pages/using-nhs-notify/find-recipients-with-access-or-language-needs.md %})
+- [Recipients you cannot message]({% link pages/using-nhs-notify/recipients-you-cannot-message.md %})
