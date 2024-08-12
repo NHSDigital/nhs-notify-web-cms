@@ -61,11 +61,13 @@ Provide recipients' NHS numbers as separate data files for each type of accessib
 
 ### 4. We'll check for recipients with access needs
 
+NHS Notify checks for recipients who need letters in accessible formats using the [Personal Demographics Service (PDS)](https://digital.nhs.uk/services/personal-demographics-service).
+
 It’s your responsibility to message recipients based on their access needs.
 
-NHS Notify can check who needs accessible formats, but we’ll only send them an accessible format if:
+We’ll only send the accessible format if:
 
-- you've created an accessible template that matches
+- you’ve created an accessible template that matches
 - PDS confirms they have access needs
 
-We’ll send the standard letter if you've not given us the accessible template, even if PDS says there are recipients with access needs.
+We’ll send the standard letter if you’ve not given us the accessible template, even if PDS says there are recipients with access needs.

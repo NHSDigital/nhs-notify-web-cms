@@ -73,11 +73,15 @@ Aim to keep your message content to 2 double-sided sheets to save costs. This wi
 
 ### We'll check for recipients who need letters in other languages
 
+NHS Notify checks for recipients who need letters in other languages using the [Personal Demographics Service (PDS)](https://digital.nhs.uk/services/personal-demographics-service).
+
+You need to decide whether to message recipients based on their access or language needs.
+
 You can decide whether to message recipients based on their language preferences.
 
-NHS Notify checks who needs letters in other languages, but we’ll only send them these if:
+We’ll only send the letter in the other language if:
 
-- you've created a template in another language that matches
+- you’ve created a template in the other language that matches
 - PDS confirms they need messages in this language
 
-We’ll send the letter in English if you've not given us the translation, even if PDS says recipients need messages in other languages.
+We’ll send the letter in English if you’ve not given us the translation, even if PDS says recipients need messages in other languages.

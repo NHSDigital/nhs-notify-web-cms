@@ -8,6 +8,8 @@ parent: Using NHS Notify
 nav_order: 11
 permalink: /using-nhs-notify/find-recipients-with-access-or-language-needs
 section: Writing a message
+published: false
+
 ---
 
 NHS Notify identifies people who need messages in accessible formats or other languages (sometimes called preferences).
