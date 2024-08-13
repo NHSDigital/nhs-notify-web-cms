@@ -29,5 +29,3 @@ This guidance is to help teams understand how to use NHS Notify.
 - [Providing NHS Numbers]({% link pages/using-nhs-notify/providing-nhs-numbers.md %})
 - [Routing plans]({% link pages/using-nhs-notify/routing-plans.md %})
 - [Recipients you cannot message]({% link pages/using-nhs-notify/recipients-you-cannot-message.md %})
-- [Find recipients with access or language needs]({% link pages/using-nhs-notify/find-recipients-with-access-or-language-needs.md %})
-- [Recipients you cannot message]({% link pages/using-nhs-notify/recipients-you-cannot-message.md %})
