@@ -22,6 +22,6 @@ You might want to learn more about:
 
 ## 2. Get in touch to register your interest
 
-If you think NHS Notify is right for your organisation or service, you can get in touch with our engagement team via <onboarding-email@nhs.net>.
+If you think NHS Notify is right for your organisation or service, you can get in touch with our engagement team via <england.nhsnotify@nhs.net>.
 
 We'll contact you within 10 working days to find out more about what your service needs.
