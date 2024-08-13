@@ -30,7 +30,6 @@ You might want to understand more about:
 - [letter pricing]({% link pages/pricing/letters.md %})
 - [delivery times for letters]({% link pages/using-nhs-notify/delivery-times.md %})
 - [return addresses]({% link pages/using-nhs-notify/tell-recipients-who-your-messages-are-from.md %})
-- [how to edit and format letters]({% link pages/using-nhs-notify/editing-and-formatting.md %})
 - [sending letters to people with access needs]({% link pages/using-nhs-notify/accessible-formats.md %})
 - [sending letters to people who speak other languages]({% link pages/using-nhs-notify/letters-in-other-languages.md %})
 

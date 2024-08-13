@@ -25,6 +25,4 @@ This page will tell you about our email layout and specification.
 You might also want to understand more about:
 
 - [email delivery times]({% link pages/using-nhs-notify/delivery-times.md %})
-- [how to edit and format emails]({% link pages/using-nhs-notify/editing-and-formatting.md %})
-- [adding links to emails]({% link pages/using-nhs-notify/links-and-urls.md %})
 - [how to tell recipients who your emails are from]({% link pages/using-nhs-notify/tell-recipients-who-your-messages-are-from.md %})

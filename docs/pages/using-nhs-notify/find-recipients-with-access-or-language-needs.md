@@ -5,7 +5,7 @@
 layout: page
 title: Finding recipients with access or language needs
 parent: Using NHS Notify
-nav_order: 11
+nav_order: 5
 permalink: /using-nhs-notify/find-recipients-with-access-or-language-needs
 section: Writing a message
 published: false
