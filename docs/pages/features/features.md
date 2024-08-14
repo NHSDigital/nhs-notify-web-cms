@@ -16,7 +16,7 @@ Use NHS Notify to send:
 - [text messages (SMS)]({% link pages/features/text-messages.md %})
 - [letters]({% link pages/features/letters.md %})
 
-## Send messages in bulk to different audiences
+## Send messages to different audiences in bulk and individually
 
 You only need a person’s NHS number to send them messages. Choose who you want to message by providing NHS numbers.
 
@@ -47,13 +47,12 @@ You can set up routing plans to:
 
 ## Prevent sending people unnecessary messages
 
-NHS Notify uses the Personal Demographics Service to automatically prevent you from messaging [recipients you cannot message]({% link pages/using-nhs-notify/recipients-you-cannot-message.md %}).
+NHS Notify uses the [Personal Demographics Service](https://digital.nhs.uk/services/personal-demographics-service) to automatically prevent you from messaging [recipients you cannot message]({% link pages/using-nhs-notify/recipients-you-cannot-message.md %}).
 
 ## Reach audiences with additional needs
 
 You can use NHS Notify to:
 
-- [find recipients with access or language needs]({% link pages/using-nhs-notify/find-recipients-with-access-or-language-needs.md %})
 - [send letters in other languages]({% link pages/using-nhs-notify/letters-in-other-languages.md %})
 - [send letters in accessible formats]({% link pages/using-nhs-notify/accessible-formats.md %})
 

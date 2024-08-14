@@ -10,7 +10,7 @@ permalink: /features/emails
 section: Message channels
 ---
 
-Use NHS Notify to bulk send free unlimited emails to patients and members of the public.
+Use NHS Notify to send free unlimited emails to patients and members of the public, in bulk and individually.
 
 {% include components/image.html
     src="nhs-notify-email-example.svg"

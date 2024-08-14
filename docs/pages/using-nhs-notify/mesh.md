@@ -17,4 +17,4 @@ You should only use MESH to send messages if your organisation or service does n
 - have a developer
 - need the features offered by our API
 
-Check if MESH is right for you by contacting our engagement team at <onboarding-email@nhs.net>.
+Check if MESH is right for you by contacting our engagement team at <england.nhsnotify@nhs.net>.

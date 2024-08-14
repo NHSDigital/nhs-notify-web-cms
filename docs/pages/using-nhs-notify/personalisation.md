@@ -18,4 +18,4 @@ To personalise a message, use double brackets to add a placeholder to your conte
     text='<code>Hello ((firstName)), your NHS Number is ((nhsNumber))'
 %}
 
-NHS Notify uses the Personal Demographics Service to find and populate certain personalisation fields.
+NHS Notify uses the [Personal Demographics Service (PDS)](https://digital.nhs.uk/services/personal-demographics-service) to find and populate certain personalisation fields.

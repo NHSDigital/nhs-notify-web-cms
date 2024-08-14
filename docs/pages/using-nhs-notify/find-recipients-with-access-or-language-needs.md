@@ -7,7 +7,9 @@ title: Finding recipients with access or language needs
 parent: Using NHS Notify
 nav_order: 5
 permalink: /using-nhs-notify/find-recipients-with-access-or-language-needs
-section: Sending a message
+section: Writing a message
+published: false
+
 ---
 
 NHS Notify identifies people who need messages in accessible formats or other languages (sometimes called preferences).

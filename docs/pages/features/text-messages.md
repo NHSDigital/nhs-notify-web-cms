@@ -10,7 +10,7 @@ permalink: /features/text-messages-sms
 section: Message channels
 ---
 
-Use NHS Notify to bulk send text messages such as invitations, alerts, notifications or reminders to your audiences.
+Use NHS Notify to send text messages such as invitations, alerts, notifications or reminders to your audiences. You can do this in bulk and individually.
 
 {% include components/image.html
     src="nhs-notify-iphone-android-sms-example.svg"

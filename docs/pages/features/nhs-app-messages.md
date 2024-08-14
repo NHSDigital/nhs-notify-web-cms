@@ -10,7 +10,7 @@ permalink: /features/nhs-app-messages
 section: Message channels
 ---
 
-Send free unlimited messages to patients and members of the public who have the NHS App.
+Send free messages of up to 1,000 characters to patients and members of the public who have the NHS App.
 
 {% include components/image.html
     src="nhs-notify-nhs-app-example-2.svg"
@@ -20,7 +20,9 @@ Send free unlimited messages to patients and members of the public who have the 
 
 ## What you need to know
 
-This page will tell you about push notifications from the NHS App.
+Recipients can receive NHS App messages in their NHS App inbox.
+
+[Push notifications](#push-notifications) are generated when recipients have an unopened message in their NHS App inbox.
 
 You might also want to understand more about:
 
