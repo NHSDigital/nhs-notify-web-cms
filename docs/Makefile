@@ -1,4 +1,4 @@
-BASE_URL ?= "/"
+BASE_URL ?= ""
 VERSION ?= ""
 SHELL = /bin/bash
 
