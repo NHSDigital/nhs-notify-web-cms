@@ -21,6 +21,10 @@ install:
 s serve:
 	bundle exec jekyll serve --trace --livereload
 
+define baseurlparam =
+$(if $(BASE_URL),-- --baseurl $(BASE_URL),-- --baseurl "")
+endef
+
 build: version
 	npm run build $(baseurlparam)
 
