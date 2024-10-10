@@ -16,7 +16,18 @@ Setting up a routing plan can make your messages more effective and sometimes lo
 
 You can set up routing plans to:
 
-- use certain templates for specific groups of recipients
-- message a recipient with each channel in the order you choose
-- set up fallbacks for messages that fail
-- stop sending messages after a chosen channel is successful
+- [send messages in a cascade](#message-cascades)
+- use specific message templates for different groups of recipients
+- stop sending messages to a recipient when a channel is successful
+
+## Message cascades
+
+A message cascade allows you to message a recipient with different channels in the order you choose. You can set up primary or secondary message cascades in your routing plan.
+
+### Primary cascades
+
+Use primary message cascades to send a message with a different channel as a fallback if a primary channel fails.
+
+### Secondary cascades
+
+Use a secondary message cascades to send a message with another channel at the same time as your primary channel. For example, sending a text message at the same time as an email. You cannot fallback to another channel with secondary cascades.
