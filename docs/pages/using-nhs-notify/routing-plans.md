@@ -22,7 +22,7 @@ You can set up routing plans to:
 
 ## Message cascades
 
-A message cascade allows you to message a recipient with different channels in the order you choose. You can set up primary or secondary message cascades in your routing plan.
+A message cascade allows you to message a recipient with different channels in the order you choose. You can set up primary and secondary message cascades in your routing plan.
 
 ### Primary cascades
 
