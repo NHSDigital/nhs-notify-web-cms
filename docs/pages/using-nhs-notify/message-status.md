@@ -56,7 +56,7 @@ Messages and channels that have not reached a recipient will have a 'failed' sta
 | PDS response date of birth does not match given date of birth.                   |
 | PDS - patient is formally dead.                                                  |
 | PDS - patient is informally dead.                                                |
-| PDS - patient has exit an code.                                                  |
+| PDS - patient has an exit code.                                                  |
 | PDS - contact detail is malformed.                                               |
 | PDS - patient does not exist.                                                    |
 
@@ -89,10 +89,10 @@ There are specific statuses for each message channel:
 
 | Status            | Description                                                                                                                                  |
 | ----------------- | -------------------------------------------------------------------------------------------------------------------------------------------- |
-| created           | The NHS App message has been created.                                                                                                        |
-| skipped           | The NHS App message has been skipped.                                                                                                        |
-| sending           | The NHS App message is in the process of being sent.                                                                                         |
-| delivered         | The NHS App message was successfully delivered.                                                                                              |
+| created           | The email has been created.                                                                                                                  |
+| skipped           | The email has been skipped.                                                                                                                  |
+| sending           | The email is in the process of being sent.                                                                                                   |
+| delivered         | The email was successfully delivered.                                                                                                        |
 | failed            | [Read more about failed messages descriptions](#failed-messages).                                                                            |
 | permanent_failure | The provider could not deliver the message because the email address was wrong.                                                              |
 | temporary_failure | The provider could not deliver the message. This can happen when the recipient’s inbox is full or their anti-spam filter rejects your email. |
@@ -107,7 +107,7 @@ There are specific statuses for each message channel:
 | sending           | The text message is in the process of being sent.                                                                                                                              |
 | delivered         | The text message was successfully delivered.                                                                                                                                   |
 | failed            | [Read more about failed messages descriptions](#failed-messages).                                                                                                              |
-| permanent_failure | The provider could not deliver the message. This can happen if the phone number was wrong or if the network operator rejects the message                                       |
+| permanent_failure | The provider could not deliver the message. This can happen if the phone number was wrong or if the network operator rejects the message.                                      |
 | temporary_failure | The provider could not deliver the message. This can happen when the recipient’s phone is off, has no signal, or their text message inbox is full.                             |
 | technical_failure | Your message was not sent because there was a problem between NHS Notify and the provider. You will not be charged for text messages that are affected by a technical failure. |
 
@@ -115,7 +115,7 @@ There are specific statuses for each message channel:
 
 | Status              | Description                                                                                                                                                         |
 | ------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| created             | The text message has been created.                                                                                                                                  |
+| created             | The letter has been created.                                                                                                                                        |
 | accepted            | NHS Notify has sent the letter to the provider to be printed.                                                                                                       |
 | skipped             | The letter has been skipped.                                                                                                                                        |
 | sending             | The letter is in the process of being sent.                                                                                                                         |
