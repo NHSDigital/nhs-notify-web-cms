@@ -19,7 +19,7 @@ You may pay more for each message if you:
 
 ## Long text messages
 
-If a text message is longer than 160 characters (including spaces), it counts as more than one message.
+If a text message is longer than 160 characters (including spaces), it will be charged as more than one message.
 
 | Message length       | Charge          |
 | -------------------- | --------------- |
@@ -32,7 +32,7 @@ If a text message is longer than 160 characters (including spaces), it counts as
 
 ## Signs and symbols
 
-The following signs and symbols count as 2 characters each: []{}^\|~€.
+The following signs and symbols count as 2 characters each:[]{}^\|~€.
 
 Using them can increase the cost of sending text messages.
 
