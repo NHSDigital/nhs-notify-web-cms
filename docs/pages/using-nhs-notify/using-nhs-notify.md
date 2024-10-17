@@ -18,6 +18,10 @@ This guidance is to help teams understand how to use NHS Notify.
 
 ## Writing a message
 
+- [Creating NHS App message templates]({% link pages/using-nhs-notify/nhs-app-templates.md %})
+- [Creating email templates]({% link pages/using-nhs-notify/email-templates.md %})
+- [Creating text message templates]({% link pages/using-nhs-notify/text-message-templates.md %})
+- [Creating letter templates]({% link pages/using-nhs-notify/letter-templates.md %})
 - [Accessible formats]({% link pages/using-nhs-notify/accessible-formats.md %})
 - [Letters in other languages]({% link pages/using-nhs-notify/letters-in-other-languages.md %})
 - [Personalisation]({% link pages/using-nhs-notify/personalisation.md %})
@@ -26,6 +30,6 @@ This guidance is to help teams understand how to use NHS Notify.
 
 - [Tell recipients who your messages are from]({% link pages/using-nhs-notify/tell-recipients-who-your-messages-are-from.md %})
 - [Delivery times]({% link pages/using-nhs-notify/delivery-times.md %})
-- [Providing NHS Numbers]({% link pages/using-nhs-notify/providing-nhs-numbers.md %})
+- [Tell us who you want to message]({% link pages/using-nhs-notify/tell-us-who-you-want-to-message.md %})
 - [Routing plans]({% link pages/using-nhs-notify/routing-plans.md %})
 - [Recipients you cannot message]({% link pages/using-nhs-notify/recipients-you-cannot-message.md %})

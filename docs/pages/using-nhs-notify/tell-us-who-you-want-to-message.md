@@ -3,10 +3,10 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: page
-title: Providing NHS numbers
+title: Tell us who you want to message
 parent: Using NHS Notify
 nav_order: 3
-permalink: /using-nhs-notify/providing-nhs-numbers
+permalink: /using-nhs-notify/tell-us-who-you-want-to-message
 section: Sending a message
 ---
 
