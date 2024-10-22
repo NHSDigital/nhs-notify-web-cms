@@ -26,7 +26,7 @@ Push notifications are only sent to recipients between 6am and 10pm. If you send
 
 Once an email has been sent, our email provider will try to deliver it to the recipient for up to 72 hours.
 
-NHS Notify will only send emails from 8am to 6pm on weekdays, excluding bank holidays.
+NHS Notify will only send emails from 8am to 6pm on weekdays.
 
 ### Open rates and click-throughs
 
@@ -38,7 +38,7 @@ We do not track open rates and click-throughs because of privacy issues. Trackin
 
 Once a text message has been sent, our text message provider will try to deliver it to the recipient for up to 72 hours.
 
-NHS Notify will only send text messages from 8am to 6pm on weekdays, excluding bank holidays.
+NHS Notify will only send text messages from 8am to 6pm on weekdays.
 
 ## Letters
 
