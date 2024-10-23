@@ -29,10 +29,8 @@ You can also use [Microsoft Word’s format painter](https://support.microsoft.c
 Find out how to use:
 
 - [personalisation](#personalisation)<!-- markdownlint-disable-line -->
-- [headings](#headings)
 - [body text](#body-text)
 - [links](#links)
-- [bullet points](#bullet-points)
 
 You can also find out about:
 
