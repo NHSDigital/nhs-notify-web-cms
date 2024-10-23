@@ -18,10 +18,10 @@ This guidance is to help teams understand how to use NHS Notify.
 
 ## Writing a message
 
-- [Creating NHS App message templates]({% link pages/using-nhs-notify/nhs-app-templates.md %})
-- [Creating email templates]({% link pages/using-nhs-notify/email-templates.md %})
-- [Creating text message templates]({% link pages/using-nhs-notify/text-message-templates.md %})
-- [Creating letter templates]({% link pages/using-nhs-notify/letter-templates.md %})
+- [NHS App message templates]({% link pages/using-nhs-notify/nhs-app-templates.md %})
+- [Email templates]({% link pages/using-nhs-notify/email-templates.md %})
+- [Text message templates]({% link pages/using-nhs-notify/text-message-templates.md %})
+- [Letter templates]({% link pages/using-nhs-notify/letter-templates.md %})
 - [Accessible formats]({% link pages/using-nhs-notify/accessible-formats.md %})
 - [Letters in other languages]({% link pages/using-nhs-notify/letters-in-other-languages.md %})
 - [Personalisation]({% link pages/using-nhs-notify/personalisation.md %})
