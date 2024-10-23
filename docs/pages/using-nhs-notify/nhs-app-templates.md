@@ -14,7 +14,7 @@ Upload a Word document of your NHS App message and NHS Notify will send it for y
 
 ## How to edit your NHS App message using our template
 
-Download our [NHS App message template](/assets/worddocs/NHS%20App%20message%20template%20NHS%20Notify%202.docx) to set up your NHS App message.
+Download our [NHS App message template]({% link assets/worddocs/nhs-app-message-template-nhs-notify.docx %}) to set up your NHS App message.
 
 You can save the template and edit it with your message content.
 

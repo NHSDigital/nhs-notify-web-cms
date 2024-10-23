@@ -14,7 +14,7 @@ Upload a Word document of your email and NHS Notify will send it for you.
 
 ## How to edit your email using our template
 
-Download our [email template](/assets/worddocs/Email%20template%20NHS%20Notify%202.docx) to set up your email.
+Download our [email template]({% link assets/worddocs/email-template-nhs-notify.docx %}) to set up your email.
 
 You can save the template and edit it with your message content.
 
