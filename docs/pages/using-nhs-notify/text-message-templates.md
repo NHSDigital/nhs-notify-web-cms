@@ -14,7 +14,7 @@ Upload a Word document of your text message and NHS Notify will send it for you.
 
 ## How to edit your text message using our template
 
-Download our [text message template](/assets/worddocs/Text%20message%20template%20NHS%20Notify%202.docx) to set up your email.
+Download our [text message template]({% link assets/worddocs/text-message-template-nhs-notify.docx %}) to set up your text message.
 
 You can save the template and edit it with your message content.
 
@@ -29,10 +29,8 @@ You can also use [Microsoft Word’s format painter](https://support.microsoft.c
 Find out how to use:
 
 - [personalisation](#personalisation)<!-- markdownlint-disable-line -->
-- [headings](#headings)
 - [body text](#body-text)
 - [links](#links)
-- [bullet points](#bullet-points)
 
 You can also find out about:
 

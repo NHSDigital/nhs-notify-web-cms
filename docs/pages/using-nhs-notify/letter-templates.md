@@ -18,11 +18,11 @@ Your Word document must meet our letter specification. The page size and layout 
 
 Download the relevant letter template to set up your letter:
 
-- [letter template](/assets/worddocs/Letter%20template%20NHS%20Notify.docx)
-- [large print letter template](/assets/worddocs/Letter%20template%20NHS%20Notify%20-%20large%20print.docx)
-- [other language letter template](/assets/worddocs/Letter%20template%20NHS%20Notify%20-%20other%20language.docx)
-- [other language letter (right aligned)](/assets/worddocs/Letter%20template%20NHS%20Notify%20-%20other%20language%20right%20aligned.docx)
-- [parent or guardian letter template](/assets/worddocs/Letter%20template%20NHS%20Notify%20-%20parent%20or%20guardian.docx)
+- [letter template]({% link assets/worddocs/letter-template-nhs-notify.docx %})
+- [large print letter template]({% link assets/worddocs/letter-template-nhs-notify-large-print.docx %})
+- [other language letter template]({% link assets/worddocs/letter-template-nhs-notify-other-language.docx %})
+- [other language letter (right aligned)]({% link assets/worddocs/letter-template-nhs-notify-other-language-right-aligned.docx %})
+- [parent or guardian letter template]({% link assets/worddocs/letter-template-nhs-notify-parent-or-guardian.docx %})
 
 You can save the template and edit it with your message content.
 
