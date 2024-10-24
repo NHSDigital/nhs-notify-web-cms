@@ -23,7 +23,7 @@ Download the relevant letter template to set up your letter:
 - [other language letter template]({% link assets/worddocs/letter-template-nhs-notify-other-language.docx %})
 - [other language letter (right aligned)]({% link assets/worddocs/letter-template-nhs-notify-other-language-right-aligned.docx %})
 - [parent or guardian letter template]({% link assets/worddocs/letter-template-nhs-notify-parent-or-guardian.docx %})
-  
+
 You can save the template and edit it with your message content.
 
 ## Formatting your letter
