@@ -22,3 +22,16 @@ url
 [iI]nset
 urlset
 [A-Z]+s
+Noto
+URL
+ctrl
+pending_enrichment
+unnotified
+permanent_failure
+temporary_failure
+technical_failure
+precompiled
+validation_failed
+fullName
+namePrefix
+clientRef
