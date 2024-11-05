@@ -35,4 +35,4 @@ Use the format shown in the
 ## Providing your own recipient contact details
 
 If you need to use contact details that are not from PDS, you must make a formal request to NHS Notify.
-Overriding contact details is only granted to specific use-cases that provide compelling data to our onboarding team who will consult with legal and clinical teams for approval.
+Overriding contact details is only granted to specific use cases that provide compelling data to our onboarding team. NHS Notify will consult with relevant NHS England legal and clinical teams for approval.
