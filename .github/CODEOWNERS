@@ -16,7 +16,7 @@
 /docs/assets/             @NHSDigital/nhs-notify-web-cms
 /docs/collections/        @NHSDigital/nhs-notify-web-cms
 /docs/pages/              @NHSDigital/nhs-notify-web-cms
-
+/scripts/config/vale/vale.ini  @NHSDigital/nhs-notify-web-cms
 # Default protection for codeowners, must be last in file.
 /.github/CODEOWNERS       @NHSDigital/nhs-notify-code-owners
 /CODEOWNERS               @NHSDigital/nhs-notify-code-owners
