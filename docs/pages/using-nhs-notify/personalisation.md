@@ -41,7 +41,7 @@ You can provide your own personalisation data.
 
 Do not send us personalisation data that's already available in PDS. We'll use the PDS data over your own data in this case.
 
-### If you're using the API
+### If you're using NHS Notify API
 
 Include a personalisation block in your API request.
 
@@ -57,7 +57,7 @@ text='{
 
 Read the [API documentation](https://digital.nhs.uk/developer/api-catalogue/nhs-notify#post-/v1/message-batches) to find out where to put this in your request.
 
-### If you're using the Message Exchange for Social Care and Health (MESH)
+### If you're using NHS Notify MESH
 
 Include the personalisation fields as columns in your CSV file.
 
@@ -66,8 +66,5 @@ The column names should start with 'personalisation\_', followed by the same wor
 For example, if you wanted to include 'practice' as a personalisation field, the column name would be:
 
 {% include components/inset-text.html
-    text='nhsNumber,requestItemRefId,dateOfBirth,personalisation_practice'
+    text='nhsNumber,requestItemRefId,personalisation_practice'
 %}
-
-_[PDS]: Personal Demographics Service
-_[MESH]: Message Exchange for Social Care and Health

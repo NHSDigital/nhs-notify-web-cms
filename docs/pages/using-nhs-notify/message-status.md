@@ -53,7 +53,6 @@ Messages and channels that have not reached a recipient will have a 'failed' sta
 | The provider could not deliver the message.                                      |
 | There was an unexpected error while sending the letter to our printing provider. |
 | PDS - patient record invalidated.                                                |
-| PDS response date of birth does not match given date of birth.                   |
 | PDS - patient is formally dead.                                                  |
 | PDS - patient is informally dead.                                                |
 | PDS - patient has an exit code.                                                  |
