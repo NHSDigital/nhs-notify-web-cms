@@ -9,3 +9,26 @@
     {% endfor -%}
   </ul>
 </nav>
+
+{% include components/phase-banner.html
+auto_hide='true'
+phase_id= 'dev'
+phase_tag= 'Developer'
+phase_text='This is a developer preview of notify.nhs.uk. <a href="https://notify.nhs.uk">Go to the live NHS Notify
+  website.</a>'
+%}
+
+{% include components/phase-banner.html
+phase_id= 'new'
+phase_tag= 'New'
+phase_text='This is new'
+auto_hide='false'
+%}
+
+
+{% include components/phase-banner.html
+phase_id= 'new'
+phase_tag= 'WOOHAA'
+phase_text='This is new'
+auto_hide='false'
+%}
