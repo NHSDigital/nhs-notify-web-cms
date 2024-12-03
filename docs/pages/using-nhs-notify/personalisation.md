@@ -18,7 +18,7 @@ To personalise a message, use double brackets to add a placeholder to your conte
     text='<code>Hello ((firstName)), your NHS Number is ((nhsNumber))'
 %}
 
-### Personal Demographics Service (PDS) personalisation fields
+## Personal Demographics Service (PDS) personalisation fields
 
 NHS Notify uses the [Personal Demographics Service (PDS)](https://digital.nhs.uk/services/personal-demographics-service) to find and populate certain personalisation fields for each recipient. This happens automatically when you [tell us who you want to message]({% link pages/using-nhs-notify/tell-us-who-you-want-to-message.md %}) using recipients' NHS numbers.
 
