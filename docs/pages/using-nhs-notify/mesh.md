@@ -18,4 +18,6 @@ You should only use MESH to send messages if your organisation or service:
 - only needs to send batches of messages to specific groups of recipients
 - does not need advanced features offered by NHS Notify API
 
+[Read our MESH documentation (opens in a new tab)](https://digital.nhs.uk/developer/api-catalogue/nhs-notify-mesh).
+
 Check if MESH is right for you by contacting our engagement team at <england.nhsnotify@nhs.net>.
