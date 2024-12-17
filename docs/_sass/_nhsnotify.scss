@@ -107,3 +107,15 @@
   line-height: 1.25;
   padding-left: 0.5em;
 }
+
+.nhsnotify-code-snippet {
+  background-color: $color_nhsuk-white;
+  border: 1px solid $nhsuk-border-color;
+  padding: 24px;
+  margin: 12px 0 48px 0;
+
+    :last-child{
+      margin-bottom: 0;
+      padding-bottom: 0;
+    }
+}
