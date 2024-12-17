@@ -12,6 +12,13 @@ section: Sending a message
 
 It can take different amounts of time for messages to be delivered depending on the message channel.
 
+Find out about delivery times for:
+
+- [NHS App messages](#nhs-app-messages)<!-- markdownlint-disable-line -->
+- [emails](#emails)
+- [text messages](#text-messages-sms)
+- [letters](#letters)
+
 ## NHS App messages
 
 NHS Notify can send NHS App messages to recipients with the NHS App at any time.
@@ -42,7 +49,7 @@ NHS Notify will only send text messages from 8am to 6pm on weekdays.
 
 ## Letters
 
-Once your letter has been sent, it can take up to 6 days for it to be processed by our suppliers before it's dispatched.
+Once you've [provided us with recipients' NHS numbers]({% link pages/using-nhs-notify/tell-us-who-you-want-to-message.md %}), it can take up to 2 working days for our suppliers to dispatch your letter.
 
 First class letters are delivered 1 to 2 business days after they’re dispatched.
 

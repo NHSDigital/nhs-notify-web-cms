@@ -2,7 +2,7 @@
   width: unset;
   background-color: unset;
   border-bottom: 0;
-  margin:unset;
+  margin: unset;
 }
 
 .nhsnotify-banner--blue {
@@ -68,13 +68,42 @@
 }
 
 .nhsuk-header__navigation-list {
-  justify-content: flex-start;
+  justify-content: flex-centre;
 }
 
 .nhsuk-header__navigation-link {
-  text-decoration: none;
+  text-decoration: underline;
 
   &:hover {
-    text-decoration: underline;
+    text-decoration: none;
   }
+}
+
+.nhsuk-phase-banner {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #fff;
+}
+
+.nhsuk-phase-banner__content {
+  font-size: 1rem;
+  line-height: 1.25;
+  margin-bottom: 0px;
+}
+
+.nhsuk-tag {
+  outline: 2px solid transparent;
+  outline-offset: -2px;
+  color: #fff;
+  background-color: #005eb8;
+  letter-spacing: 1px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.nhsuk-phase-banner__text {
+  font-size: 1rem;
+  line-height: 1.25;
+  padding-left: 0.5em;
 }

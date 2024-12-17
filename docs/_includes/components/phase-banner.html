@@ -1,0 +1,14 @@
+<div class="nhsuk-phase-banner" id="{{include.phase_id}}">
+  <div class="nhsuk-width-container">
+    <p class="nhsuk-phase-banner__content">
+      <strong class="nhsuk-tag">{{include.phase_tag}}</strong>
+      <span class="nhsuk-phase-banner__text">{{include.phase_text}}</span>
+    </p>
+  </div>
+</div>
+<script>
+  console.log("{{include.auto_hide}}")
+  if ("{{include.auto_hide}}" == 'true' && (window.location.hostname.startsWith('notify.nhs.uk') || window.location.hostname.startsWith('127.0.0.2'))) {
+    document.getElementById("{{ include.phase_id }}").style.visibility = 'hidden';
+  }
+</script>
