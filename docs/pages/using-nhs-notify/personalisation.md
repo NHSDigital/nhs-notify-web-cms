@@ -15,7 +15,7 @@ You can send personalised messages using a single template.
 To personalise a message, use double brackets to add a placeholder to your content. For example:
 
 {% include components/inset-text.html
-    text='<code>Hello ((firstName)), your NHS Number is ((nhsNumber))'
+    text='Hello ((firstName)), your NHS Number is ((nhsNumber))'
 %}
 
 ## Personal Demographics Service (PDS) personalisation fields
@@ -48,11 +48,7 @@ Include a personalisation block in your API request.
 For example, if you wanted to include 'practice' as a personalisation field, the personalisation block would be:
 
 {% include components/inset-text.html
-text='{
-
-    "practice": "PRACTICE_NAME",
-
-}'
+text='"practice": "PRACTICE_NAME",'
 %}
 
 Read the [API documentation](https://digital.nhs.uk/developer/api-catalogue/nhs-notify#post-/v1/message-batches) to find out where to put this in your request.
