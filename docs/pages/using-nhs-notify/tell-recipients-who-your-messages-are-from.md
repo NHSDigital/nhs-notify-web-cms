@@ -35,14 +35,14 @@ NHS Notify will ask you for your ODS code during onboarding. [Find your ODS code
 
 If your organisation or service does not have an ODS code, you can [request a code or update your organisation's details](https://digital.nhs.uk/services/organisation-data-service/request-a-new-code-or-update-organisation-details).
 
-### Using NHS App sender names on behalf of other organisations
+### Using other NHS App sender names
 
 If you send NHS App messages on behalf of other organisations or services, you can use their sender name instead of yours by:
 
 - [overriding your ODS code in NHS Notify API](https://digital.nhs.uk/developer/api-catalogue/nhs-notify#post-/v1/messages)
 - [overriding your ODS code in NHS Notfy MESH](https://digital.nhs.uk/developer/api-catalogue/nhs-notify-mesh/sending-a-message#how-to-create-your-request)
 
-Contact the onboarding team before you use ODS code overrides.
+To use ODS code overrides, contact the onboarding team.
 
 ## Text message sender name
 
@@ -129,36 +129,36 @@ Do not use any of the following sender names, terms or any variations in your te
 
 ## Email sender name and 'from' address
 
-The email sender name is what appears in your recipient's inbox when you send them an email.
-
-It appears alongside the email address your email was sent from, also known as the 'from' address.
+The email sender name is what appears in your recipient's inbox when you send them an email. It appears alongside the email address your email was sent from, also known as the 'from' address.
 
 Before you can send emails, you must choose and provide your email sender name and 'from' address during onboarding.
 
 ### Choosing your email sender name
 
-Your email sender name should help recipients quickly tell who the email is from.
+Use an email sender name that clearly represents your NHS organisation or service.
 
-Use an email sender name that clearly represents your NHS organisation or service. The name should help recipients quickly tell who the email is from, for example:
+It should help recipients quickly tell who the email is from, for example:
 
 {% include components/inset-text.html
     text='NHS Vaccination Invitations'
 %}
 
+If you send emails for multiple organisations, such as GP surgeries, your email sender name can be more general. It should still be clear who the sender is and that it can be trusted.
+
 Email sender names should not:
 
-- contain special characters such as @%\_();
+- contain special characters such as .@%\_();
 - use abbreviations and acronyms unless they're well known by recipients
 
-If you send emails for multiple organisations, such as GP surgeries, your email sender name can be more general. It should still be clear to your recipients who the sender is and that it can be trusted.
+### Email 'from' address
 
-### Choosing your 'from' address
-
-Emails will always be sent from the notifications.service.gov.uk domain. You can choose the wording before the @ sign, for example:
+NHS Notify uses your email sender name to create your 'from' address. If you include spaces in your email sender name, they will be added as full-stops in your 'from' address, for example:
 
 {% include components/inset-text.html
-    text='your-service-name@notifications.service.gov.uk'
+    text='your.email.sender.name@notifications.service.gov.uk'
 %}
+
+Emails will always be sent from the notifications.service.gov.uk domain.
 
 ## Reply-to email address
 
