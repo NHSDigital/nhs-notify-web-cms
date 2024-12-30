@@ -16,14 +16,14 @@ You can change the:
 
 - [NHS App sender name](#nhs-app-sender-name)<!-- markdownlint-disable-line -->
 - [text message sender name](#text-message-sender-name)
-- [email sender name and from address](#)
+- [email sender name and from address](#email-sender-name-and-from-address)
 - [reply-to email address](#reply-to-email-address)
 
 ## Return addresses for letters
 
 You cannot change the return addresses of letters. These are set by NHS Notify’s suppliers and are printed on the envelopes.
 
-If you want users to reply to you letters, include your organisation or service's address in the content of your [letter template]({% link pages/using-nhs-notify/letter-templates.md %}).
+If you want users to reply to your letters, include your organisation or service's address in the content of your [letter template]({% link pages/using-nhs-notify/letter-templates.md %}).
 
 ## NHS App sender name
 
@@ -31,16 +31,16 @@ Your NHS App sender name is what appears to your recipients when you send them m
 
 The NHS App uses your service or organisation’s ODS code to set up your NHS App message sender name.
 
-NHS Notify will ask you for your ODS code during onboarding. [Find your ODS code with the ODS Portal](https://odsportal.digital.nhs.uk/).
+NHS Notify will ask you for your ODS code during onboarding. [Find your ODS code with the ODS Portal](https://odsportal.digital.nhs.uk/){:target="\_blank"}.
 
-If your organisation or service does not have an ODS code, you can [request a code or update your organisation's details](https://digital.nhs.uk/services/organisation-data-service/request-a-new-code-or-update-organisation-details).
+If your organisation or service does not have an ODS code, you can [request a code or update your organisation's details](https://digital.nhs.uk/services/organisation-data-service/request-a-new-code-or-update-organisation-details){:target="\_blank"}.
 
 ### Using other NHS App sender names
 
 If you send NHS App messages on behalf of other organisations or services, you can use their sender name instead of yours by:
 
-- [overriding your ODS code in NHS Notify API](https://digital.nhs.uk/developer/api-catalogue/nhs-notify#post-/v1/messages)
-- [overriding your ODS code in NHS Notfy MESH](https://digital.nhs.uk/developer/api-catalogue/nhs-notify-mesh/sending-a-message#how-to-create-your-request)
+- [overriding your ODS code in NHS Notify API](https://digital.nhs.uk/developer/api-catalogue/nhs-notify#post-/v1/messages){:target="\_blank"}
+- [overriding your ODS code in NHS Notify MESH](https://digital.nhs.uk/developer/api-catalogue/nhs-notify-mesh/sending-a-message#how-to-create-your-request){:target="\_blank"}
 
 To use ODS code overrides, contact the onboarding team.
 
@@ -130,6 +130,12 @@ Do not use any of the following sender names, terms or any variations in your te
 ## Email sender name and 'from' address
 
 The email sender name is what appears in your recipient's inbox when you send them an email. It appears alongside the email address your email was sent from, also known as the 'from' address.
+
+{% include components/image.html
+    src="example-email-sender-name-nhs-notify.png"
+    alt="A screenshot of an email inbox showing where the email sender name and from address will appear."
+    caption="An example of a recipient's inbox showing your email sender name and 'from' address."
+%}
 
 Before you can send emails, you must choose and provide your email sender name and 'from' address during onboarding.
 
