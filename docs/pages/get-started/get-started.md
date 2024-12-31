@@ -2,9 +2,9 @@
 # Feel free to add content and custom Front Matter to this file.
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
-layout: no-nav-page
+layout: page
 title: Get started
-nav_order: 6
+nav_order: 1
 has_children: true
 permalink: /get-started/
 ---
@@ -18,7 +18,7 @@ You might want to learn more about:
 - [our features]({% link pages/features/features.md %})
 - [how to use NHS Notify]({% link pages/using-nhs-notify/using-nhs-notify.md %})
 - [how much it costs to send messages]({% link pages/pricing/pricing.md %})
-- [NHS Notify API and its sandbox environment](https://digital.nhs.uk/developer/api-catalogue/nhs-notify)
+- [onboarding with NHS Notify]({% link pages/get-started/onboarding.md %})
 
 ## 2. Get in touch to register your interest
 
