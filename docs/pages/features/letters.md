@@ -12,7 +12,7 @@ section: Message channels
 
 You can use NHS Notify to print and send letters to patients and members of the public with addresses in the UK. You can do this in bulk and individually.
 
-{% include components/image.html
+{% include components/image-with-caption.html
     src="nhs-notify-letter-two-sides-example.svg"
     alt="An image showing both sides of a letter sent by NHS Notify"
     caption="An example of a black and white double-sided letter sent by NHS Notify."
