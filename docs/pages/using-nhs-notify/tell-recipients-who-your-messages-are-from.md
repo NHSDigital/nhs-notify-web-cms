@@ -27,7 +27,7 @@ If you want users to reply to your letters, include your organisation or service
 
 ## NHS App sender name
 
-Your NHS App sender name is what appears to your recipients when you send them messages to the NHS App.
+Your NHS App sender name is shown when you send recipients messages in the NHS App.
 
 {% include components/image-with-caption.html
     src="nhs-app-sender-name-example-nhs-notify-1.png"
@@ -52,7 +52,7 @@ To use ODS code overrides, contact the onboarding team.
 
 ## Text message sender name
 
-The text message sender name tells your recipients who the text message is from.
+The text message sender name shows your recipients who the text message is from.
 
 {% include components/image-with-caption.html
     src="text-message-sender-name-example-nhs-notify-1.png"
@@ -60,9 +60,9 @@ The text message sender name tells your recipients who the text message is from.
     caption="An example text message that shows how text message sender names appear to recipients."
 %}
 
-Before you can send text messages, you must choose and provide your text message sender name during onboarding.
+To send text messages, you must choose and provide a text message sender name during onboarding.
 
-Your text message sender names will be then be reviewed by the National Cyber Security Centre. This can take up to 2 weeks.
+Your text message sender names will be reviewed by the National Cyber Security Centre. This can take up to 2 weeks.
 
 Text message sender names must:
 
@@ -143,7 +143,7 @@ Do not use any of the following sender names, terms or any variations in your te
 
 ## Email sender name and 'from' address
 
-The email sender name is what appears in your recipient's inbox when you send them an email. It appears alongside the email address your email was sent from, also known as the 'from' address.
+Your email sender name is shown in your recipient's inbox when you send them an email. It appears alongside the email address your email was sent from, known as the 'from' address.
 
 {% include components/image-with-caption.html
     src="email-sender-name-example-nhs-notify.png"
