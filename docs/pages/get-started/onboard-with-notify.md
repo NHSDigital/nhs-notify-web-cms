@@ -3,10 +3,10 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: page
-title: Onboarding
+title: Onboard with NHS Notify
 parent: Get started
 nav_order: 2
-permalink: /get-started/onboarding
+permalink: /get-started/onboard-with-nhs-notify
 ---
 
 Use this page to find out what you need to do to onboard with NHS Notify.

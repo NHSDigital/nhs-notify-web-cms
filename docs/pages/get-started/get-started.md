@@ -9,7 +9,7 @@ has_children: true
 permalink: /get-started/
 ---
 
-## 1. Check if NHS Notify is right for you
+## Check if NHS Notify is right for you
 
 You can send messages with NHS Notify if your organisation or service is part of NHS England and supports direct care.
 
@@ -18,10 +18,15 @@ You might want to learn more about:
 - [our features]({% link pages/features/features.md %})
 - [how to use NHS Notify]({% link pages/using-nhs-notify/using-nhs-notify.md %})
 - [how much it costs to send messages]({% link pages/pricing/pricing.md %})
-- [onboarding with NHS Notify]({% link pages/get-started/onboarding.md %})
 
-## 2. Get in touch to register your interest
+## Get in touch to register your interest
 
 If you think NHS Notify is right for your organisation or service, you can get in touch with our engagement team via <england.nhsnotify@nhs.net>.
 
 We'll contact you within 10 working days to find out more about what your service needs.
+
+## Onboard with NHS Notify
+
+Due to our current service capacity and features, you may have to wait before you can continue onboarding. We’re working hard to increase the scale of our service.
+
+[Learn how to onboard with NHS Notify]({% link pages/get-started/onboard-with-notify.md %})
