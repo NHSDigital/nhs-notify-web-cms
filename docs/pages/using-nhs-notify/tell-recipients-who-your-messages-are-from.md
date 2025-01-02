@@ -62,6 +62,8 @@ The text message sender name tells your recipients who the text message is from.
 
 Before you can send text messages, you must choose and provide your text message sender name during onboarding.
 
+Your text message sender names will be then be reviewed by the National Cyber Security Centre. This can take up to 2 weeks.
+
 Text message sender names must:
 
 - have a limit of 11 characters
