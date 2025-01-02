@@ -29,7 +29,7 @@ If you want users to reply to your letters, include your organisation or service
 
 Your NHS App sender name is what appears to your recipients when you send them messages to the NHS App.
 
-{% include components/image.html
+{% include components/image-with-caption.html
     src="nhs-app-sender-name-example-nhs-notify-1.png"
     alt="A screenshot of a mobile with an NHS App message open showing where the NHS App sender appears to recipients."
     caption="An example NHS App message that shows how NHS App sender names appear to recipients."
@@ -54,7 +54,7 @@ To use ODS code overrides, contact the onboarding team.
 
 The text message sender name tells your recipients who the text message is from.
 
-{% include components/image.html
+{% include components/image-with-caption.html
     src="text-message-sender-name-example-nhs-notify-1.png"
     alt="A screenshot of a mobile with a text message that shows where the text message sender name appears to recipients."
     caption="An example text message that shows how text message sender names appear to recipients."
@@ -145,7 +145,7 @@ Do not use any of the following sender names, terms or any variations in your te
 
 The email sender name is what appears in your recipient's inbox when you send them an email. It appears alongside the email address your email was sent from, also known as the 'from' address.
 
-{% include components/image.html
+{% include components/image-with-caption.html
     src="email-sender-name-example-nhs-notify.png"
     alt="A screenshot of an email inbox showing where the email sender name and from address will appear."
     caption="An example of a recipient's inbox showing your email sender name and 'from' address."
