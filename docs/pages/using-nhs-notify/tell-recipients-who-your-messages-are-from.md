@@ -62,7 +62,7 @@ The text message sender name shows your recipients who the text message is from.
 
 To send text messages, you must choose and provide a text message sender name during onboarding.
 
-Your text message sender names will be reviewed by the National Cyber Security Centre. This can take up to 2 weeks.
+New text message sender names will be reviewed by the National Cyber Security Centre. This can take up to 2 weeks.
 
 Text message sender names must:
 
