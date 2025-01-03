@@ -60,10 +60,7 @@
 }
 
 .nhsnotify-side-nav__item {
-  padding: 4px 0 0.5em 1.3em;
-
-  &:first-child {
-    padding-left: 0;
+  padding: 4px 0 0.5em;
 
     &.nhsnotify-side-nav__item--current {
       left: -1.2em;
@@ -71,7 +68,6 @@
       position: relative;
     }
   }
-}
 
 .nhsnotify-side-nav__item--current {
   font-weight: 600;
