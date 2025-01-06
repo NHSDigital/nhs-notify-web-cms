@@ -68,11 +68,18 @@
 }
 
 .nhsuk-header__navigation-list {
-  justify-content: flex-centre;
+  display: flex;
 }
 
 .nhsuk-header__navigation-link {
   text-decoration: underline;
+  padding-left: 0px;
+  padding-right: 0px;
+
+  @include mq($until: desktop) {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
 
   &:hover {
     text-decoration: none;
@@ -144,4 +151,17 @@
   & + .nhsuk-image {
     @include nhsuk-responsive-margin(0, "top"); /* [4] */
   }
+}
+
+// Breadcrumb spacing override
+
+.nhsnotify-breadcrumb {
+  @include print-hide();
+
+  padding-top: 20px;
+
+  + .nhsuk-width-container .nhsuk-main-wrapper {
+    margin-top: 20px;
+  }
+
 }
