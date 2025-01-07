@@ -67,23 +67,30 @@
   margin: 0;
 }
 
-.nhsuk-header__navigation-list {
-  display: flex;
+.nhsuk-header__navigation-item {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.nhsuk-header__navigation-item:first-child .nhsuk-header__navigation-link {
+  padding-left: 0;
+}
+
+.nhsuk-header__navigation-item:nth-child(5) .nhsuk-header__navigation-link {
+  padding-right: 0;
+}
+
+.nhsuk-header__drop-down .nhsuk-header__navigation-item:first-child .nhsuk-header__navigation-link {
+  padding-left: 16px;
 }
 
 .nhsuk-header__navigation-link {
   text-decoration: underline;
-  padding-left: 0px;
-  padding-right: 0px;
-
-  @include mq($until: desktop) {
-    padding-left: 16px;
-    padding-right: 16px;
-  }
 
   &:hover {
     text-decoration: none;
   }
+
 }
 
 .nhsuk-phase-banner {
