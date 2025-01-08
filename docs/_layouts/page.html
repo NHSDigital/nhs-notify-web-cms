@@ -19,11 +19,12 @@ assign first_level = nav_pages
 | sort: 'name', 'last'
 -%}
 <div class="nhsuk-width-container">
-  <main class="nhsuk-main-wrapper" id="maincontent" role="main">
+  {%- include breadcrumb.html -%}
+  <main class="nhsuk-main-wrapper--s" id="maincontent" role="main">
     <div class="nhsuk-grid-row">
       <div class="nhsuk-grid-column-full">
         <div class="nhsnotify-pane">
-          <div class="nhsnotify-pane__side-bar nhsuk-grid-column-one-quarter">
+          <div class="nhsnotify-pane__side-bar">
             <nav class="nhsnotify-side-nav">
               <ul class="nhsuk-list nhsnotify-side-nav__list">
                 {% for section in first_level %}
@@ -32,6 +33,7 @@ assign first_level = nav_pages
                 {% endif %}
                 {% assign sorted = section.items | sort: 'nav_order' %}
                 {% for post in sorted %}
+                {% unless post.has_children %}
                 <li class="
                       nhsnotify-side-nav__item
                       {% if post.url == page.url %}
@@ -40,13 +42,14 @@ assign first_level = nav_pages
                     ">
                   <a class="nhsnotify-side-nav__link" href="{{ site.baseurl | append: post.url }}">{{ post.title }}</a>
                 </li>
+                {% endunless %}
                 {% endfor %}
                 {% endfor %}
               </ul>
 
             </nav>
           </div>
-          <div class="nhsnotify-pane__main-content nhsuk-grid-column-three-quarters">
+          <div class="nhsnotify-pane__main-content">
             {% if page.section != undefined %}
             <heading class="nhsuk-heading-s" style="margin-bottom: 0; color: #4c6272">{{ page.section }}</heading>
             {% endif %}
