@@ -34,7 +34,7 @@ You can use NHS Notify if your programme or service:
 
 You'll need to integrate with [NHS Notify API]({% link pages/using-nhs-notify/api.md %}) or [NHS Notify MESH]({% link pages/using-nhs-notify/mesh.md %}) to send messages. You may need a developer or a technical team to do this.
 
-If you want to try NHS Notify API, use our sandbox environments.
+[Try NHS Notify API by using our sandbox environments](https://god.gw.postman.com/run-collection/28740466-ec078d1e-d4d7-4460-92b9-7d79d51f967a?action=collection%2Ffork&source=rip_markdown&collection-url=entityId%3D28740466-ec078d1e-d4d7-4460-92b9-7d79d51f967a%26entityType%3Dcollection%26workspaceId%3D3664098f-4f8b-4edf-874d-ed33e1eea8ed).
 
 ## 1. Register your interest
 
@@ -164,19 +164,19 @@ This stage covers the technical requirements your service or organisations needs
 You will need to:
 
 {% include components/details.html
-heading='Show that it meets NHS Notify’s technical conformance requirements'
-text='Your service will need to accept that it is responsible for:
+heading='Show you can meet NHS Notify’s technical conformance requirements'
+text='Your organisation or service will need to accept that it's responsible for:
 
 - using the correct processes to identify the recipients of messages you plan to send
 - authoring and proofing the content of messages
 - managing the volume of messages it sends so it does not exceed any previously agreed amounts
 
-You will also need to confirm that you have successfully completed integration testing with NHS Notify.'
+You also need to confirm that you have successfully completed integration testing with NHS Notify.'
 %}
 
 {% include components/details.html
 heading='Prove you have developed your integration securely'
-text='Your service should be designed, developed and deployed in a way that minimises and mitigates threats to its security.
+text='Your organisation or service should be designed, developed and deployed in a way that minimises and mitigates threats to its security.
 
 Overall, you will need to evidence that your organisation or service:
 
@@ -184,11 +184,11 @@ Overall, you will need to evidence that your organisation or service:
 - aligns with NCSC Secure development and deployment guidance
 - adheres to the 10 data security standards – Security Self Assessment
 
-To prove that your service has developed securely, we ask for information and evidence around the following topics.
+To prove that your integration has been developed securely, we ask for information and evidence on the following topics.
 
 ### People
 
-Do the staff and people operating your organisation or service:
+The staff and people operating your organisation or service need to:
 
 - commit to handle information respectfully and safely, according to the Caldicott Principles
 - understand their responsibilities under the National Data Guardian’s Data Security Standards
@@ -196,7 +196,7 @@ Do the staff and people operating your organisation or service:
 
 ### Processes
 
-Does your organisation or service:
+Your organisation or service must:
 
 - ensure personal confidential information is only accessible by required staff and is attributable to individuals
 - complete annual reviews to prevent instances where data security is compromised
@@ -205,19 +205,19 @@ Does your organisation or service:
 
 ### Technology
 
-Does your organisation or service have proof that:
+Your organisation or service must:
 
-- it only uses supported operating systems, software or browsers within its IT estate
-- a strategy is in place to protect IT systems from cyber threats
-- processes and procedures are in place to deal with security incidents resultant of cyber attacks
-- any third party IT suppliers are contractually accountable for protecting personal confidential data that they process and meet National Data Guardian’s Data Security Standards
+- only use supported operating systems, software or browsers within its IT estate
+- have a strategy is in place to protect IT systems from cyber threats
+- have processes and procedures are in place to deal with security incidents resultant of cyber attacks
+- prove third party IT suppliers are contractually accountable for protecting personal confidential data that they process and meet National Data Guardian’s Data Security Standards
 
 ### Data in transit protection
 
-Does your organisation or service confirm that data in transit is:
+Your organisation or service must confirm that data in transit is:
 
 - encrypted by default, including sensitive data in transit
-- protected between your end-user device(s) and your service
+- protected between your end-user devices and your service
 - protected between internal components within the service
 - protected where exposed to other external service, for example, via an API
 
@@ -225,7 +225,7 @@ Does your organisation or service confirm that data in transit is:
 
 Access to service interfaces should be constrained to authenticated and authorised individuals.
 
-Does your organisation or service confirm that:
+Your organisation or service must confirm that:
 
 - access to internal and external interfaces is authenticated
 - it has processes to manage the lifecycle of service credentials

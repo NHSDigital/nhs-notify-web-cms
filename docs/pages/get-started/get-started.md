@@ -29,4 +29,4 @@ We'll contact you within 10 working days to find out more about what your servic
 
 Due to our current service capacity and features, you may have to wait before you can continue onboarding. We’re working hard to increase the scale of our service.
 
-[Learn how to onboard with NHS Notify]({% link pages/get-started/onboard-with-notify.md %})
+[Learn how to onboard with NHS Notify]({% link pages/get-started/onboard-with-notify.md %}).
