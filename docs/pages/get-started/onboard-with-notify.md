@@ -171,7 +171,7 @@ text='Your organisation or service will need to accept that it’s responsible f
 - authoring and proofing the content of messages
 - managing the volume of messages it sends so it does not exceed any previously agreed amounts
 
-You also need to confirm that you have sucessfully completed integration testing with NHS Notify.'
+You also need to confirm that you have successfully completed integration testing with NHS Notify.'
   %}
 
 {% include components/details.html
