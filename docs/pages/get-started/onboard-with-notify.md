@@ -165,14 +165,14 @@ You will need to:
 
 {% include components/details.html
 heading='Show you can meet NHS Notify’s technical conformance requirements'
-text='Your organisation or service will need to accept that it's responsible for:
+text='Your organisation or service will need to accept that it’s responsible for:
 
 - using the correct processes to identify the recipients of messages you plan to send
 - authoring and proofing the content of messages
 - managing the volume of messages it sends so it does not exceed any previously agreed amounts
 
-You also need to confirm that you have successfully completed integration testing with NHS Notify.'
-%}
+You also need to confirm that you have sucessfully completed integration testing with NHS Notify.'
+  %}
 
 {% include components/details.html
 heading='Prove you have developed your integration securely'
@@ -228,8 +228,7 @@ Access to service interfaces should be constrained to authenticated and authoris
 Your organisation or service must confirm that:
 
 - access to internal and external interfaces is authenticated
-- it has processes to manage the lifecycle of service credentials
-  '
+- it has processes to manage the lifecycle of service credentials'
   %}
 
 ## 10. Complete the connection agreement
