@@ -7,6 +7,7 @@ title: Onboard with NHS Notify
 parent: Get started
 nav_order: 2
 permalink: /get-started/onboard-with-nhs-notify
+published: false
 ---
 
 Use this page to find out what you need to do to onboard with NHS Notify.
