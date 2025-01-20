@@ -60,18 +60,14 @@
 }
 
 .nhsnotify-side-nav__item {
-  padding: 4px 0 0.5em 1.3em;
-
-  &:first-child {
-    padding-left: 0;
+  padding: 4px 0 0.5em;
 
     &.nhsnotify-side-nav__item--current {
       left: -1.2em;
-      padding-left: 1em;
+      padding-left: 0.75em;
       position: relative;
     }
   }
-}
 
 .nhsnotify-side-nav__item--current {
   font-weight: 600;
@@ -100,14 +96,14 @@
   }
 }
 
+// Mobile navigation
+.nhsnotify-index-navigation {
+  @include nhsuk-responsive-padding(4, 'top');
+}
+
 // Hide content on desktop
 .nhsnotify-u-hide-desktop {
   @include mq($from: desktop) {
     display: none;
   }
-}
-
-// Mobile navigation
-.nhsnotify-index-navigation {
-  @include nhsuk-responsive-padding(4, 'top');
 }

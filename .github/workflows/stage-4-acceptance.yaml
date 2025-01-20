@@ -131,19 +131,19 @@ jobs:
         with:
           node-version: 18
       - run: npm ci
-        working-directory: './docs'
+        working-directory: "./docs"
       - name: Setup Ruby
-        uses: ruby/setup-ruby@8575951200e472d5f2d95c625da0c7bec8217c42 # v1.161.0
+        uses: ruby/setup-ruby@086ffb1a2090c870a3f881cc91ea83aa4243d408 # v1.195.0
         with:
-          ruby-version: '3.1'
+          ruby-version: "3.1"
           bundler-cache: true
           cache-version: 0
-          working-directory: './docs'
+          working-directory: "./docs"
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5
         with:
-          working-directory: './docs'
+          working-directory: "./docs"
       - name: Build with Jekyll
         working-directory: ./docs
         run: bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"

@@ -4,12 +4,12 @@
 
 layout: no-nav-page
 title: Get started
-nav_order: 6
+nav_order: 1
 has_children: true
 permalink: /get-started/
 ---
 
-## 1. Check if NHS Notify is right for you
+## Check if NHS Notify is right for you
 
 You can send messages with NHS Notify if your organisation or service is part of NHS England and supports direct care.
 
@@ -18,9 +18,10 @@ You might want to learn more about:
 - [our features]({% link pages/features/features.md %})
 - [how to use NHS Notify]({% link pages/using-nhs-notify/using-nhs-notify.md %})
 - [how much it costs to send messages]({% link pages/pricing/pricing.md %})
-- [NHS Notify API and its sandbox environment](https://digital.nhs.uk/developer/api-catalogue/nhs-notify)
+- [NHS Notify API (opens in a new tab)](https://digital.nhs.uk/developer/api-catalogue/nhs-notify){:target="\_blank"}
+- [NHS Notify MESH (opens in a new tab)](https://digital.nhs.uk/developer/api-catalogue/nhs-notify-mesh){:target="\_blank"}
 
-## 2. Get in touch to register your interest
+## Get in touch to register your interest
 
 If you think NHS Notify is right for your organisation or service, you can get in touch with our engagement team via <england.nhsnotify@nhs.net>.
 
