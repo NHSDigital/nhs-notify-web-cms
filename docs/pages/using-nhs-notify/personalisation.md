@@ -95,7 +95,7 @@ Your example data does not need to be real data.
 
 ### Fields to avoid for custom personalisation
 
-If you want to use custom personalisation, do not use the following personalisation fields:
+If you want to use custom personalisation, do not use the following placeholders:
 
 - emailAddress
 - phoneNumber
@@ -108,7 +108,7 @@ If you want to use custom personalisation, do not use the following personalisat
 - addressLine7
 - [PDS personalisation fields](#personal-demographics-service-pds-personalisation-fields)
 
-Custom personalisation will not work if you try to add it using these fields. This includes variations such as spaces and upper or lower cases.
+Custom personalisation will not work if you try to add it using these placeholders. This includes variations such as spaces and upper or lower cases.
 
 You can include extra words in your custom personalisation placeholders to make them different from the fields to avoid.
 
