@@ -3,18 +3,14 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: page
-title: Message and channel status
+title: Message, channel and supplier status
 parent: Using NHS Notify
 nav_order: 7
-permalink: /using-nhs-notify/message-and-channel-status
+permalink: /using-nhs-notify/message-channel-supplier-status
 section: Sending a message
 ---
 
-You can find out what's happened to your messages and channels by checking the message or channel status.
-
-To get an overall status of a message you've sent using a routing plan, use the [message status](#message-status).
-
-To see the status of a specific channel in your routing plan, use the [channel status](#channel-status).
+This page describes the statuses you'll see when using NHS Notify API or NHS Notify MESH to find out what's happened to your messages.
 
 {% include components/details.html
 heading='If you’re using NHS Notify API'
@@ -33,7 +29,15 @@ You’ll receive a daily report of messages and channels that have completed tha
 
 %}
 
+To get an overall status of a message you've sent using a routing plan, use the [message status](#message-status).
+
+To see the status of a specific channel in your routing plan, use the [channel and supplier status](#channel-and-supplier-status).
+
 ## Message status
+
+If you're using a routing plan to send a message using multiple channels, you'll get an overall status for all the channels that were attempted.
+
+Messages can have the following statuses:
 
 | Status             | Description                                                                                                               |
 | ------------------ | ------------------------------------------------------------------------------------------------------------------------- |
@@ -59,71 +63,98 @@ Messages and channels that have not reached a recipient will have a 'failed' sta
 | PDS - contact detail is malformed.                                               |
 | PDS - patient does not exist.                                                    |
 
-## Channel status
+## Channel and supplier status
 
-There are specific statuses for each message channel:
+You can find out what's happened to each channel in a routing plan with the channel or supplier status.
 
-- [NHS App status descriptions](#nhs-app-message-status-descriptions) <!-- markdownlint-disable-line -->
-- [Email status descriptions](#email-status-descriptions)
-- [Text message status descriptions](#text-message-status-descriptions)
-- [Letter status descriptions](#letter-status-descriptions)
+### Channel status descriptions
 
-### NHS App message status descriptions
+Each channel can have the following status:
+
+| Status    | Description                                  |
+| --------- | -------------------------------------------- |
+| created   | The channel has been created.                |
+| skipped   | The channel was skipped in the routing plan. |
+| sending   | The channel is currently being sent.         |
+| delivered | The channel has reached the recipient        |
+| failed    | The channel did not reach the recipient      |
+
+### Supplier status descriptions
+
+If you need more detail about a specific channel, you can also use supplier statuses.
+
+Supplier statuses tell you why a channel has a certain channel status. For example, NHS App messages receive a channel status of 'delivered' when NHS Notify receives a supplier status of 'read'.
+
+Find out the supplier statuses you can get and how they map to the channel statuses of:
+
+- [NHS App messages](#nhs-app-message-supplier-status-descriptions) <!-- markdownlint-disable-line -->
+- [emails](#email-supplier-status-descriptions)
+- [text messages (SMS)](#text-message-supplier-status-descriptions)
+- [letters](#letter-supplier-status-descriptions)
+
+#### NHS App message supplier status descriptions
 
 | Status                 | Description                                                                                                                      |
 | ---------------------- | -------------------------------------------------------------------------------------------------------------------------------- |
 | received               | The supplier received the request to send an NHS App message.                                                                    |
-| created                | The NHS App message has been created.                                                                                            |
-| skipped                | The NHS App message has been skipped.                                                                                            |
-| sending                | The NHS App message is in the process of being sent.                                                                             |
 | delivered              | The NHS App message was successfully delivered.                                                                                  |
 | read                   | The recipient has opened the NHS App message.                                                                                    |
 | notified               | A push notification was sent and displayed on the recipient's device.                                                            |
 | notification attempted | A push notification has been sent to the recipient's device but we cannot confirm if the notification was received or displayed. |
 | unnotified             | A push notification was not sent or displayed on the recipient's device.                                                         |
 | rejected               | The supplier rejected the request to send the NHS App message.                                                                   |
-| failed                 | [Read more about failed messages descriptions](#failed-messages).                                                                |
 
-### Email status descriptions
+{% include components/image-with-caption.html
+    src="nhs-app-status-mapping-1.svg"
+    alt="A diagram showing how supplier statuses for NHS App messages map to channel statuses."
+    caption="A diagram showing how supplier statuses for NHS App messages map to channel statuses."
+%}
+
+#### Email supplier status descriptions
 
 | Status            | Description                                                                                                                                  |
 | ----------------- | -------------------------------------------------------------------------------------------------------------------------------------------- |
-| created           | The email has been created.                                                                                                                  |
-| skipped           | The email has been skipped.                                                                                                                  |
-| sending           | The email is in the process of being sent.                                                                                                   |
 | delivered         | The email was successfully delivered.                                                                                                        |
-| failed            | [Read more about failed messages descriptions](#failed-messages).                                                                            |
 | permanent_failure | The provider could not deliver the message because the email address was wrong.                                                              |
 | temporary_failure | The provider could not deliver the message. This can happen when the recipient’s inbox is full or their anti-spam filter rejects your email. |
 | technical_failure | Your message was not sent because there was a problem between NHS Notify and the provider.                                                   |
 
-### Text message status descriptions
+{% include components/image-with-caption.html
+    src="email-status-mapping-1.svg"
+    alt="A diagram showing how supplier statuses for emails map to channel statuses."
+    caption="A diagram showing how supplier statuses for emails map to channel statuses."
+%}
+
+#### Text message supplier status descriptions
 
 | Status            | Description                                                                                                                                                                    |
 | ----------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| created           | The text message has been created.                                                                                                                                             |
-| skipped           | The text message has been skipped.                                                                                                                                             |
-| sending           | The text message is in the process of being sent.                                                                                                                              |
 | delivered         | The text message was successfully delivered.                                                                                                                                   |
-| failed            | [Read more about failed messages descriptions](#failed-messages).                                                                                                              |
 | permanent_failure | The provider could not deliver the message. This can happen if the phone number was wrong or if the network operator rejects the message.                                      |
 | temporary_failure | The provider could not deliver the message. This can happen when the recipient’s phone is off, has no signal, or their text message inbox is full.                             |
 | technical_failure | Your message was not sent because there was a problem between NHS Notify and the provider. You will not be charged for text messages that are affected by a technical failure. |
 
-### Letter status descriptions
+{% include components/image-with-caption.html
+    src="text-message-status-mapping-1.svg"
+    alt="A diagram showing how supplier statuses for text messages map to channel statuses."
+    caption="A diagram showing how supplier statuses for text messages map to channel statuses."
+%}
+
+#### Letter status supplier descriptions
 
 | Status              | Description                                                                                                                                                         |
 | ------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| created             | The letter has been created.                                                                                                                                        |
 | accepted            | NHS Notify has sent the letter to the provider to be printed.                                                                                                       |
-| skipped             | The letter has been skipped.                                                                                                                                        |
-| sending             | The letter is in the process of being sent.                                                                                                                         |
 | received            | The provider has printed and dispatched the letter.                                                                                                                 |
-| delivered           | The letter was successfully delivered.                                                                                                                              |
 | pending_virus_check | The provider has not yet completed a virus scan of the letter.                                                                                                      |
 | cancelled           | Sending cancelled. The letter will not be printed or dispatched.                                                                                                    |
-| failed              | [Read more about failed messages descriptions](#failed-messages).                                                                                                   |
 | virus_scan_failed   | The provider has found a potential virus in the precompiled letter file.                                                                                            |
 | validation_failed   | Content in the letter file is outside the printable area.                                                                                                           |
 | technical_failure   | NHS Notify had an unexpected error while sending the letter to our printing provider. You will not be charged for letters that are affected by a technical failure. |
 | permanent_failure   | The provider cannot print the letter. Your letter will not be dispatched.                                                                                           |
+
+{% include components/image-with-caption.html
+    src="letter-status-mapping-1.svg"
+    alt="A diagram showing how supplier statuses for letters map to channel statuses."
+    caption="A diagram showing how supplier statuses for letters map to channel statuses."
+%}
