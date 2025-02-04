@@ -26,7 +26,7 @@ Your Word document must meet our letter specification. The page size and layout 
 
 Download the relevant letter template to set up your letter:
 
-- [letter template]({% link assets/worddocs/letter-template-nhs-notify.docx %})
+- [standard letter template]({% link assets/worddocs/letter-template-nhs-notify.docx %})
 - [large print letter template]({% link assets/worddocs/letter-template-nhs-notify-large-print.docx %})
 - [other language letter template]({% link assets/worddocs/letter-template-nhs-notify-other-language.docx %})
 - [other language letter (right aligned) template]({% link assets/worddocs/letter-template-nhs-notify-other-language-right-aligned.docx %})
@@ -181,7 +181,7 @@ The address is a personalisation field and is set automatically.
 
 The recipient's name is always included as the first line of the address.
 
-For a letter about a child, the first line will include 'Parent or guardian of'. Make sure you use the [parent or guardian letter template](#how-to-use-our-letter-template).
+If your letter is about a child, use the [parent or guardian letter template](#how-to-use-our-letter-template). This template includes 'Parent or guardian of' in the first line of the address.
 
 ### NHS logo
 
