@@ -37,6 +37,13 @@ To see the status of a specific channel in your routing plan, use the [channel a
 
 If you're using a routing plan to send a message using multiple channels, you'll get an overall status for all the channels that were attempted.
 
+{% include components/details.html
+heading='If you’re integration testing message statuses for letters'
+text='
+
+Message status updates may stop at sending. This is because NHS Notify does not simulate status updates that would be produced by its letter suppliers.'
+%}
+
 Messages can have the following statuses:
 
 | Status             | Description                                                                                                               |
