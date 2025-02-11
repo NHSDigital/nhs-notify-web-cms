@@ -41,13 +41,7 @@ You can also find out about:
 
 ## Personalisation
 
-To add a personalisation field, include a placeholder with double brackets around it. For example:
-
-{% include components/inset-text.html
-    text='Hello ((firstName)), your NHS Number is ((nhsNumber))'
-%}
-
-Read about the [personalisation fields]({% link pages/using-nhs-notify/personalisation.md %}) that are available in the Personal Demographics Service (PDS) and how to provide your own personalisation data.
+You can personalise your text messages by adding personalisation fields. [Learn how to use personalisation]({% link pages/using-nhs-notify/personalisation.md %}).
 
 ## Body text
 

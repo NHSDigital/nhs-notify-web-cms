@@ -30,4 +30,4 @@ Use primary message cascades to send a message with a different channel as a fal
 
 ### Secondary cascades
 
-Use a secondary message cascades to send a message with another channel at the same time as your primary channel. For example, sending a text message at the same time as an email. You cannot fallback to another channel with secondary cascades.
+Use secondary message cascades to send a message with another channel at the same time as your primary channel. For example, sending a text message at the same time as an email. You cannot fallback to another channel with secondary cascades.

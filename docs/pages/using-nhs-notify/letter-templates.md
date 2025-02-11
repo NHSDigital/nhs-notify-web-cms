@@ -10,19 +10,29 @@ permalink: /using-nhs-notify/letter-templates
 section: Writing a message
 ---
 
-Upload a Word document of a letter and NHS Notify will print and post it for you.
+Upload a PDF of your letter and NHS Notify will print and post it for you.
 
-## How to edit your letter using our template
+Your PDF must meet our letter specification. The page size and layout is A4 portrait (210 x 297mm).
+
+You'll need to:
+
+1. [Download our Microsoft Word template.](#how-to-use-our-letter-template)<!-- markdownlint-disable-line -->
+2. [Format your letter.](#formatting-your-letter)
+3. [Convert your letter to a PDF.](#converting-your-letter-to-a-pdf)
+
+## How to use our letter template
 
 Your Word document must meet our letter specification. The page size and layout is A4 portrait (210 x 297mm).
 
 Download the relevant letter template to set up your letter:
 
-- [letter template]({% link assets/worddocs/letter-template-nhs-notify.docx %})
+- [standard letter template]({% link assets/worddocs/letter-template-nhs-notify.docx %})
 - [large print letter template]({% link assets/worddocs/letter-template-nhs-notify-large-print.docx %})
 - [other language letter template]({% link assets/worddocs/letter-template-nhs-notify-other-language.docx %})
-- [other language letter (right aligned)]({% link assets/worddocs/letter-template-nhs-notify-other-language-right-aligned.docx %})
+- [other language letter (right aligned) template]({% link assets/worddocs/letter-template-nhs-notify-other-language-right-aligned.docx %})
 - [parent or guardian letter template]({% link assets/worddocs/letter-template-nhs-notify-parent-or-guardian.docx %})
+
+You'll need the desktop Microsoft Word app.
 
 You can save the template and edit it with your message content.
 
@@ -32,14 +42,18 @@ Do not edit the page margins in the letter template. It has the correct formatti
 
 Organise your message content using the styles in the template.
 
-If you’re copying and pasting text from another document, paste it without any formatting. Then [apply the styles](https://support.microsoft.com/en-gb/office/apply-styles-f8b96097-4d25-4fac-8200-6139c8093109) in the template.
+If you're copying and pasting text from another document, paste it without any formatting. Then [apply the styles](https://support.microsoft.com/en-gb/office/apply-styles-f8b96097-4d25-4fac-8200-6139c8093109) in the template.
 
-You can also use [Microsoft Word’s format painter](https://support.microsoft.com/en-gb/office/use-the-format-painter-4bb415a9-d4e4-42b7-b579-170adc594e40) to copy the formatting of the styles and apply it to your text.
+You can also use [Microsoft Word's format painter](https://support.microsoft.com/en-gb/office/use-the-format-painter-4bb415a9-d4e4-42b7-b579-170adc594e40) to copy the formatting of the styles and apply it to your text.
+
+{% include components/inset-text.html
+    text="Keep the comments and pre-formatted text in the template until you've finished adding your message content. They'll help you to apply the styles."
+%}
 
 Find out how to use:
 
-- [personalisation](#personalisation)<!-- markdownlint-disable-line -->
-- [font and font size](#font-and-font-size)
+- [font and font size](#font-and-font-size)<!-- markdownlint-disable-line -->
+- [personalisation](#personalisation)
 - [headings](#headings)
 - [paragraphs and body text](#paragraphs-and-body-text)
 - [links](#links)
@@ -55,16 +69,6 @@ You can also find out about content you should not edit, including the:
 - [date](#date)
 - [page count](#page-count)
 
-## Personalisation
-
-To add a personalisation field, include a placeholder with double brackets around it. For example:
-
-{% include components/inset-text.html
-    text='Hello ((firstName)), your NHS Number is ((nhsNumber))'
-%}
-
-Read about the [personalisation fields]({% link pages/using-nhs-notify/personalisation.md %}) that are available in the Personal Demographics Service (PDS) and how to provide your own personalisation data.
-
 ## Font and font size
 
 The font size for standard letters is 12 points. The font size for large print is 16 points.
@@ -73,21 +77,34 @@ NHS Notify prints letters in the font Noto Sans.
 
 ### Downloading your font
 
+You must download and use Noto Sans as the font for all of your letters, including [letters in other languages]({% link pages/using-nhs-notify/letters-in-other-languages.md %}). If you're sending letters in other languages that use different character sets, download Noto Sans in those languages.
+
+Go to [Noto Sans on Google Fonts](https://fonts.google.com/noto/fonts) and choose the languages you need by selecting 'Get font'. Then select 'Download all' to download Noto Sans to your device as a zip file.
+
 Noto Sans is a free font.
 
-Download Noto Sans to ensure that you can edit and view your template as it will be printed.
+#### For Windows
 
-1. Go to [Noto Sans on Google Fonts](https://fonts.google.com/noto/specimen/Noto+Sans). Select 'Download all' to download Noto Sans to your device as a zip file.
-2. Right click the zip file and select 'Extract all'.
-3. Open the file. Right click 'NotoSans-Italic-VariableFont_wdth,wght' and select 'Install'. Right click 'NotoSans-VariableFont_wdth,wght' and select 'Install'.
-4. Open the folder 'static'.
-5. Select all of the files in this folder by dragging your mouse over them or selecting 'ctrl' + 'a' on your keyboard. Right click and select 'Install'.
+1. Right click the zip file and select 'Extract all'.
+2. Open the file. Open each folder. Select all of the TrueType font files, right click and select 'Install'.
+3. If the folder contains a sub-folder called 'static', open this.
+4. Select all of the TrueType font files in this folder. Right click and select 'Install'.
 
-Noto Sans will now be available in Microsoft Word.
+#### For Mac
+
+Follow the [install fonts guidance](https://support.apple.com/en-gb/guide/font-book/fntbk1000/mac). Make sure you install the static fonts.
+
+Read [Google's guidance on installing fonts](https://fonts.google.com/knowledge/using_type/installing_and_managing_fonts) for more information.
+
+Noto Sans should now be available in Microsoft Word.
+
+## Personalisation
+
+You can personalise your letters by adding personalisation fields. [Learn how to use personalisation]({% link pages/using-nhs-notify/personalisation.md %}).
 
 ## Headings
 
-Use the style ‘Heading 2, NHS letter heading' in the template for headings.
+Use the style 'Heading 2, NHS letter heading' in the template for headings.
 
 Headings are in bold. They are not in italics or underlined.
 
@@ -105,7 +122,7 @@ If you do not want a paragraph to run over different pages, add a page break bef
 
 ## Links
 
-Use the style ‘Hyperlink' in the template for links.
+Use the style 'Hyperlink' in the template for links.
 
 Write links in full, starting with https://. For example:
 
@@ -124,7 +141,7 @@ If you have a long, complex web address, you can [request a short URL from GOV.U
 We do not recommend using a third-party link shortening service because:
 
 - your users cannot see where the link will take them
-- your link might stop working if there’s a service outage
+- your link might stop working if there's a service outage
 - you can no longer control where the redirect goes
 
 ## Bullet points
@@ -146,7 +163,7 @@ Images must be black and white. Position them within the same page margins as th
 
 If you want to include a QR code, put it in the body of your letter. Insert it as an image.
 
-You’ll need to generate the QR code yourself.
+You'll need to generate the QR code yourself.
 
 You must also provide a short URL or written instructions for how to find your webpage. For example:
 
@@ -162,7 +179,9 @@ The address field fits inside the address window on the envelope.
 
 The address is a personalisation field and is set automatically.
 
-The recipient’s name is always included as the first line of the address. For a letter about a child, the first line will include 'Parent or guardian of'.
+The recipient's name is always included as the first line of the address.
+
+If your letter is about a child, use the [parent or guardian letter template](#how-to-use-our-letter-template). This template includes 'Parent or guardian of' in the first line of the address.
 
 ### NHS logo
 
@@ -189,3 +208,30 @@ The page count shows the current page number and the total number of pages. For 
 %}
 
 It updates automatically.
+
+## Converting your letter to a PDF
+
+When you've finished editing your template in Microsoft Word, you'll need to save it as a PDF.
+
+Before you start, check that your English message content is in the Noto Sans font and any message content in other languages is in the relevant language variant of the Noto Sans font.
+
+1. In the 'Review' tab, go to 'Markup'. Select 'No markup' from the drop-down list to hide any comments or tracked changes.
+2. Select 'File' and 'Save as'. Select 'PDF' from the drop-down list.
+3. For Windows, select 'Standard (publishing online and printing)' in the 'Optimize for' section. Then select 'Save'. For Mac, select 'Best for printing' in the 'File format' section. Then select 'Save'.
+
+### Naming your PDF
+
+Name your PDF template clearly so that it's easy to identify. Make sure you include the following details:
+
+- organisation or service name
+- cohort or topic of your message
+- language used, including English
+- accessible format or standard format used
+- message channel - letter
+- version number
+
+For example:
+
+{% include components/inset-text.html
+    text='vaccinations_under-16_english_standard_letter_v1'
+%}
