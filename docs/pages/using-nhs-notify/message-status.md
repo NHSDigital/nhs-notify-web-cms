@@ -114,7 +114,7 @@ Find out the supplier statuses you can get and how they map to the channel statu
 | rejected               | The supplier rejected the request to send the NHS App message.                                                                   |
 
 {% include components/image-with-caption.html
-    src="nhs-app-status-mapping-1.svg"
+    src="nhs-app-status-mapping-2.svg"
     alt="A diagram showing how supplier statuses for NHS App messages map to channel statuses."
     caption="A diagram showing how supplier statuses for NHS App messages map to channel statuses."
 %}
@@ -129,7 +129,7 @@ Find out the supplier statuses you can get and how they map to the channel statu
 | technical_failure | Your message was not sent because there was a problem between NHS Notify and the provider.                                                   |
 
 {% include components/image-with-caption.html
-    src="email-status-mapping-1.svg"
+    src="text-and-email-status-mapping-1.svg"
     alt="A diagram showing how supplier statuses for emails map to channel statuses."
     caption="A diagram showing how supplier statuses for emails map to channel statuses."
 %}
@@ -144,7 +144,7 @@ Find out the supplier statuses you can get and how they map to the channel statu
 | technical_failure | Your message was not sent because there was a problem between NHS Notify and the provider. You will not be charged for text messages that are affected by a technical failure. |
 
 {% include components/image-with-caption.html
-    src="text-message-status-mapping-1.svg"
+    src="text-and-email-status-mapping-1.svg"
     alt="A diagram showing how supplier statuses for text messages map to channel statuses."
     caption="A diagram showing how supplier statuses for text messages map to channel statuses."
 %}
