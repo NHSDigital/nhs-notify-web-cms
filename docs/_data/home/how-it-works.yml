@@ -11,7 +11,7 @@
 - heading: Tell us who to message using their NHS number
   description: |
     You only need a person’s NHS number to send them messages.
-  image: 2-choose-your-recipients.svg
+  image: choose-your-recipients-no-dob.svg
   image_alt: A screenshot of computer code showing how you provide your recipients.
 
 - heading: Plan how your messages will be sent
