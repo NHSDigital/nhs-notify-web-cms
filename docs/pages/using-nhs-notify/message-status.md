@@ -149,7 +149,7 @@ Find out the supplier statuses you can get and how they map to the channel statu
     caption="A diagram showing how supplier statuses for text  messages map to channel statuses."
 %}
 
-#### Letter status supplier descriptions
+#### Letter supplier status descriptions
 
 | Status              | Description                                                                                                                                                         |
 | ------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
