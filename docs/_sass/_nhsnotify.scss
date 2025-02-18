@@ -172,3 +172,21 @@
   }
 
 }
+
+.nhsuk-breadcrumb__item:not(:last-child):after {
+  display: none;
+  height: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  width: 0px;
+}
+
+.nhsnotify-breadcrumb-chevron {
+  width: 18px;
+  height: 18px;
+  margin-bottom: -4px;
+}
+
+.nhsnotify-breadcrumb-chevron:last-child {
+  display: none;
+}

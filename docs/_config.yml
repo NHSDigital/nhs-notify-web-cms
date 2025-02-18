@@ -34,6 +34,7 @@ collections:
 
 # Build settings
 plugins:
+  - jekyll-content-security-policy-generator
   - jekyll-feed
   - jekyll-sitemap
 

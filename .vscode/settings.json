@@ -7,7 +7,7 @@
     "**/.DS_Store": true,
     "**/Thumbs.db": true,
     "**/.ruby-lsp": true,
-    "docs": true,
+    // "docs": true,
     ".devcontainer": true,
     ".github": true,
     ".vscode": false,
