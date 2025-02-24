@@ -10,7 +10,7 @@ permalink: /using-nhs-notify/mesh
 section: Accessing NHS Notify
 ---
 
-NHS England organisations and services can use the [Message Exchange for Social Care and Health (MESH)](https://digital.nhs.uk/services/message-exchange-for-social-care-and-health-mesh) to send messages with NHS Notify.
+NHS England organisations and services can use the [Message Exchange for Social Care and Health (MESH)](https://digital.nhs.uk/services/message-exchange-for-social-care-and-health-mesh){:target="_blank"} to send messages with NHS Notify.
 
 You should only use MESH to send messages if your organisation or service:
 
