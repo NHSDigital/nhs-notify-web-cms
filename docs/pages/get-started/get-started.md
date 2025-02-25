@@ -21,6 +21,12 @@ You might want to learn more about:
 - [NHS Notify API (opens in a new tab)](https://digital.nhs.uk/developer/api-catalogue/nhs-notify){:target="\_blank"}
 - [NHS Notify MESH (opens in a new tab)](https://digital.nhs.uk/developer/api-catalogue/nhs-notify-mesh){:target="\_blank"}
 
+You also may need to read our:
+
+- [terms and conditions (opens in a new tab)](https://digital.nhs.uk/services/nhs-notify/terms-and-conditions){:target="\_blank"}
+- [acceptable use policy (opens in a new tab)](https://digital.nhs.uk/services/nhs-notify/acceptable-use-policy){:target="\_blank"}
+- [privacy policy (opens in a new tab)](https://digital.nhs.uk/services/nhs-notify/transparency-notice){:target="\_blank"}
+
 ## Get in touch to register your interest
 
 If you think NHS Notify is right for your organisation or service, you can get in touch with our engagement team via <england.nhsnotify@nhs.net>.
