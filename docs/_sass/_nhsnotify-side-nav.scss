@@ -12,10 +12,12 @@
   -webkit-box-flex: 0;
   flex: 0 0 auto;
   width: 220px;
+  margin-right: nhsuk-spacing(9);
 
   @include mq($until: desktop) {
     display: none;
   }
+
 }
 
 .nhsnotify-pane__main-content {
@@ -31,9 +33,9 @@
   flex-direction: column;
   min-width: 0;
 
-  @include mq($from: desktop) {
+  /*@include mq($from: desktop) {
     padding-left: nhsuk-spacing(9);
-  }
+  }*/
 
 }
 
