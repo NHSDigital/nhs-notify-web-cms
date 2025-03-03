@@ -78,7 +78,7 @@ To do this, click the Run and Debug button, and then click the "Play" icon. Alte
 
 ![alt text](assets/img/image-6.png)
 
-- click the green "Play" button to the left of where it says `Attatch (NHS Notify`
+- click the green "Play" button to the left of where it says `Attach (NHS Notify`
 
 ![alt text](assets/img/image-7.png)
 
