@@ -4,21 +4,6 @@ layout: default
 title: Sitemap
 ---
 
-{% assign current_dir = page.dir %}
-{% assign paths = page.dir | split: "/" %}
-{% assign parent_dir = paths[1] %}
-
-{%-
-assign nav_pages = site.pages
-| where_exp: "item", "item.dir contains parent_dir"
--%}
-
-{% assign first_level_dir = parent_dir | prepend: '/' | append: '/' %}
-{%-
-assign first_level = nav_pages
-| where_exp: "item", "item.dir == first_level_dir"
--%}
-
 <div class="nhsuk-width-container">
   <main class="nhsuk-main-wrapper" id="maincontent" role="main">
     <div class="nhsuk-grid-row">

@@ -26,7 +26,7 @@ You can [contact us]({% link pages/support/support.md %}) if you:
 - Improve onboarding for new users
 - Increase print capacity and resilience by bringing in an additional supplier
 - Let users create and manage their own templates
-- Publish a new website with information about NHS Notify
+- Fix accessibility issues in the upcoming 'create and submit a template' interface
 - Provide real-time message statuses to show whether messages have been successfully delivered
 - Show users which recipients have NHS App accounts and notifications enabled
 - Let users subscribe to more detailed NHS APP message statuses
