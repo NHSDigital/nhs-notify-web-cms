@@ -161,7 +161,7 @@
 }
 
 // Breadcrumb spacing override
-
+/*
 .nhsnotify-breadcrumb {
   @include print-hide();
 
@@ -189,4 +189,33 @@
 
 .nhsnotify-breadcrumb-chevron:last-child {
   display: none;
+}
+*/
+
+
+
+
+// Custom breadcrumb styles
+
+.nhsuk-breadcrumb {
+  margin-top: 0;
+  padding-bottom: 0;
+
+  @include mq($from: tablet) {
+    margin-top: 0;
+  }
+}
+
+.nhsuk-breadcrumb__item {
+
+  &:not(:last-child)::after {
+    background: url(/assets/images/icon-chevron-right__breadcrumb.svg) top left no-repeat;
+  }
+}
+
+.nhsuk-breadcrumb__back {
+
+  &::before {
+    background: url(/assets/images/icon-chevron-left__back_link.svg) top left no-repeat;
+  }
 }
