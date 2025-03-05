@@ -28,7 +28,7 @@ AbilityNet has advice on making your device easier to use if you have a disabili
 
 ## Feedback and contact information
 
-If you find any problems not listed on this page or think we’re not meeting accessibility requirements, , contact us by sending an email to a-person-or-department@somewhere.com
+If you find any problems not listed on this page or think we’re not meeting accessibility requirements, , contact us by sending an email to <england.nhsnotify@nhs.net>
 
 ## Enforcement procedure
 
