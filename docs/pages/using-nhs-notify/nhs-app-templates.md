@@ -10,9 +10,15 @@ permalink: /using-nhs-notify/nhs-app-templates
 section: Writing a message
 ---
 
-Upload a Word document of your NHS App message and NHS Notify will send it for you.
+Provide a Word document of your NHS App message and NHS Notify will send it for you.
 
-## How to edit your NHS App message using our template
+You'll need to:
+
+1. [Download our Microsoft Word template](#how-to-use-our-nhs-app-message-template)<!-- markdownlint-disable-line -->.
+2. [Format your NHS App message](#formatting-your-nhs-app-message).
+3. Email your NHS App message template to our onboarding team at <england.nhsnotify@nhs.net>.
+
+## How to use our NHS App message template
 
 Download our [NHS App message template]({% link assets/worddocs/nhs-app-message-template-nhs-notify.docx %}) to set up your NHS App message.
 
@@ -38,6 +44,7 @@ You can also find out about:
 
 - [attachments](#attachments)<!-- markdownlint-disable-line -->
 - [images](#images)
+- [telling recipients who your NHS App message is from](#)
 
 ## Personalisation
 
@@ -107,3 +114,7 @@ If you need to send an attachment, host the attachment separately on a website a
 We do not currently support images in NHS App messages.
 
 If you need to send an image, host it separately on a website and add a link to it in your message content.
+
+## Telling recipients who your NHS App message is from
+
+Find out how to set up your [NHS App message sender name]({% link pages/using-nhs-notify/tell-recipients-who-your-messages-are-from.md %}).

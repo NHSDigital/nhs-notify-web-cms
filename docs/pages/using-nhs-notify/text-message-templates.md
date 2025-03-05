@@ -10,9 +10,15 @@ permalink: /using-nhs-notify/text-message-templates
 section: Writing a message
 ---
 
-Upload a Word document of your text message and NHS Notify will send it for you.
+Provide a Word document of your text message and NHS Notify will send it for you.
 
-## How to edit your text message using our template
+You'll need to:
+
+1. [Download our Microsoft Word template](#how-to-use-our-text-message-template)<!-- markdownlint-disable-line -->.
+2. [Format your text message](#formatting-your-text-message)
+3. Email your text message template to our onboarding team at <england.nhsnotify@nhs.net>.
+
+## How to use our text message template
 
 Download our [text message template]({% link assets/worddocs/text-message-template-nhs-notify.docx %}) to set up your text message.
 
@@ -37,7 +43,7 @@ You can also find out about:
 - [message length](#message-length)<!-- markdownlint-disable-line -->
 - [attachments](#attachments)<!-- markdownlint-disable-line -->
 - [images](#images)
-- [telling recipients who your email is from](#telling-recipients-who-your-email-is-from)
+- [telling recipients who your text message is from](#telling-recipients-who-your-text-message-is-from)
 
 ## Personalisation
 
@@ -87,6 +93,6 @@ We do not currently support images in text messages.
 
 If you need to send an image, host it separately on a website and add a link to it in your message content.
 
-## Telling recipients who your email is from
+## Telling recipients who your text message is from
 
-Find out how to set up your [reply-to email address]({% link pages/using-nhs-notify/tell-recipients-who-your-messages-are-from.md %}). This is the email address that your emails are sent from and that recipients can reply to.
+Find out how to set up your [text message sender name]({% link pages/using-nhs-notify/tell-recipients-who-your-messages-are-from.md %}). This is the email address that your emails are sent from and that recipients can reply to.

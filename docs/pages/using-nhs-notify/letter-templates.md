@@ -19,6 +19,7 @@ You'll need to:
 1. [Download our Microsoft Word template.](#how-to-use-our-letter-template)<!-- markdownlint-disable-line -->
 2. [Format your letter.](#formatting-your-letter)
 3. [Convert your letter to a PDF.](#converting-your-letter-to-a-pdf)
+4. Email your letter PDF template to our onboarding team at <england.nhsnotify@nhs.net>.
 
 ## How to use our letter template
 
