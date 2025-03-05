@@ -10,57 +10,36 @@ permalink: /using-nhs-notify/approve-your-messages
 section: Sending a message
 ---
 
-When you're ready to send messages to recipients, you'll need to approve final proofs of your messages. You'll do this every time you submit new templates.
+When you're ready to send messages to recipients, you'll need to approve final proofs of your messages. You'll do this every time you provide new templates.
 
 This is to ensure that NHS Notify sends your messages exactly as you expect your recipients to get them.
 
-After you've submitted your final templates, we'll share proof versions of your messages with you by email for you to approve.
+## Before you get proofs of your templates
 
-We will not send actual messages or letters directly to you as part of the proofing process.
+It's your responsibility to review your templates in a way that meets your organisation's needs. Check that that your template:
 
-It's your responsibility to review the proof messages in a way that meets your organisation's needs. This includes making sure you've got approvals from the relevant stakeholders in your team. Compare your proofs against the final templates you submitted to us.
+- is approved by the relevant stakeholders in your team
+- does not have any spelling errors
+- is formatted correctly
+
+Provide us with your final [NHS App message]({% link pages/using-nhs-notify/nhs-app-templates.md %}), [email]({% link pages/using-nhs-notify/email-templates.md %}) or [text message]({% link pages/using-nhs-notify/text-message-templates.md %}) Microsoft Word template. Provide your final [letter template as a PDF]({% link pages/using-nhs-notify/letter-templates.md %}).
+
+## Getting proofs of your templates
+
+We'll ask for the contact details of the person in your team who'll approve the proof message.
+
+After you've provided your final templates, we'll email you with a screenshot, attachment or PDF of your proof message. We will not send actual messages or letters directly to you as part of the proofing process.
 
 The proof message will show you example personalisation data if you've added any [personalisation]({% link pages/using-nhs-notify/personalisation.md %}). If any personalisation data does not appear how you expect, you may need to check if you've used the correct personalisation fields or example personalisation data.
 
-Find out how to approve or reject your proofs for:
-
-- [NHS App messages, emails and text messages](#nhs-app-messages-emails-and-text-message-proofing)<!-- markdownlint-disable-line -->
-- [letters](#letter-proofing)
-
-Any delays to you approving or rejecting your proofs could slow down when you can start sending messages to recipients.
-
-## NHS App message, email and text message proofing
-
-Send us your final [NHS App message]({% link pages/using-nhs-notify/nhs-app-templates.md %}), [email]({% link pages/using-nhs-notify/email-templates.md %}) or [text message]({% link pages/using-nhs-notify/text-message-templates.md %}) Microsoft Word template.
-
-We'll ask for the contact details of the person in your team who'll approve the proof message.
-
-We'll email you with a screenshot or attachment of your proof message.
+Any delays to you approving your proofs could slow down when you can start sending messages to recipients.
 
 ### Approving your proof
 
-Reply to our email to approve your proof message.
+If your proof matches the final template you provided to us, reply to our email and tell us that you approve your proof message.
 
 ### If you need to reject your proof
 
-Reply to our email if the content or formatting does not match the template you submitted. We'll update the proof message and email it to you again.
+If the content or formatting of your proof does not match the template you originally provided, reply to our email to describe what's wrong with the proof. We'll update the proof message and email it to you again.
 
-If you need to change the content or formatting of your original template, send us an updated [NHS App message]({% link pages/using-nhs-notify/nhs-app-templates.md %}), [email]({% link pages/using-nhs-notify/email-templates.md %}) or [text message]({% link pages/using-nhs-notify/text-message-templates.md %}) Microsoft Word template and start the proofing process again.
-
-## Letter proofing
-
-Send us your final [letter template as a PDF]({% link pages/using-nhs-notify/letter-templates.md %}).
-
-We'll ask for the contact details of the person in your team who'll approve the proof message.
-
-We'll email you with your letter proof message. This will be a PDF from our letter supplier.
-
-### Approving your proof
-
-Reply to our email to approve your proof message.
-
-### If you need to reject your proof
-
-Reply to our email if the content or formatting does not match the template you submitted. We'll update the proof message and email it to you again.
-
-If you need to change the content or formatting of your original template, send us an updated [letter template PDF]({% link pages/using-nhs-notify/letter-templates.md %}) and start the proofing process again.
+If you need to make further changes to your original template, update your original [NHS App message]({% link pages/using-nhs-notify/nhs-app-templates.md %}), [email]({% link pages/using-nhs-notify/email-templates.md %}), [text message]({% link pages/using-nhs-notify/text-message-templates.md %}) or [letter template]({% link pages/using-nhs-notify/letter-templates.md %}) and send it to us again so that we can create a new proof.
