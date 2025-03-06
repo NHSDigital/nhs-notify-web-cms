@@ -28,7 +28,7 @@ AbilityNet has advice on making your device easier to use if you have a disabili
 
 ## Feedback and contact information
 
-If you find any problems not listed on this page or think we’re not meeting accessibility requirements, , contact us by sending an email to <england.nhsnotify@nhs.net>
+If you find any problems not listed on this page or think we’re not meeting accessibility requirements, contact us by sending an email to <england.nhsnotify@nhs.net>.
 
 ## Enforcement procedure
 
@@ -52,11 +52,11 @@ The following content is non-accessible for the following reasons.
 
 The NHS logo image in the header is missing an appropriate aria-label, making it hard for people with screen readers to understand what the image is. This fails WCAG 2.2 success criterion 1.1.1 (non-text content).
 
-We plan to add an aria-label to this image in our next release.
+We plan to add an aria-label to this image in a future release.
 
 When using 'create and submit a template' people using screen readers may not understand the relationship of the template guidance to the main task of creating a template. Additionally, when the tables in the preview screens are resized, a logical tab order is not maintained. This fails WCAG 2.2 success criterion 1.3.1 (info and relationships).
 
-In our next release we plan to:
+In a future release we plan to:
 
 - amend the HTML structure to reflect the intended relationships between the guidance and the main task of creating a template
 - ensure a logical tab order when the screen is resized
@@ -73,15 +73,15 @@ Pages within 'create a submit a template' are missing meaningful titles, making 
 
 This fails WCAG 2.2 success criterion 2.4.2 (page titles).
 
-We plan to add page titles that are unique and reflect the purpose of each page in our next release.
+We plan to add page titles that are unique and reflect the purpose of each page in a future release.
 
 Some links such as 'copy' and 'delete' are ambiguous for users, making it difficult for screen reader users to determine what items they are copying or deleting. This fails WCAG 2.2 success criterion 2.4.4 (link purpose).
 
-We plan to add hidden text that can be read by screen readers that better describes what items are being copied or deleted in our next release.
+We plan to add hidden text that can be read by screen readers that better describes what items are being copied or deleted in a future release.
 
 When using a screenreader, it is not clear that the markdown examples in 'create and submit a template' are examples that can be copied. This fails WCAG 2.2 success criterion 2.4.6 (headings and labels).
 
-We plan to add hidden text that can be read by screen readers that describes that the markdown examples are examples that can be copied.
+We plan to add hidden text that can be read by screen readers that describes that the markdown examples are examples that can be copied in a future release.
 
 ## What we're doing to improve accessibility
 
