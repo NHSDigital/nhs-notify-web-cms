@@ -44,7 +44,7 @@ You can also find out about:
 
 - [attachments](#attachments)<!-- markdownlint-disable-line -->
 - [images](#images)
-- [telling recipients who your NHS App message is from](#)
+- [telling recipients who your NHS App message is from](#telling-recipients-who-your-nhs-app-message-is-from)
 
 ## Personalisation
 
