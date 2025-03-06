@@ -5,7 +5,7 @@
 layout: page
 title: Recipients you cannot message
 parent: Using NHS Notify
-nav_order: 6
+nav_order: 5
 permalink: /using-nhs-notify/recipients-you-cannot-message
 section: Sending a message
 ---
