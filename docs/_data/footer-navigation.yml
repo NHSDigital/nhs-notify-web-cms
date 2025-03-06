@@ -1,2 +1,14 @@
-# - title: Accessibility statement
-#   link: /
+#- title: Accessibility statement
+#link: /accessibility/
+
+- title: Acceptable use policy
+  link: https://digital.nhs.uk/services/nhs-notify/acceptable-use-policy
+
+- title: Cookies
+  link: /cookies/
+
+- title: Privacy
+  link: https://digital.nhs.uk/services/nhs-notify/transparency-notice
+
+- title: Terms and conditions
+  link: https://digital.nhs.uk/services/nhs-notify/terms-and-conditions

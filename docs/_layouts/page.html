@@ -29,7 +29,7 @@ assign first_level = nav_pages
               <ul class="nhsuk-list nhsnotify-side-nav__list">
                 {% for section in first_level %}
                 {% if section.name != "" %}
-                <p class="nhsuk-u-font-weight-bold nhsnotify-side-nav__list-section">{{ section.name }}</p>
+                <li class="nhsuk-u-font-weight-bold nhsnotify-side-nav__list-section">{{ section.name }}</li>
                 {% endif %}
                 {% assign sorted = section.items | sort: 'nav_order' %}
                 {% for post in sorted %}
