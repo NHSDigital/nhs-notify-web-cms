@@ -79,7 +79,7 @@ Some links such as 'copy' and 'delete' are ambiguous for users, making it diffic
 
 We plan to add hidden text that can be read by screen readers that better describes what items are being copied or deleted in a future release.
 
-When using a screenreader, it is not clear that the markdown examples in 'create and submit a template' are examples that can be copied. This fails WCAG 2.2 success criterion 2.4.6 (headings and labels).
+When using a screen reader, it is not clear that the markdown examples in 'create and submit a template' are examples that can be copied. This fails WCAG 2.2 success criterion 2.4.6 (headings and labels).
 
 We plan to add hidden text that can be read by screen readers that describes that the markdown examples are examples that can be copied in a future release.
 
