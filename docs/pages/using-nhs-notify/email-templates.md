@@ -10,9 +10,15 @@ permalink: /using-nhs-notify/email-templates
 section: Writing a message
 ---
 
-Upload a Word document of your email and NHS Notify will send it for you.
+Provide a Word document of your email and NHS Notify will send it for you.
 
-## How to edit your email using our template
+You'll need to:
+
+1. [Download our Microsoft Word template](#how-to-use-our-email-template)<!-- markdownlint-disable-line -->.
+2. [Format your email](#how-to-use-our-email-template).
+3. Provide your email template to our onboarding team via email at <england.nhsnotify@nhs.net>.
+
+## How to use our email template
 
 Download our [email template]({% link assets/worddocs/email-template-nhs-notify.docx %}) to set up your email.
 
@@ -113,4 +119,4 @@ If you need to send an image, host it separately on a website and add a link to 
 
 ## Telling recipients who your email is from
 
-Find out how to set up your [reply-to email address]({% link pages/using-nhs-notify/tell-recipients-who-your-messages-are-from.md %}). This is the email address that your emails are sent from and that recipients can reply to.
+Find out how to set up your [email sender name and reply-to email address]({% link pages/using-nhs-notify/tell-recipients-who-your-messages-are-from.md %}).
