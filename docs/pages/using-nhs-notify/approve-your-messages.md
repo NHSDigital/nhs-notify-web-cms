@@ -16,7 +16,7 @@ This is to ensure that NHS Notify sends your messages exactly as you expect your
 
 ## Before you get proofs of your templates
 
-It's your responsibility to review your templates in a way that meets your organisation's needs. Check that that your template:
+It's your responsibility to review your templates in a way that meets your organisation's needs. Check that your template:
 
 - is approved by the relevant stakeholders in your team
 - does not have any spelling errors
