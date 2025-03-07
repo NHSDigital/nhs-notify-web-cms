@@ -24,7 +24,7 @@ This website is run by the NHS Notify team at NHS England. We want as many peopl
 
 We’ve also made the website text as simple as possible to understand.
 
-AbilityNet has advice on making your device easier to use if you have a disability.
+[AbilityNet](https://mcmw.abilitynet.org.uk/) has advice on making your device easier to use if you have a disability.
 
 ## Feedback and contact information
 
@@ -54,7 +54,7 @@ The NHS logo image in the header is missing an appropriate aria-label, making it
 
 We plan to add an aria-label to this image in a future release.
 
-When using 'create and submit a template' people using screen readers may not understand the relationship of the template guidance to the main task of creating a template. Additionally, when the tables in the preview screens are resized, a logical tab order is not maintained. This fails WCAG 2.2 success criterion 1.3.1 (info and relationships).
+When using 'create and submit a template', people using screen readers may not understand the relationship of the template guidance to the main task of creating a template. Additionally, when the tables in the preview screens are resized, a logical tab order is not maintained. This fails WCAG 2.2 success criterion 1.3.1 (info and relationships).
 
 In a future release we plan to:
 
@@ -63,7 +63,7 @@ In a future release we plan to:
 
 Autocomplete is turned off by default, making it harder to fill out any form elements when using 'create and submit a template'. This fails WCAG 2.2 success criterion 1.3.5 (identity input purpose).
 
-Autocomplete is turned off by default as what a user will enter into 'create and submit a template' will almost always be different for each submission, making autocomplete for these fields inappropriate. When we add new features that ask users for repeatable information, autocomplete will be enabled.
+Autocomplete is turned off by default because the text a user enters into ‘create and submit a template’ will almost always be different for each submission. This makes autocomplete inappropriate for these fields. When we add new features that ask users for repeatable information, autocomplete will be enabled.
 
 Pages within 'create a submit a template' are missing meaningful titles, making it difficult for people to:
 
@@ -77,11 +77,11 @@ We plan to add page titles that are unique and reflect the purpose of each page 
 
 Some links such as 'copy' and 'delete' are ambiguous for users, making it difficult for screen reader users to determine what items they are copying or deleting. This fails WCAG 2.2 success criterion 2.4.4 (link purpose).
 
-We plan to add hidden text that can be read by screen readers that better describes what items are being copied or deleted in a future release.
+We plan to add hidden text that can be read by screen readers and better describes what items are being copied or deleted in a future release.
 
 When using a screen reader, it is not clear that the markdown examples in 'create and submit a template' are examples that can be copied. This fails WCAG 2.2 success criterion 2.4.6 (headings and labels).
 
-We plan to add hidden text that can be read by screen readers that describes that the markdown examples are examples that can be copied in a future release.
+n a future release, we plan to add hidden text that can be read by screen readers and describes that the markdown examples are examples that can be copied.
 
 ## What we're doing to improve accessibility
 
