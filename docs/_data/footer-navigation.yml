@@ -1,5 +1,5 @@
-#- title: Accessibility statement
-#link: /accessibility/
+- title: Accessibility statement
+  link: /accessibility/
 
 - title: Acceptable use policy
   link: https://digital.nhs.uk/services/nhs-notify/acceptable-use-policy
@@ -9,6 +9,9 @@
 
 - title: Privacy
   link: https://digital.nhs.uk/services/nhs-notify/transparency-notice
+
+- title: Sitemap
+  link: /sitemap/
 
 - title: Terms and conditions
   link: https://digital.nhs.uk/services/nhs-notify/terms-and-conditions

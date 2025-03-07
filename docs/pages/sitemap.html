@@ -1,0 +1,83 @@
+---
+permalink: /sitemap.html
+layout: default
+title: Sitemap
+---
+
+<div class="nhsuk-width-container">
+  <main class="nhsuk-main-wrapper" id="maincontent" role="main">
+    <div class="nhsuk-grid-row">
+      <div class="nhsnotify-pane__main-content nhsuk-grid-column-three-quarters">
+
+        <h1>{{page.title}}</h1>
+
+        <!-- Features -->
+        <h2 class="nhsuk-heading-l"><a class="nhsuk-link" href="{{site.baseurl}}/features">Features</a></h2>
+
+        <ul class="nhsuk-list">
+          {% for page in site.pages %}
+          {% if page.parent == "Features" %}
+          <li>
+            <a class="nhsuk-link" href="{{ page.url }}">{{page.title}}</a>
+          </li>
+          {% endif %}
+          {% endfor %}
+        </ul>
+
+        <!-- Pricing -->
+        <h2 class="nhsuk-heading-l"><a class="nhsuk-link" href="{{site.baseurl}}/pricing">Pricing</a></h2>
+
+        <ul class="nhsuk-list">
+          {% for page in site.pages %}
+          {% if page.parent == "Pricing" %}
+          <li>
+            <a class="nhsuk-link" href="{{ page.url }}">{{page.title}}</a>
+          </li>
+          {% endif %}
+          {% endfor %}
+        </ul>
+
+        <!-- Using NHS Notify -->
+        <h2 class="nhsuk-heading-l"><a class="nhsuk-link" href="{{site.baseurl}}/using-nhs-notify">Using NHS Notify</a>
+        </h2>
+
+        <ul class="nhsuk-list">
+          {% for page in site.pages %}
+          {% if page.parent == "Using NHS Notify" %}
+          <li>
+            <a class="nhsuk-link" href="{{ page.url }}">{{page.title}}</a>
+          </li>
+          {% endif %}
+          {% endfor %}
+        </ul>
+
+        <!-- Support -->
+        <h2 class="nhsuk-heading-l"><a class="nhsuk-link" href="{{site.baseurl}}/support">Support</a></h2>
+
+        <ul class="nhsuk-list">
+          {% for page in site.pages %}
+          {% if page.parent == "Support" %}
+          <li>
+            <a class="nhsuk-link" href="{{ page.url }}">{{page.title}}</a>
+          </li>
+          {% endif %}
+          {% endfor %}
+        </ul>
+
+        <!-- Get started -->
+        <h2 class="nhsuk-heading-l"><a class="nhsuk-link" href="{{site.baseurl}}/get-started">Get started</a></h2>
+
+        <ul class="nhsuk-list">
+          {% for page in site.pages %}
+          {% if page.parent == "Get started" %}
+          <li>
+            <a class="nhsuk-link" href="{{ page.url }}">{{page.title}}</a>
+          </li>
+          {% endif %}
+          {% endfor %}
+        </ul>
+
+      </div>
+    </div>
+  </main>
+</div>
