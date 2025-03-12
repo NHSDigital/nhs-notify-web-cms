@@ -9,6 +9,10 @@ nav_order: 3
 permalink: /pricing/letters
 ---
 
+{% include components/inset-text.html
+  text='**Some letter prices will increase on Tuesday 1 April 2025.**'
+%}
+
 The cost of sending a standard letter depends on the postage you choose and how many sheets of paper you need.
 
 Prices include:
@@ -40,17 +44,7 @@ Learn more about NHS Notify’s [accessible letter formats]({% link pages/using-
 
 ## Letter inserts
 
-You can include an insert with letters to give recipients other information. For example, this could be a leaflet to a related service.
-
-If you include an insert with your letter, you will need to pay an insert fee of up to 1.08 pence (plus VAT) for each letter.
-
-You can print your inserts elsewhere or use NHS Notify. If you use NHS Notify, you will need to pay the print cost.
-
-| Insert type             | Print cost              |
-| ----------------------- | ----------------------- |
-| Simplex colour sheet    | Up to 2.47 pence + VAT  |
-| Duplex colour sheet     | Up to 2.65 pence + VAT  |
-| Additional colour toner | Up to 0.031 pence + VAT |
+If you need to include inserts such as leaflets with your letters, contact us by sending an email to <england.nhsnotify@nhs.net>.
 
 ## Returned letter costs
 
