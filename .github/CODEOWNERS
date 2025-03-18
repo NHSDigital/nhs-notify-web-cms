@@ -5,7 +5,7 @@
 *.code-workspace          @NHSDigital/nhs-notify-amet
 /docs/                    @NHSDigital/nhs-notify-web-cms
 /scripts/config/vale/vale.ini  @NHSDigital/nhs-notify-web-cms
-
+/scripts/config/vale/styles/Vocab/words/accept.txt @NHSDigital/nhs-notify-web-cms
 # Default protection for codeowners, must be last in file.
 /.github/CODEOWNERS       @NHSDigital/nhs-notify-code-owners
 /CODEOWNERS               @NHSDigital/nhs-notify-code-owners
