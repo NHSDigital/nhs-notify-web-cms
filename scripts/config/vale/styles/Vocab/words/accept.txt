@@ -35,3 +35,4 @@ validation_failed
 fullName
 namePrefix
 clientRef
+Cohorting
