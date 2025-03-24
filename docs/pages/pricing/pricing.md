@@ -9,10 +9,6 @@ has_children: true
 permalink: /pricing/
 ---
 
-{% include components/inset-text.html
-  text='**Some letter prices will increase on Tuesday 1 April 2025.**'
-%}
-
 It’s free to send NHS App messages and emails through NHS Notify.
 
 There’s also:
@@ -25,7 +21,7 @@ Find out [how to pay]({% link pages/pricing/how-to-pay.md %}).
 
 ## Text messages (SMS)
 
-It costs 2.27 pence (plus VAT) for every text message you send.
+It costs 2.33 pence (plus VAT) for every text message you send.
 
 {% include components/action-link.html
     url='/pricing/text-messages'
@@ -34,7 +30,7 @@ It costs 2.27 pence (plus VAT) for every text message you send.
 
 ## Letters
 
-It costs up to 61p (plus VAT) to send a one-sheet letter with both sides printed using 2nd class postage.
+It costs up to 67p (plus VAT) to send a one-sheet letter with both sides printed using 2nd class postage.
 
 {% include components/action-link.html
     url='/pricing/letters'

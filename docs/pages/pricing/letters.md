@@ -9,10 +9,6 @@ nav_order: 3
 permalink: /pricing/letters
 ---
 
-{% include components/inset-text.html
-  text='**Some letter prices will increase on Tuesday 1 April 2025.**'
-%}
-
 The cost of sending a standard letter depends on the postage you choose and how many sheets of paper you need.
 
 Prices include:
@@ -24,11 +20,11 @@ Prices include:
 
 | Paper    | 1st class            | 2nd class            |
 | -------- | -------------------- | -------------------- |
-| 1 sheet  | Up to 97 pence + VAT | Up to 61 pence + VAT |
-| 2 sheets | Up to £1.01 + VAT    | Up to 65 pence + VAT |
-| 3 sheets | Up to £1.05 + VAT    | Up to 68 pence + VAT |
-| 4 sheets | Up to £1.11 + VAT    | Up to 75 pence + VAT |
-| 5 sheets | Up to £1.15 + VAT    | Up to 79 pence + VAT |
+| 1 sheet  | Up to £1.78 + VAT    | Up to 67 pence + VAT |
+| 2 sheets | Up to £1.82 + VAT    | Up to 71 pence + VAT |
+| 3 sheets | Up to £1.86 + VAT    | Up to 76 pence + VAT |
+| 4 sheets | Up to £1.92 + VAT    | Up to 81 pence + VAT |
+| 5 sheets | Up to £1.96 + VAT    | Up to 85 pence + VAT |
 
 ## Letters in accessible formats
 
