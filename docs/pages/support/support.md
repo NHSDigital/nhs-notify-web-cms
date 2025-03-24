@@ -23,7 +23,7 @@ We can only respond to you during office hours. Our office hours are 8am to 5pm,
 heading='Support outside of office hours'
 text='
 
-**NHSE National IT Service Desk**
+NHSE National IT Service Desk
 
 Phone: 0300 303 5035
 
