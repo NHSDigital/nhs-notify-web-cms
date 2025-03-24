@@ -9,22 +9,25 @@ has_children: true
 permalink: /support/
 ---
 
-## I'm already using NHS Notify
+NHS Notify is a [silver service](https://digital.nhs.uk/services/reference-guide#service-levels) and is available 24 hours a day, 365 days a year.
 
-If you're already using NHS Notify and you need help, you can contact us using our [service portal](https://nhsdigitallive.service-now.com/csm).
+If you're using NHS Notify and need help, [raise a service request with Service Now](https://nhsdigitallive.service-now.com/csm).
 
-This is for NHS England teams that are technically integrated and set up.
+If you have any general questions about NHS Notify, send an email to <england.nhsnotify@nhs.net>.
 
-### When support is available
+## Office hours
 
-We can only respond to your support queries during office hours. Our office hours are 8am to 6pm, Monday to Friday (excluding bank holidays).
+We can only respond to you during office hours. Our office hours are 8am to 5pm, Monday to Friday, excluding bank holidays.
 
-NHS Notify is a [silver service](https://digital.nhs.uk/services/reference-guide#service-levels). This means it's available 24 hours a day, 365 days a year.
+{% include components/details.html
+heading='Support outside of office hours'
+text='
 
-## I want to start using NHS Notify
+**NHSE National IT Service Desk**
 
-If you work in NHS England and want to start using NHS Notify, find out how to [get started]({% link pages/get-started/get-started.md %}).
+Phone: 0300 303 5035
 
-## I have questions about NHS Notify
+Email: <ssd.nationalservicedesk@nhs.net>
+'
 
-If you work in an NHS England team that’s not currently using NHS Notify and you have further questions, email our engagement team via <england.nhsnotify@nhs.net>.
+%}
