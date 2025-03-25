@@ -9,10 +9,6 @@ has_children: true
 permalink: /pricing/
 ---
 
-{% include components/inset-text.html
-  text='**Text message and letter prices will increase on 1 April 2025.**'
-%}
-
 It’s free to send NHS App messages and emails through NHS Notify.
 
 There’s also:
