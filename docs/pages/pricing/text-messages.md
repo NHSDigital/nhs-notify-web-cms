@@ -9,11 +9,7 @@ nav_order: 2
 permalink: /pricing/text-messages
 ---
 
-{% include components/inset-text.html
-  text='On 1 April 2025 the cost of sending a text message will go up to 2.33 pence (plus VAT).'
-%}
-
-It costs 2.27 pence (plus VAT) for each text message you send.
+It costs 2.33 pence (plus VAT) for each text message you send.
 
 You may pay more for each message if you:
 
@@ -27,7 +23,7 @@ If a text message is longer than 160 characters (including spaces), it will be c
 
 | Message length       | Charge          |
 | -------------------- | --------------- |
-| Up to 160 characters | 1 text messages |
+| Up to 160 characters | 1 text message  |
 | Up to 306 characters | 2 text messages |
 | Up to 459 characters | 3 text messages |
 | Up to 612 characters | 4 text messages |
@@ -50,7 +46,7 @@ Using other accented characters can increase the cost of sending text messages.
 
 | Message length                          | Charge                    |
 | --------------------------------------- | ------------------------- |
-| Up to 70 accented characters            | 1 text messages           |
+| Up to 70 accented characters            | 1 text message            |
 | Up to 134 accented characters           | 2 text messages           |
 | Up to 201 accented characters           | 3 text messages           |
 | Up to 268 accented characters           | 4 text messages           |
