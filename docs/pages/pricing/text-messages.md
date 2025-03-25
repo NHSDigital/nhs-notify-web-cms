@@ -9,6 +9,10 @@ nav_order: 2
 permalink: /pricing/text-messages
 ---
 
+{% include components/inset-text.html
+  text='On 1 April 2025 the cost of sending a text message will go up to 2.33 pence (plus VAT).'
+%}
+
 It costs 2.33 pence (plus VAT) for each text message you send.
 
 You may pay more for each message if you:

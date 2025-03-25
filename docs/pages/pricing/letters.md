@@ -9,6 +9,18 @@ nav_order: 3
 permalink: /pricing/letters
 ---
 
+{% include components/inset-text.html
+text='Royal Mail is increasing its rates.
+
+On 1 April 2025:
+
+- second class letters will go up by between 6 or 8 pence
+- first class letters will go up by 81 pence
+
+The exact difference for postage will depend on the number of pages in your letter.
+'
+%}
+
 The cost of sending a standard letter depends on the postage you choose and how many sheets of paper you need.
 
 Prices include:
