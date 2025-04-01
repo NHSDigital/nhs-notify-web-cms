@@ -65,20 +65,6 @@ Autocomplete is turned off by default, making it harder to fill out any form ele
 
 Autocomplete is turned off by default because the text a user enters into ‘create and submit a template’ will almost always be different for each submission. This makes autocomplete inappropriate for these fields. When we add new features that ask users for repeatable information, autocomplete will be enabled.
 
-Pages within 'create and submit a template' are missing meaningful titles, making it difficult for people to:
-
-- easily identify if the information on that page is relevant to their needs
-- differentiate content when multiple web pages are open
-- navigate between web pages when using audio assistive technologies
-
-This fails WCAG 2.2 success criterion 2.4.2 (page titles).
-
-We plan to add page titles that are unique and reflect the purpose of each page in a future release.
-
-Some links such as 'copy' and 'delete' are ambiguous for users, making it difficult for screen reader users to determine what items they are copying or deleting. This fails WCAG 2.2 success criterion 2.4.4 (link purpose).
-
-We plan to add hidden text that can be read by screen readers and better describes what items are being copied or deleted in a future release.
-
 When using a screen reader, it is not clear that the markdown examples in 'create and submit a template' are examples that can be copied. This fails WCAG 2.2 success criterion 2.4.6 (headings and labels).
 
 In a future release, we plan to add hidden text that can be read by screen readers and describes that the markdown examples are examples that can be copied.
