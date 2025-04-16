@@ -79,7 +79,7 @@ Email sender names should not:
 
 ### From email address
 
-NHS Notify uses your email sender name to create your 'from' email address. If you include spaces in your email sender name, they will be added as full-stops in your 'from' address, for example:
+NHS Notify uses your email sender name to create your from email address. If you include spaces in your email sender name, they will be added as full-stops in your 'from' address, for example:
 
 {% include components/inset-text.html
     text='your.email.sender.name@notifications.service.gov.uk'

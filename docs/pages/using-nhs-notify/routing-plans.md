@@ -22,11 +22,11 @@ You can set up routing plans to:
 
 ## Routing plans and contact details from the Personal Demographics Service (PDS)
 
-NHS Notify checks for each recipient's contact details before any messages are sent using a routing plan.
+NHS Notify checks for each recipient's contact details before we send any messages using a routing plan.
 
-This means that if a recipient's contact details are not found for a message channel, that channel is automatically skipped.
+This means that if we did not find recipient's contact details for a message channel, we'll automatically skip that channel.
 
-We do not recheck for contact details each time there's a fallback in a routing plan.
+We do not re-check for contact details each time there's a fallback in a routing plan.
 
 ## Message cascades
 
