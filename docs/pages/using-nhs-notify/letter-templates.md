@@ -12,14 +12,14 @@ section: Writing a message
 
 Upload a PDF of your letter and NHS Notify will print and post it for you.
 
-Your PDF must meet our letter specification. The page size and layout is A4 portrait (210 x 297mm).
+Your PDF must meet our letter specification. The page size and layout is A4 portrait (210mm x 297mm).
 
 You'll need to:
 
-1. [Download our Microsoft Word template.](#how-to-use-our-letter-template)<!-- markdownlint-disable-line -->
-2. [Format your letter.](#formatting-your-letter)
-3. [Convert your letter to a PDF.](#converting-your-letter-to-a-pdf)
-4. Email your letter PDF template to our onboarding team at <england.nhsnotify@nhs.net>.
+1. [Download our Microsoft Word template](#how-to-use-our-letter-template).<!-- markdownlint-disable-line -->
+2. [Format your letter](#formatting-your-letter).
+3. [Convert your letter to a PDF](#converting-your-letter-to-a-pdf).
+4. Email your letter PDF template to our onboarding team at <england.nhsnotifyonboarding@nhs.net>.
 
 ## How to use our letter template
 
@@ -27,11 +27,11 @@ Your Word document must meet our letter specification. The page size and layout 
 
 Download the relevant letter template to set up your letter:
 
-- [standard letter template]({% link assets/worddocs/letter-template-nhs-notify.docx %})
-- [large print letter template]({% link assets/worddocs/letter-template-nhs-notify-large-print.docx %})
-- [other language letter template]({% link assets/worddocs/letter-template-nhs-notify-other-language.docx %})
-- [other language letter (right aligned) template]({% link assets/worddocs/letter-template-nhs-notify-other-language-right-aligned.docx %})
-- [parent or guardian letter template]({% link assets/worddocs/letter-template-nhs-notify-parent-or-guardian.docx %})
+- [standard letter template]({% link assets/worddocs/letter-template-nhs-notify_.docx %})
+- [large print letter template]({% link assets/worddocs/letter-template-nhs-notify-large-print_.docx %})
+- [other language letter template]({% link assets/worddocs/letter-template-nhs-notify-other-language_.docx %})
+- [other language (right-aligned) letter template]({% link assets/worddocs/letter-template-nhs-notify-other-language-right-aligned_.docx %})
+- [parent or guardian letter template]({% link assets/worddocs/letter-template-nhs-notify-parent-or-guardian_.docx %})
 
 You'll need the desktop Microsoft Word app.
 

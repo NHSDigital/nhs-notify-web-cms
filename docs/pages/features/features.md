@@ -20,7 +20,7 @@ You can send messages in bulk or individually.
 
 ## Send messages to groups of recipients without their contact details
 
-You only need a person’s NHS number to send them messages. Learn how to [tell us who you want to message](% link pages/using-nhs-notify/tell-us-who-you-want-to-message.md %).
+You only need a person’s NHS number to send them messages. Learn how to [tell us who you want to message]({% link pages/using-nhs-notify/tell-us-who-you-want-to-message.md %}).
 
 Create specific cohorts of recipients by using [Cohorting as a Service (opens in a new tab)](https://digital.nhs.uk/services/cohorting-as-a-service-caas){:target="\_blank"}.
 

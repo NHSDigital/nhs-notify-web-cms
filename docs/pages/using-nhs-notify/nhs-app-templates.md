@@ -16,7 +16,7 @@ You'll need to:
 
 1. [Download our Microsoft Word template](#how-to-use-our-nhs-app-message-template)<!-- markdownlint-disable-line -->.
 2. [Format your NHS App message](#formatting-your-nhs-app-message).
-3. Email your NHS App message template to our onboarding team at <england.nhsnotify@nhs.net>.
+3. Email your NHS App message template to our onboarding team at <england.nhsnotifyonboarding@nhs.net>.
 
 ## How to use our NHS App message template
 

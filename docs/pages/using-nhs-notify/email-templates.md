@@ -16,7 +16,7 @@ You'll need to:
 
 1. [Download our Microsoft Word template](#how-to-use-our-email-template)<!-- markdownlint-disable-line -->.
 2. [Format your email](#how-to-use-our-email-template).
-3. Provide your email template to our onboarding team via email at <england.nhsnotify@nhs.net>.
+3. Provide your email template to our onboarding team via email at <england.nhsnotifyonboarding@nhs.net>.
 
 ## How to use our email template
 
