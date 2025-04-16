@@ -15,7 +15,7 @@ It’s important that your recipients know and trust who has sent them a message
 You can change the:
 
 - [NHS App sender name](#nhs-app-sender-name)<!-- markdownlint-disable-line -->
-- [email sender name and from email address](#email-sender-name-and-from-address)
+- [email sender name and from email address](#email-sender-name-and-from-email-address)
 - [reply-to email address](#reply-to-email-address)
 - [text message sender name](#text-message-sender-name)
 
