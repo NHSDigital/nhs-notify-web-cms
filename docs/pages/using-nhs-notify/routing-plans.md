@@ -20,6 +20,14 @@ You can set up routing plans to:
 - use specific message templates for different groups of recipients
 - stop sending messages to a recipient when a channel is successful
 
+## Routing plans and contact details from the Personal Demographics Service (PDS)
+
+NHS Notify checks for each recipient's contact details before we send any messages using a routing plan.
+
+This means that if we do not find a recipient's contact details for a message channel, we'll automatically skip that channel.
+
+We do not re-check for contact details each time there's a fallback in a routing plan.
+
 ## Message cascades
 
 A message cascade allows you to message a recipient with different channels in the order you choose. You can set up primary and secondary message cascades in your routing plan.
