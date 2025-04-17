@@ -76,7 +76,7 @@ Link text should tell the recipient what action they need to take and where the 
 
 Never use ‘click here’, ‘click link’, ‘this link’ or ‘more’, as these do not make sense when read out of context.
 
-If the recipient is not expecting to receive an email from you, we recommend using the full URL instead of link text. Start with https://. For example:
+If the recipient is not expecting to receive a message from you, we recommend using the full URL instead of link text. Start with https://. For example:
 
 {% include components/inset-text.html
     text='<span>https://www.service-manual.nhs.uk/content</span>'
