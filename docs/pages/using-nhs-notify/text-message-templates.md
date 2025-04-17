@@ -15,8 +15,8 @@ Provide a Word document of your text message and NHS Notify will send it for you
 You'll need to:
 
 1. [Download our Microsoft Word template](#how-to-use-our-text-message-template)<!-- markdownlint-disable-line -->.
-2. [Format your text message](#formatting-your-text-message)
-3. Email your text message template to our onboarding team at <england.nhsnotify@nhs.net>.
+2. [Format your text message](#formatting-your-text-message).
+3. Email your text message template to our onboarding team at <england.nhsnotifyonboarding@nhs.net>.
 
 ## How to use our text message template
 

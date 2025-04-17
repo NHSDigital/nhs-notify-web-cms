@@ -16,7 +16,7 @@ You'll need to:
 
 1. [Download our Microsoft Word template](#how-to-use-our-nhs-app-message-template)<!-- markdownlint-disable-line -->.
 2. [Format your NHS App message](#formatting-your-nhs-app-message).
-3. Email your NHS App message template to our onboarding team at <england.nhsnotify@nhs.net>.
+3. Email your NHS App message template to our onboarding team at <england.nhsnotifyonboarding@nhs.net>.
 
 ## How to use our NHS App message template
 
@@ -76,7 +76,7 @@ Link text should tell the recipient what action they need to take and where the 
 
 Never use ‘click here’, ‘click link’, ‘this link’ or ‘more’, as these do not make sense when read out of context.
 
-If the recipient is not expecting to receive an email from you, we recommend using the full URL instead of link text. Start with https://. For example:
+If the recipient is not expecting to receive a message from you, we recommend using the full URL instead of link text. Start with https://. For example:
 
 {% include components/inset-text.html
     text='<span>https://www.service-manual.nhs.uk/content</span>'
