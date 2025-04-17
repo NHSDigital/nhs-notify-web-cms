@@ -24,7 +24,7 @@ You can set up routing plans to:
 
 NHS Notify checks for each recipient's contact details before we send any messages using a routing plan.
 
-This means that if we did not find recipient's contact details for a message channel, we'll automatically skip that channel.
+This means that if we do not find a recipient's contact details for a message channel, we'll automatically skip that channel.
 
 We do not re-check for contact details each time there's a fallback in a routing plan.
 
