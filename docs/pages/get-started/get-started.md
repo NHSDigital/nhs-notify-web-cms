@@ -27,8 +27,12 @@ You also may need to read our:
 - [acceptable use policy (opens in a new tab)](https://digital.nhs.uk/services/nhs-notify/acceptable-use-policy){:target="\_blank"}
 - [privacy policy (opens in a new tab)](https://digital.nhs.uk/services/nhs-notify/transparency-notice){:target="\_blank"}
 
-## Get in touch to register your interest
+## Register your interest with NHS Notify
 
-If you think NHS Notify is right for your organisation or service, you can get in touch with our engagement team via <england.nhsnotify@nhs.net>.
+If you think NHS Notify is right for you, complete the following form to register your interest. This will open in a new tab.
 
-We'll contact you within 10 working days to find out more about what your service needs.
+We’ll contact you within 10 working days to find out more about your needs.
+
+{% include components/button.html
+    text="Register your interest"
+%}
