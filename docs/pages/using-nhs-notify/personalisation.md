@@ -12,7 +12,7 @@ section: Writing a message
 
 You can send personalised messages by adding personalisation fields to a single template.
 
-Use double brackets to add a placeholder to your content. Do not include spaces in your placeholder text. For example:
+Use double brackets to add a personalisation field to your content. Do not include spaces in your personalisation fields. For example:
 
 {% include components/inset-text.html
     text='Hello ((fullName)), your NHS Number is ((nhsNumber))'
@@ -27,7 +27,7 @@ You can use:
 
 NHS Notify uses the [Personal Demographics Service (PDS)](https://digital.nhs.uk/services/personal-demographics-service) to find and populate certain personalisation fields for each recipient. This happens automatically when you [tell us who you want to message]({% link pages/using-nhs-notify/tell-us-who-you-want-to-message.md %}) using recipients' NHS numbers.
 
-You can use the following PDS personalisation fields in your templates:
+To use PDS personalisation fields in your templates, choose from the following list:
 
 - fullName
 - firstName
@@ -35,7 +35,10 @@ You can use the following PDS personalisation fields in your templates:
 - nhsNumber
 - date
 
-Any placeholders in your content need to match the PDS personalisation fields.
+{% include components/inset-text.html
+    text='Make sure your personalisation fields exactly match the PDS personalisation fields. This includes using the correct order of upper and lower case letters.'
+%}
+
 
 ## Custom personalisation fields
 
@@ -57,7 +60,7 @@ Read the [API documentation](https://digital.nhs.uk/developer/api-catalogue/nhs-
 
 Include the personalisation fields as columns in your CSV file.
 
-The column names should start with 'personalisation\_', followed by the same wording as the placeholders in your template.
+The column names should start with 'personalisation\_', followed by the same wording as the personalisation fields in your template.
 
 For example, if you wanted to include 'practice' as a personalisation field, the column name would be:
 
@@ -73,7 +76,7 @@ You'll need to provide example data if you're using custom personalisation field
 
 Download and complete our [example personalisation data spreadsheet]({% link assets/personalisationexampledata/personalisation-example-data-nhs-notify.xlsx %}).
 
-The placeholders in your content must match the fields in the 'personalisation field' column.
+The personalisation fields in your content must match the fields in the 'personalisation field' column.
 
 You'll need to provide short, medium and long lengths of example data for each of your personalisation fields.
 
@@ -95,7 +98,7 @@ Your example data does not need to be real data.
 
 ### Fields to avoid for custom personalisation
 
-If you want to use custom personalisation, do not use the following placeholders:
+If you want to use custom personalisation, do not use the following personalisation fields:
 
 - emailAddress
 - phoneNumber
@@ -108,11 +111,11 @@ If you want to use custom personalisation, do not use the following placeholders
 - addressLine7
 - [PDS personalisation fields](#personal-demographics-service-pds-personalisation-fields)
 
-Custom personalisation will not work if you try to add it using these placeholders. This includes variations such as spaces and upper or lower cases.
+Custom personalisation will not work if you try to add it using these personalisation fields. This includes variations such as spaces and upper or lower cases.
 
-You can include extra words in your custom personalisation placeholders to make them different from the fields to avoid.
+You can include extra words in your custom personalisation fields to make them different from the fields to avoid.
 
-For example, if you wanted to include GP practice phone number as a custom personalisation field, your placeholder could be:
+For example, if you wanted to include GP practice phone number as a custom personalisation field, your personalisation field could be:
 
 {% include components/inset-text.html
     text='((GP_phoneNumber))'
