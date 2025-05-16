@@ -39,7 +39,6 @@ To use PDS personalisation fields in your templates, choose from the following l
     text='Make sure your personalisation fields exactly match the PDS personalisation fields. This includes using the correct order of upper and lower case letters.'
 %}
 
-
 ## Custom personalisation fields
 
 You can add custom personalisation fields that use your own personalisation data.
