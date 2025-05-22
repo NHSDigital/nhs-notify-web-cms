@@ -31,10 +31,10 @@ Find out what features you can use when you send transactional messages with NHS
 heading='How you can integrate'
 text='
 
-| Integration method | Availability                                              |
-| ------------------ | --------------------------------------------------------- |
-| NHS Notify API     | Recommended                                               |
-| NHS Notify MESH    | {::nomarkdown}<img src="/assets/icons/icon-tick.svg">{:/} |
+| Integration method | Availability |
+| ------------------ | ------------ |
+| NHS Notify API     | Recommended  |
+| NHS Notify MESH    | Yes          |
 
 '
 %}
@@ -43,12 +43,12 @@ text='
 heading='What message channels and other formats you can use'
 text='
 
-| Message channel     | Included                                                  |
-| ------------------- | --------------------------------------------------------- |
-| NHS App messages    | {::nomarkdown}<img src="/assets/icons/icon-tick.svg">{:/} |
-| Emails              | {::nomarkdown}<img src="/assets/icons/icon-tick.svg">{:/} |
-| Text messages (SMS) | {::nomarkdown}<img src="/assets/icons/icon-tick.svg">{:/} |
-| Letters             | {::nomarkdown}<img src="/assets/icons/icon-tick.svg">{:/} |
+| Message channel     | Included |
+| ------------------- | -------- |
+| NHS App messages    | Yes      |
+| Emails              | Yes      |
+| Text messages (SMS) | Yes      |
+| Letters             | Yes      |
 
 '
 %}
@@ -57,12 +57,12 @@ text='
 heading='Other message formats you can use'
 text='
 
-| Feature                    | Is it included?                                           |
-| -------------------------- | --------------------------------------------------------- |
-| Braille                    | {::nomarkdown}<img src="/assets/icons/icon-tick.svg">{:/} |
-| Large print                | {::nomarkdown}<img src="/assets/icons/icon-tick.svg">{:/} |
-| Audio CD                   | {::nomarkdown}<img src="/assets/icons/icon-tick.svg">{:/} |
-| Letters in other languages | {::nomarkdown}<img src="/assets/icons/icon-tick.svg">{:/} |
+| Feature                    | Is it included? |
+| -------------------------- | --------------- |
+| Braille                    | Yes             |
+| Large print                | Yes             |
+| Audio CD                   | Yes             |
+| Letters in other languages | Yes             |
 
 '
 %}
@@ -71,11 +71,11 @@ text='
 heading='What you can do when writing your messages'
 text='
 
-| Feature          | Is it included?                                            |
-| ---------------- | ---------------------------------------------------------- |
-| Templates        | {::nomarkdown}<img src="/assets/icons/icon-tick.svg">{:/}  |
-| Free-text inputs | {::nomarkdown}<img src="/assets/icons/icon-cross.svg">{:/} |
-| Personalisation  | {::nomarkdown}<img src="/assets/icons/icon-tick.svg">{:/}  |
+| Feature          | Is it included? |
+| ---------------- | --------------- |
+| Templates        | Yes             |
+| Free-text inputs | Yes             |
+| Personalisation  | Yes             |
 
 '
 %}
@@ -84,12 +84,12 @@ text='
 heading='How you can send your messages'
 text='
 
-| Feature        | Is it included?                                            |
-| -------------- | ---------------------------------------------------------- |
-| Rate limiting  | Up to 5 TPS                                                |
-| Routing plans  | {::nomarkdown}<img src="/assets/icons/icon-tick.svg">{:/}  |
-| Fallback rules | {::nomarkdown}<img src="/assets/icons/icon-tick.svg">{:/}  |
-| Parallel send  | {::nomarkdown}<img src="/assets/icons/icon-cross.svg">{:/} |
+| Feature        | Is it included? |
+| -------------- | --------------- |
+| Rate limiting  | Up to 5 TPS     |
+| Routing plans  | Yes             |
+| Fallback rules | Yes             |
+| Parallel send  | Yes             |
 
 '
 %}
