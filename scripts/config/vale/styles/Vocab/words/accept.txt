@@ -44,3 +44,5 @@ Marino
 Rica
 Futuna
 Tokelau
+Wayfinder
+phoneNumber

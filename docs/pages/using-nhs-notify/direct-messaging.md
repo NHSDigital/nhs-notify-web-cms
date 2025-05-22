@@ -40,7 +40,7 @@ You must adhere to the following in your user journeys:
 - the message must only provide information, or its call to action must not involve a digital step (for example, "call your GP")
 - message content must be in the message body or if you’re linking to other message content
 - any links should only open a patients web browser
-- links should only take patients to to web-based content such as your website, NHS.UK, a GP’s website, or other relevant web pages
+- links should only take patients to web-based content such as your website, NHS.UK, a GP’s website, or other relevant web pages
 - do not include links that open other mobile applications
   '
   %}
