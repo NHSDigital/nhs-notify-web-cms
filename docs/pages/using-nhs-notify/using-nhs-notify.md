@@ -39,5 +39,5 @@ This guidance is to help teams understand how to use NHS Notify.
 - [Tell us who you want to message]({% link pages/using-nhs-notify/tell-us-who-you-want-to-message.md %})
 - [Routing plans]({% link pages/using-nhs-notify/routing-plans.md %})
 - [Recipients you cannot message]({% link pages/using-nhs-notify/recipients-you-cannot-message.md %})
-- [Approve your messages before you send them]({% link pages/using-nhs-notify/approve-your-messages.md %})
+- [Approve your messages before we send them]({% link pages/using-nhs-notify/approve-your-messages.md %})
 - [Message, channel and supplier status]({% link pages/using-nhs-notify/message-status.md %})
