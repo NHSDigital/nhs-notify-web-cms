@@ -99,8 +99,8 @@
   </tbody>
 </table>
 
-<!-- Additional message formats -->
-<h3 class="nhsuk-heading-s">Additional message formats</h3>
+<!-- Additional letter formats -->
+<h3 class="nhsuk-heading-s">Additional letter formats</h3>
 <table class="nhsuk-table">
   <thead class="nhsuk-table__head nhsuk-u-visually-hidden">
     <tr>
@@ -277,9 +277,25 @@
   </thead>
   <tbody class="nhsuk-table__body">
     <tr class="nhsuk-table__row">
+      <td class="nhsuk-table__cell">Automatic contact look up (mandatory)
+        <div class="nhsuk-hint">
+          NHS Notify automatically finds and uses your recipients contact details from their NHS number
+        </div>
+      </td>
+      <td class="nhsuk-table__cell">
+        <abbr title="Yes">
+          <svg class="nhsuk-icon nhsuk-icon__tick" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"
+            aria-hidden="true" width="34" height="34">
+            <path stroke-width="4" stroke-linecap="round" d="M18.4 7.8l-8.5 8.4L5.6 12" stroke="#007f3b"></path>
+          </svg>
+        </abbr>
+      </td>
+    </tr>
+    <tr class="nhsuk-table__row">
       <td class="nhsuk-table__cell">Rate limiting
         <div class="nhsuk-hint">
-          Set how many messages are sent per second to control how often recipients access your service
+          Set how many messages are sent per second to control how often recipients access your service, also known as
+          transactions per second (TPS)
         </div>
       </td>
       <td class="nhsuk-table__cell">Up to 5TPS</td>
@@ -307,7 +323,7 @@
     <tr class="nhsuk-table__row">
       <td class="nhsuk-table__cell">Fallback rules
         <div class="nhsuk-hint">
-          These are rules that trigger when a fallback is used for each message channel in a routing plan
+          The rules that trigger when a fallback is used for each message channel in a routing plan
         </div>
         <p>
           If you send direct messages with the NHS App you must create your own fallback functionality and adhere to the
@@ -366,10 +382,10 @@
         <div class="nhsuk-hint">
           NHS Notify prevents you from sending messages to specific recipients to make your messaging more effective
         </div>
-        <p>You cannot send transactional messages to recipients with:</p>
+        <p>You cannot send direct messages to recipients with:</p>
         <ul class="nhsuk-list nhsuk-list--bullet">
           <li>flagged records</li>
-          <li>exit codes (also known as reason for removal codes)</li>
+          <li>reason for removal codes (also known as exit codes)</li>
           <li>international addresses</li>
           <li>invalid postcodes</li>
           <li>invalid email addresses</li>

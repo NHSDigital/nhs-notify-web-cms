@@ -98,8 +98,8 @@
   </tbody>
 </table>
 
-<!-- Additional message formats -->
-<h3 class="nhsuk-heading-s">Additional message formats</h3>
+<!-- Additional letter formats -->
+<h3 class="nhsuk-heading-s">Additional letter formats</h3>
 <table class="nhsuk-table">
   <thead class="nhsuk-table__head nhsuk-u-visually-hidden">
     <tr>
@@ -246,14 +246,14 @@
   <thead class="nhsuk-table__head nhsuk-u-visually-hidden">
     <tr>
       <th scope="col" class="nhsuk-table__header">Feature</th>
-      <th scope="col" class="nhsuk-table__header">Included for transactional messages</th>
+      <th scope="col" class="nhsuk-table__header">Included</th>
     </tr>
   </thead>
   <tbody class="nhsuk-table__body">
     <tr class="nhsuk-table__row">
-      <td class="nhsuk-table__cell">Personalisation
+      <td class="nhsuk-table__cell">Automatic contact look up (mandatory)
         <div class="nhsuk-hint">
-          Add details like your recipients name, appointment times or reference numbers to your messages
+          NHS Notify automatically finds and uses your recipients contact details from their NHS number
         </div>
       </td>
       <td class="nhsuk-table__cell">
@@ -268,7 +268,8 @@
     <tr class="nhsuk-table__row">
       <td class="nhsuk-table__cell">Rate limiting
         <div class="nhsuk-hint">
-          Set how many messages are sent per second to control how often recipients access your service
+          Set how many messages are sent per second to control how often recipients access your service, also known as
+          transactions per second (TPS)
         </div>
       </td>
       <td class="nhsuk-table__cell">Up to 5TPS</td>
@@ -278,7 +279,7 @@
         <div class="nhsuk-hint">
           Use routing plans to decide how messages will be sent to your recipients and in what orders.
         </div>
-        <p class="nhsuk-body">You can send transactional messages in the following ways:</p>
+        <p class="nhsuk-body">You can send event based messages in the following ways:</p>
         <ul class="nhsuk-list nhsuk-list--bullet">
           <li>NHS App message only</li>
           <li>NHS App message, Email</li>
@@ -301,9 +302,9 @@
     <tr class="nhsuk-table__row">
       <td class="nhsuk-table__cell">Fallback rules
         <div class="nhsuk-hint">
-          The following fallback rules will apply to message channels used in your routing plans:
+          The rules that trigger when a fallback is used for each message channel in a routing plan
         </div>
-        <p>
+        <p class="nhsuk-body">
           All digital message channels will immediately fallback to the next channel if its rejected or an 'unnotified'
           status is received.
         </p>
@@ -313,7 +314,7 @@
           <li>a 'notified' status is not received within 1 hour</li>
           <li>the message is not read by the recipient within 24 hours</li>
         </ul>
-        <p>Emails and text messages will fallback to the next channel if they are XYZ after 72 hours </p>
+        <p>Emails and text messages will fallback to the next channel if they are not delivered after 72 hours </p>
         <p>Letters do not have any fallback rules as they’re always sent last in routing plans for transactional
           messages.</p>
       </td>
@@ -351,10 +352,10 @@
         <div class="nhsuk-hint">
           NHS Notify prevents you from sending messages to specific recipients to make your messaging more effective
         </div>
-        <p>You cannot send transactional messages to recipients with:</p>
+        <p>You cannot send event based messages to recipients with:</p>
         <ul class="nhsuk-list nhsuk-list--bullet">
           <li>flagged records</li>
-          <li>exit codes (also known as reason for removal codes)</li>
+          <li>reason for removal codes (also known as exit codes)</li>
           <li>international addresses</li>
           <li>invalid postcodes</li>
           <li>invalid email addresses</li>

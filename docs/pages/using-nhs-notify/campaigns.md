@@ -10,7 +10,7 @@ permalink: /using-nhs-notify/campaigns
 section: By use case
 ---
 
-Use NHS Notify to set up national or local campaigns to send messages in bulk to patients and the public.
+Use NHS Notify to set up national or targeted campaigns to send messages in bulk to patients and the public.
 
 ## Examples of campaign messaging
 

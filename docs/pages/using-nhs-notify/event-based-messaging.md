@@ -10,7 +10,7 @@ permalink: /using-nhs-notify/event-based-messaging
 section: By use case
 ---
 
-Use NHS Notify to send messages to your recipients when a specific event is triggered in your organisation or service.
+Use NHS Notify to send messages to patients and the public when a specific event is triggered in your organisation or service.
 
 ## Examples of event based messaging
 
