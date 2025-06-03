@@ -25,7 +25,12 @@ This page will tell you:
 - [our letter specification](#letter-specification)<!-- markdownlint-disable-line -->
 - [what envelopes we use](#envelopes)
 
-You might want to understand more about:
+{% include components/action-link.html
+    url='/using-nhs-notify/letter-templates'
+    text='Learn how to set up letter templates'
+%}
+
+You might also want to understand more about:
 
 - [letter pricing]({% link pages/pricing/letters.md %})
 - [delivery times for letters]({% link pages/using-nhs-notify/delivery-times.md %})
@@ -42,3 +47,9 @@ The page size and layout is A4 portrait (210 x 297mm).
 ## Envelopes
 
 NHS Notify uses C5 size envelopes with an address window. This means the A4 letter is folded in half with the recipient's address displayed in the address window.
+
+### NHS barcode
+
+All letters sent with NHS Notify will automatically have Royal Mail's [NHS barcode (opens in a new tab)](https://www.royalmailwholesale.com/news/nhs-mail-new-barcode-solution){:target="\_blank"} on the envelope.
+
+The NHS barcode allows Royal Mail to identify NHS letters. During busy periods locally or nationally, Royal Mail will prioritise NHS letters using the NHS barcode.

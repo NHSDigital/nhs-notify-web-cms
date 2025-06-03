@@ -20,7 +20,10 @@ Use NHS Notify to send free unlimited emails to patients and members of the publ
 
 ## What you need to know
 
-This page will tell you about our email layout and specification.
+{% include components/action-link.html
+    url='/using-nhs-notify/email-templates'
+    text='Learn how to set up email templates'
+%}
 
 You might also want to understand more about:
 

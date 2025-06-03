@@ -20,6 +20,11 @@ Use NHS Notify to send text messages such as invitations, alerts, notifications 
 
 ## What you need to know
 
+{% include components/action-link.html
+    url='/using-nhs-notify/text-message-templates'
+    text='Learn how to set up text message templates'
+%}
+
 You might want to understand more about:
 
 - [text message pricing]({% link pages/pricing/text-messages.md %})
