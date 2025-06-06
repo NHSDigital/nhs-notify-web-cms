@@ -173,7 +173,7 @@ text='Your organisation or service will need to accept that it’s responsible f
 - managing the volume of messages it sends so it does not exceed any previously agreed amounts
 
 You also need to confirm that you have successfully completed integration testing with NHS Notify.'
-  %}
+%}
 
 {% include components/details.html
 heading='Prove you have developed your integration securely'
