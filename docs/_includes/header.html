@@ -1,7 +1,8 @@
 <header class="nhsuk-header" role="banner">
   <div class="nhsuk-header__container">
     <div class="nhsuk-header__logo">
-      <a class="nhsuk-header__link nhsuk-header__link--service" href="{{ site.baseurl }}/" aria-label="NHS Notify homepage">
+      <a class="nhsuk-header__link nhsuk-header__link--service" href="{{ site.baseurl }}/"
+        aria-label="NHS Notify homepage">
         <svg class="nhsuk-logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 16" height="40" width="100">
           <path class="nhsuk-logo__background" fill="#005eb8" d="M0 0h40v16H0z"></path>
           <path class="nhsuk-logo__text" fill="#fff"
@@ -17,4 +18,5 @@
   <div class="nhsuk-navigation-container">
     {%- include primary-navigation.html -%}
   </div>
+  {%- include components/phase-banner.html -%}
 </header>
