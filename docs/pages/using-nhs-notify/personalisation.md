@@ -71,27 +71,31 @@ For example, if you wanted to include 'practice' as a personalisation field, the
 
 The data used in your personalisation fields can affect the formatting and length of your messages. This could make some messages cost more than expected.
 
-You'll need to provide example data if you're using custom personalisation fields. This is so that we can show you what your templates will look like with different lengths of data in your personalisation fields.
+You need to give us example data if you use custom personalisation. This helps us show you what your templates will look like with different lengths of data in your personalisation fields.
 
-Download and complete our [example personalisation data spreadsheet]({% link assets/personalisationexampledata/personalisation-example-data-nhs-notify.xlsx %}).
+Download and fill in our [example personalisation data spreadsheet]({% link assets/personalisationexampledata/personalisation-example-data-nhs-notify.xlsx %}).
 
-The personalisation fields in your content must match the fields in the 'personalisation field' column.
+The personalisation fields in your message content must match the fields in the 'personalisation field' column of your spreadsheet.
 
-You'll need to provide short, medium and long lengths of example data for each of your personalisation fields.
+For each personalisation field, you need to provide examples that are:
+
+- short
+- medium
+- long
 
 For example, if you had ((hospital_address_line)) as a personalisation field, you might choose the following example data:
 
 {% include components/inset-text.html
 text='
 
-- Hospital A - short length
-- Hospital ABCDE - medium length
-- Hospital ABCDEFGHIJKLMN - long length'
+- Hospital A (short)
+- Hospital ABCDE (medium)
+- Hospital ABCDEFGHIJKLMN (long)'
   %}
 
-It's up to you to decide how many characters to use for the different lengths.
+You can decide how many characters to use for each length.
 
-If your data will be a fixed length for a particular personalisation field, use 3 different examples of the same length.
+If the information for a field will always be the same length, give us 3 different examples that are all that same length.
 
 Your example data does not need to be real data.
 
@@ -99,6 +103,7 @@ Your example data does not need to be real data.
 
 If you want to use custom personalisation, do not use the following personalisation fields:
 
+- [PDS personalisation fields](#personal-demographics-service-pds-personalisation-fields)
 - emailAddress
 - phoneNumber
 - addressLine1
@@ -108,13 +113,21 @@ If you want to use custom personalisation, do not use the following personalisat
 - addressLine5
 - addressLine6
 - addressLine7
-- [PDS personalisation fields](#personal-demographics-service-pds-personalisation-fields)
+- middleNames
+- namePrefix
+- nameSuffix
+- date
+- clientRef
+- recipientContactValue
+- template
 
-Custom personalisation will not work if you try to add it using these personalisation fields. This includes variations such as spaces and upper or lower cases.
+{% include components/inset-text.html
+    text='Custom personalisation will not work if you use these fields. This includes any variations, for example, if you add spaces, punctuation, and upper or lower case letters.'
+%}
 
-You can include extra words in your custom personalisation fields to make them different from the fields to avoid.
+You can include extra words in your custom personalisation fields to make them different.
 
-For example, if you wanted to include GP practice phone number as a custom personalisation field, your personalisation field could be:
+For example, if you wanted to include GP practice phone number, your personalisation field could be:
 
 {% include components/inset-text.html
     text='((GP_phoneNumber))'
