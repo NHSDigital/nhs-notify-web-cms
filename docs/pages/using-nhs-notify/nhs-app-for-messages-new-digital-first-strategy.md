@@ -9,6 +9,7 @@ nav_order: 8
 permalink: /using-nhs-notify/nhs-digital-first-strategy
 section: Sending a message
 ---
+
 ## What’s changing
 
 In line with the 2025 to 2026 operational planning guidance, all NHS providers are expected to send messages to patients through the NHS App first, using NHS Notify as the default service.
@@ -25,4 +26,4 @@ Over the coming months, we’ll be working closely with trusts to test and roll 
 
 If you're a trust or supplier and want to explore how NHS Notify can support your messaging plans, you can visit our [get started](https://notify.nhs.uk/get-started/) page and complete the registration form.
 
-For more information, you can read [our blog](https://www.england.nhs.uk/blogs/) or access the [operational planning guidance](https://www.england.nhs.uk/long-read/2025-26-priorities-and-operational-planning-guidance/).
+For more information, you can read [our blog](https://digital.nhs.uk/blog/transformation-blog/2025/a-digital-first-approach-to-patient-communications){:target="\_blank"} or access the [operational planning guidance](https://www.england.nhs.uk/long-read/2025-26-priorities-and-operational-planning-guidance/){:target="\_blank"}.
