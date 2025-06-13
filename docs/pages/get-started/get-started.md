@@ -9,23 +9,27 @@ has_children: true
 permalink: /get-started/
 ---
 
-## 1. Check if NHS Notify is right for you
+Complete the following form to check if you can use NHS Notify and register your interest. This will open in a new tab.
 
-Use NHS Notify if your organisation or service sends:
+## Before you register your interest
 
-- [messages that are part of a campaign]({% link pages/using-nhs-notify/campaigns.md %})
+You can only use NHS Notify if your organisation or service sends:
+
 - [event based messages]({% link pages/using-nhs-notify/event-based-messaging.md %})
 - [direct messages]({% link pages/using-nhs-notify/direct-messaging.md %})
+- [messages that are part of a campaign]({% link pages/using-nhs-notify/campaigns.md %})
 
-You may need to read our:
+You also need to have:
+
+- funding or a budget agreed for sending messages
+- a way to get the NHS numbers of your recipients
+- technical or developer support to build your integration with NHS Notify
+
+You should also read our:
 
 - [terms and conditions (opens in a new tab)](https://digital.nhs.uk/services/nhs-notify/terms-and-conditions){:target="\_blank"}
 - [acceptable use policy (opens in a new tab)](https://digital.nhs.uk/services/nhs-notify/acceptable-use-policy){:target="\_blank"}
 - [privacy policy (opens in a new tab)](https://digital.nhs.uk/services/nhs-notify/transparency-notice){:target="\_blank"}
-
-## 2. Register your interest with NHS Notify
-
-If you think NHS Notify is right for you, complete the following form to register your interest. This will open in a new tab.
 
 We’ll contact you within 10 working days to find out more about your needs.
 
