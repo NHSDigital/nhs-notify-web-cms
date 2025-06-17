@@ -9,13 +9,11 @@ has_children: true
 permalink: /get-started/
 ---
 
-Complete the following form to check if you can use NHS Notify and register your interest. This will open in a new tab.
-
-## Before you register your interest
+## Before you start
 
 You can only use NHS Notify if your organisation or service sends:
 
-- [event based messages]({% link pages/using-nhs-notify/event-based-messaging.md %})
+- [event-based messages]({% link pages/using-nhs-notify/event-based-messaging.md %})
 - [direct messages]({% link pages/using-nhs-notify/direct-messaging.md %})
 - [messages that are part of a campaign]({% link pages/using-nhs-notify/campaigns.md %})
 
@@ -31,7 +29,9 @@ You should also read our:
 - [acceptable use policy (opens in a new tab)](https://digital.nhs.uk/services/nhs-notify/acceptable-use-policy){:target="\_blank"}
 - [privacy policy (opens in a new tab)](https://digital.nhs.uk/services/nhs-notify/transparency-notice){:target="\_blank"}
 
-We’ll contact you within 10 working days to find out more about your needs.
+## Register your interest
+
+Complete the following form to check if you can use NHS Notify and register your interest. This will open in a new tab.
 
 {% include components/button.html
     text="Register your interest"
