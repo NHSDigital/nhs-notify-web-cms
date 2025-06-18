@@ -9,7 +9,7 @@ has_children: true
 permalink: /get-started/
 ---
 
-## Before you start
+## 1. Check if NHS Notify is right for you
 
 You can only use NHS Notify if your organisation or service sends:
 
@@ -29,9 +29,9 @@ You should also read our:
 - [acceptable use policy (opens in a new tab)](https://digital.nhs.uk/services/nhs-notify/acceptable-use-policy){:target="\_blank"}
 - [privacy policy (opens in a new tab)](https://digital.nhs.uk/services/nhs-notify/transparency-notice){:target="\_blank"}
 
-## Register your interest
+## 2. Register your interest
 
-Complete the following form to check if you can use NHS Notify and register your interest. This will open in a new tab.
+Complete the following form to register your interest with NHS Notify. This will open in a new tab.
 
 {% include components/button.html
     text="Register your interest"
