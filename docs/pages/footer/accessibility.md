@@ -50,17 +50,6 @@ The following content is non-accessible for the following reasons.
 
 ### Non-compliance with the accessibility regulations
 
-The NHS logo image in the header is missing an appropriate aria-label, making it hard for people with screen readers to understand what the image is. This fails WCAG 2.2 success criterion 1.1.1 (non-text content).
-
-We plan to add an aria-label to this image in a future release.
-
-When using 'create and submit a template', people using screen readers may not understand the relationship of the template guidance to the main task of creating a template. Additionally, when the tables in the preview screens are resized, a logical tab order is not maintained. This fails WCAG 2.2 success criterion 1.3.1 (info and relationships).
-
-In a future release we plan to:
-
-- amend the HTML structure to reflect the intended relationships between the guidance and the main task of creating a template
-- ensure a logical tab order when the screen is resized
-
 Autocomplete is turned off by default, making it harder to fill out any form elements when using 'create and submit a template'. This fails WCAG 2.2 success criterion 1.3.5 (identity input purpose).
 
 Autocomplete is turned off by default because the text a user enters into ‘create and submit a template’ will almost always be different for each submission. This makes autocomplete inappropriate for these fields. When we add new features that ask users for repeatable information, autocomplete will be enabled.
