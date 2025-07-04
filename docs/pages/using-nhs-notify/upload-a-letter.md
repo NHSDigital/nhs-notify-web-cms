@@ -171,7 +171,7 @@ The address is a personalisation field and is set automatically.
 
 The recipient's name is always included as the first line of the address.
 
-If your letter is about a child, use the [parent or guardian letter template](#how-to-use-our-letter-template). This template includes 'Parent or guardian of' in the first line of the address.
+If your letter is about a child, use the [parent or guardian letter template](#download-our-blank-letter-template). This template includes 'Parent or guardian of' in the first line of the address.
 
 ### NHS logo
 
