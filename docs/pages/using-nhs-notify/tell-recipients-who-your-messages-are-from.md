@@ -21,7 +21,7 @@ You can change the:
 
 You cannot change the return addresses of letters. These are set by NHS Notify’s suppliers and are printed on the envelopes.
 
-If you want users to reply to your letters, include your organisation or service's address in the content of your [letter templates]({% link pages/using-nhs-notify/letter-templates.md %}).
+If you want users to reply to your letters, include your organisation or service's address in the content of your [letter templates]({% link pages/using-nhs-notify/upload-a-letter.md %}).
 
 ## NHS App sender name
 

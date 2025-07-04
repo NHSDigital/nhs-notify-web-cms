@@ -24,20 +24,20 @@ This guidance is to help teams understand how to use NHS Notify.
 
 ## Writing a message
 
-- [NHS App message templates]({% link pages/using-nhs-notify/nhs-app-templates.md %})
-- [Email templates]({% link pages/using-nhs-notify/email-templates.md %})
-- [Text message templates]({% link pages/using-nhs-notify/text-message-templates.md %})
-- [Letter templates]({% link pages/using-nhs-notify/letter-templates.md %})
+- [Create and submit a template]({% link pages/using-nhs-notify/create-and-submit-a-template.md %})
+- [Upload a letter]({% link pages/using-nhs-notify/upload-a-letter.md %})
+- [Formatting]({% link pages/using-nhs-notify/formatting.md %})
+- [Links and URLs]({% link pages/using-nhs-notify/links-and-urls.md %})
+- [Personalisation]({% link pages/using-nhs-notify/personalisation.md %})
 - [Accessible formats]({% link pages/using-nhs-notify/accessible-formats.md %})
 - [Letters in other languages]({% link pages/using-nhs-notify/letters-in-other-languages.md %})
-- [Personalisation]({% link pages/using-nhs-notify/personalisation.md %})
 
 ## Sending a message
 
 - [Tell recipients who your messages are from]({% link pages/using-nhs-notify/tell-recipients-who-your-messages-are-from.md %})
 - [Delivery times]({% link pages/using-nhs-notify/delivery-times.md %})
 - [Tell us who you want to message]({% link pages/using-nhs-notify/tell-us-who-you-want-to-message.md %})
-- [Routing plans]({% link pages/using-nhs-notify/routing-plans.md %})
+- [Message plans]({% link pages/using-nhs-notify/message-plans.md %})
 - [Recipients you cannot message]({% link pages/using-nhs-notify/recipients-you-cannot-message.md %})
 - [Approve your messages before we send them]({% link pages/using-nhs-notify/approve-your-messages.md %})
 - [Message, channel and supplier status]({% link pages/using-nhs-notify/message-status.md %})

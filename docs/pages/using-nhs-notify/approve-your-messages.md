@@ -22,7 +22,7 @@ It's your responsibility to review your templates in a way that meets your organ
 - does not have any spelling errors
 - is formatted correctly
 
-Provide us with your final [NHS App message]({% link pages/using-nhs-notify/nhs-app-templates.md %}), [email]({% link pages/using-nhs-notify/email-templates.md %}) or [text message]({% link pages/using-nhs-notify/text-message-templates.md %}) Microsoft Word template. Provide your final [letter template as a PDF]({% link pages/using-nhs-notify/letter-templates.md %}).
+Provide us with your final NHS App message, email or text message templates in Create and submit a template. Upload your final letter template.
 
 ## Getting proofs of your templates
 
@@ -42,4 +42,4 @@ If your proof matches the final template you provided to us, reply to our email 
 
 If the content or formatting of your proof does not match the template you originally provided, reply to our email to describe what's wrong with the proof. We'll update the proof message and email it to you again.
 
-If you need to make further changes to your original template, update your original [NHS App message]({% link pages/using-nhs-notify/nhs-app-templates.md %}), [email]({% link pages/using-nhs-notify/email-templates.md %}), [text message]({% link pages/using-nhs-notify/text-message-templates.md %}) or [letter template]({% link pages/using-nhs-notify/letter-templates.md %}) and send it to us again so that we can create a new proof.
+If you need to make further changes to your original template, update your original template in Create and submit a template (or upload your letter template) and send it to us again so that we can create a new proof.
