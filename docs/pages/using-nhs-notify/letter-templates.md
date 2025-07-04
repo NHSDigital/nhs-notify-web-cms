@@ -132,7 +132,7 @@ If you do not want a paragraph to run over different pages, add a page break bef
 2. Select 'Pages'.
 3. Select 'Page break'.
 
-## Links
+## Links and URLs
 
 Use the style 'Hyperlink' in the template for links.
 

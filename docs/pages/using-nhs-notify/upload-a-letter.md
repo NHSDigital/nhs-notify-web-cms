@@ -17,7 +17,7 @@ Your PDF must meet our letter specification. The page size and layout is A4 port
 
 You'll need to:
 
-1. [Download our blank Word letter template](#how-to-use-our-letter-template).<!-- markdownlint-disable-line -->
+1. [Download our blank Word letter template](#download-our-blank-letter-template).<!-- markdownlint-disable-line -->
 2. [Format your letter](#formatting-your-letter).
 3. [Convert your letter to a PDF](#converting-your-letter-to-a-pdf).
 4. Email your letter PDF to our onboarding team at <england.nhsnotifyonboarding@nhs.net>.
