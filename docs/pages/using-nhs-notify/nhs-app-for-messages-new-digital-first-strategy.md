@@ -8,7 +8,6 @@ parent: Using NHS Notify
 nav_order: 8
 permalink: /using-nhs-notify/nhs-digital-first-strategy
 section: Sending a message
-published: false
 ---
 
 ## What’s changing
