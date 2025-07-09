@@ -19,10 +19,6 @@ Use this page to find out what you need to do to onboard with NHS Notify.
 5. [Prepare for technical integration](#5-prepare-for-technical-integration)
 6. [Create your templates](#6-create-your-templates)
 7. [Create your routing plans](#7-create-your-routing-plans)
-8. [Integrate and test with NHS Notify](#8-integrate-and-test-with-nhs-notify)
-9. [Meet the technical conformance requirements](#9-meet-the-technical-conformance-requirements)
-10. [Complete the connection agreement](#10-complete-the-connection-agreement)
-11. [Onboarding complete](#11-onboarding-complete)
 
 ## Before you start
 
