@@ -8,6 +8,7 @@ parent: Using NHS Notify
 nav_order: 1
 permalink: /using-nhs-notify/nhs-app-templates
 section: Writing a message
+published: false
 ---
 
 Provide a Word document of your NHS App message and NHS Notify will send it for you.

@@ -8,6 +8,7 @@ parent: Using NHS Notify
 nav_order: 2
 permalink: /using-nhs-notify/email-templates
 section: Writing a message
+published: false
 ---
 
 Provide a Word document of your email and NHS Notify will send it for you.
