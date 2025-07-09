@@ -24,15 +24,13 @@ Recipients can receive NHS App messages in their NHS App inbox.
 
 [Push notifications](#push-notifications) are generated when recipients have an unopened message in their NHS App inbox.
 
-{% include components/action-link.html
-    url='/using-nhs-notify/nhs-app-templates'
-    text='Learn how to set up NHS App message templates'
-%}
-
 You might also want to understand more about:
 
 - [delivery times for NHS App messages]({% link pages/using-nhs-notify/delivery-times.md %})
 - [how to tell recipients who your NHS App messages are from]({% link pages/using-nhs-notify/tell-recipients-who-your-messages-are-from.md %})
+- [formatting]({% link pages/using-nhs-notify/formatting.md %})
+- [links and URLs]({% link pages/using-nhs-notify/links-and-urls.md %})
+- [personalisation]({% link pages/using-nhs-notify/personalisation.md %})
 
 ## Push notifications
 

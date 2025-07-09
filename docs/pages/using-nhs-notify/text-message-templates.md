@@ -8,6 +8,7 @@ parent: Using NHS Notify
 nav_order: 3
 permalink: /using-nhs-notify/text-message-templates
 section: Writing a message
+published: false
 ---
 
 Provide a Word document of your text message and NHS Notify will send it for you.

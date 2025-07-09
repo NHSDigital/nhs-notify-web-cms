@@ -26,8 +26,8 @@ This page will tell you:
 - [what envelopes we use](#envelopes)
 
 {% include components/action-link.html
-    url='/using-nhs-notify/letter-templates'
-    text='Learn how to set up letter templates'
+    url='/using-nhs-notify/upload-a-letter'
+    text='Learn how to upload a letter'
 %}
 
 You might also want to understand more about:
@@ -37,6 +37,9 @@ You might also want to understand more about:
 - [return addresses]({% link pages/using-nhs-notify/tell-recipients-who-your-messages-are-from.md %})
 - [sending letters to people with access needs]({% link pages/using-nhs-notify/accessible-formats.md %})
 - [sending letters to people who speak other languages]({% link pages/using-nhs-notify/letters-in-other-languages.md %})
+- [formatting]({% link pages/using-nhs-notify/formatting.md %})
+- [links and URLs]({% link pages/using-nhs-notify/links-and-urls.md %})
+- [personalisation]({% link pages/using-nhs-notify/personalisation.md %})
 
 ## Letter specification
 

@@ -6,27 +6,25 @@ layout: page
 title: Upload a letter
 parent: Using NHS Notify
 nav_order: 4
-permalink: /using-nhs-notify/letter-templates
+permalink: /using-nhs-notify/upload-a-letter
 section: Writing a message
-published: false
+
 ---
 
-Upload a PDF of your letter and NHS Notify will print and post it for you.
+Upload a PDF of your letter and we'll print and post it for you.
 
 Your PDF must meet our letter specification. The page size and layout is A4 portrait (210mm x 297mm).
 
 You'll need to:
 
-1. [Download our Microsoft Word template](#how-to-use-our-letter-template).<!-- markdownlint-disable-line -->
+1. [Download our blank Word letter template](#download-our-blank-letter-template).<!-- markdownlint-disable-line -->
 2. [Format your letter](#formatting-your-letter).
 3. [Convert your letter to a PDF](#converting-your-letter-to-a-pdf).
-4. Email your letter PDF template to our onboarding team at <england.nhsnotifyonboarding@nhs.net>.
+4. Email your letter PDF to our onboarding team at <england.nhsnotifyonboarding@nhs.net>.
 
-## How to use our letter template
+## Download our blank letter template
 
-Your Word document must meet our letter specification. The page size and layout is A4 portrait (210 x 297mm).
-
-Download the relevant letter template to set up your letter:
+Download the relevant blank letter template to set up your letter:
 
 - [standard letter template]({% link assets/worddocs/letter-template-nhs-notify_.docx %})
 - [large print letter template]({% link assets/worddocs/letter-template-nhs-notify-large-print_.docx %})
@@ -36,11 +34,11 @@ Download the relevant letter template to set up your letter:
 
 You'll need the desktop Microsoft Word app.
 
-You can save the template and edit it with your message content.
+Save the template then add your message content.
 
 ## Formatting your letter
 
-Do not edit the page margins in the letter template. It has the correct formatting and layout for printing.
+Do not change the page margins in the letter template. It has the correct layout for printing.
 
 Organise your message content using the styles in the template.
 
@@ -85,24 +83,28 @@ Go to [Noto Sans on Google Fonts](https://fonts.google.com/noto/fonts) and choos
 
 Noto Sans is a free font.
 
-#### For Windows
+{% include components/details.html
+    heading='Downloading Noto Sans for Windows'
+    text='
 
-1. Right click the zip file and select 'Extract all'.
-2. Open the file. Open each folder. Select all of the TrueType font files, right click and select 'Install'.
-3. If the folder contains a sub-folder called 'static', open this.
-4. Select all of the TrueType font files in this folder. Right click and select 'Install'.
+1. Right click the zip file and select ‘Extract all’.
+2. Open the file. Open each folder. Select all of the TrueType font files, right click and select ‘Install’.
+3. If the folder contains a sub-folder called ‘static’, open this.
+4. Select all of the TrueType font files in this folder. Right click and select ‘Install’.
+    '
+%}
 
-#### For Mac
-
+{% include components/details.html
+    heading='Downloading Noto Sans for Mac'
+    text='
 Follow the [install fonts guidance](https://support.apple.com/en-gb/guide/font-book/fntbk1000/mac). Make sure you install the static fonts.
 
-Read [Google's guidance on installing fonts](https://fonts.google.com/knowledge/using_type/installing_and_managing_fonts) for more information.
-
-Noto Sans should now be available in Microsoft Word.
+Read [Google’s guidance on installing fonts](https://fonts.google.com/knowledge/using_type/installing_and_managing_fonts) for more information.'
+%}
 
 ## Personalisation
 
-You can personalise your letters by adding personalisation fields. [Learn how to use personalisation]({% link pages/using-nhs-notify/personalisation.md %}).
+[Learn how to use personalisation]({% link pages/using-nhs-notify/personalisation.md %}).
 
 ## Headings
 
@@ -114,10 +116,6 @@ Use the main heading to summarise what your letter is about.
 
 Use headings to break your content up and to help recipients find what they need.
 
-## Numbered lists
-
-Use the style 'List paragraph' in the template for numbered lists. Then select 'Numbering' in the 'Paragraph' section of the 'Home' tab.
-
 ## Paragraphs and body text
 
 Use the style 'Normal' in the template for body text.
@@ -126,35 +124,15 @@ Paragraphs can be split across 2 pages.
 
 If you do not want a paragraph to run over different pages, add a page break before the paragraph.
 
-## Page breaks
-
-1. Go to 'Insert' in the top menu.
-2. Select 'Pages'.
-3. Select 'Page break'.
-
 ## Links and URLs
 
 Use the style 'Hyperlink' in the template for links.
-
-Write links in full, starting with https://. For example:
-
-{% include components/inset-text.html
-    text='<b><span>https://www.service-manual.nhs.uk/content</span></b>'
-%}
 
 Links in letters are in bold to make them stand out. Do not use underlined text or italics.
 
 Do not split links across different pages. Add a page break before the paragraph with the link if needed.
 
-### Short URLs
-
-If you have a long, complex web address, you can [request a short URL from GOV.UK](https://www.gov.uk/guidance/contact-the-government-digital-service/request-a-thing#short-url). This can take some time and may delay your template creation.
-
-We do not recommend using a third-party link shortening service because:
-
-- your users cannot see where the link will take them
-- your link might stop working if there's a service outage
-- you can no longer control where the redirect goes
+Learn more about [links and URLs]({% link pages/using-nhs-notify/links-and-urls.md %}).
 
 ## Bullet points
 
@@ -193,7 +171,7 @@ The address is a personalisation field and is set automatically.
 
 The recipient's name is always included as the first line of the address.
 
-If your letter is about a child, use the [parent or guardian letter template](#how-to-use-our-letter-template). This template includes 'Parent or guardian of' in the first line of the address.
+If your letter is about a child, use the [parent or guardian letter template](#download-our-blank-letter-template). This template includes 'Parent or guardian of' in the first line of the address.
 
 ### NHS logo
 
