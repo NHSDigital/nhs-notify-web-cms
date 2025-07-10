@@ -1,0 +1,9 @@
+# Section ordering for sidebar navigation
+# Add sections in the order you want them to appear
+# Sections not listed here will appear at the end in alphabetical order
+
+sections:
+  - "By use case"
+  - "Accessing NHS Notify"
+  - "Writing a message"
+  - "Sending a message"
