@@ -18,3 +18,6 @@ MD003: false
 
 # https://github.com/DavidAnson/markdownlint/blob/main/doc/md022.md
 MD022: false
+
+# https://github.com/DavidAnson/markdownlint/blob/main/doc/md037.md
+MD037: false

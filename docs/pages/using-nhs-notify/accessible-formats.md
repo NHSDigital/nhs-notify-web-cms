@@ -5,7 +5,7 @@
 layout: page
 title: Accessible formats
 parent: Using NHS Notify
-nav_order: 5
+nav_order: 6
 permalink: /using-nhs-notify/accessible-formats
 section: Writing a message
 ---

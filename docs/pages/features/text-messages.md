@@ -20,14 +20,12 @@ Use NHS Notify to send text messages such as invitations, alerts, notifications 
 
 ## What you need to know
 
-{% include components/action-link.html
-    url='/using-nhs-notify/text-message-templates'
-    text='Learn how to set up text message templates'
-%}
-
 You might want to understand more about:
 
 - [text message pricing]({% link pages/pricing/text-messages.md %})
 - [delivery times for text messages]({% link pages/using-nhs-notify/delivery-times.md %})
 - [how to tell audiences who your text messages are from]({% link pages/using-nhs-notify/tell-recipients-who-your-messages-are-from.md %})
 - [sending text messages to international numbers]({% link pages/pricing/text-messages.md %}#sending-text-messages-to-international-numbers)
+- [formatting]({% link pages/using-nhs-notify/formatting.md %})
+- [links and URLs]({% link pages/using-nhs-notify/links-and-urls.md %})
+- [personalisation]({% link pages/using-nhs-notify/personalisation.md %})

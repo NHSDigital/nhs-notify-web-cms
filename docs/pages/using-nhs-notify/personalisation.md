@@ -5,7 +5,7 @@
 layout: page
 title: Personalisation
 parent: Using NHS Notify
-nav_order: 7
+nav_order: 4
 permalink: /using-nhs-notify/personalisation
 section: Writing a message
 ---
@@ -22,6 +22,8 @@ You can use:
 
 - [Personal Demographics Service (PDS) personalisation fields](#personal-demographics-service-pds-personalisation-fields)<!-- markdownlint-disable-line -->
 - [custom personalisation fields](#custom-personalisation-fields)
+
+You can see personalisation instructions while you’re editing a template.
 
 ## Personal Demographics Service (PDS) personalisation fields
 
