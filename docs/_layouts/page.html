@@ -16,8 +16,36 @@ assign nav_pages = site.pages
 assign first_level = nav_pages
 | where_exp: "item", "item.dir == first_level_dir"
 | group_by: "section"
-| sort: 'name', 'last'
 -%}
+
+{%- assign section_order = site.data.sidebar-section-order.sections -%}
+
+{%- assign ordered_sections = "" | split: "" -%}
+{%- for section_name in section_order -%}
+  {%- for section in first_level -%}
+    {%- if section.name == section_name -%}
+      {%- assign ordered_sections = ordered_sections | push: section -%}
+      {%- break -%}
+    {%- endif -%}
+  {%- endfor -%}
+{%- endfor -%}
+
+{%- comment -%}
+Add any sections not in the manual order list at the end
+{%- endcomment -%}
+{%- for section in first_level -%}
+  {%- assign found = false -%}
+  {%- for ordered_section in ordered_sections -%}
+    {%- if section.name == ordered_section.name -%}
+      {%- assign found = true -%}
+      {%- break -%}
+    {%- endif -%}
+  {%- endfor -%}
+  {%- unless found -%}
+    {%- assign ordered_sections = ordered_sections | push: section -%}
+  {%- endunless -%}
+{%- endfor -%}
+
 <div class="nhsuk-width-container">
   {%- include breadcrumb.html -%}
   <main class="nhsuk-main-wrapper--s" id="maincontent" role="main">
@@ -27,7 +55,7 @@ assign first_level = nav_pages
           <div class="nhsnotify-pane__side-bar">
             <nav class="nhsnotify-side-nav">
               <ul class="nhsuk-list nhsnotify-side-nav__list">
-                {% for section in first_level %}
+                {% for section in ordered_sections %}
                 {% if section.name != "" %}
                 <li class="nhsuk-u-font-weight-bold nhsnotify-side-nav__list-section">{{ section.name }}</li>
                 {% endif %}
