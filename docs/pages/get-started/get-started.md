@@ -2,7 +2,7 @@
 # Feel free to add content and custom Front Matter to this file.
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
-layout: no-nav-page
+layout: page
 title: Get started
 nav_order: 1
 has_children: true
@@ -23,11 +23,7 @@ You also need to have:
 - a way to get the NHS numbers of your recipients
 - technical or developer support to build your integration with NHS Notify
 
-You should also read our:
-
-- [terms and conditions (opens in a new tab)](https://digital.nhs.uk/services/nhs-notify/terms-and-conditions){:target="\_blank"}
-- [acceptable use policy (opens in a new tab)](https://digital.nhs.uk/services/nhs-notify/acceptable-use-policy){:target="\_blank"}
-- [privacy policy (opens in a new tab)](https://digital.nhs.uk/services/nhs-notify/transparency-notice){:target="\_blank"}
+You should also know [how to onboard with NHS Notify]({% link pages/get-started/onboard-with-notify.md %}).
 
 ## 2. Register your interest
 

@@ -7,239 +7,225 @@ title: Onboard with NHS Notify
 parent: Get started
 nav_order: 2
 permalink: /get-started/onboard-with-nhs-notify
-published: true
 ---
 
-Use this page to find out what you need to do to onboard with NHS Notify.
+Use this page to find out what you need to do step by step to onboard with NHS Notify.
 
-1. [Register your interest](#1-register-your-interest)<!-- markdownlint-disable-line -->
-2. [Attend an early engagement call](#2-attend-an-early-engagement-call)
-3. [Get invited to start integration and onboarding](#3-get-invited-to-start-integration-and-onboarding)
-4. [Confirm setup and eligibility](#4-confirm-setup-and-eligibility)
-5. [Prepare for technical integration](#5-prepare-for-technical-integration)
-6. [Create your templates](#6-create-your-templates)
-7. [Create your routing plans](#7-create-your-routing-plans)
+1. [Get invited to onboard](#1-get-invited-to-onboard)<!-- markdownlint-disable-line -->
+2. [Prepare your integration](#2-prepare-your-integration)
+3. [Confirm your setup to get access to our integration environment](#3-confirm-your-setup-to-get-access-to-our-integration-environment)
+4. [Build your integration](#4-build-your-integration)
+5. [Complete integration testing](#5-complete-integration-testing)
+6. [Apply to go live](#6-apply-to-go-live)
+7. [Go live](#7-go-live)
 
-## Before you start
+## 1. Get invited to onboard
 
-NHS organisations or services must be eligible to use NHS Notify before they can onboard.
+Once you [get started]({% link pages/get-started/get-started.md %}) and register your interest, we'll contact you to either:
 
-You can use NHS Notify if your programme or service:
+- learn more about your use case
+- invite your organisation or service to onboard
 
-- is part of NHS England
-- supports direct care
+If your organisation or service is invited to onboard, we'll send you an email. This email will include:
 
-You'll need to integrate with [NHS Notify API]({% link pages/using-nhs-notify/api.md %}) or [NHS Notify MESH]({% link pages/using-nhs-notify/mesh.md %}) to send messages. You may need a developer or a technical team to do this.
+- what you need to do next
+- an online form to confirm your setup
+- the [Supplier Conformance Assessment List (SCAL)](https://digital.nhs.uk/services/nhs-login/nhs-login-for-partners-and-developers/nhs-login-integration-toolkit/nhs-login-forms-and-documents#supplier-conformance-assessment-list-scal-) you need to complete before you go live
 
-[Try NHS Notify API by using our sandbox environments](https://god.gw.postman.com/run-collection/28740466-ec078d1e-d4d7-4460-92b9-7d79d51f967a?action=collection%2Ffork&source=rip_markdown&collection-url=entityId%3D28740466-ec078d1e-d4d7-4460-92b9-7d79d51f967a%26entityType%3Dcollection%26workspaceId%3D3664098f-4f8b-4edf-874d-ed33e1eea8ed).
+## 2. Prepare your integration
 
-## 1. Register your interest
+You must prepare your integration before you can get access to NHS Notify's integration environment.
 
-If you’re eligible to use NHS Notify, you can email our onboarding team at <england.nhsnotify@nhs.net> to register your interest.
+You'll need technical or developer support to complete tasks in this step.
 
-We'll aim to contact you within 10 working days to arrange an early engagement call.
+### If you're using NHS Notify API
 
-## 2. Attend an early engagement call
+You'll need to:
 
-The early engagement call will help NHS Notify to understand your needs. We'll ask you about:
+{% include components/details.html
+heading='Set up your APIM application ID'
+text='To set up an APIM application ID, you need to:
 
-- estimated volumes
-- which channels you want to use
-- what your organisation or service is trying to achieve
+1. [Sign in to your NHS Digital developer account]().
+2. Create an APIM application.
+3. Select ‘integration test’ as the environment.
+4. Select ‘Communications Manager (integration environment)’ as the connected API.
+   '
+   %}
 
-The call will also cover some costing estimates based on the information you give.
+{% include components/details.html
+heading='Choose how you want to see your message performance'
+text='To see how your messages perform, you can [get the status of a message](https://digital.nhs.uk/developer/api-catalogue/nhs-notify#get-/v1/messages/-messageId-) or choose to receive [realtime message callbacks](https://digital.nhs.uk/developer/api-catalogue/nhs-notify#post-/%3Cclient-provided-message-status-URI%3E).
 
-## 3. Get invited to start integration and onboarding
+If you want to receive realtime message status callbacks, you‘ll need to:
 
-After your early engagement call, NHS Notify will prioritise your case along with other onboarding services and organisations.
+- decide which [message, channel or supplier statuses](https://notify.nhs.uk/using-nhs-notify/message-channel-supplier-status) you want to receive
+- prepare an endpoint URL for your integration
+  '
+  %}
 
-Due to our current service capacity and features, you may have to wait before you can continue onboarding. We're working hard to increase the scale of our service.
+### If you're using NHS Notify MESH
 
-[Read our roadmap to find out what we're doing next]({% link pages/features/roadmap.md %}).
+You'll need to:
 
-## 4. Confirm setup and eligibility
+1. [Set up your MESH mailboxes (opens in a new tab)](https://digital.nhs.uk/developer/api-catalogue/nhs-notify-mesh/set-up-nhs-notify-mesh#set-up-your-mesh-mailboxes) and make a note of their IDs.
+2. Decide which reports you want when you get reports on how your messages perform.
 
-NHS Notify needs to confirm that your service is eligible and suitable to integrate with its API.
+## 3. Confirm your setup to get access to our integration environment
 
-You will need to provide detailed information about:
-
-- your product or service and the organisation it represents
-- why you want to use NHS Notify to send messages to patients
-- what messages you plan to send
-- how your messages will meet the accessible information standard
-- how you want to send your messages
-- the frequency and volumes of messages you plan to send
-
-You will also need to provide information about:
-
-- what data items you plan to process
-- why you need to process this data
-- if you use children's data
-- what data processing activities you need to undertake
-- your product or service's Data Protection Impact Assessment (DPIA)
+You must confirm how you'll be set up with NHS Notify using our online form so we can prepare your integration environment to meet your needs.
 
 {% include components/inset-text.html
-text='This information will be reviewed by the NHS Notify service team. If your organisation or service is eligible and suitable, you will be able to continue onboarding.
+  text='Only complete the online form and confirm your setup if you’ve been invited to onboard.'
+    %}
 
-If your organisation or service is not suitable or eligible to use NHS Notify for any reason, the service team will contact you to explain.'
-
+{% include components/action-link.html
+    url='https://forms.office.com/Pages/ResponsePage.aspx?id=slTDN7CF9UeyIge0jXdO4-wXWyN79ZdLkmec1Fsc491UNFRYSDFTOUs5TzZQUjlOVUlGWTQxQTlMQy4u'
+    text='Confirm your setup with NHS Notify'
 %}
 
-## 5. Prepare for technical integration
+### Before you confirm your setup
 
-This stage covers the requirements your service needs to meet before it begins integration with NHS Notify.
-
-Your service will need to:
+In the form you'll be asked to:
 
 {% include components/details.html
-heading='Declare Data and Information security controls'
-text='To ensure you have controls in place to keep patient data private and secure, you must complete the Data and Security Protection Toolkit (DSPT).
+heading='Confirm your use case'
+text='You can only use NHS Notify if your organisation or service sends messages that are:
 
-You will need to evidence:
-
-- processes for ensuring End User Organisations of your product or service have a ‘standards met’ or ‘approaching standards’ DSPT
-- a formal and documented Information Security Management System (ISMS) that covers the scope of your product or service'
+- [part of a campaign](https://notify.nhs.uk/using-nhs-notify/campaigns)
+- [triggered when something happens in your service](https://notify.nhs.uk/using-nhs-notify/event-based-messaging)
+- [sent directly on a one-to-one basis](https://notify.nhs.uk/using-nhs-notify/direct-messaging)
+  '
   %}
 
 {% include components/details.html
-heading='Implement a Clinical Risk Management process'
-text='As an organisation of healthcare software, you must ensure you implement a clinical risk management process that conforms to the DCB0129 standard.
+heading='Provide your message sender names'
+text='When you send messages you’ll need to tell your recipients who your messages are from by creating message sender names.
 
-You will need to evidence:
+Before you provide your message sender names, you should understand more about:
 
-- your service is compliant with the DCB0129 standard
-- who your Clinical Safety Officer is and their contact details
-- that your Clinical Safety Officer has approved a clinical safety report of your product or service
-- you considered the NHS Digital hazard log during development
-- the Caldicott Guardian is aware of each of your use cases and plans to send messages to patients and the public'
+- [NHS App sender names](https://notify.nhs.uk/using-nhs-notify/tell-recipients-who-your-messages-are-from#nhs-app-sender-name)
+- [email sender names and from addresses](https://notify.nhs.uk/using-nhs-notify/tell-recipients-who-your-messages-are-from#email-sender-name-and-from-email-address)
+- [email reply-to email addresses](https://notify.nhs.uk/using-nhs-notify/tell-recipients-who-your-messages-are-from#reply-to-email-address)
+- [text message sender names](https://notify.nhs.uk/using-nhs-notify/tell-recipients-who-your-messages-are-from#text-message-sender-name)
+  '
   %}
 
 {% include components/details.html
-heading='Register for service and incident management'
-text='If you’re an NHS organisation or service, you may already be registered for service management with the NHS England National Service Desk.
+heading='Provide more detail about your messages and how they’ll be sent'
+text='You’ll be asked if your organisation or service will:
 
-If you’re not already registered, you can register with the NHS England National Service Desk.
+- have finished drafts of the messages you want to send
+- send NHS App messages and if so, which links and URLs you’ll include
+- send letters in other languages and if so, which languages
+- send letters in accessible formats and if so, which formats
+- use Personal Demographics Service (PDS) fields
+- have your PDS test data ready
+- use custom personalisation fields
+- have test data prepared for your custom personalisation fields
 
-Your programme or service will also need to have an incident management process that is consistent with the NHS England Incident Management process.'
-%}
-
-Once this stage is completed, you can begin to technically integrate and test with NHS Notify.
-
-## 6. Create your templates
-
-To send an NHS App message, email, text message or letter with NHS Notify, you must create a reusable message template.
-
-Templates let you send the same thing to lots of people, as often as you need to, without writing a new message each time.
-
-Learn how to create:
-
-- [NHS App message templates]({% link pages/using-nhs-notify/nhs-app-templates.md %})
-- [email templates]({% link pages/using-nhs-notify/email-templates.md %})
-- [text message templates]({% link pages/using-nhs-notify/text-message-templates.md %})
-- [letter templates]({% link pages/using-nhs-notify/letter-templates.md %})
-
-## 7. Create your routing plans
-
-You’ll need to create a routing plan to decide how messages will be sent to your recipients. The NHS Notify team will support you to create your routing plans.
-
-[Learn more about routing plans]({% link pages/using-nhs-notify/routing-plans.md %}).
-
-## 8. Integrate and test with NHS Notify
-
-Use NHS Notify’s integration test environments to run formal integration sandbox-testing.
-
-You'll need at least one template and one routing plan for testing. These can contain mock data.
-
-The integration test environment is stateful, which means it receive updates. It also includes [signed JWT authentication](https://digital.nhs.uk/developer/guides-and-documentation/security-and-authorisation/application-restricted-restful-apis-signed-jwt-authentication) which allows you to test the integration environment without writing any code.
-
-You can try the integration environment using [NHS Notify’s Postman collection](https://god.gw.postman.com/run-collection/28740466-ec078d1e-d4d7-4460-92b9-7d79d51f967a?action=collection%2Ffork&source=rip_markdown&collection-url=entityId%3D28740466-ec078d1e-d4d7-4460-92b9-7d79d51f967a%26entityType%3Dcollection%26workspaceId%3D3664098f-4f8b-4edf-874d-ed33e1eea8ed).
-
-## 9. Meet the technical conformance requirements
-
-This stage covers the technical requirements your service or organisations needs to meet before it can go live with NHS Notify.
-
-You will need to:
-
-{% include components/details.html
-heading='Show you can meet NHS Notify’s technical conformance requirements'
-text='Your organisation or service will need to accept that it’s responsible for:
-
-- using the correct processes to identify the recipients of messages you plan to send
-- authoring and proofing the content of messages
-- managing the volume of messages it sends so it does not exceed any previously agreed amounts
-
-You also need to confirm that you have successfully completed integration testing with NHS Notify.'
+The form will also ask for the routing plans that you want to use for your messages.
+'
 %}
 
 {% include components/details.html
-heading='Prove you have developed your integration securely'
-text='Your organisation or service should be designed, developed and deployed in a way that minimises and mitigates threats to its security.
+heading='Tell us who will create and submit templates'
+text='You do not need to do this if you send direct messages and use free-text inputs.
 
-Overall, you will need to evidence that your organisation or service:
+When you get access to NHS Notify’s integration environment, you’ll need to [create and submit your templates](https://notify.nhs.uk/using-nhs-notify/create-and-submit-a-template). These templates will be used as the messages you send when you go live.
 
-- has a System Level Security Policy (SLSP) in place
-- aligns with NCSC Secure development and deployment guidance
-- adheres to the 10 data security standards – Security Self Assessment
+To access this feature, you must nominate someone in your organisation or service to sign in with NHS Notify. This is because creating and submitting templates is only available to one person in an organisation or service at this time.
 
-To prove that your integration has been developed securely, we ask for information and evidence on the following topics.
+To sign into NHS Notify you must have a Care Identity (CIS2 authentication). If you do not have a Care Identity, we can help you create one.
+'
+%}
 
-### People
+{% include components/details.html
+heading='Give accurate estimates on your message volumes and frequency'
+text='We need to understand how many messages you need to send and how often to set up your integration environment.
 
-The staff and people operating your organisation or service need to:
+You’ll need to provide:
 
-- commit to handle information respectfully and safely, according to the Caldicott Principles
-- understand their responsibilities under the National Data Guardian’s Data Security Standards
-- complete appropriate annual data security training and pass mandatory tests provided through the DSPT
-
-### Processes
-
-Your organisation or service must:
-
-- ensure personal confidential information is only accessible by required staff and is attributable to individuals
-- complete annual reviews to prevent instances where data security is compromised
-- have processes and procedures to deal with security incidents resultant of cyber attacks
-- have a continuity plan in place to respond to data security that is tested annually
-
-### Technology
-
-Your organisation or service must:
-
-- only use supported operating systems, software or browsers within its IT estate
-- have a strategy is in place to protect IT systems from cyber threats
-- have processes and procedures are in place to deal with security incidents resultant of cyber attacks
-- prove third party IT suppliers are contractually accountable for protecting personal confidential data that they process and meet National Data Guardian’s Data Security Standards
-
-### Data in transit protection
-
-Your organisation or service must confirm that data in transit is:
-
-- encrypted by default, including sensitive data in transit
-- protected between your end-user devices and your service
-- protected between internal components within the service
-- protected where exposed to other external service, for example, via an API
-
-### Identity and authentication
-
-Access to service interfaces should be constrained to authenticated and authorised individuals.
-
-Your organisation or service must confirm that:
-
-- access to internal and external interfaces is authenticated
-- it has processes to manage the lifecycle of service credentials'
+- how many messages you want to send per day
+- the maximum amount of messages you might send per day
+  '
   %}
 
-## 10. Complete the connection agreement
+After you submit the form, it will be reviewed by NHS Notify's onboarding team.
 
-{% include components/inset-text.html
-text='You only need to complete the connection agreement if your organisation or service is not part of NHS England.'
-%}
+They'll contact you to either:
 
-This stage is about accepting the terms of use for NHS Notify, otherwise known as the Connection Agreement.
+- ask about you about some of the answers you provided
+- provide access to NHS Notify's integration environment
 
-It is a legal document that is signed alongside any financial agreements between NHS Notify, its suppliers and your service.
+## 4. Build your integration
 
-Accepting and signing the Connection Agreement must be done by someone in your service’s organisation with the appropriate authority.
+Once you get access to our integration environment, you can start building your integration with NHS Notify API or NHS Notify MESH.
 
-## 11. Onboarding complete
+How you build your integration to meet your needs is your responsibility.
 
-Once you have proven you integrated securely, you will be given a go live date by the NHS Notify team. You can then start using NHS Notify to send messages to patients or members of the public.
+If you're sending campaign or event based messages, you need to create and submit your templates during this step. You will also need to [approve your messages before we send them]({% link pages/using-nhs-notify/approve-your-messages.md %}).
+
+## 5. Complete integration testing
+
+You'll need to complete integration testing to make sure you're ready to start sending messages with NHS Notify.
+
+You'll be responsible for:
+
+- assigning someone to manage and complete your testing
+- completing testing in our integration environment
+- how long your testing will take
+- specific NHS App message testing (if you're using the NHS App)
+
+Your onboarding manager will share advice on how to carry out testing when you reach this step.
+
+You can start testing earlier using our Sandbox environment or by using free-text inputs with NHS Notify API or NHS Notify MESH.
+
+## 6. Apply to go live
+
+You'll need technical or developer support to complete tasks in this step. They must also be ready to support the go live process.
+
+When you’re ready to go live, contact your onboarding manager.
+
+They'll ask you to:
+
+- send them your SCAL
+- sign our [connection agreement](https://digital.nhs.uk/developer/guides-and-documentation/online-connection-agreement) if you’re a non-NHSE organisation
+
+### If you're using NHS Notify API
+
+Your onboarding manager will ask for your:
+
+- production (PROD) application name
+- PROD application ID
+- consumer organisation name
+- JWKS resource URL (if you’re self-hosting)
+- key ID for JWKS and public key (if NHS Notify is hosting your keys via APIM)
+
+### If you’re using NHS Notify MESH
+
+Your onboarding manager will ask for your PROD Mesh Mailbox ID.
+
+### Before you go live
+
+Once we’ve received your details, you’ll need to:
+
+- complete smoke testing, with support from NHS Notify and your technical team
+- discuss your rollout or implementation plan with us
+
+We will:
+
+- check your SCAL and confirm all assurance is complete
+- set you up in the production environment
+- work with you to support your rollout or implementation plan
+- agree a go live date with you
+
+## 7. Go live
+
+On your go live date, you can start making requests via API or MESH to send messages with NHS Notify.
+
+### After you go live
+
+NHS Notify will setup a series of early service support calls with you to check your integration is performing as expected.
+
+If you need help after these calls, contact [support]({% link pages/support/support.md %}).

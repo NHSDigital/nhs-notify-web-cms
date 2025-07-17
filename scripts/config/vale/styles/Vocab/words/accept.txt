@@ -47,3 +47,5 @@ Tokelau
 Wayfinder
 phoneNumber
 :
+SCAL
+APIM
