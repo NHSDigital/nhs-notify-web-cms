@@ -23,7 +23,7 @@ You can:
 
 ## Before you start
 
-You can only create and submit templates when you're accepted to [onboard with NHS Notify]({% link pages/get-started/get-started.md %}) and have access to our integration environment.
+You can only create and submit templates when you're accepted to [onboard with NHS Notify]({% link pages/get-started/onboard-with-notify.md %}) and have access to our integration environment.
 
 You can sign in with your Care Identity. We'll support you to set this up.
 
