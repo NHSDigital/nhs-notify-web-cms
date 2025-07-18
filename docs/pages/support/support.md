@@ -11,7 +11,7 @@ permalink: /support/
 
 NHS Notify is a [silver service](https://digital.nhs.uk/services/reference-guide#service-levels) and is available 24 hours a day, 365 days a year.
 
-If you're using NHS Notify and need help, [submit a case with Service Now](https://nhsdigitallive.service-now.com/csm).
+If you're live with NHS Notify and need help, [submit a case with Service Now](https://nhsdigitallive.service-now.com/csm).
 
 If you have any general questions about NHS Notify, send an email to <england.nhsnotify@nhs.net>.
 
