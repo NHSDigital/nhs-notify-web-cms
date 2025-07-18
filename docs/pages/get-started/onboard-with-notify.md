@@ -155,7 +155,7 @@ After you submit the form, it will be reviewed by NHS Notify's onboarding team.
 
 They'll contact you to either:
 
-- ask about you about some of the answers you provided
+- ask you about some of the answers you provided
 - provide access to NHS Notify's integration environment
 
 ## 4. Build your integration
