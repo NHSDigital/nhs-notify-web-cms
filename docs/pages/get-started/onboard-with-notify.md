@@ -160,7 +160,7 @@ They'll contact you to either:
 
 ## 4. Build your integration
 
-Once you get access to our integration environment, you can start building your integration with NHS Notify API or NHS Notify MESH.
+Once you get access to our integration environment, you can start building your integration with [NHS Notify API](https://digital.nhs.uk/developer/api-catalogue/nhs-notify) or [NHS Notify MESH](https://digital.nhs.uk/developer/api-catalogue/nhs-notify-mesh).
 
 How you build your integration to meet your needs is your responsibility.
 
@@ -179,7 +179,7 @@ You'll be responsible for:
 
 Your onboarding manager will share advice on how to carry out testing when you reach this step.
 
-You can start testing earlier using our Sandbox environment or by using free-text inputs with NHS Notify API or NHS Notify MESH.
+You can start testing earlier using our [Sandbox environment](https://digital.nhs.uk/developer/api-catalogue/nhs-notify#overview--environments-and-testing) or by using [free-text inputs with NHS Notify API](https://digital.nhs.uk/developer/api-catalogue/nhs-notify#overview--enable-users-to-write-and-send-messages-from-your-software) or [NHS Notify MESH](https://digital.nhs.uk/developer/api-catalogue/nhs-notify-mesh/set-up-nhs-notify-mesh#write-your-messages).
 
 ## 6. Apply to go live
 
@@ -222,10 +222,10 @@ We will:
 
 ## 7. Go live
 
-On your go live date, you can start making requests via API or MESH to send messages with NHS Notify.
+On your go live date, you can start making requests via [NHS Notify API](https://digital.nhs.uk/developer/api-catalogue/nhs-notify) or [NHS Notify MESH](https://digital.nhs.uk/developer/api-catalogue/nhs-notify-mesh) to send messages with NHS Notify.
 
 ### After you go live
 
-NHS Notify will setup a series of early service support calls with you to check your integration is performing as expected.
+NHS Notify will set up a series of early service support calls with you to check your integration is performing as expected.
 
 If you need help after these calls, contact [support]({% link pages/support/support.md %}).
