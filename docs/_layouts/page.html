@@ -18,11 +18,30 @@ assign first_level = nav_pages
 | group_by: "section"
 -%}
 
+{%- comment -%}
+Separate pages with sections from pages without sections
+{%- endcomment -%}
+{%- assign pages_without_sections = "" | split: "" -%}
+{%- assign pages_with_sections = "" | split: "" -%}
+
+{%- for section in first_level -%}
+  {%- if section.name == "" or section.name == nil -%}
+    {%- assign pages_without_sections = pages_without_sections | concat: section.items -%}
+  {%- else -%}
+    {%- assign pages_with_sections = pages_with_sections | push: section -%}
+  {%- endif -%}
+{%- endfor -%}
+
+{%- comment -%}
+Sort pages without sections by nav_order
+{%- endcomment -%}
+{%- assign sorted_pages_without_sections = pages_without_sections | sort: 'nav_order' -%}
+
 {%- assign section_order = site.data.sidebar-section-order.sections -%}
 
 {%- assign ordered_sections = "" | split: "" -%}
 {%- for section_name in section_order -%}
-  {%- for section in first_level -%}
+  {%- for section in pages_with_sections -%}
     {%- if section.name == section_name -%}
       {%- assign ordered_sections = ordered_sections | push: section -%}
       {%- break -%}
@@ -33,7 +52,7 @@ assign first_level = nav_pages
 {%- comment -%}
 Add any sections not in the manual order list at the end
 {%- endcomment -%}
-{%- for section in first_level -%}
+{%- for section in pages_with_sections -%}
   {%- assign found = false -%}
   {%- for ordered_section in ordered_sections -%}
     {%- if section.name == ordered_section.name -%}
@@ -55,6 +74,25 @@ Add any sections not in the manual order list at the end
           <div class="nhsnotify-pane__side-bar">
             <nav class="nhsnotify-side-nav">
               <ul class="nhsuk-list nhsnotify-side-nav__list">
+                {%- comment -%}
+                First render pages without sections (sorted by nav_order)
+                {%- endcomment -%}
+                {% for post in sorted_pages_without_sections %}
+                {% unless post.has_children %}
+                <li class="
+                      nhsnotify-side-nav__item
+                      {% if post.url == page.url %}
+                        nhsnotify-side-nav__item--current
+                      {% endif %}
+                    ">
+                  <a class="nhsnotify-side-nav__link" href="{{ site.baseurl | append: post.url }}">{{ post.title }}</a>
+                </li>
+                {% endunless %}
+                {% endfor %}
+
+                {%- comment -%}
+                Then render sections with their pages
+                {%- endcomment -%}
                 {% for section in ordered_sections %}
                 {% if section.name != "" %}
                 <li class="nhsuk-u-font-weight-bold nhsnotify-side-nav__list-section">{{ section.name }}</li>
