@@ -48,7 +48,7 @@ permalink: /
 <div id="pricing" class="nhsnotify-banner--white">
   <div class="nhsuk-width-container nhsuk-main-wrapper">
     <h2>Pricing</h2>
-    <p>There's no monthly charge, no setup fee and no procurement process. Letters include a small additional charge.</p>
+    <p>There's no monthly charge, no setup fee and no procurement process.</p>
     <ul class="nhsuk-grid-row nhsuk-card-group">
       {% for item in site.data.home.pricing %}
       <li class="nhsuk-grid-column-one-quarter nhsuk-card-group__item">
