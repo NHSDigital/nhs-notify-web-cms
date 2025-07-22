@@ -11,43 +11,32 @@ permalink: /pricing/letters
 
 The cost of sending a standard letter depends on the postage you choose and how many sheets of paper you need.
 
-Prices include:
+NHS Notify's standard postage rate is 70p + VAT for one double-sided sheet of paper.
+
+This price includes:
 
 - paper
 - postage
 - double-sided black and white printing
 - C5 size envelopes with an address window
+- returned letter costs
+- additional charge per letter to cover service costs
 
-| Paper    | 1st class            | 2nd class            |
-| -------- | -------------------- | -------------------- |
-| 1 sheet  | Up to £1.78 + VAT    | Up to 67 pence + VAT |
-| 2 sheets | Up to £1.82 + VAT    | Up to 71 pence + VAT |
-| 3 sheets | Up to £1.86 + VAT    | Up to 76 pence + VAT |
-| 4 sheets | Up to £1.92 + VAT    | Up to 81 pence + VAT |
-| 5 sheets | Up to £1.96 + VAT    | Up to 85 pence + VAT |
+This is our most cost-effective option. It's a blended rate that covers sending some letters as accessible formats.
 
-## Letters in accessible formats
+Speak to your onboarding manager if you need:
 
-You can use a range of accessible formats to send letters to people with accessibility needs.
+- to send letters with more than one double-sided sheet
+- a different postage rate, such as 1st or 2nd class
 
-Learn more about NHS Notify’s [accessible letter formats]({% link pages/using-nhs-notify/accessible-formats.md %}).
+## Additional charge for letters
 
-| Accessible format           | Cost                      |
-| --------------------------- | ------------------------- |
-| Large print (16 point font) | Same as a standard letter |
-| Braille                     | £1.98 + VAT               |
-| Audio CD                    | £2.80 + VAT               |
+From 1 August 2025, you'll pay a small additional charge for each letter you send with NHS Notify. This is included in our standard postage rate. We'll automatically add this charge to your monthly bill, based on the number of letters you send.
+
+This additional charge will enable us to make improvements to the service and develop new features for all users of NHS Notify.
+
+We'll support you to send more messages digitally to help reduce your costs.
 
 ## Letter inserts
 
 If you need to include inserts such as leaflets with your letters, contact us by sending an email to <england.nhsnotify@nhs.net>.
-
-## Returned letter costs
-
-There is an 18 pence charge for each letter you send that is returned. Returned letters are then destroyed for data security, which costs £5.99 (plus VAT) for every 10,000 letters.
-
-Letters are sometimes returned because:
-
-- the address is invalid or does not exist
-- it has been refused by the recipient
-- the address is vacant or the recipient is no longer there

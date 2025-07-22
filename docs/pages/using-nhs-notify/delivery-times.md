@@ -35,6 +35,8 @@ Once an email has been sent, our email provider will try to deliver it to the re
 
 NHS Notify will only send emails from 8am to 6pm on weekdays.
 
+[Learn more about emails]({% link pages/features/emails.md %}).
+
 ### Open rates and click-throughs
 
 NHS Notify cannot tell you if your users open an email or click on the links in an email.
@@ -47,12 +49,24 @@ Once a text message has been sent, our text message provider will try to deliver
 
 NHS Notify will only send text messages from 8am to 6pm on weekdays.
 
+[Learn more about text messages]({% link pages/features/text-messages.md %}).
+
 ## Letters
 
-Once you've [provided us with recipients' NHS numbers]({% link pages/using-nhs-notify/tell-us-who-you-want-to-message.md %}), it can take up to 2 working days for our suppliers to dispatch your letter.
+Once you've made a request with [NHS Notify API]({% link pages/using-nhs-notify/api.md %}) or [NHS Notify MESH]({% link pages/using-nhs-notify/mesh.md %}), it can take up to 2 working days for our suppliers to dispatch your letter.
 
-First class letters are delivered 1 to 2 business days after they’re dispatched.
+We use NHS Notify's standard postage as our default for letters. Most letters get delivered 3 business days after they're dispatched.
 
-Second class letters are delivered 2 to 3 days after they’re dispatched.
+If you need different postage, such as 1st or 2nd class, speak to your onboarding manager.
 
-Royal Mail delivers from Monday to Saturday, excluding bank holidays.
+{% include components/inset-text.html
+  text='From 28 July, delivery times for all letters except 1st class are changing. This is due to Royal Mail’s service reforms.
+
+  For more information, visit [Royal Mail’s website](https://www.royalmail.com/receiving/the-future-of-letter-deliveries).'
+%}
+
+[Learn more about letters]({% link pages/features/letters.md %}).
+
+### NHS barcode
+
+If you want to send your letter with [Royal Mail's NHS barcode](https://notify.nhs.uk/features/letters#nhs-barcode), your message content needs to meet certain criteria and you need to use 1st or 2nd class postage. Speak to your onboarding manager to discuss your options.
