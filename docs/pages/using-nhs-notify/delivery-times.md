@@ -53,7 +53,7 @@ NHS Notify will only send text messages from 8am to 6pm on weekdays.
 
 ## Letters
 
-Once you've [provided us with recipients' NHS numbers]({% link pages/using-nhs-notify/tell-us-who-you-want-to-message.md %}), it can take up to 2 working days for our suppliers to dispatch your letter.
+Once you've made a request with [NHS Notify API]({% link pages/using-nhs-notify/api.md %}) or [NHS Notify MESH]({% link pages/using-nhs-notify/mesh.md %}), it can take up to 2 working days for our suppliers to dispatch your letter.
 
 We use NHS Notify's standard postage as our default for letters. Most letters get delivered 3 business days after they're dispatched.
 
