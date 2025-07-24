@@ -1,10 +1,10 @@
 - heading: Write your messages
   description: |
     Create reusable templates or free-text messages for each message channel:
-    - NHS App messages and notifications
-    - emails
-    - text messages (SMS)
-    - letters
+    - [NHS App messages and notifications](https://notify.nhs.uk/features/nhs-app-messages)
+    - [emails](https://notify.nhs.uk/features/emails)
+    - [text messages (SMS)](https://notify.nhs.uk/features/text-messages-sms)
+    - [letters](https://notify.nhs.uk/features/letters)
   image: 1-write-your-message.svg
   image_alt: ""
 
@@ -19,6 +19,7 @@
     Set up routing plans to decide how your messages will be sent to recipients.
   image: 3-plan-your-messages.svg
   image_alt: ""
+  number: 3
 
 - heading: See how your messages perform
   description: |
