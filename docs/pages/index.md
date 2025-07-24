@@ -5,6 +5,7 @@ site_title: NHS Notify CMS
 nav_order: 1
 permalink: /
 ---
+
 <!-- HEADING -->
 <div id="heading" class="nhsnotify-banner--blue">
   <div class="nhsuk-main-wrapper nhsuk-width-container">
@@ -14,6 +15,10 @@ permalink: /
         <p>
           {{ site.data.home.heading.description }}
         </p>
+        {% include components/button-reverse.html
+          text="Get started"
+          url="https://notify.nhs.uk/get-started/"
+        %}
       </div>
       <div class="nhsuk-grid-column-one-half">
         {% include components/image.html src=site.data.home.heading.image alt=site.data.home.heading.image_alt class="nhsnotify-image" %}
@@ -76,6 +81,10 @@ permalink: /
         <p>
           {{ site.data.home.find-out-more.description }}
         </p>
+        {% include components/button-reverse.html
+          text="Get started"
+          url="https://notify.nhs.uk/get-started/"
+        %}
       </div>
       <div class="nhsuk-grid-column-one-half">
         {% include components/image.html src=site.data.home.find-out-more.image alt=site.data.home.find-out-more.image_alt class="nhsnotify-image" %}
