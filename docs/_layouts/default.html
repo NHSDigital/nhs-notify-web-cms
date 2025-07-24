@@ -12,6 +12,14 @@
   <link href="{{site.baseurl}}/assets/css/main.css" rel="stylesheet">
   <script src="{{site.baseurl}}/assets/js/nhsuk.min.js" defer=""></script>
 
+  <!-- Splunk Logger Configuration -->
+  <script>
+    window.SPLUNK_ENDPOINT = "{{ site.data.splunk-config.environments[site.environment].endpoint | default: site.data.splunk-config.environments.development.endpoint }}";
+    window.SPLUNK_TOKEN = "{{ site.data.splunk-config.environments[site.environment].token | default: site.data.splunk-config.environments.development.token }}";
+    window.SPLUNK_ENABLED = "{{ site.data.splunk-config.environments[site.environment].enabled | default: site.data.splunk-config.environments.development.enabled }}" === "true";
+  </script>
+  <script src="{{site.baseurl}}/assets/js/splunk-logger.js" defer=""></script>
+
   <link rel="shortcut icon" href="{{site.baseurl}}/assets/favicons/favicon.ico" type="image/x-icon">
   <link rel="apple-touch-icon" href="{{site.baseurl}}/assets/favicons/apple-touch-icon-180x180.png">
   <link rel="mask-icon" href="{{site.baseurl}}/assets/favicons/favicon.svg" color="#005eb8">
