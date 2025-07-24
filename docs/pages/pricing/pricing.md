@@ -30,7 +30,7 @@ It costs 2.33 pence (plus VAT) for every text message you send.
 
 ## Letters
 
-It costs up to 67p (plus VAT) to send a one-sheet letter with both sides printed using 2nd class postage.
+It costs 70p (plus VAT) to send a letter using NHS Notify's standard postage.
 
 {% include components/action-link.html
     url='/pricing/letters'
