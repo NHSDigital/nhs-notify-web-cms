@@ -65,7 +65,7 @@ permalink: /
       </li>
       {% endfor %}
     </ul>
-      {% include components/action-link.html
+    {% include components/action-link.html
         url='/pricing'
         text='Learn more about pricing'
       %}
