@@ -1,0 +1,53 @@
+# Splunk Configuration for NHS Notify Web CMS
+# This file contains configuration for frontend event logging to Splunk
+
+# Environment-specific settings
+environments:
+  development:
+    enabled: true
+    endpoint: "https://splunk-instance.nhs.uk:8088/services/collector"
+    token: "hec-token-placeholder"
+    index: "events_nhsnotify_nonprod"
+
+  staging:
+    enabled: true
+    endpoint: "https://splunk-instance.nhs.uk:8088/services/collector"
+    token: "hec-token-placeholder"
+    index: "events_nhsnotify_nonprod"
+
+  production:
+    enabled: true
+    endpoint: "https://splunk-instance.nhs.uk:8088/services/collector"
+    token: "hec-token-placeholder"
+    index: "events_nhsnotify_prod"
+
+# Event types to track
+event_types:
+  - page_view
+  - link_click
+  - sidebar_navigation
+  - search
+  - form_interaction
+  - button_click
+  - download
+  - external_link_click
+
+# Page sections to track
+page_sections:
+  - features
+  - pricing
+  - using-nhs-notify
+  - support
+  - get-started
+  - about
+
+# Custom event labels
+event_labels:
+  page_view: "Page View"
+  link_click: "Link Click"
+  sidebar_navigation: "Sidebar Navigation"
+  search: "Search"
+  form_interaction: "Form Interaction"
+  button_click: "Button Click"
+  download: "File Download"
+  external_link_click: "External Link Click"
