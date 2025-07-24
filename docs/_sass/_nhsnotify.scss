@@ -206,6 +206,11 @@
   }
 }
 
+// Home page button margin override
+.nhsnotify-home-page .nhsuk-button {
+  margin-bottom: 0;
+}
+
 .nhsuk-breadcrumb__item {
 
   &:not(:last-child)::after {
