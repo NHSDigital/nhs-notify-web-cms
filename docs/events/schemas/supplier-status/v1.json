@@ -1,0 +1,118 @@
+{
+  "$schema": "https://notify.nhs.uk/events/schemas/supplier-status/v1.json",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string",
+      "format": "uuid",
+      "description": "Unique ID for this event"
+    },
+    "source": {
+      "type": "string",
+      "description": "Source of the event"
+    },
+    "specversion": {
+      "type": "string",
+      "description": "Version of the event"
+    },
+    "type": {
+      "type": "string",
+      "description": "Type of event"
+    },
+    "plane": {
+      "type": "string",
+      "enum": ["data", "control"],
+      "description": "Identification for target event"
+    },
+    "subject": {
+      "type": "string",
+      "format": "uuid",
+      "description": "Original item plan ID"
+    },
+    "time": {
+      "type": "string",
+      "description": "Time the event was generated"
+    },
+    "datacontenttype": {
+      "type": "string",
+      "description": "Always application/json"
+    },
+    "dataschema": {
+      "type": "string",
+      "description": "Schema for this event"
+    },
+    "dataschemaversion": {
+      "type": "string",
+      "description": "Version of the schema"
+    },
+    "data": {
+      "type": "object",
+      "properties": {
+        "nhsNumber": {
+          "type": "string",
+          "description": "Patient NHS number"
+        },
+        "delayedFallback": {
+          "type": "boolean",
+          "description": "Whether or not delayed fallback is enabled"
+        },
+        "sendingGroupId": {
+          "type": "string",
+          "description": "Sending group ID"
+        },
+        "clientId": {
+          "type": "string",
+          "description": "Client ID for the original message"
+        },
+        "campaignId": {
+          "type": "string",
+          "description": "Campaign ID for the original message"
+        },
+        "billingReference": {
+          "type": "string",
+          "description": "Billing reference from the original message"
+        },
+        "supplierStatus": {
+          "type": "string",
+          "description": "New supplier status"
+        },
+        "previousSupplierStatus": {
+          "type": "string",
+          "description": "Previous supplier status"
+        },
+        "requestItemId": {
+          "type": "string",
+          "description": "Request Item ID for the message that received a callback"
+        },
+        "requestItemPlanId": {
+          "type": "string",
+          "description": "Request Item Plan ID for the plan that received a callback"
+        }
+      },
+      "required": [
+        "nhsNumber",
+        "delayedFallback",
+        "sendingGroupId",
+        "clientId",
+        "campaignId",
+        "supplierStatus",
+        "previousSupplierStatus",
+        "requestItemId",
+        "requestItemPlanId"
+      ]
+    }
+  },
+  "required": [
+    "id",
+    "source",
+    "specversion",
+    "type",
+    "plane",
+    "subject",
+    "time",
+    "datacontenttype",
+    "dataschema",
+    "dataschemaversion",
+    "data"
+  ]
+}
