@@ -1,0 +1,394 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "time": {
+      "type": "string",
+      "format": "date-time",
+      "pattern": "^(?:(?:\\d\\d[2468][048]|\\d\\d[13579][26]|\\d\\d0[48]|[02468][048]00|[13579][26]00)-02-29|\\d{4}-(?:(?:0[13578]|1[02])-(?:0[1-9]|[12]\\d|3[01])|(?:0[469]|11)-(?:0[1-9]|[12]\\d|30)|(?:02)-(?:0[1-9]|1\\d|2[0-8])))T(?:(?:[01]\\d|2[0-3]):[0-5]\\d(?::[0-5]\\d(?:\\.\\d+)?)?(?:Z))$"
+    },
+    "type": {
+      "type": "string",
+      "const": "uk.nhs.notify.template-management.TemplateDeleted.v1"
+    },
+    "source": {
+      "type": "string"
+    },
+    "specversion": {
+      "type": "string",
+      "const": "1.0"
+    },
+    "datacontenttype": {
+      "type": "string",
+      "const": "application/json"
+    },
+    "subject": {
+      "type": "string"
+    },
+    "dataschema": {
+      "type": "string",
+      "const": "https://notify.nhs.uk/events/schemas/TemplateDeleted/v1.json"
+    },
+    "data": {
+      "allOf": [
+        {
+          "anyOf": [
+            {
+              "type": "object",
+              "properties": {
+                "owner": {
+                  "type": "string"
+                },
+                "id": {
+                  "type": "string"
+                },
+                "clientId": {
+                  "type": "string"
+                },
+                "createdAt": {
+                  "type": "string"
+                },
+                "createdBy": {
+                  "type": "string"
+                },
+                "name": {
+                  "type": "string"
+                },
+                "templateStatus": {
+                  "type": "string",
+                  "enum": [
+                    "DELETED",
+                    "NOT_YET_SUBMITTED",
+                    "PENDING_PROOF_REQUEST",
+                    "PENDING_UPLOAD",
+                    "PENDING_VALIDATION",
+                    "PROOF_AVAILABLE",
+                    "SUBMITTED",
+                    "VALIDATION_FAILED",
+                    "VIRUS_SCAN_FAILED",
+                    "WAITING_FOR_PROOF"
+                  ]
+                },
+                "updatedAt": {
+                  "type": "string"
+                },
+                "updatedBy": {
+                  "type": "string"
+                },
+                "message": {
+                  "type": "string"
+                },
+                "subject": {
+                  "type": "string"
+                },
+                "templateType": {
+                  "type": "string",
+                  "const": "EMAIL"
+                }
+              },
+              "required": [
+                "owner",
+                "id",
+                "createdAt",
+                "name",
+                "templateStatus",
+                "updatedAt",
+                "message",
+                "subject",
+                "templateType"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "owner": {
+                  "type": "string"
+                },
+                "id": {
+                  "type": "string"
+                },
+                "clientId": {
+                  "type": "string"
+                },
+                "createdAt": {
+                  "type": "string"
+                },
+                "createdBy": {
+                  "type": "string"
+                },
+                "name": {
+                  "type": "string"
+                },
+                "templateStatus": {
+                  "type": "string",
+                  "enum": [
+                    "DELETED",
+                    "NOT_YET_SUBMITTED",
+                    "PENDING_PROOF_REQUEST",
+                    "PENDING_UPLOAD",
+                    "PENDING_VALIDATION",
+                    "PROOF_AVAILABLE",
+                    "SUBMITTED",
+                    "VALIDATION_FAILED",
+                    "VIRUS_SCAN_FAILED",
+                    "WAITING_FOR_PROOF"
+                  ]
+                },
+                "updatedAt": {
+                  "type": "string"
+                },
+                "updatedBy": {
+                  "type": "string"
+                },
+                "message": {
+                  "type": "string"
+                },
+                "templateType": {
+                  "type": "string",
+                  "const": "NHS_APP"
+                }
+              },
+              "required": [
+                "owner",
+                "id",
+                "createdAt",
+                "name",
+                "templateStatus",
+                "updatedAt",
+                "message",
+                "templateType"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "owner": {
+                  "type": "string"
+                },
+                "id": {
+                  "type": "string"
+                },
+                "clientId": {
+                  "type": "string"
+                },
+                "createdAt": {
+                  "type": "string"
+                },
+                "createdBy": {
+                  "type": "string"
+                },
+                "name": {
+                  "type": "string"
+                },
+                "templateStatus": {
+                  "type": "string",
+                  "enum": [
+                    "DELETED",
+                    "NOT_YET_SUBMITTED",
+                    "PENDING_PROOF_REQUEST",
+                    "PENDING_UPLOAD",
+                    "PENDING_VALIDATION",
+                    "PROOF_AVAILABLE",
+                    "SUBMITTED",
+                    "VALIDATION_FAILED",
+                    "VIRUS_SCAN_FAILED",
+                    "WAITING_FOR_PROOF"
+                  ]
+                },
+                "updatedAt": {
+                  "type": "string"
+                },
+                "updatedBy": {
+                  "type": "string"
+                },
+                "files": {
+                  "type": "object",
+                  "properties": {
+                    "proofs": {
+                      "type": "object",
+                      "propertyNames": {
+                        "type": "string"
+                      },
+                      "additionalProperties": {
+                        "type": "object",
+                        "properties": {
+                          "supplier": {
+                            "type": "string"
+                          }
+                        },
+                        "required": [
+                          "supplier"
+                        ]
+                      }
+                    }
+                  }
+                },
+                "templateType": {
+                  "type": "string",
+                  "const": "LETTER"
+                },
+                "language": {
+                  "type": "string",
+                  "enum": [
+                    "ar",
+                    "bg",
+                    "bn",
+                    "de",
+                    "el",
+                    "en",
+                    "es",
+                    "fa",
+                    "fr",
+                    "gu",
+                    "hi",
+                    "hu",
+                    "it",
+                    "ku",
+                    "lt",
+                    "lv",
+                    "ne",
+                    "pa",
+                    "pl",
+                    "pt",
+                    "ro",
+                    "ru",
+                    "sk",
+                    "so",
+                    "sq",
+                    "ta",
+                    "tr",
+                    "ur",
+                    "zh"
+                  ]
+                },
+                "letterType": {
+                  "type": "string",
+                  "enum": [
+                    "q4",
+                    "x0",
+                    "x1"
+                  ]
+                },
+                "personalisationParameters": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "owner",
+                "id",
+                "createdAt",
+                "name",
+                "templateStatus",
+                "updatedAt",
+                "files",
+                "templateType",
+                "language",
+                "letterType",
+                "personalisationParameters"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "owner": {
+                  "type": "string"
+                },
+                "id": {
+                  "type": "string"
+                },
+                "clientId": {
+                  "type": "string"
+                },
+                "createdAt": {
+                  "type": "string"
+                },
+                "createdBy": {
+                  "type": "string"
+                },
+                "name": {
+                  "type": "string"
+                },
+                "templateStatus": {
+                  "type": "string",
+                  "enum": [
+                    "DELETED",
+                    "NOT_YET_SUBMITTED",
+                    "PENDING_PROOF_REQUEST",
+                    "PENDING_UPLOAD",
+                    "PENDING_VALIDATION",
+                    "PROOF_AVAILABLE",
+                    "SUBMITTED",
+                    "VALIDATION_FAILED",
+                    "VIRUS_SCAN_FAILED",
+                    "WAITING_FOR_PROOF"
+                  ]
+                },
+                "updatedAt": {
+                  "type": "string"
+                },
+                "updatedBy": {
+                  "type": "string"
+                },
+                "message": {
+                  "type": "string"
+                },
+                "templateType": {
+                  "type": "string",
+                  "const": "SMS"
+                }
+              },
+              "required": [
+                "owner",
+                "id",
+                "createdAt",
+                "name",
+                "templateStatus",
+                "updatedAt",
+                "message",
+                "templateType"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "templateStatus": {
+              "type": "string",
+              "enum": [
+                "DELETED"
+              ]
+            }
+          },
+          "required": [
+            "templateStatus"
+          ]
+        }
+      ]
+    },
+    "dataschemaversion": {
+      "type": "string",
+      "pattern": "^1\\..*"
+    },
+    "plane": {
+      "type": "string",
+      "const": "control"
+    }
+  },
+  "required": [
+    "id",
+    "time",
+    "type",
+    "source",
+    "specversion",
+    "datacontenttype",
+    "subject",
+    "dataschema",
+    "data",
+    "dataschemaversion",
+    "plane"
+  ]
+}
