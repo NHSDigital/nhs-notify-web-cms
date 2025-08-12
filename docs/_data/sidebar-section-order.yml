@@ -5,6 +5,6 @@
 sections:
   - "By use case"
   - "Accessing NHS Notify"
-  - "Going live with NHS Notify"
   - "Writing a message"
   - "Sending a message"
+  - "Going live with NHS Notify"
