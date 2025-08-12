@@ -168,18 +168,9 @@ If you're sending campaign or event based messages, you need to create and submi
 
 ## 5. Complete integration testing
 
-You'll need to complete integration testing to make sure you're ready to start sending messages with NHS Notify.
+You'll need to [complete integration testing]({% link pages/using-nhs-notify/complete-your-testing.md %}) to make sure you're ready to start sending messages with NHS Notify.
 
-You'll be responsible for:
-
-- assigning someone to manage and complete your testing
-- completing testing in our integration environment
-- how long your testing will take
-- specific NHS App message testing (if you're using the NHS App)
-
-Your onboarding manager will share advice on how to carry out testing when you reach this step.
-
-You can start testing earlier using our [Sandbox environment](https://digital.nhs.uk/developer/api-catalogue/nhs-notify#overview--environments-and-testing) or by using [free-text inputs with NHS Notify API](https://digital.nhs.uk/developer/api-catalogue/nhs-notify#overview--enable-users-to-write-and-send-messages-from-your-software) or [NHS Notify MESH](https://digital.nhs.uk/developer/api-catalogue/nhs-notify-mesh/set-up-nhs-notify-mesh#write-your-messages).
+If you're sending NHS App messages, you'll also need to [complete NHS App testing]({% link pages/using-nhs-notify/complete-your-testing.md %}).
 
 ## 6. Apply to go live
 
@@ -210,7 +201,7 @@ Your onboarding manager will ask for your PROD Mesh Mailbox ID.
 
 Once we’ve received your details, you’ll need to:
 
-- complete smoke testing, with support from NHS Notify and your technical team
+- [complete smoke testing]({% link pages/using-nhs-notify/complete-your-testing.md %}), with support from NHS Notify and your technical team
 - discuss your rollout or implementation plan with us
 
 We will:

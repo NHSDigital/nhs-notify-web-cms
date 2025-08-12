@@ -5,9 +5,9 @@
 layout: page
 title: Approve your messages before we send them
 parent: Using NHS Notify
-nav_order: 6
+nav_order: 2
 permalink: /using-nhs-notify/approve-your-messages
-section: Sending a message
+section: Going live with NHS Notify
 ---
 
 When you're ready to send messages to recipients, you'll need to approve final proofs of your messages. You'll do this every time you provide new templates.
