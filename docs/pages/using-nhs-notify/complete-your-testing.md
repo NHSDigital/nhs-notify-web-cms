@@ -5,9 +5,9 @@
 layout: page
 title: Complete your testing
 parent: Using NHS Notify
-nav_order: 1
+nav_order: 2
 permalink: /using-nhs-notify/complete-your-testing
-section: Going live with NHS Notify
+section: Going live
 ---
 You'll need to carry out testing to make sure you're ready to start sending messages to recipients with NHS Notify.
 
