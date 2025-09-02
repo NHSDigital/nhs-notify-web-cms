@@ -15,14 +15,14 @@ You're responsible for:
 
 - leading your testing
 - completing integration testing in our integration (INT) environment
-- how long testing will take
+- managing how long testing will take
 - deciding when to carry out integration testing
 
-You need to:
+You need to complete:
 
-- [complete your integration testing](#how-to-carry-out-integration-testing).<!-- markdownlint-disable-line -->
-- [complete NHS App testing](#nhs-app-integration-testing) if you're sending NHS App messages
-- [complete production smoke testing](#production-smoke-testing) just before you go live
+- [integration testing](#how-to-carry-out-integration-testing)<!-- markdownlint-disable-line -->
+- [NHS App testing](#nhs-app-integration-testing) if you're sending NHS App messages
+- [production smoke testing](#production-smoke-testing) just before you go live
 
 We need specific evidence for your NHS App testing.
 
@@ -49,7 +49,7 @@ Make sure you've [prepared your integration](https://notify.nhs.uk/get-started/o
 To prepare for testing, you need to:
 
 - arrange your own Personal Demographics Service (PDS) data - contact your integration manager if you have any questions
-- provide us with your [test personalisation data](https://notify.nhs.uk/using-nhs-notify/personalisation#providing-example-data)
+- provide us with your [test personalisation data](https://notify.nhs.uk/using-nhs-notify/personalisation#providing-example-data) (if you're using templates rather than free-text inputs)
 - ask your onboarding manager to set up your NHS App test data (if you're using the NHS App)
 
 ### 2. Confirm your connection to the integration environment
@@ -115,27 +115,27 @@ Give your onboarding manager the following details of the people on your team wh
 
 We'll then send you a link to download the app from the [Apple Store](https://www.apple.com/uk/store) or [Google Play](https://play.google.com/store/apps?hl=en).
 
-### 2. We'll send you test user account details
+### 2. Sign in with test accounts
 
-We'll give you sign in details for 3 test user accounts.
+We'll send you sign in details for 3 test user accounts.
 
-### 3. Sign in with test accounts
+Sign in with the 3 test user accounts on the mobile phone that we approved for the test NHS App.
 
-Sign in with the 3 test user accounts on a mobile device that we approved for the test NHS App,
-
-### 4. Send test messages
+### 3. Send test messages
 
 Wait 24 hours after you first sign in.
 
 Then send test messages using requests through NHS Notify API or NHS Notify MESH. Use the test users' NHS numbers.
 
-### 5. Receive the notification
+### 4. Receive the notification
 
-The notification will be delivered to the test NHS App on the phone of the person who's signed in to the test accounts.
+The notification will be delivered to the test NHS App on the mobile phone of the person who's signed in to the test accounts.
 
-### 6. Show evidence of your NHS App testing
+### 5. Show evidence of your NHS App testing
 
-You'll need to show evidence of the results with a screen recording or on a video call with us. You can send us the screen recordings in one video or in separate videos if this is easier.
+You'll need to show evidence of the results with a screen recording or on a video call with us.
+
+You can send us the screen recordings in one video or in separate videos if this is easier.
 
 We can provide extra evidence from our database if you request this.
 
@@ -167,7 +167,7 @@ Smoke testing helps us to make sure:
 - your new integration is working in the production environment
 - your production configuration is set up correctly in line with the INT set up
 
-For letters, smoke testing will take place 24 hours before you go live with NHS Notify. For other message channels, it can take place on the same day that you go live.
+For letters, smoke testing will take place 24 hours before you go live. For other message channels, it can take place on the same day that you go live.
 
 The output of the smoke tests will be on our test devices. This means you will not see the messages at this stage.
 
