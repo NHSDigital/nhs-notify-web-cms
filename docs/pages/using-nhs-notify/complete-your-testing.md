@@ -48,7 +48,7 @@ Make sure you've [prepared your integration](https://notify.nhs.uk/get-started/o
 
 To prepare for testing, you need to:
 
-- arrange your own Personal Demographics Service (PDS) data - contact your integration manager if you have any questions
+- arrange your own Personal Demographics Service (PDS) data - contact your onboarding manager if you have any questions
 - provide us with your [test personalisation data](https://notify.nhs.uk/using-nhs-notify/personalisation#providing-example-data) (if you're using templates rather than free-text inputs)
 - ask your onboarding manager to set up your NHS App test data (if you're using the NHS App)
 
