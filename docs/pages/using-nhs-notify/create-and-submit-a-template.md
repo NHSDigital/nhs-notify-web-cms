@@ -17,7 +17,7 @@ You can:
 
 - create new templates
 - add formatting, links and personalisation
-- copy an existing template
+- copy one of your existing templates
 - save a template as a draft and edit it later
 - submit your final templates to NHS Notify to set up the messages you want to send
 
