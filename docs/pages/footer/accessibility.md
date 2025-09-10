@@ -54,17 +54,13 @@ Autocomplete is turned off by default, making it harder to fill out any form ele
 
 Autocomplete is turned off by default because the text a user enters into ‘create and submit a template’ will almost always be different for each submission. This makes autocomplete inappropriate for these fields. When we add new features that ask users for repeatable information, autocomplete will be enabled.
 
-When using a screen reader, it is not clear that the markdown examples in 'create and submit a template' are examples that can be copied. This fails WCAG 2.2 success criterion 2.4.6 (headings and labels).
-
-In a future release, we plan to add hidden text that can be read by screen readers and describes that the markdown examples are examples that can be copied.
-
 ## What we're doing to improve accessibility
 
 Our [roadmap]({% link pages/features/roadmap.md %}) shows how and when we plan to improve accessibility on this website.
 
 ## Preparation of this accessibility statement
 
-This statement was prepared on Friday 7 March 2024. It was last reviewed on Friday 7 March 2024.
+This statement was prepared on Friday 7 March 2025. It was last reviewed on Wednesday 10 September 2025.
 
 This website was last tested on Thursday 27 February 2025 against the WCAG 2.2 AA standard.
 
