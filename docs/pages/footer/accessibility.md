@@ -60,7 +60,7 @@ Our [roadmap]({% link pages/features/roadmap.md %}) shows how and when we plan t
 
 ## Preparation of this accessibility statement
 
-This statement was prepared on Friday 7 March 2025. It was last reviewed on Thursday 11 September 2025.
+This statement was prepared on Friday 7 March 2025. It was last reviewed on Wednesday 10 September 2025.
 
 This website was last tested on Thursday 27 February 2025 against the WCAG 2.2 AA standard.
 
