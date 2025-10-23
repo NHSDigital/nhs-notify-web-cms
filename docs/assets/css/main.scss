@@ -1,7 +1,35 @@
 ---
 ---
+
 @import "../../node_modules/nhsuk-frontend/packages/nhsuk";
 @import "nhs-colours";
 @import "breadcrumbs";
 @import "nhsnotify";
 @import "nhsnotify-side-nav";
+
+// CCM-9916 - Override @font-face rules from nhsuk-frontend to reference self-hosted fonts
+@font-face {
+  font-display: swap;
+  font-family: Frutiger W01;
+  font-style: normal;
+  font-weight: 400;
+  src: url(../fonts/FrutigerLTW01-55Roman.eot);
+  src: url(../fonts/FrutigerLTW01-55Roman.eot) format("eot"),
+    url(../fonts/FrutigerLTW01-55Roman.woff2) format("woff2"),
+    url(../fonts/FrutigerLTW01-55Roman.woff) format("woff"),
+    url(../fonts/FrutigerLTW01-55Roman.ttf) format("truetype"),
+    url(../fonts/FrutigerLTW01-55Roman.svg) format("svg");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: Frutiger W01;
+  font-style: normal;
+  font-weight: 600;
+  src: url(../fonts/FrutigerLTW01-65Bold.eot);
+  src: url(../fonts/FrutigerLTW01-65Bold.eot) format("eot"),
+    url(../fonts/FrutigerLTW01-65Bold.woff2) format("woff2"),
+    url(../fonts/FrutigerLTW01-65Bold.woff) format("woff"),
+    url(../fonts/FrutigerLTW01-65Bold.ttf) format("truetype"),
+    url(../fonts/FrutigerLTW01-65Bold.svg) format("svg");
+}
