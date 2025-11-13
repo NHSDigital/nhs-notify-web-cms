@@ -58,5 +58,8 @@
   "forwardPorts": [4000],
   "image": "ghcr.io/nhsdigital/nhs-notify-template-repository:latest",
   "name": "Jekyll",
-  "runArgs": ["--platform=linux/amd64"]
+  "runArgs": ["--platform=linux/amd64"],
+  "features": {
+    "ghcr.io/devcontainer-community/devcontainer-features/asdf-vm.com:1": {}
+}
 }
