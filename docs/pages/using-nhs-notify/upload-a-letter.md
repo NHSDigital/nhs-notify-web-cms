@@ -26,11 +26,11 @@ You'll need to:
 
 Download the relevant blank letter template to set up your letter:
 
-- [standard letter template]({% link assets/worddocs/letter-template-nhs-notify_.docx %})
-- [large print letter template]({% link assets/worddocs/letter-template-nhs-notify-large-print_.docx %})
-- [other language letter template]({% link assets/worddocs/letter-template-nhs-notify-other-language_.docx %})
-- [other language (right-aligned) letter template]({% link assets/worddocs/letter-template-nhs-notify-other-language-right-aligned_.docx %})
-- [parent or guardian letter template]({% link assets/worddocs/letter-template-nhs-notify-parent-or-guardian_.docx %})
+- [standard letter template]({% link assets/worddocs/letter-template-nhs-notify.docx %})
+- [large print letter template]({% link assets/worddocs/letter-template-nhs-notify-large-print.docx %})
+- [other language letter template]({% link assets/worddocs/letter-template-nhs-notify-other-language.docx %})
+- [other language (right-aligned) letter template]({% link assets/worddocs/letter-template-nhs-notify-other-language-right-aligned.docx %})
+- [parent or guardian letter template]({% link assets/worddocs/letter-template-nhs-notify-parent-or-guardian.docx %})
 
 You'll need the desktop Microsoft Word app.
 
