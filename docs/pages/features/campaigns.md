@@ -4,10 +4,10 @@
 
 layout: page
 title: Campaigns
-parent: Using NHS Notify
+parent: Features
 nav_order: 1
-permalink: /using-nhs-notify/campaigns
-section: By use case
+permalink: /features/campaigns
+section: Features by messaging needs
 ---
 
 Use NHS Notify to set up national or targeted campaigns to send messages in bulk to patients and the public.

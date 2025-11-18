@@ -4,10 +4,10 @@
 
 layout: page
 title: Direct messaging
-parent: Using NHS Notify
+parent: Features
 nav_order: 3
-permalink: /using-nhs-notify/direct-messaging
-section: By use case
+permalink: /features/direct-messaging
+section: Features by messaging needs
 ---
 
 Use NHS Notify to support your organisation or service to send individual messages directly to each of your patients.
