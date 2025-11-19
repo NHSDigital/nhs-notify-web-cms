@@ -11,12 +11,6 @@ permalink: /using-nhs-notify/
 
 This guidance is to help teams understand how to use NHS Notify.
 
-## By use case
-
-- [Campaigns]({% link pages/using-nhs-notify/campaigns.md %})
-- [Event based messaging]({% link pages/using-nhs-notify/event-based-messaging.md %})
-- [Direct messaging]({% link pages/using-nhs-notify/direct-messaging.md %})
-
 ## Accessing NHS Notify
 
 - [API]({% link pages/using-nhs-notify/api.md %})

@@ -30,6 +30,12 @@ Make sure there are no spaces between the brackets or the link will not work. Fo
     text='<code>[https://www.nhs.uk/example](https://www.nhs.uk/example)'
 %}
 
+For letters, you do not need to include https:// at the start. For example:
+
+{% include components/inset-text.html
+    text='<code>Book now at www.nhs.uk/example'
+%}
+
 URLs should be easy to read.
 
 {% include components/details.html
