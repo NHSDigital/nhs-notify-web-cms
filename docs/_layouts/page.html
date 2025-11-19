@@ -25,11 +25,11 @@ Separate pages with sections from pages without sections
 {%- assign pages_with_sections = "" | split: "" -%}
 
 {%- for section in first_level -%}
-  {%- if section.name == "" or section.name == nil -%}
-    {%- assign pages_without_sections = pages_without_sections | concat: section.items -%}
-  {%- else -%}
-    {%- assign pages_with_sections = pages_with_sections | push: section -%}
-  {%- endif -%}
+{%- if section.name == "" or section.name == nil -%}
+{%- assign pages_without_sections = pages_without_sections | concat: section.items -%}
+{%- else -%}
+{%- assign pages_with_sections = pages_with_sections | push: section -%}
+{%- endif -%}
 {%- endfor -%}
 
 {%- comment -%}
@@ -41,28 +41,28 @@ Sort pages without sections by nav_order
 
 {%- assign ordered_sections = "" | split: "" -%}
 {%- for section_name in section_order -%}
-  {%- for section in pages_with_sections -%}
-    {%- if section.name == section_name -%}
-      {%- assign ordered_sections = ordered_sections | push: section -%}
-      {%- break -%}
-    {%- endif -%}
-  {%- endfor -%}
+{%- for section in pages_with_sections -%}
+{%- if section.name == section_name -%}
+{%- assign ordered_sections = ordered_sections | push: section -%}
+{%- break -%}
+{%- endif -%}
+{%- endfor -%}
 {%- endfor -%}
 
 {%- comment -%}
 Add any sections not in the manual order list at the end
 {%- endcomment -%}
 {%- for section in pages_with_sections -%}
-  {%- assign found = false -%}
-  {%- for ordered_section in ordered_sections -%}
-    {%- if section.name == ordered_section.name -%}
-      {%- assign found = true -%}
-      {%- break -%}
-    {%- endif -%}
-  {%- endfor -%}
-  {%- unless found -%}
-    {%- assign ordered_sections = ordered_sections | push: section -%}
-  {%- endunless -%}
+{%- assign found = false -%}
+{%- for ordered_section in ordered_sections -%}
+{%- if section.name == ordered_section.name -%}
+{%- assign found = true -%}
+{%- break -%}
+{%- endif -%}
+{%- endfor -%}
+{%- unless found -%}
+{%- assign ordered_sections = ordered_sections | push: section -%}
+{%- endunless -%}
 {%- endfor -%}
 
 <div class="nhsuk-width-container">
@@ -79,6 +79,7 @@ Add any sections not in the manual order list at the end
                 {%- endcomment -%}
                 {% for post in sorted_pages_without_sections %}
                 {% unless post.has_children %}
+                {% if post.published != false and post.title != "" and post.title != nil %}
                 <li class="
                       nhsnotify-side-nav__item
                       {% if post.url == page.url %}
@@ -87,6 +88,7 @@ Add any sections not in the manual order list at the end
                     ">
                   <a class="nhsnotify-side-nav__link" href="{{ site.baseurl | append: post.url }}">{{ post.title }}</a>
                 </li>
+                {% endif %}
                 {% endunless %}
                 {% endfor %}
 
@@ -100,6 +102,7 @@ Add any sections not in the manual order list at the end
                 {% assign sorted = section.items | sort: 'nav_order' %}
                 {% for post in sorted %}
                 {% unless post.has_children %}
+                {% if post.published != false and post.title != "" and post.title != nil %}
                 <li class="
                       nhsnotify-side-nav__item
                       {% if post.url == page.url %}
@@ -108,6 +111,7 @@ Add any sections not in the manual order list at the end
                     ">
                   <a class="nhsnotify-side-nav__link" href="{{ site.baseurl | append: post.url }}">{{ post.title }}</a>
                 </li>
+                {% endif %}
                 {% endunless %}
                 {% endfor %}
                 {% endfor %}
