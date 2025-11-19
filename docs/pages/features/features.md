@@ -18,6 +18,12 @@ Use NHS Notify to send:
 
 You can send messages in bulk or individually.
 
+## Send messages based on your needs
+
+- [Campaigns]({% link pages/features/campaigns.md %})
+- [Event based messaging]({% link pages/features/event-based-messaging.md %})
+- [Direct messaging]({% link pages/features/direct-messaging.md %})
+
 ## Send messages to groups of recipients without their contact details
 
 You only need a person’s NHS number to send them messages. Learn how to [tell us who you want to message]({% link pages/using-nhs-notify/tell-us-who-you-want-to-message.md %}).

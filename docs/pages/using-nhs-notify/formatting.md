@@ -106,7 +106,7 @@ To add a horizontal line between 2 paragraphs, use 3 dashes. Leave one empty lin
 text='<code>First paragraph<br><br>---<br><br>Second paragraph'
 %}
 
-You cannot use headings in NHS App message, text message and letter templates.
+You cannot use horizontal lines in NHS App message, text message and letter templates.
 
 ### Numbered lists
 

@@ -7,10 +7,10 @@ title: NHS App messages
 parent: Features
 nav_order: 1
 permalink: /features/nhs-app-messages
-section: Message channels
+section: Features by message channel
 ---
 
-Send free messages of up to 1,000 characters to patients and members of the public who have the NHS App.
+Send free messages of up to 5,000 characters to patients and members of the public who have the NHS App.
 
 {% include components/image-with-caption.html
     src="nhs-notify-nhs-app-example-2.svg"
