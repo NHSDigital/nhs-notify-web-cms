@@ -67,6 +67,7 @@
   margin: 0;
 }
 
+/*
 .nhsuk-header__navigation-item {
   padding-left: 0;
   padding-right: 0;
@@ -92,6 +93,7 @@
   }
 
 }
+*/
 
 .nhsuk-phase-banner {
   padding-top: 10px;
@@ -105,26 +107,15 @@
   margin-bottom: 0px;
 }
 
-.nhsuk-tag {
-  outline: 2px solid transparent;
-  outline-offset: -2px;
-  color: #fff;
-  background-color: #005eb8;
-  letter-spacing: 1px;
-  text-decoration: none;
-  text-transform: uppercase;
-  font-weight: 700;
-}
-
 .nhsuk-phase-banner__text {
   font-size: 1rem;
   line-height: 1.25;
   padding-left: 0.5em;
+  color: $nhsuk-text-color;
 }
 
 .nhsuk-inset-text-override {
-  @include top-and-bottom(); /* [1] */
-  @include reading-width(); /* [2] */
+  @include nhsuk-reading-width(); /* [2] */
 
   @include nhsuk-responsive-margin(7, "bottom");
   @include nhsuk-responsive-margin(4, "top");
@@ -132,7 +123,7 @@
 
   border-left: $nhsuk-border-width-inset-text solid $color_nhsuk-blue;
 
-  @include mq($media-type: print) {
+  @include nhsuk-media-query($media-type: print) {
     border-color: $nhsuk-print-text-color;
   }
 }
@@ -147,11 +138,11 @@
   @include nhsuk-responsive-margin(6, "bottom");
   @include nhsuk-responsive-margin(3, "top");
 
-  @include mq($from: desktop) {
+  @include nhsuk-media-query($from: desktop) {
     width: 100%; /* [2] */
   }
 
-  @include mq($media-type: print) {
+  @include nhsuk-media-query($media-type: print) {
     width: 50%; /* [3] */
   }
 
@@ -163,7 +154,7 @@
 // Breadcrumb spacing override
 /*
 .nhsnotify-breadcrumb {
-  @include print-hide();
+  @include nhsuk-print-hide();
 
   padding-top: 20px;
 
@@ -196,31 +187,26 @@
 
 
 // Custom breadcrumb styles
-
+/*
 .nhsuk-breadcrumb {
   margin-top: 0;
   padding-bottom: 0;
 
-  @include mq($from: tablet) {
+  @include nhsuk-media-query($from: tablet) {
     margin-top: 0;
   }
 }
+*/
 
 // Home page button margin override
 .nhsnotify-home-page .nhsuk-button {
   margin-bottom: 0;
 }
 
-.nhsuk-breadcrumb__item {
 
-  &:not(:last-child)::after {
-    background: url(/assets/images/icon-chevron-right__breadcrumb.svg) top left no-repeat;
-  }
-}
 
-.nhsuk-breadcrumb__back {
-
-  &::before {
-    background: url(/assets/images/icon-chevron-left__back_link.svg) top left no-repeat;
-  }
+// Hide the outline on header account link when it's the only item
+.nhsuk-header__account-item:only-child,
+.nhsuk-header__account-item:last-child {
+  outline: none;
 }

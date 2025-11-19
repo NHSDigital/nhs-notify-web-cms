@@ -9,6 +9,7 @@ nav_order: 1
 permalink: /using-nhs-notify/create-and-submit-a-template
 section: Writing a message
 ---
+
 To send an NHS App message, email, text message or letter with NHS Notify, you need to add a message template.
 
 Templates let you send the same thing to lots of people without writing a new message each time.
@@ -30,4 +31,5 @@ You can sign in with your Care Identity. We'll support you to set this up.
 {% include components/button.html
     text="Sign in"
     url="https://notify.nhs.uk/auth?redirect=%2Ftemplates%2Fmessage-templates"
+    target="_blank"
 %}
