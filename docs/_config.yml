@@ -70,10 +70,11 @@ callouts:
     color: red
 
 sass:
-  style: compact # possible values: nested expanded compact compressed
+  sass_dir: assets/css
   load_paths:
-    - _sass/
-    - node_modules/nhsuk-frontend/packages/
+    - node_modules
+    - node_modules/nhsuk-frontend/dist
+  style: compressed
 
 # Exclude from processing.
 # The following items will not be processed, by default.

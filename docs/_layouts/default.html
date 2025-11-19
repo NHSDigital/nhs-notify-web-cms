@@ -3,14 +3,12 @@
 
 <head>
   <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <meta name="description" content="NHS Notify web CMS">
   <title>
     NHS Notify - {{ page.title | default: site.title }}
   </title>
   <link href="{{site.baseurl}}/assets/css/main.css" rel="stylesheet">
-  <script src="{{site.baseurl}}/assets/js/nhsuk.min.js" defer=""></script>
 
   <link rel="shortcut icon" href="{{site.baseurl}}/assets/favicons/favicon.ico" type="image/x-icon">
   <link rel="apple-touch-icon" href="{{site.baseurl}}/assets/favicons/apple-touch-icon-180x180.png">
@@ -26,7 +24,7 @@
 </head>
 
 <body class="wrap">
-  <script src="{{site.baseurl}}/assets/js/nhs-frontend-js-check.js" defer=""></script>
+  <script>document.body.className += ' js-enabled' + ('noModule' in HTMLScriptElement.prototype ? ' nhsuk-frontend-supported' : '');</script>
 
   <a class="nhsuk-skip-link" href="#maincontent">Skip to main content</a>
 
@@ -35,6 +33,11 @@
   {{ content }}
 
   {%- include footer.html -%}
+
+  <script type="module">
+    import { initAll } from '{{site.baseurl}}/assets/js/nhsuk-frontend.min.js'
+    initAll()
+  </script>
 </body>
 
 </html>
