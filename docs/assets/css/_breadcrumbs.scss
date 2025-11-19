@@ -12,16 +12,16 @@
 ////
 
 .nhsuk-breadcrumb {
-  @include print-hide; // [1]
+  @include nhsuk-print-hide; // [1]
   margin-top: nhsuk-spacing(3);
 
-  @include mq($from: tablet) {
+  @include nhsuk-media-query($from: tablet) {
     margin-top: nhsuk-spacing(4);
   }
 }
 
 .nhsuk-breadcrumb__list {
-  @include mq($until: tablet) {
+  @include nhsuk-media-query($until: tablet) {
     display: none; // [3]
   }
 
@@ -71,7 +71,7 @@
   padding-left: nhsuk-spacing(3);
   position: relative;
 
-  @include mq($from: tablet) {
+  @include nhsuk-media-query($from: tablet) {
     display: none; // [5]
   }
 

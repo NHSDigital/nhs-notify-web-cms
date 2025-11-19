@@ -5,37 +5,37 @@
   <ol class="nhsuk-breadcrumb__list">
 
     <!-- Level 1 -->
-    <li class="nhsuk-breadcrumb__item">
+    <li class="nhsuk-breadcrumb__list-item">
       <a class="nhsuk-breadcrumb__link" href="{{site.baseurl}}/">Home</a>
     </li>
 
     <!-- Level 2 -->
     {% if page.parent == "Features" %}
-    <li class="nhsuk-breadcrumb__item">
+    <li class="nhsuk-breadcrumb__list-item">
       <a class="nhsuk-breadcrumb__link" href="{{site.baseurl}}/features">Features</a>
     </li>
     {% endif %}
 
     {% if page.parent == "Pricing" %}
-    <li class="nhsuk-breadcrumb__item">
+    <li class="nhsuk-breadcrumb__list-item">
       <a class="nhsuk-breadcrumb__link" href="{{site.baseurl}}/pricing">Pricing</a>
     </li>
     {% endif %}
 
     {% if page.parent == "Using NHS Notify" %}
-    <li class="nhsuk-breadcrumb__item">
+    <li class="nhsuk-breadcrumb__list-item">
       <a class="nhsuk-breadcrumb__link" href="{{site.baseurl}}/using-nhs-notify">Using NHS Notify</a>
     </li>
     {% endif %}
 
     {% if page.parent == "Support" %}
-    <li class="nhsuk-breadcrumb__item">
+    <li class="nhsuk-breadcrumb__list-item">
       <a class="nhsuk-breadcrumb__link" href="{{site.baseurl}}/support">Support</a>
     </li>
     {% endif %}
 
     {% if page.parent == "Get started" %}
-    <li class="nhsuk-breadcrumb__item">
+    <li class="nhsuk-breadcrumb__list-item">
       <a class="nhsuk-breadcrumb__link" href="{{site.baseurl}}/get-started">Get started</a>
     </li>
     {% endif %}
@@ -44,18 +44,16 @@
 
   <!-- Mobile breadcrumb back -->
 
-  <p class="nhsuk-breadcrumb__back">
-
     <!-- Features -->
     {% if page.title == "Features" %}
-    <a class="nhsuk-breadcrumb__backlink" href="{{site.baseurl}}/">
+    <a class="nhsuk-back-link" href="{{site.baseurl}}/">
       <span class="nhsuk-u-visually-hidden">Back to &nbsp;</span>
       Home
     </a>
     {% endif %}
 
     {% if page.parent == "Features" %}
-    <a class="nhsuk-breadcrumb__backlink" href="{{site.baseurl}}/features">
+    <a class="nhsuk-back-link" href="{{site.baseurl}}/features">
       <span class="nhsuk-u-visually-hidden">Back to &nbsp;</span>
       Features
     </a>
@@ -63,14 +61,14 @@
 
     <!-- Pricing -->
     {% if page.title == "Pricing" %}
-    <a class="nhsuk-breadcrumb__backlink" href="{{site.baseurl}}/">
+    <a class="nhsuk-back-link" href="{{site.baseurl}}/">
       <span class="nhsuk-u-visually-hidden">Back to &nbsp;</span>
       Home
     </a>
     {% endif %}
 
     {% if page.parent == "Pricing" %}
-    <a class="nhsuk-breadcrumb__backlink" href="{{site.baseurl}}/pricing">
+    <a class="nhsuk-back-link" href="{{site.baseurl}}/pricing">
       <span class="nhsuk-u-visually-hidden">Back to &nbsp;</span>
       Pricing
     </a>
@@ -78,14 +76,14 @@
 
     <!-- Using NHS Notify -->
     {% if page.title == "Using NHS Notify" %}
-    <a class="nhsuk-breadcrumb__backlink" href="{{site.baseurl}}/">
+    <a class="nhsuk-back-link" href="{{site.baseurl}}/">
       <span class="nhsuk-u-visually-hidden">Back to &nbsp;</span>
       Home
     </a>
     {% endif %}
 
     {% if page.parent == "Using NHS Notify" %}
-    <a class="nhsuk-breadcrumb__backlink" href="{{site.baseurl}}/using-nhs-notify">
+    <a class="nhsuk-back-link" href="{{site.baseurl}}/using-nhs-notify">
       <span class="nhsuk-u-visually-hidden">Back to &nbsp;</span>
       Using NHS Notify
     </a>
@@ -93,7 +91,7 @@
 
     <!-- Support -->
     {% if page.title == "Support" %}
-    <a class="nhsuk-breadcrumb__backlink" href="{{site.baseurl}}/">
+    <a class="nhsuk-back-link" href="{{site.baseurl}}/">
       <span class="nhsuk-u-visually-hidden">Back to &nbsp;</span>
       Home
     </a>
@@ -101,19 +99,17 @@
 
     <!-- Get started -->
     {% if page.title == "Get started" %}
-    <a class="nhsuk-breadcrumb__backlink" href="{{site.baseurl}}/">
+    <a class="nhsuk-back-link" href="{{site.baseurl}}/">
       <span class="nhsuk-u-visually-hidden">Back to &nbsp;</span>
       Home
     </a>
     {% endif %}
 
     {% if page.parent == "Get started" %}
-    <a class="nhsuk-breadcrumb__backlink" href="{{site.baseurl}}/get-started">
+    <a class="nhsuk-back-link" href="{{site.baseurl}}/get-started">
       <span class="nhsuk-u-visually-hidden">Back to &nbsp;</span>
       Get started
     </a>
     {% endif %}
-
-  </p>
 
 </nav>

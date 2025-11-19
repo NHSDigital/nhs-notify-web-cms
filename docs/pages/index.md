@@ -17,7 +17,8 @@ permalink: /
         </p>
         {% include components/button-reverse.html
           text="Get started"
-          url="https://notify.nhs.uk/get-started/"
+          url="/get-started/"
+          target=""
         %}
       </div>
       <div class="nhsuk-grid-column-one-half">
@@ -83,7 +84,8 @@ permalink: /
         </p>
         {% include components/button-reverse.html
           text="Get started"
-          url="https://notify.nhs.uk/get-started/"
+          url="/get-started/"
+          target=""
         %}
       </div>
       <div class="nhsuk-grid-column-one-half">
