@@ -8,6 +8,7 @@ parent: Features
 nav_order: 1
 permalink: /features/campaigns
 section: Features by messaging needs
+redirect_from: /using-nhs-notify/campaigns
 ---
 
 Use NHS Notify to set up national or targeted campaigns to send messages in bulk to patients and the public.

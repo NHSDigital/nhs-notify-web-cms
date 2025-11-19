@@ -37,6 +37,7 @@ plugins:
   - jekyll-content-security-policy-generator
   - jekyll-feed
   - jekyll-sitemap
+  - jekyll-redirect-from
 
 color_scheme: nhs
 mermaid:
