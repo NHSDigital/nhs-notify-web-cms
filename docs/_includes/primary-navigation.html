@@ -3,9 +3,13 @@
     <ul class="nhsuk-header__navigation-list">
 
       {% for p in site.data.primary-navigation -%}
+      {% assign is_current = false %}
+      {% if page.url == p.link or page.url contains p.link and p.link != '/' %}
+      {% assign is_current = true %}
+      {% endif %}
       <li class="nhsuk-header__navigation-item">
-        <a class="nhsuk-header__navigation-link" href="{{ site.baseurl | append: p.link | xml_escape }}">{{ p.title
-          }}</a>
+        <a class="nhsuk-header__navigation-link" href="{{ site.baseurl | append: p.link | xml_escape }}" {% if
+          is_current %} aria-current="page" {% endif %}>{{ p.title }}</a>
       </li>
       {% endfor -%}
 
