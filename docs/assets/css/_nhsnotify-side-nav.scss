@@ -61,6 +61,10 @@
   }
 }
 
+.nhsnotify-side-nav__list-section:not(:first-of-type) {
+  margin-top: 24px;
+}
+
 .nhsnotify-side-nav__item {
   padding: 4px 0 0.5em;
 
