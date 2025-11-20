@@ -24,8 +24,6 @@
 </head>
 
 <body class="wrap">
-  <script>document.body.className += ' js-enabled' + ('noModule' in HTMLScriptElement.prototype ? ' nhsuk-frontend-supported' : '');</script>
-
   <a class="nhsuk-skip-link" href="#maincontent">Skip to main content</a>
 
   {%- include header.html -%}
@@ -34,10 +32,7 @@
 
   {%- include footer.html -%}
 
-  <script type="module">
-    import { initAll } from '{{site.baseurl}}/assets/js/nhsuk-frontend.min.js'
-    initAll()
-  </script>
+  <script type="module" src="{{site.baseurl}}/assets/js/init.js"></script>
 </body>
 
 </html>

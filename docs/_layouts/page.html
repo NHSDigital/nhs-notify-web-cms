@@ -121,9 +121,9 @@ Add any sections not in the manual order list at the end
           </div>
           <div class="nhsnotify-pane__main-content">
             {% if page.section != undefined %}
-            <heading class="nhsuk-heading-s" style="margin-bottom: 0; color: #4c6272">{{ page.section }}</heading>
+            <span class="nhsuk-caption-xl">{{ page.section }}</span>
             {% endif %}
-            <h1>{{ page.title }}</h1>
+            <h1 class="nhsuk-heading-xl">{{ page.title }}</h1>
             {{ content }}
           </div>
         </div>
