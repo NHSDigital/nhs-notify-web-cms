@@ -10,26 +10,25 @@ permalink: /using-nhs-notify/personalisation
 section: Writing a message
 ---
 
+## Placing personalisation fields in your template
+
 You can send personalised messages by adding personalisation fields to a single template.
 
-Use double brackets to add a personalisation field to your content. Do not include spaces in your personalisation fields. For example:
+Use double brackets to add a personalisation field to your template. Do not include spaces in your personalisation fields. For example:
 
 {% include components/inset-text.html
-    text='Hello ((fullName)), your NHS Number is ((nhsNumber))'
+    text='`Hello ((fullName)), your NHS Number is ((nhsNumber)). Your appointment is on ((appointmentDate)) at ((gpSurgery)).`'
 %}
 
-You can use:
+You can read personalisation instructions while you’re editing a template.
 
-- [Personal Demographics Service (PDS) personalisation fields](#personal-demographics-service-pds-personalisation-fields)<!-- markdownlint-disable-line -->
-- [custom personalisation fields](#custom-personalisation-fields)
+You can use [Personal Demographics Service (PDS) personalisation fields](#pds-personalisation-fields-automatic-data) and [custom personalisation fields](#custom-personalisation-fields-your-data) in the same template.
 
-You can see personalisation instructions while you’re editing a template.
+## PDS personalisation fields (automatic data)
 
-## Personal Demographics Service (PDS) personalisation fields
+NHS Notify uses the <a href="https://digital.nhs.uk/services/personal-demographics-service" target="_blank">Personal Demographics Service (PDS)</a> to populate the personalisation fields in your template. This happens when you [tell us who you want to message]({% link pages/using-nhs-notify/tell-us-who-you-want-to-message.md %}) using recipients' NHS numbers.
 
-NHS Notify uses the [Personal Demographics Service (PDS)](https://digital.nhs.uk/services/personal-demographics-service) to find and populate certain personalisation fields for each recipient. This happens automatically when you [tell us who you want to message]({% link pages/using-nhs-notify/tell-us-who-you-want-to-message.md %}) using recipients' NHS numbers.
-
-To use PDS personalisation fields in your templates, choose from the following list:
+You can use the following PDS fields:
 
 - fullName
 - firstName
@@ -38,83 +37,89 @@ To use PDS personalisation fields in your templates, choose from the following l
 - date
 
 {% include components/inset-text.html
-    text='Make sure your personalisation fields exactly match the PDS personalisation fields. This includes using the correct order of upper and lower case letters.'
+    text='Make sure your personalisation fields match the PDS personalisation fields. This includes using the correct order of upper and lower case letters.'
 %}
 
-## Custom personalisation fields
+## Custom personalisation fields (your data)
 
-You can add custom personalisation fields that use your own personalisation data.
+Use custom personalisation fields when you want to provide your own data that is not available through PDS.
 
-### If you're using NHS Notify API
+### Sending custom personalisation data in your request
 
-Include a personalisation block in your API request.
+When you go live, you can provide the data for your custom personalisation fields in your API or MESH request.
 
-For example, if you wanted to include 'practice' as a personalisation field, the personalisation block would be:
+{% include components/details.html
+heading='If you use NHS Notify API'
+text='Include a personalisation block for each message in your API request.
 
-{% include components/inset-text.html
-text='"practice": "PRACTICE_NAME",'
+For example, if you wanted to include `((gpSurgery))` and `((appointmentDate))` as custom personalisation fields, the personalisation block for one message would be:
+
+`personalisation: {
+"gpSurgery": "The Health Centre, Knaresborough Road",
+"appointmentDate": "15 January 2027"
+}`
+
+Read the <a href="https://digital.nhs.uk/developer/api-catalogue/nhs-notify#post-/v1/message-batches" target="_blank">API documentation (opens in a new tab)</a> to find out where to put this in your request.
+'
 %}
 
-Read the [API documentation](https://digital.nhs.uk/developer/api-catalogue/nhs-notify#post-/v1/message-batches) to find out where to put this in your request.
+{% include components/details.html
+heading='If you use NHS Notify MESH'
+text='Include the custom personalisation fields as column headings in the CSV file you use in your request. Put the personalisation data for each message in the rows underneath, with one row per message.
 
-### If you're using NHS Notify MESH
+The column heading should start with `personalisation_` followed by the same wording as the personalisation field in your template.
 
-Include the personalisation fields as columns in your CSV file.
+For example, if your personalisation fields were `((gpSurgery))` and `((appointmentDate))`, the column headings would be:
 
-The column names should start with 'personalisation\_', followed by the same wording as the personalisation fields in your template.
+`personalisation_gpSurgery` and `personalisation_appointmentDate`
 
-For example, if you wanted to include 'practice' as a personalisation field, the column name would be:
+The CSV file you use in your MESH request is different to the CSV example data file for custom personalisation fields.
 
-{% include components/inset-text.html
-    text='nhsNumber,requestItemRefId,personalisation_practice'
+Read more about <a href="https://digital.nhs.uk/developer/api-catalogue/nhs-notify-mesh/sending-a-message" target="_blank">how to create your request with NHS Notify MESH (opens in a new tab)</a>.
+'
 %}
 
-### Providing example data
+### Providing example personalisation data
 
-The data used in your personalisation fields can affect the formatting and length of your messages. This could make some messages cost more than expected.
+You must provide example data if you use custom personalisation. This means you can check how your templates will look during [proofing]({% link pages/using-nhs-notify/approve-your-messages.md %}), as the data in personalisation fields can affect message cost and length.
 
-You need to give us example data if you use custom personalisation. This helps us show you what your templates will look like with different lengths of data in your personalisation fields.
+You do not need to do this if you only use PDS fields in your template.
 
-Download and fill in our [example personalisation data spreadsheet]({% link assets/personalisationexampledata/personalisation-example-data-nhs-notify.xlsx %}).
+Download and fill in the [example data file]({% link assets/personalisationexampledata/personalisation-blank-example-data-nhs-notify.csv %}). You can also download a [completed example file]({% link assets/personalisationexampledata/personalisation-completed-example-data-nhs-notify.csv %}) to check how to format your data.
 
-The personalisation fields in your message content must match the fields in the 'personalisation field' column of your spreadsheet.
-
-For each personalisation field, you need to provide examples that are:
-
-- short
-- medium
-- long
-
-For example, if you had ((hospital_address_line)) as a personalisation field, you might choose the following example data:
+For each personalisation field, provide short, medium and long examples. For example, if your personalisation field was `((gpSurgery))`, you could use the following example data:
 
 {% include components/inset-text.html
 text='
 
-- Hospital A (short)
-- Hospital ABCDE (medium)
-- Hospital ABCDEFGHIJKLMN (long)'
+- New Surgery (short)
+- The Health Centre, Knaresborough Road (medium)
+- Church Avenue and Park Grove Medical Group Surgery (long)'
   %}
 
-You can decide how many characters to use for each length.
+Follow these rules for your example data:
 
-If the information for a field will always be the same length, give us 3 different examples that are all that same length.
+- the personalisation fields in your template must exactly match the fields in the 'personalisation field' column of your spreadsheet
+- decide the number of characters for your short, medium and long examples - there are no set lengths
+- if a field is always a fixed length, such as a phone number, provide 3 different examples of that fixed length
+- your example data does not need to be real user data
 
-Your example data does not need to be real data.
+### Adding personalised links
+
+To add personalised links and URLs, include personalisation fields for both the link text and the URL in your template. For example:
+
+{% include components/inset-text.html
+    text='`[((link_text))](((link_URL)))`'
+%}
 
 ### Fields to avoid for custom personalisation
 
-If you want to use custom personalisation, do not use the following personalisation fields:
+If you use custom personalisation, do not use the following personalisation fields:
 
-- [PDS personalisation fields](#personal-demographics-service-pds-personalisation-fields)
+- any [PDS personalisation fields](#pds-personalisation-fields-automatic-data)
 - emailAddress
 - phoneNumber
-- addressLine1
-- addressLine2
-- addressLine3
-- addressLine4
-- addressLine5
-- addressLine6
-- addressLine7
+- addressLine1 to addressLine7
 - middleNames
 - namePrefix
 - nameSuffix
@@ -124,13 +129,11 @@ If you want to use custom personalisation, do not use the following personalisat
 - template
 
 {% include components/inset-text.html
-    text='Custom personalisation will not work if you use these fields. This includes any variations, for example, if you add spaces, punctuation, and upper or lower case letters.'
+    text='Using these fields will cause custom personalisation to fail. This includes any variations, for example, if you add spaces, punctuation, and upper or lower case letters.'
 %}
 
-You can include extra words in your custom personalisation fields to make them different.
-
-For example, if you wanted to include GP practice phone number, your personalisation field could be:
+You can include extra words in your custom personalisation fields to make them different to the fields to avoid. For example, if you wanted to include GP surgery phone number, your personalisation field could be:
 
 {% include components/inset-text.html
-    text='((GP_phoneNumber))'
+    text='`((GP_phoneNumber))`'
 %}
