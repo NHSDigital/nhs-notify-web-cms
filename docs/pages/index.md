@@ -22,7 +22,7 @@ permalink: /
         %}
       </div>
       <div class="nhsuk-grid-column-one-half">
-        {% include components/image.html src=site.data.home.heading.image alt=site.data.home.heading.image_alt class="nhsnotify-image" %}
+        {% include components/image.html src=site.data.home.heading.image alt=site.data.home.heading.image_alt classes="nhsnotify-image" %}
       </div>
     </div>
   </div>
@@ -89,7 +89,7 @@ permalink: /
         %}
       </div>
       <div class="nhsuk-grid-column-one-half">
-        {% include components/image.html src=site.data.home.find-out-more.image alt=site.data.home.find-out-more.image_alt class="nhsnotify-image" %}
+        {% include components/image.html src=site.data.home.find-out-more.image alt=site.data.home.find-out-more.image_alt classes="nhsnotify-image" %}
       </div>
     </div>
   </div>

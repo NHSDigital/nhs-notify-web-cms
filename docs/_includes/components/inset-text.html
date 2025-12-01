@@ -1,4 +1,4 @@
-<div class="nhsuk-inset-text">
+<div class="nhsuk-inset-text {{ include.classes | xml_escape }}">
   <span class="nhsuk-u-visually-hidden">Information:</span>
   {{ include.text | markdownify }}
 </div>
