@@ -18,6 +18,11 @@ Use NHS Notify to send:
 
 You can send messages in bulk or individually.
 
+## Access NHS Notify
+
+- [API]({% link pages/features/api.md %})
+- [MESH]({% link pages/features/mesh.md %})
+
 ## Send messages based on your needs
 
 - [Campaigns]({% link pages/features/campaigns.md %})
