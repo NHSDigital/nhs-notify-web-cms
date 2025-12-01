@@ -4,9 +4,9 @@
 
 layout: page
 title: API
-parent: Using NHS Notify
+parent: Features
 nav_order: 1
-permalink: /using-nhs-notify/api
+permalink: /features/api
 section: Accessing NHS Notify
 ---
 

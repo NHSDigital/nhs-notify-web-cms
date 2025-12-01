@@ -11,11 +11,6 @@ permalink: /using-nhs-notify/
 
 This guidance is to help teams understand how to use NHS Notify.
 
-## Accessing NHS Notify
-
-- [API]({% link pages/using-nhs-notify/api.md %})
-- [MESH]({% link pages/using-nhs-notify/mesh.md %})
-
 ## Writing a message
 
 - [Create and submit a template]({% link pages/using-nhs-notify/create-and-submit-a-template.md %})
