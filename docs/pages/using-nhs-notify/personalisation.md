@@ -17,7 +17,8 @@ You can send personalised messages by adding personalisation fields to a single 
 Use double brackets to add a personalisation field to your template. Do not include spaces in your personalisation fields. For example:
 
 {% include components/inset-text.html
-    text='`Hello ((fullName)), your NHS Number is ((nhsNumber)). Your appointment is on ((appointmentDate)) at ((gpSurgery)).`'
+text='Hello `((fullName))`, your NHS Number is `((nhsNumber))`. Your appointment is on `((appointmentDate))` at `((gpSurgery))`.'
+classes='nhsuk-u-margin-top-2'
 %}
 
 You can read personalisation instructions while you’re editing a template.
@@ -37,7 +38,8 @@ You can use the following PDS fields:
 - date
 
 {% include components/inset-text.html
-    text='Make sure your personalisation fields match the PDS personalisation fields. This includes using the correct order of upper and lower case letters.'
+text='Make sure your personalisation fields match the PDS personalisation fields. This includes using the correct order of upper and lower case letters.'
+classes='nhsuk-u-margin-top-2'
 %}
 
 ## Custom personalisation fields (your data)
@@ -94,7 +96,9 @@ text='
 
 - New Surgery (short)
 - The Health Centre, Knaresborough Road (medium)
-- Church Avenue and Park Grove Medical Group Surgery (long)'
+- Church Avenue and Park Grove Medical Group Surgery (long)
+  '
+  classes='nhsuk-u-margin-top-2'
   %}
 
 Follow these rules for your example data:
@@ -109,7 +113,8 @@ Follow these rules for your example data:
 To add personalised links and URLs, include personalisation fields for both the link text and the URL in your template. For example:
 
 {% include components/inset-text.html
-    text='`[((link_text))](((link_URL)))`'
+text='`[((link_text))](((link_URL)))`'
+classes='nhsuk-u-margin-top-2'
 %}
 
 ### Fields to avoid for custom personalisation
@@ -129,11 +134,13 @@ If you use custom personalisation, do not use the following personalisation fiel
 - template
 
 {% include components/inset-text.html
-    text='Using these fields will cause custom personalisation to fail. This includes any variations, for example, if you add spaces, punctuation, and upper or lower case letters.'
+text='Using these fields will cause custom personalisation to fail. This includes any variations, for example, if you add spaces, punctuation, and upper or lower case letters.'
+classes='nhsuk-u-margin-top-2'
 %}
 
 You can include extra words in your custom personalisation fields to make them different to the fields to avoid. For example, if you wanted to include GP surgery phone number, your personalisation field could be:
 
 {% include components/inset-text.html
-    text='`((GP_phoneNumber))`'
+text='`((GP_phoneNumber))`'
+classes='nhsuk-u-margin-top-2'
 %}
