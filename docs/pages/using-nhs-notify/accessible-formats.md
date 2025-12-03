@@ -12,7 +12,7 @@ section: Writing a message
 
 Before you start to send messages, consider the access needs of your recipients.
 
-All organisations that provide NHS care or publicly-funded adult social care are legally required to follow the [NHS England's Accessible Information Standard](https://www.england.nhs.uk/about/equality/equality-hub/patient-equalities-programme/equality-frameworks-and-information-standards/accessibleinfo/).
+All organisations that provide NHS care or publicly-funded adult social care are legally required to follow the <a href="https://www.england.nhs.uk/about/equality/equality-hub/patient-equalities-programme/equality-frameworks-and-information-standards/accessibleinfo/" target="_blank">NHS England's Accessible Information Standard (opens in a new tab)</a>.
 
 ## Accessible letter formats
 
@@ -47,7 +47,7 @@ This is available for all message channels.
 Do this by:
 
 - speaking to our engagement team when you first [get started]({% link pages/get-started/get-started.md %}) with NHS Notify
-- raising a [Service Now request](https://nhsdigitallive.service-now.com/csm) if you're already using NHS Notify and have existing templates
+- raising a <a href="https://nhsdigitallive.service-now.com/csm" target="_blank">Service Now request (opens in a new tab)</a> if you're already using NHS Notify and have existing templates
 
 ### 2. Create your templates and routing plans
 
@@ -61,7 +61,7 @@ Provide recipients' NHS numbers as separate data files for each type of accessib
 
 ### 4. We'll check for recipients with access needs
 
-NHS Notify checks for recipients who need letters in accessible formats using the [Personal Demographics Service (PDS)](https://digital.nhs.uk/services/personal-demographics-service).
+NHS Notify checks for recipients who need letters in accessible formats using the <a href="https://digital.nhs.uk/services/personal-demographics-service" target="_blank">Personal Demographics Service (PDS) (opens in a new tab)</a>.
 
 It’s your responsibility to message recipients based on their access needs.
 

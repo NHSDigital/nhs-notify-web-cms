@@ -27,7 +27,7 @@ You can use [Personal Demographics Service (PDS) personalisation fields](#pds-pe
 
 ## PDS personalisation fields (automatic data)
 
-NHS Notify uses the <a href="https://digital.nhs.uk/services/personal-demographics-service" target="_blank">Personal Demographics Service (PDS)</a> to populate the personalisation fields in your template. This happens when you [tell us who you want to message]({% link pages/using-nhs-notify/tell-us-who-you-want-to-message.md %}) using recipients' NHS numbers.
+NHS Notify uses the <a href="https://digital.nhs.uk/services/personal-demographics-service" target="_blank">Personal Demographics Service (PDS) (opens in a new tab)</a> to populate the personalisation fields in your template. This happens when you [tell us who you want to message]({% link pages/using-nhs-notify/tell-us-who-you-want-to-message.md %}) using recipients' NHS numbers.
 
 You can use the following PDS fields:
 
@@ -56,10 +56,10 @@ text='Include a personalisation block for each message in your API request.
 
 For example, if you wanted to include `((gpSurgery))` and `((appointmentDate))` as custom personalisation fields, the personalisation block for one message would be:
 
-`personalisation: {
-"gpSurgery": "The Health Centre, Knaresborough Road",
-"appointmentDate": "15 January 2027"
-}`
+`personalisation: {`<br />
+`"gpSurgery": "The Health Centre, Knaresborough Road",`<br />
+`"appointmentDate": "15 January 2027"`<br />
+`}`
 
 Read the <a href="https://digital.nhs.uk/developer/api-catalogue/nhs-notify#post-/v1/message-batches" target="_blank">API documentation (opens in a new tab)</a> to find out where to put this in your request.
 '
@@ -73,7 +73,8 @@ The column heading should start with `personalisation_` followed by the same wor
 
 For example, if your personalisation fields were `((gpSurgery))` and `((appointmentDate))`, the column headings would be:
 
-`personalisation_gpSurgery` and `personalisation_appointmentDate`
+- `personalisation_gpSurgery`
+- `personalisation_appointmentDate`
 
 The CSV file you use in your MESH request is different to the CSV example data file for custom personalisation fields.
 

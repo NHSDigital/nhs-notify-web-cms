@@ -31,9 +31,9 @@ You can send messages in bulk or individually.
 
 ## Send messages to groups of recipients without their contact details
 
-You only need a person’s NHS number to send them messages. Learn how to [tell us who you want to message]({% link pages/using-nhs-notify/tell-us-who-you-want-to-message.md %}).
+You only need a person's NHS number to send them messages. Learn how to [tell us who you want to message]({% link pages/using-nhs-notify/tell-us-who-you-want-to-message.md %}).
 
-Create specific cohorts of recipients by using [Cohorting as a Service (opens in a new tab)](https://digital.nhs.uk/services/cohorting-as-a-service-caas){:target="\_blank"}.
+Create specific cohorts of recipients by using <a href="https://digital.nhs.uk/services/cohorting-as-a-service-caas" target="_blank">Cohorting as a Service (opens in a new tab)</a>.
 
 ## Write your messages
 
@@ -62,7 +62,7 @@ You can set up routing plans to:
 
 ## Prevent sending people unnecessary messages
 
-NHS Notify uses the [Personal Demographics Service](https://digital.nhs.uk/services/personal-demographics-service) to automatically prevent you from messaging [recipients you cannot message]({% link pages/using-nhs-notify/recipients-you-cannot-message.md %}).
+NHS Notify uses the <a href="https://digital.nhs.uk/services/personal-demographics-service" target="_blank">Personal Demographics Service (opens in a new tab)</a> to automatically prevent you from messaging [recipients you cannot message]({% link pages/using-nhs-notify/recipients-you-cannot-message.md %}).
 
 ## Reach people with additional needs
 
@@ -77,9 +77,9 @@ Track how many messages you’ve sent and find out which ones are not being deli
 
 ## Automatic sending
 
-To send messages automatically, you’ll need a developer to integrate with the NHS Notify API.
+To send messages automatically, you'll need a developer to integrate with the NHS Notify API.
 
-[Read our API documentation (opens in a new tab)](https://digital.nhs.uk/developer/api-catalogue/nhs-notify){:target="\_blank"}.
+<a href="https://digital.nhs.uk/developer/api-catalogue/nhs-notify" target="_blank">Read our API documentation (opens in a new tab)</a>.
 
 ## Keep your data secure
 

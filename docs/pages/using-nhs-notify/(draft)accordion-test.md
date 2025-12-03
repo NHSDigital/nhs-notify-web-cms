@@ -106,5 +106,5 @@ You cannot send transactional messages to recipients with:
 - invalid email addresses
 - an informal or formal death status
 
-[Find out more about recipients you cannot message](https://notify.nhs.uk/using-nhs-notify/recipients-you-cannot-message)."
+[Find out more about recipients you cannot message](/using-nhs-notify/recipients-you-cannot-message)."
 %}

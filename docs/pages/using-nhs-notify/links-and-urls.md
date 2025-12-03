@@ -19,7 +19,8 @@ You can see instructions on links and URLs while you’re editing a template.
 To add a link to a message, you can write the URL in full. For example:
 
 {% include components/inset-text.html
-    text='<code>Book now at https://www.nhs.uk/example'
+  text='Book now at https://www.nhs.uk/example'
+  classes='nhsuk-u-margin-top-2'
 %}
 
 For NHS App messages and emails, use square brackets around the full URL to make it the link text and use round brackets around the full URL.
@@ -27,20 +28,22 @@ For NHS App messages and emails, use square brackets around the full URL to make
 Make sure there are no spaces between the brackets or the link will not work. For example:
 
 {% include components/inset-text.html
-    text='<code>[https://www.nhs.uk/example](https://www.nhs.uk/example)'
+  text='`[https://www.nhs.uk/example](https://www.nhs.uk/example)`'
+  classes='nhsuk-u-margin-top-2'
 %}
 
 For letters, you do not need to include https:// at the start. For example:
 
 {% include components/inset-text.html
-    text='<code>Book now at www.nhs.uk/example'
+  text='Book now at www.nhs.uk/example'
+  classes='nhsuk-u-margin-top-2'
 %}
 
 URLs should be easy to read.
 
 {% include components/details.html
-    heading='Short URLs'
-    text='
+heading='Short URLs'
+text='
 If you have a long, complex web address, you can request a short URL from GOV.UK. This can take some time and may delay your template creation.
 
 We do not recommend using a third-party link shortening service because:
@@ -48,7 +51,7 @@ We do not recommend using a third-party link shortening service because:
 - your users cannot see where the link will take them
 - your link might stop working if there’s a service outage
 - you can no longer control where the redirect goes'
-%}
+  %}
 
 ## Converting text into a link
 
@@ -57,7 +60,8 @@ For NHS App messages and emails, you can convert text into a link.
 Use square brackets around the link text and round brackets around the full URL. Make sure there are no spaces between the brackets or the link will not work. For example:
 
 {% include components/inset-text.html
-    text='<code>[Read more](https://www.nhs.uk/example)'
+  text='`[Read more](https://www.nhs.uk/example)`'
+  classes='nhsuk-u-margin-top-2'
 %}
 
 Link text should tell the recipient what action they need to take and where the link goes.

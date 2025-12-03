@@ -61,7 +61,8 @@ Use the style ‘Hyperlink' in the template for links.
 Write links in full, starting with https://. For example:
 
 {% include components/inset-text.html
-    text='<b><span>https://www.service-manual.nhs.uk/content</span></b>'
+  text='https://www.service-manual.nhs.uk/content'
+  classes='nhsuk-u-margin-top-2'
 %}
 
 ### Short URLs
