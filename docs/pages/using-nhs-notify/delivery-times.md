@@ -60,13 +60,14 @@ We use NHS Notify's standard postage as our default for letters. Most letters ge
 If you need different postage, such as 1st or 2nd class, speak to your onboarding manager.
 
 {% include components/inset-text.html
-text='From 28 July, delivery times for all letters except 1st class are changing. This is due to Royal Mail’s service reforms.
+text="From 28 July, delivery times for all letters except 1st class are changing. This is due to Royal Mail's service reforms.
 
-For more information, visit [Royal Mail’s website](https://www.royalmail.com/receiving/the-future-of-letter-deliveries).'
+For more information, visit <a href='https://www.royalmail.com/receiving/the-future-of-letter-deliveries' target='_blank'>Royal Mail's website (opens in a new tab)</a>."
+classes="nhsuk-u-margin-top-2"
 %}
 
 [Learn more about letters]({% link pages/features/letters.md %}).
 
 ### NHS barcode
 
-If you want to send your letter with [Royal Mail's NHS barcode](https://notify.nhs.uk/features/letters#nhs-barcode), your message content needs to meet certain criteria and you need to use 1st or 2nd class postage. Speak to your onboarding manager to discuss your options.
+If you want to send your letter with [Royal Mail's NHS barcode](/features/letters#nhs-barcode), your message content needs to meet certain criteria and you need to use 1st or 2nd class postage. Speak to your onboarding manager to discuss your options.

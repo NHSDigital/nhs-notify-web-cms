@@ -44,31 +44,31 @@ You'll need to:
 
 {% include components/details.html
 heading='Set up your APIM application ID'
-text='To set up an APIM application ID, you need to:
+text="To set up an APIM application ID, you need to:
 
-1. [Sign in to your NHS Digital developer account](https://digital.nhs.uk/developer).
+1. <a href='https://digital.nhs.uk/developer' target='_blank'>Sign in to your NHS Digital developer account (opens in a new tab)</a>.
 2. Create an APIM application.
-3. Select ‘integration test’ as the environment.
-4. Select ‘Communications Manager (integration environment)’ as the connected API.
-   '
+3. Select 'integration test' as the environment.
+4. Select 'Communications Manager (integration environment)' as the connected API.
+   "
    %}
 
 {% include components/details.html
 heading='Choose how you want to see your message performance'
-text='To see how your messages perform, you can [get the status of a message](https://digital.nhs.uk/developer/api-catalogue/nhs-notify#get-/v1/messages/-messageId-) or choose to receive [realtime message callbacks](https://digital.nhs.uk/developer/api-catalogue/nhs-notify#post-/%3Cclient-provided-message-status-URI%3E).
+text="To see how your messages perform, you can <a href='https://digital.nhs.uk/developer/api-catalogue/nhs-notify#get-/v1/messages/-messageId-' target='_blank'>get the status of a message (opens in a new tab)</a> or choose to receive <a href='https://digital.nhs.uk/developer/api-catalogue/nhs-notify#post-/%3Cclient-provided-message-status-URI%3E' target='_blank'>realtime message callbacks (opens in a new tab)</a>.
 
-If you want to receive realtime message status callbacks, you‘ll need to:
+If you want to receive realtime message status callbacks, you'll need to:
 
-- decide which [message, channel or supplier statuses](https://notify.nhs.uk/using-nhs-notify/message-channel-supplier-status) you want to receive
+- decide which [message, channel or supplier statuses](/using-nhs-notify/message-channel-supplier-status) you want to receive
 - prepare an endpoint URL for your integration
-  '
+  "
   %}
 
 ### If you're using NHS Notify MESH
 
 You'll need to:
 
-1. [Set up your MESH mailboxes (opens in a new tab)](https://digital.nhs.uk/developer/api-catalogue/nhs-notify-mesh/set-up-nhs-notify-mesh#set-up-your-mesh-mailboxes) and make a note of their IDs.
+1. <a href="https://digital.nhs.uk/developer/api-catalogue/nhs-notify-mesh/set-up-nhs-notify-mesh#set-up-your-mesh-mailboxes" target="_blank">Set up your MESH mailboxes (opens in a new tab)</a> and make a note of their IDs.
 2. Decide which reports you want when you get reports on how your messages perform.
 
 ## 3. Confirm your setup to get access to our integration environment
@@ -77,7 +77,8 @@ You must confirm how you'll be set up with NHS Notify using our online form so w
 
 {% include components/inset-text.html
   text='Only complete the online form and confirm your setup if you’ve been invited to onboard.'
-    %}
+  classes='nhsuk-u-margin-top-2'
+%}
 
 {% include components/action-link.html
     url='https://forms.office.com/Pages/ResponsePage.aspx?id=slTDN7CF9UeyIge0jXdO4-wXWyN79ZdLkmec1Fsc491UNFRYSDFTOUs5TzZQUjlOVUlGWTQxQTlMQy4u'
@@ -92,9 +93,9 @@ In the form you'll be asked to:
 heading='Confirm your use case'
 text='You can only use NHS Notify if your organisation or service sends messages that are:
 
-- [part of a campaign](https://notify.nhs.uk/using-nhs-notify/campaigns)
-- [triggered when something happens in your service](https://notify.nhs.uk/using-nhs-notify/event-based-messaging)
-- [sent directly on a one-to-one basis](https://notify.nhs.uk/using-nhs-notify/direct-messaging)
+- [part of a campaign](/using-nhs-notify/campaigns)
+- [triggered when something happens in your service](/using-nhs-notify/event-based-messaging)
+- [sent directly on a one-to-one basis](/using-nhs-notify/direct-messaging)
   '
   %}
 
@@ -104,10 +105,10 @@ text='When you send messages you’ll need to tell your recipients who your mess
 
 Before you provide your message sender names, you should understand more about:
 
-- [NHS App sender names](https://notify.nhs.uk/using-nhs-notify/tell-recipients-who-your-messages-are-from#nhs-app-sender-name)
-- [email sender names and from addresses](https://notify.nhs.uk/using-nhs-notify/tell-recipients-who-your-messages-are-from#email-sender-name-and-from-email-address)
-- [email reply-to email addresses](https://notify.nhs.uk/using-nhs-notify/tell-recipients-who-your-messages-are-from#reply-to-email-address)
-- [text message sender names](https://notify.nhs.uk/using-nhs-notify/tell-recipients-who-your-messages-are-from#text-message-sender-name)
+- [NHS App sender names](/using-nhs-notify/tell-recipients-who-your-messages-are-from#nhs-app-sender-name)
+- [email sender names and from addresses](/using-nhs-notify/tell-recipients-who-your-messages-are-from#email-sender-name-and-from-email-address)
+- [email reply-to email addresses](/using-nhs-notify/tell-recipients-who-your-messages-are-from#reply-to-email-address)
+- [text message sender names](/using-nhs-notify/tell-recipients-who-your-messages-are-from#text-message-sender-name)
   '
   %}
 
@@ -132,7 +133,7 @@ The form will also ask for the routing plans that you want to use for your messa
 heading='Tell us who will create and submit templates'
 text='You do not need to do this if you send direct messages and use free-text inputs.
 
-When you get access to NHS Notify’s integration environment, you’ll need to [create and submit your templates](https://notify.nhs.uk/using-nhs-notify/create-and-submit-a-template). These templates will be used as the messages you send when you go live.
+When you get access to NHS Notify’s integration environment, you’ll need to [create and submit your templates](/using-nhs-notify/create-and-submit-a-template). These templates will be used as the messages you send when you go live.
 
 To access this feature, you must nominate someone in your organisation or service to sign in with NHS Notify. This is because creating and submitting templates is only available to one person in an organisation or service at this time.
 
@@ -160,7 +161,7 @@ They'll contact you to either:
 
 ## 4. Build your integration
 
-Once you get access to our integration environment, you can start building your integration with [NHS Notify API](https://digital.nhs.uk/developer/api-catalogue/nhs-notify) or [NHS Notify MESH](https://digital.nhs.uk/developer/api-catalogue/nhs-notify-mesh).
+Once you get access to our integration environment, you can start building your integration with <a href="https://digital.nhs.uk/developer/api-catalogue/nhs-notify" target="_blank">NHS Notify API (opens in a new tab)</a> or <a href="https://digital.nhs.uk/developer/api-catalogue/nhs-notify-mesh" target="_blank">NHS Notify MESH (opens in a new tab)</a>.
 
 How you build your integration to meet your needs is your responsibility.
 
@@ -181,7 +182,7 @@ When you’re ready to go live, contact your onboarding manager.
 They'll ask you to:
 
 - send them your SCAL
-- sign our [connection agreement](https://digital.nhs.uk/developer/guides-and-documentation/online-connection-agreement) if you’re a non-NHSE organisation
+- sign our <a href="https://digital.nhs.uk/developer/guides-and-documentation/online-connection-agreement" target="_blank">connection agreement (opens in a new tab)</a> if you're a non-NHSE organisation
 
 ### If you're using NHS Notify API
 
@@ -213,7 +214,7 @@ We will:
 
 ## 7. Go live
 
-On your go live date, you can start making requests via [NHS Notify API](https://digital.nhs.uk/developer/api-catalogue/nhs-notify) or [NHS Notify MESH](https://digital.nhs.uk/developer/api-catalogue/nhs-notify-mesh) to send messages with NHS Notify.
+On your go live date, you can start making requests via <a href="https://digital.nhs.uk/developer/api-catalogue/nhs-notify" target="_blank">NHS Notify API (opens in a new tab)</a> or <a href="https://digital.nhs.uk/developer/api-catalogue/nhs-notify-mesh" target="_blank">NHS Notify MESH (opens in a new tab)</a> to send messages with NHS Notify.
 
 ### After you go live
 

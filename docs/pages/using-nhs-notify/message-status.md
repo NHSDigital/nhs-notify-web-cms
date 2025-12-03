@@ -16,9 +16,9 @@ This page describes the statuses you'll see when using NHS Notify API or NHS Not
 heading='If you’re using NHS Notify API'
 text='
 
-Check the status of a single message or channel by using the [get message status endpoint](https://digital.nhs.uk/developer/api-catalogue/nhs-notify#get-/v1/messages/-messageId-).
+Check the status of a single message or channel by using the <a href="https://digital.nhs.uk/developer/api-catalogue/nhs-notify#get-/v1/messages/-messageId-" target="_blank">get message status endpoint (opens in a new tab)</a>.
 
-To check the status of multiple messages automatically, use [message status callbacks](https://digital.nhs.uk/developer/api-catalogue/nhs-notify#post-/%3Cclient-provided-message-status-URI%3E).'
+To check the status of multiple messages automatically, use <a href="https://digital.nhs.uk/developer/api-catalogue/nhs-notify#post-/%3Cclient-provided-message-status-URI%3E" target="_blank">message status callbacks (opens in a new tab)</a>.'
 %}
 
 {% include components/details.html

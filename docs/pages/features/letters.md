@@ -53,7 +53,7 @@ NHS Notify uses C5 size envelopes with an address window. This means the A4 lett
 
 ### NHS barcode
 
-Letters about test results, appointments and urgent messages can get [Royal Mail's NHS barcode (opens in a new tab)](https://www.royalmailwholesale.com/news/nhs-mail-new-barcode-solution){:target="\_blank"} on the envelope.
+Letters about test results, appointments and urgent messages can get <a href="https://www.royalmailwholesale.com/news/nhs-mail-new-barcode-solution" target="_blank">Royal Mail's NHS barcode (opens in a new tab)</a> on the envelope.
 
 You'll need to send by 1st or 2nd class to be able to get the NHS barcode. If you choose NHS Notify's standard postage, you will not get the barcode but your postage rate will be much cheaper. Find out more about [pricing]({% link pages/pricing/letters.md %}).
 
