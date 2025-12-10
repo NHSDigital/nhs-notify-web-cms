@@ -11,23 +11,23 @@ permalink: /about/
 
 Use NHS Notify to send:
 
-- [NHS App messages]({% link pages/features/nhs-app-messages.md %})
-- [emails]({% link pages/features/emails.md %})
-- [text messages (SMS)]({% link pages/features/text-messages.md %})
-- [letters]({% link pages/features/letters.md %})
+- [NHS App messages]({% link pages/about/nhs-app-messages.md %})
+- [emails]({% link pages/about/emails.md %})
+- [text messages (SMS)]({% link pages/about/text-messages.md %})
+- [letters]({% link pages/about/letters.md %})
 
 You can send messages in bulk or individually.
 
 ## Access NHS Notify
 
-- [API]({% link pages/features/api.md %})
-- [MESH]({% link pages/features/mesh.md %})
+- [API]({% link pages/about/api.md %})
+- [MESH]({% link pages/about/mesh.md %})
 
 ## Send messages based on your needs
 
-- [Campaigns]({% link pages/features/campaigns.md %})
-- [Event based messaging]({% link pages/features/event-based-messaging.md %})
-- [Direct messaging]({% link pages/features/direct-messaging.md %})
+- [Campaigns]({% link pages/about/campaigns.md %})
+- [Event based messaging]({% link pages/about/event-based-messaging.md %})
+- [Direct messaging]({% link pages/about/direct-messaging.md %})
 
 ## Send messages to groups of recipients without their contact details
 
@@ -83,7 +83,7 @@ To send messages automatically, you'll need a developer to integrate with the NH
 
 ## Keep your data secure
 
-[Learn more about NHS Notify’s security features.]({% link pages/features/security.md %})
+[Learn more about NHS Notify’s security features.]({% link pages/about/security.md %})
 
 ## Get support when you need it
 

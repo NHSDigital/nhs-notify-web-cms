@@ -43,4 +43,4 @@ You cannot send transactional messages to recipients with:
 
 ## See what's next for NHS Notify
 
-If you're thinking of using NHS Notify for transactional messages but cannot find the features you need, [read our roadmap to find out what we're working on next]({% link pages/features/roadmap.md %}).
+If you're thinking of using NHS Notify for transactional messages but cannot find the features you need, [read our roadmap to find out what we're working on next]({% link pages/about/roadmap.md %}).

@@ -1,10 +1,10 @@
 - heading: Write your messages
   description: |
     Create reusable templates or free-text messages for each message channel:
-    - [NHS App messages and notifications](https://notify.nhs.uk/features/nhs-app-messages)
-    - [emails](https://notify.nhs.uk/features/emails)
-    - [text messages (SMS)](https://notify.nhs.uk/features/text-messages-sms)
-    - [letters](https://notify.nhs.uk/features/letters)
+    - [NHS App messages and notifications](https://notify.nhs.uk/about/nhs-app-messages)
+    - [emails](https://notify.nhs.uk/about/emails)
+    - [text messages (SMS)](https://notify.nhs.uk/about/text-messages-sms)
+    - [letters](https://notify.nhs.uk/about/letters)
   image: 1-write-your-message.svg
   image_alt: ""
 

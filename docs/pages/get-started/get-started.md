@@ -13,9 +13,9 @@ permalink: /get-started/
 
 You can only use NHS Notify if your organisation or service sends:
 
-- [event-based messages]({% link pages/features/event-based-messaging.md %})
-- [direct messages]({% link pages/features/direct-messaging.md %})
-- [messages that are part of a campaign]({% link pages/features/campaigns.md %})
+- [event-based messages]({% link pages/about/event-based-messaging.md %})
+- [direct messages]({% link pages/about/direct-messaging.md %})
+- [messages that are part of a campaign]({% link pages/about/campaigns.md %})
 
 You also need to have:
 

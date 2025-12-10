@@ -71,4 +71,4 @@ text='You must adhere to the following in your user journeys:
 
 ## See what's next for NHS Notify
 
-If you're thinking of using NHS Notify for direct messaging but cannot find the features you need, [read our roadmap to find out what we're working on next]({% link pages/features/roadmap.md %}).
+If you're thinking of using NHS Notify for direct messaging but cannot find the features you need, [read our roadmap to find out what we're working on next]({% link pages/about/roadmap.md %}).

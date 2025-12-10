@@ -37,4 +37,4 @@ When you send NHS App messages as part of a campaign with NHS Notify, you must a
 
 ## See what's next for NHS Notify
 
-If you're thinking of using NHS Notify for campaign messaging but cannot find the features you need, [read our roadmap to find out what we're working on next]({% link pages/features/roadmap.md %}).
+If you're thinking of using NHS Notify for campaign messaging but cannot find the features you need, [read our roadmap to find out what we're working on next]({% link pages/about/roadmap.md %}).
