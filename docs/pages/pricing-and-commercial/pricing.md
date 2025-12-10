@@ -7,6 +7,7 @@ title: Pricing and commercial
 nav_order: 1
 has_children: true
 permalink: /pricing-and-commercial/
+redirect_from: /pricing/
 ---
 
 It’s free to send NHS App messages and emails through NHS Notify.

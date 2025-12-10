@@ -7,6 +7,7 @@ title: About
 nav_order: 1
 has_children: true
 permalink: /about/
+redirect_from: /features/
 ---
 
 Use NHS Notify to send:

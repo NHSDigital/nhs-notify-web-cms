@@ -7,6 +7,7 @@ title: How to pay
 parent: Pricing and commercial
 nav_order: 4
 permalink: /pricing-and-commercial/how-to-pay
+redirect_from: /pricing/how-to-pay
 ---
 
 This page describes how NHS England organisations and services pay for the messages they send using NHS Notify.

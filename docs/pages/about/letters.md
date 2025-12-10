@@ -8,6 +8,7 @@ parent: About
 nav_order: 4
 permalink: /about/letters
 section: Features by message channel
+redirect_from: /features/letters
 ---
 
 You can use NHS Notify to print and send letters to patients and members of the public with addresses in the UK. You can do this in bulk and individually.

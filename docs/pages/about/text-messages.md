@@ -8,6 +8,7 @@ parent: About
 nav_order: 3
 permalink: /about/text-messages-sms
 section: Features by message channel
+redirect_from: /features/text-messages-sms
 ---
 
 Use NHS Notify to send text messages such as invitations, alerts, notifications or reminders to your audiences. You can do this in bulk and individually.

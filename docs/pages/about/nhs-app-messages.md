@@ -8,6 +8,7 @@ parent: About
 nav_order: 1
 permalink: /about/nhs-app-messages
 section: Features by message channel
+redirect_from: /features/nhs-app-messages
 ---
 
 Send free messages of up to 5,000 characters to patients and members of the public who have the NHS App.

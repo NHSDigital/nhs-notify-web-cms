@@ -7,6 +7,7 @@ title: Roadmap
 parent: About
 nav_order: 2
 permalink: /about/roadmap
+redirect_from: /features/roadmap
 ---
 
 The NHS Notify roadmap shows what we’re working on and some of the things we’ve done.

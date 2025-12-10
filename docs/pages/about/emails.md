@@ -8,6 +8,7 @@ parent: About
 nav_order: 2
 permalink: /about/emails
 section: Features by message channel
+redirect_from: /features/emails
 ---
 
 Use NHS Notify to send free unlimited emails to patients and members of the public, in bulk and individually.

@@ -9,6 +9,7 @@ nav_order: 2
 permalink: /about/event-based-messaging
 section: Features by messaging needs
 redirect_from: /using-nhs-notify/event-based-messaging
+redirect_from: /features/event-based-messaging
 ---
 
 Use NHS Notify to send messages to patients and the public when a specific event is triggered in your organisation or service.

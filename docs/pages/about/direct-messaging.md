@@ -9,6 +9,7 @@ nav_order: 3
 permalink: /about/direct-messaging
 section: Features by messaging needs
 redirect_from: /using-nhs-notify/direct-messaging
+redirect_from: /features/direct-messaging
 ---
 
 Use NHS Notify to support your organisation or service to send individual messages directly to each of your patients.

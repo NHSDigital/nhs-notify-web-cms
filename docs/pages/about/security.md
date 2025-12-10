@@ -7,6 +7,7 @@ title: Security
 parent: About
 nav_order: 3
 permalink: /about/security
+redirect_from: /features/security
 ---
 
 NHS Notify is part of NHS England and is built for the security needs of its organisations and services.
