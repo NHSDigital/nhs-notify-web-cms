@@ -10,15 +10,15 @@
     </li>
 
     <!-- Level 2 -->
-    {% if page.parent == "Features" %}
+    {% if page.parent == "About" %}
     <li class="nhsuk-breadcrumb__list-item">
-      <a class="nhsuk-breadcrumb__link" href="{{site.baseurl}}/features">Features</a>
+      <a class="nhsuk-breadcrumb__link" href="{{site.baseurl}}/about">About</a>
     </li>
     {% endif %}
 
-    {% if page.parent == "Pricing" %}
+    {% if page.parent == "Pricing and commercial" %}
     <li class="nhsuk-breadcrumb__list-item">
-      <a class="nhsuk-breadcrumb__link" href="{{site.baseurl}}/pricing">Pricing</a>
+      <a class="nhsuk-breadcrumb__link" href="{{site.baseurl}}/pricing-and-commercial">Pricing and commercial</a>
     </li>
     {% endif %}
 
@@ -44,72 +44,72 @@
 
   <!-- Mobile breadcrumb back -->
 
-    <!-- Features -->
-    {% if page.title == "Features" %}
-    <a class="nhsuk-back-link" href="{{site.baseurl}}/">
-      <span class="nhsuk-u-visually-hidden">Back to &nbsp;</span>
-      Home
-    </a>
-    {% endif %}
+  <!-- Features -->
+  {% if page.title == "Features" %}
+  <a class="nhsuk-back-link" href="{{site.baseurl}}/">
+    <span class="nhsuk-u-visually-hidden">Back to &nbsp;</span>
+    Home
+  </a>
+  {% endif %}
 
-    {% if page.parent == "Features" %}
-    <a class="nhsuk-back-link" href="{{site.baseurl}}/features">
-      <span class="nhsuk-u-visually-hidden">Back to &nbsp;</span>
-      Features
-    </a>
-    {% endif %}
+  {% if page.parent == "Features" %}
+  <a class="nhsuk-back-link" href="{{site.baseurl}}/features">
+    <span class="nhsuk-u-visually-hidden">Back to &nbsp;</span>
+    Features
+  </a>
+  {% endif %}
 
-    <!-- Pricing -->
-    {% if page.title == "Pricing" %}
-    <a class="nhsuk-back-link" href="{{site.baseurl}}/">
-      <span class="nhsuk-u-visually-hidden">Back to &nbsp;</span>
-      Home
-    </a>
-    {% endif %}
+  <!-- Pricing -->
+  {% if page.title == "Pricing" %}
+  <a class="nhsuk-back-link" href="{{site.baseurl}}/">
+    <span class="nhsuk-u-visually-hidden">Back to &nbsp;</span>
+    Home
+  </a>
+  {% endif %}
 
-    {% if page.parent == "Pricing" %}
-    <a class="nhsuk-back-link" href="{{site.baseurl}}/pricing">
-      <span class="nhsuk-u-visually-hidden">Back to &nbsp;</span>
-      Pricing
-    </a>
-    {% endif %}
+  {% if page.parent == "Pricing" %}
+  <a class="nhsuk-back-link" href="{{site.baseurl}}/pricing">
+    <span class="nhsuk-u-visually-hidden">Back to &nbsp;</span>
+    Pricing
+  </a>
+  {% endif %}
 
-    <!-- Using NHS Notify -->
-    {% if page.title == "Using NHS Notify" %}
-    <a class="nhsuk-back-link" href="{{site.baseurl}}/">
-      <span class="nhsuk-u-visually-hidden">Back to &nbsp;</span>
-      Home
-    </a>
-    {% endif %}
+  <!-- Using NHS Notify -->
+  {% if page.title == "Using NHS Notify" %}
+  <a class="nhsuk-back-link" href="{{site.baseurl}}/">
+    <span class="nhsuk-u-visually-hidden">Back to &nbsp;</span>
+    Home
+  </a>
+  {% endif %}
 
-    {% if page.parent == "Using NHS Notify" %}
-    <a class="nhsuk-back-link" href="{{site.baseurl}}/using-nhs-notify">
-      <span class="nhsuk-u-visually-hidden">Back to &nbsp;</span>
-      Using NHS Notify
-    </a>
-    {% endif %}
+  {% if page.parent == "Using NHS Notify" %}
+  <a class="nhsuk-back-link" href="{{site.baseurl}}/using-nhs-notify">
+    <span class="nhsuk-u-visually-hidden">Back to &nbsp;</span>
+    Using NHS Notify
+  </a>
+  {% endif %}
 
-    <!-- Support -->
-    {% if page.title == "Support" %}
-    <a class="nhsuk-back-link" href="{{site.baseurl}}/">
-      <span class="nhsuk-u-visually-hidden">Back to &nbsp;</span>
-      Home
-    </a>
-    {% endif %}
+  <!-- Support -->
+  {% if page.title == "Support" %}
+  <a class="nhsuk-back-link" href="{{site.baseurl}}/">
+    <span class="nhsuk-u-visually-hidden">Back to &nbsp;</span>
+    Home
+  </a>
+  {% endif %}
 
-    <!-- Get started -->
-    {% if page.title == "Get started" %}
-    <a class="nhsuk-back-link" href="{{site.baseurl}}/">
-      <span class="nhsuk-u-visually-hidden">Back to &nbsp;</span>
-      Home
-    </a>
-    {% endif %}
+  <!-- Get started -->
+  {% if page.title == "Get started" %}
+  <a class="nhsuk-back-link" href="{{site.baseurl}}/">
+    <span class="nhsuk-u-visually-hidden">Back to &nbsp;</span>
+    Home
+  </a>
+  {% endif %}
 
-    {% if page.parent == "Get started" %}
-    <a class="nhsuk-back-link" href="{{site.baseurl}}/get-started">
-      <span class="nhsuk-u-visually-hidden">Back to &nbsp;</span>
-      Get started
-    </a>
-    {% endif %}
+  {% if page.parent == "Get started" %}
+  <a class="nhsuk-back-link" href="{{site.baseurl}}/get-started">
+    <span class="nhsuk-u-visually-hidden">Back to &nbsp;</span>
+    Get started
+  </a>
+  {% endif %}
 
 </nav>
