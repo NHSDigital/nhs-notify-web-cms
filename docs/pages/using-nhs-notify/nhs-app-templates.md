@@ -70,7 +70,8 @@ Use the style ‘Hyperlink' in the template for links.
 For NHS App messages, you can convert text into a link instead of writing the full web address. For example:
 
 {% include components/inset-text.html
-    text='<span>[content guide on the NHS service manual](https://service-manual.nhs.uk/content)</span>'
+  text='[content guide on the NHS service manual](https://service-manual.nhs.uk/content)'
+  classes='nhsuk-u-margin-top-2'
 %}
 
 Link text should tell the recipient what action they need to take and where the link goes.
@@ -80,7 +81,8 @@ Never use ‘click here’, ‘click link’, ‘this link’ or ‘more’, as 
 If the recipient is not expecting to receive a message from you, we recommend using the full URL instead of link text. Start with https://. For example:
 
 {% include components/inset-text.html
-    text='<span>https://www.service-manual.nhs.uk/content</span>'
+  text='https://www.service-manual.nhs.uk/content'
+  classes='nhsuk-u-margin-top-2'
 %}
 
 ### Short URLs

@@ -8,7 +8,6 @@ parent: Using NHS Notify
 nav_order: 4
 permalink: /using-nhs-notify/upload-a-letter
 section: Writing a message
-
 ---
 
 Upload a PDF of your letter and we'll print and post it for you.
@@ -47,7 +46,8 @@ If you're copying and pasting text from another document, paste it without any f
 You can also use [Microsoft Word's format painter](https://support.microsoft.com/en-gb/office/use-the-format-painter-4bb415a9-d4e4-42b7-b579-170adc594e40) to copy the formatting of the styles and apply it to your text.
 
 {% include components/inset-text.html
-    text="Keep the comments and pre-formatted text in the template until you've finished adding your message content. They'll help you to apply the styles."
+  text="Keep the comments and pre-formatted text in the template until you've finished adding your message content. They'll help you to apply the styles."
+  classes='nhsuk-u-margin-top-2'
 %}
 
 Find out how to use:
@@ -79,27 +79,27 @@ NHS Notify prints letters in the font Noto Sans.
 
 You must download and use Noto Sans as the font for all of your letters, including [letters in other languages]({% link pages/using-nhs-notify/letters-in-other-languages.md %}). If you're sending letters in other languages that use different character sets, download Noto Sans in those languages.
 
-Go to [Noto Sans on Google Fonts](https://fonts.google.com/noto/fonts) and choose the languages you need by selecting 'Get font'. Then select 'Download all' to download Noto Sans to your device as a zip file.
+Go to <a href="https://fonts.google.com/noto/fonts" target="_blank">Noto Sans on Google Fonts (opens in a new tab)</a> and choose the languages you need by selecting 'Get font'. Then select 'Download all' to download Noto Sans to your device as a zip file.
 
 Noto Sans is a free font.
 
 {% include components/details.html
-    heading='Downloading Noto Sans for Windows'
-    text='
+heading='Downloading Noto Sans for Windows'
+text='
 
 1. Right click the zip file and select ‘Extract all’.
 2. Open the file. Open each folder. Select all of the TrueType font files, right click and select ‘Install’.
 3. If the folder contains a sub-folder called ‘static’, open this.
 4. Select all of the TrueType font files in this folder. Right click and select ‘Install’.
-    '
-%}
+   '
+   %}
 
 {% include components/details.html
-    heading='Downloading Noto Sans for Mac'
-    text='
-Follow the [install fonts guidance](https://support.apple.com/en-gb/guide/font-book/fntbk1000/mac). Make sure you install the static fonts.
+heading='Downloading Noto Sans for Mac'
+text='
+Follow the <a href="https://support.apple.com/en-gb/guide/font-book/fntbk1000/mac" target="_blank">install fonts guidance (opens in a new tab)</a>. Make sure you install the static fonts.
 
-Read [Google’s guidance on installing fonts](https://fonts.google.com/knowledge/using_type/installing_and_managing_fonts) for more information.'
+Read <a href="https://fonts.google.com/knowledge/using_type/installing_and_managing_fonts" target="_blank">Google’s guidance on installing fonts (opens in a new tab)</a> for more information.'
 %}
 
 ## Personalisation
@@ -158,7 +158,8 @@ You'll need to generate the QR code yourself.
 You must also provide a short URL or written instructions for how to find your webpage. For example:
 
 {% include components/inset-text.html
-    text='<span>scan the QR code or visit <b>https://www.notify.nhs.uk</b></span>'
+  text='scan the QR code or visit <b>https://www.notify.nhs.uk</b>'
+  classes='nhsuk-u-margin-top-2'
 %}
 
 ## Content you should not edit
@@ -194,7 +195,8 @@ It appears above the body content of the letter and is right aligned.
 The page count shows the current page number and the total number of pages. For example:
 
 {% include components/inset-text.html
-    text='Page 1 of 2'
+  text='Page 1 of 2'
+  classes='nhsuk-u-margin-top-2'
 %}
 
 It updates automatically.
@@ -223,5 +225,6 @@ Name your PDF template clearly so that it's easy to identify. Make sure you incl
 For example:
 
 {% include components/inset-text.html
-    text='vaccinations_under-16_english_standard_letter_v1'
+  text='vaccinations_under-16_english_standard_letter_v1'
+  classes='nhsuk-u-margin-top-2'
 %}

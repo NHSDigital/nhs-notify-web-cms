@@ -35,16 +35,16 @@ Your NHS App sender name is shown when you send recipients messages in the NHS A
 
 The NHS App uses your service or organisation’s ODS code to set up your NHS App message sender name.
 
-NHS Notify will ask you for your ODS code during onboarding. [Find your ODS code with the ODS Portal](https://odsportal.digital.nhs.uk/){:target="\_blank"}.
+NHS Notify will ask you for your ODS code during onboarding. Find your ODS code with the [ODS Data Search and Export service (opens in a new tab)](https://www.odsdatasearchandexport.nhs.uk/){:target="\_blank"}.
 
-If your organisation or service does not have an ODS code, you can [request a code or update your organisation's details](https://digital.nhs.uk/services/organisation-data-service/request-a-new-code-or-update-organisation-details){:target="\_blank"}.
+If your organisation or service does not have an ODS code, you can [request a code or update your organisation's details (opens in a new tab)](https://digital.nhs.uk/services/organisation-data-service/request-a-new-code-or-update-organisation-details){:target="\_blank"}.
 
 ### Using other NHS App sender names
 
 If you send NHS App messages on behalf of other organisations or services, you can use their sender name instead of yours by:
 
-- [overriding your ODS code in NHS Notify API](https://digital.nhs.uk/developer/api-catalogue/nhs-notify#post-/v1/messages){:target="\_blank"}
-- [overriding your ODS code in NHS Notify MESH](https://digital.nhs.uk/developer/api-catalogue/nhs-notify-mesh/sending-a-message#how-to-create-your-request){:target="\_blank"}
+- [overriding your ODS code in NHS Notify API (opens in a new tab)](https://digital.nhs.uk/developer/api-catalogue/nhs-notify#post-/v1/messages){:target="\_blank"}
+- [overriding your ODS code in NHS Notify MESH (opens in a new tab)](https://digital.nhs.uk/developer/api-catalogue/nhs-notify-mesh/sending-a-message#how-to-create-your-request){:target="\_blank"}
 
 To use ODS code overrides, contact the onboarding team.
 
@@ -67,7 +67,8 @@ Use an email sender name that clearly represents your NHS organisation or servic
 It should help recipients quickly tell who the email is from, for example:
 
 {% include components/inset-text.html
-    text='NHS Vaccination Invitations'
+  text='NHS Vaccination Invitations'
+  classes='nhsuk-u-margin-top-2'
 %}
 
 If you send emails for multiple organisations, such as GP surgeries, your email sender name can be more general. It should still be clear who the sender is and that it can be trusted.
@@ -82,7 +83,8 @@ Email sender names should not:
 NHS Notify uses your email sender name to create your from email address. If you include spaces in your email sender name, they will be added as full-stops in your 'from' address, for example:
 
 {% include components/inset-text.html
-    text='your.email.sender.name@notifications.service.gov.uk'
+  text='your.email.sender.name@notifications.service.gov.uk'
+  classes='nhsuk-u-margin-top-2'
 %}
 
 Emails will always be sent from the notifications.service.gov.uk domain.
@@ -100,7 +102,8 @@ You must choose and provide your reply-to email address during onboarding.
 Include 'reply-to' in your reply-to email address, for example:
 
 {% include components/inset-text.html
-    text='reply-to-your-service-name@nhs.net'
+  text='reply-to-your-service-name@nhs.net'
+  classes='nhsuk-u-margin-top-2'
 %}
 
 ### If you do not want recipients to reply to your emails
@@ -108,7 +111,8 @@ Include 'reply-to' in your reply-to email address, for example:
 Include 'no-reply' in your reply-to email address, for example:
 
 {% include components/inset-text.html
-    text='no-reply-your-service-name@nhs.net'
+  text='no-reply-your-service-name@nhs.net'
+  classes='nhsuk-u-margin-top-2'
 %}
 
 ## Text message sender name
