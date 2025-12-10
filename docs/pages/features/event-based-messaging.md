@@ -4,9 +4,9 @@
 
 layout: page
 title: Event based messaging
-parent: Features
+parent: About
 nav_order: 2
-permalink: /features/event-based-messaging
+permalink: /about/event-based-messaging
 section: Features by messaging needs
 redirect_from: /using-nhs-notify/event-based-messaging
 ---

@@ -4,11 +4,10 @@
 
 layout: page
 title: Roadmap
-parent: Features
+parent: About
 nav_order: 2
-permalink: /features/roadmap
+permalink: /about/roadmap
 ---
-
 
 The NHS Notify roadmap shows what we’re working on and some of the things we’ve done.
 

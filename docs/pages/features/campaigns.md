@@ -4,9 +4,9 @@
 
 layout: page
 title: Campaigns
-parent: Features
+parent: About
 nav_order: 1
-permalink: /features/campaigns
+permalink: /about/campaigns
 section: Features by messaging needs
 redirect_from: /using-nhs-notify/campaigns
 ---

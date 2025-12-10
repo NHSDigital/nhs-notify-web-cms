@@ -4,9 +4,9 @@
 
 layout: page
 title: NHS App messages
-parent: Features
+parent: About
 nav_order: 1
-permalink: /features/nhs-app-messages
+permalink: /about/nhs-app-messages
 section: Features by message channel
 ---
 

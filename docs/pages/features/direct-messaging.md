@@ -4,9 +4,9 @@
 
 layout: page
 title: Direct messaging
-parent: Features
+parent: About
 nav_order: 3
-permalink: /features/direct-messaging
+permalink: /about/direct-messaging
 section: Features by messaging needs
 redirect_from: /using-nhs-notify/direct-messaging
 ---

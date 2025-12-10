@@ -4,9 +4,9 @@
 
 layout: page
 title: Emails
-parent: Features
+parent: About
 nav_order: 2
-permalink: /features/emails
+permalink: /about/emails
 section: Features by message channel
 ---
 

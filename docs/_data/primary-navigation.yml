@@ -1,14 +1,14 @@
-- title: Features
-  link: /features/
+- title: About
+  link: /about/
 
-- title: Pricing
-  link: /pricing/
+- title: Pricing and commercial
+  link: /pricing-and-commercial/
+
+- title: Get started
+  link: /get-started/
 
 - title: Using NHS Notify
   link: /using-nhs-notify/
 
 - title: Support
   link: /support/
-
-- title: Get started
-  link: /get-started/

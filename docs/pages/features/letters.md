@@ -4,9 +4,9 @@
 
 layout: page
 title: Letters
-parent: Features
+parent: About
 nav_order: 4
-permalink: /features/letters
+permalink: /about/letters
 section: Features by message channel
 ---
 
@@ -32,7 +32,7 @@ This page will tell you:
 
 You might also want to understand more about:
 
-- [letter pricing]({% link pages/pricing/letters.md %})
+- [letter pricing]({% link pages/pricing-and-commercial/letters.md %})
 - [delivery times for letters]({% link pages/using-nhs-notify/delivery-times.md %})
 - [return addresses]({% link pages/using-nhs-notify/tell-recipients-who-your-messages-are-from.md %})
 - [sending letters to people with access needs]({% link pages/using-nhs-notify/accessible-formats.md %})
@@ -55,6 +55,6 @@ NHS Notify uses C5 size envelopes with an address window. This means the A4 lett
 
 Letters about test results, appointments and urgent messages can get [Royal Mail's NHS barcode (opens in a new tab)](https://www.royalmailwholesale.com/news/nhs-mail-new-barcode-solution){:target="\_blank"} on the envelope.
 
-You'll need to send by 1st or 2nd class to be able to get the NHS barcode. If you choose NHS Notify's standard postage, you will not get the barcode but your postage rate will be much cheaper. Find out more about [pricing]({% link pages/pricing/letters.md %}).
+You'll need to send by 1st or 2nd class to be able to get the NHS barcode. If you choose NHS Notify's standard postage, you will not get the barcode but your postage rate will be much cheaper. Find out more about [pricing]({% link pages/pricing-and-commercial/letters.md %}).
 
 The NHS barcode allows Royal Mail to identify NHS letters. During busy periods locally or nationally, Royal Mail will prioritise NHS letters using the NHS barcode.

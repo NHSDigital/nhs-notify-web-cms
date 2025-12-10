@@ -3,10 +3,10 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: page
-title: Features
+title: About
 nav_order: 1
 has_children: true
-permalink: /features/
+permalink: /about/
 ---
 
 Use NHS Notify to send:

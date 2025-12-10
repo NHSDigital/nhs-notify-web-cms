@@ -4,9 +4,9 @@
 
 layout: page
 title: Text messages
-parent: Pricing
+parent: Pricing and commercial
 nav_order: 2
-permalink: /pricing/text-messages
+permalink: /pricing-and-commercial/text-messages
 ---
 
 It costs 2.33 pence (plus VAT) for each text message you send.
