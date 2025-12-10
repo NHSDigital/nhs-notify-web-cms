@@ -4,9 +4,10 @@
 
 layout: page
 title: Security
-parent: Features
+parent: About
 nav_order: 3
-permalink: /features/security
+permalink: /about/security
+redirect_from: /features/security
 ---
 
 NHS Notify is part of NHS England and is built for the security needs of its organisations and services.
@@ -22,6 +23,7 @@ This means NHS Notify:
 NHS Notify also has approaches for:
 
 <!-- no toc -->
+
 - [network security](#network-security)
 - [security groups and policies](#security-groups-and-policies)
 - [secure development practices](#secure-development-practices)

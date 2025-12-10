@@ -4,11 +4,12 @@
 
 layout: page
 title: Campaigns
-parent: Features
+parent: About
 nav_order: 1
-permalink: /features/campaigns
+permalink: /about/campaigns
 section: Features by messaging needs
 redirect_from: /using-nhs-notify/campaigns
+redirect_from: /features/campaigns
 ---
 
 Use NHS Notify to set up national or targeted campaigns to send messages in bulk to patients and the public.
@@ -37,4 +38,4 @@ When you send NHS App messages as part of a campaign with NHS Notify, you must a
 
 ## See what's next for NHS Notify
 
-If you're thinking of using NHS Notify for campaign messaging but cannot find the features you need, [read our roadmap to find out what we're working on next]({% link pages/features/roadmap.md %}).
+If you're thinking of using NHS Notify for campaign messaging but cannot find the features you need, [read our roadmap to find out what we're working on next]({% link pages/about/roadmap.md %}).

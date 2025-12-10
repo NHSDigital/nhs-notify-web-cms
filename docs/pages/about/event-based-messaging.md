@@ -4,11 +4,12 @@
 
 layout: page
 title: Event based messaging
-parent: Features
+parent: About
 nav_order: 2
-permalink: /features/event-based-messaging
+permalink: /about/event-based-messaging
 section: Features by messaging needs
 redirect_from: /using-nhs-notify/event-based-messaging
+redirect_from: /features/event-based-messaging
 ---
 
 Use NHS Notify to send messages to patients and the public when a specific event is triggered in your organisation or service.
@@ -37,4 +38,4 @@ When you send event based messages with the NHS App, you must adhere to the foll
 
 ## See what's next for NHS Notify
 
-If you're thinking of using NHS Notify for event based messaging but cannot find the features you need, [read our roadmap to find out what we're working on next]({% link pages/features/roadmap.md %}).
+If you're thinking of using NHS Notify for event based messaging but cannot find the features you need, [read our roadmap to find out what we're working on next]({% link pages/about/roadmap.md %}).

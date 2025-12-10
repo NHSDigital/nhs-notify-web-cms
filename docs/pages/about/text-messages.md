@@ -4,10 +4,11 @@
 
 layout: page
 title: Text messages (SMS)
-parent: Features
+parent: About
 nav_order: 3
-permalink: /features/text-messages-sms
+permalink: /about/text-messages-sms
 section: Features by message channel
+redirect_from: /features/text-messages-sms
 ---
 
 Use NHS Notify to send text messages such as invitations, alerts, notifications or reminders to your audiences. You can do this in bulk and individually.
@@ -22,10 +23,10 @@ Use NHS Notify to send text messages such as invitations, alerts, notifications 
 
 You might want to understand more about:
 
-- [text message pricing]({% link pages/pricing/text-messages.md %})
+- [text message pricing]({% link pages/pricing-and-commercial/text-messages.md %})
 - [delivery times for text messages]({% link pages/using-nhs-notify/delivery-times.md %})
 - [how to tell audiences who your text messages are from]({% link pages/using-nhs-notify/tell-recipients-who-your-messages-are-from.md %})
-- [sending text messages to international numbers]({% link pages/pricing/text-messages.md %}#sending-text-messages-to-international-numbers)
+- [sending text messages to international numbers]({% link pages/pricing-and-commercial/text-messages.md %}#sending-text-messages-to-international-numbers)
 - [formatting]({% link pages/using-nhs-notify/formatting.md %})
 - [links and URLs]({% link pages/using-nhs-notify/links-and-urls.md %})
 - [personalisation]({% link pages/using-nhs-notify/personalisation.md %})

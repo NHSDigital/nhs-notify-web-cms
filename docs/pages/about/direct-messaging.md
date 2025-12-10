@@ -4,11 +4,12 @@
 
 layout: page
 title: Direct messaging
-parent: Features
+parent: About
 nav_order: 3
-permalink: /features/direct-messaging
+permalink: /about/direct-messaging
 section: Features by messaging needs
 redirect_from: /using-nhs-notify/direct-messaging
+redirect_from: /features/direct-messaging
 ---
 
 Use NHS Notify to support your organisation or service to send individual messages directly to each of your patients.
@@ -71,4 +72,4 @@ text='You must adhere to the following in your user journeys:
 
 ## See what's next for NHS Notify
 
-If you're thinking of using NHS Notify for direct messaging but cannot find the features you need, [read our roadmap to find out what we're working on next]({% link pages/features/roadmap.md %}).
+If you're thinking of using NHS Notify for direct messaging but cannot find the features you need, [read our roadmap to find out what we're working on next]({% link pages/about/roadmap.md %}).

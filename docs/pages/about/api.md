@@ -4,10 +4,11 @@
 
 layout: page
 title: API
-parent: Features
+parent: About
 nav_order: 1
-permalink: /features/api
+permalink: /about/api
 section: Accessing NHS Notify
+redirect_from: /features/api
 ---
 
 NHS England organisations and services can integrate the NHS Notify API with their web applications or back office systems.

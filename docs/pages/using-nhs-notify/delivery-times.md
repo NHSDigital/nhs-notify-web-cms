@@ -27,7 +27,7 @@ If a recipient has notifications turned on, they’ll also receive a push notifi
 
 Push notifications are only sent to recipients between 6am and 10pm. If you send a message outside of these hours, the notification will be sent from 6am.
 
-[Learn more about NHS App messages]({% link pages/features/nhs-app-messages.md %}).
+[Learn more about NHS App messages]({% link pages/about/nhs-app-messages.md %}).
 
 ## Emails
 
@@ -35,7 +35,7 @@ Once an email has been sent, our email provider will try to deliver it to the re
 
 NHS Notify will only send emails from 8am to 6pm on weekdays.
 
-[Learn more about emails]({% link pages/features/emails.md %}).
+[Learn more about emails]({% link pages/about/emails.md %}).
 
 ### Open rates and click-throughs
 
@@ -49,11 +49,11 @@ Once a text message has been sent, our text message provider will try to deliver
 
 NHS Notify will only send text messages from 8am to 6pm on weekdays.
 
-[Learn more about text messages]({% link pages/features/text-messages.md %}).
+[Learn more about text messages]({% link pages/about/text-messages.md %}).
 
 ## Letters
 
-Once you've made a request with [NHS Notify API]({% link pages/features/api.md %}) or [NHS Notify MESH]({% link pages/features/mesh.md %}), it can take up to 2 working days for our suppliers to dispatch your letter.
+Once you've made a request with [NHS Notify API]({% link pages/about/api.md %}) or [NHS Notify MESH]({% link pages/about/mesh.md %}), it can take up to 2 working days for our suppliers to dispatch your letter.
 
 We use NHS Notify's standard postage as our default for letters. Most letters get delivered 3 business days after they're dispatched.
 
@@ -66,8 +66,8 @@ For more information, visit <a href='https://www.royalmail.com/receiving/the-fut
 classes="nhsuk-u-margin-top-2"
 %}
 
-[Learn more about letters]({% link pages/features/letters.md %}).
+[Learn more about letters]({% link pages/about/letters.md %}).
 
 ### NHS barcode
 
-If you want to send your letter with [Royal Mail's NHS barcode](/features/letters#nhs-barcode), your message content needs to meet certain criteria and you need to use 1st or 2nd class postage. Speak to your onboarding manager to discuss your options.
+If you want to send your letter with [Royal Mail's NHS barcode](/about/letters#nhs-barcode), your message content needs to meet certain criteria and you need to use 1st or 2nd class postage. Speak to your onboarding manager to discuss your options.

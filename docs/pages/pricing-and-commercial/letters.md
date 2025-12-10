@@ -4,9 +4,10 @@
 
 layout: page
 title: Letters
-parent: Pricing
+parent: Pricing and commercial
 nav_order: 3
-permalink: /pricing/letters
+permalink: /pricing-and-commercial/letters
+redirect_from: /pricing/letters
 ---
 
 The cost of sending a standard letter depends on the postage you choose and how many sheets of paper you need.
