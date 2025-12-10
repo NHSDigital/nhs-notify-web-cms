@@ -84,7 +84,7 @@ To send messages automatically, you'll need a developer to integrate with the NH
 
 ## Keep your data secure
 
-[Learn more about NHS Notify’s security features.]({% link pages/about/security.md %})
+[Learn more about NHS Notify’s security features.]({% link pages/footer/security.md %})
 
 ## Get support when you need it
 
