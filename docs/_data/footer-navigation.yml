@@ -1,17 +1,20 @@
 - title: Accessibility statement
   link: /accessibility/
 
+- title: Security
+  link: /security/
+
 - title: Acceptable use policy
   link: https://digital.nhs.uk/services/nhs-notify/acceptable-use-policy
-
-- title: Cookies
-  link: /cookies/
 
 - title: Privacy
   link: https://digital.nhs.uk/services/nhs-notify/transparency-notice
 
-- title: Sitemap
-  link: /sitemap/
-
 - title: Terms and conditions
   link: https://digital.nhs.uk/services/nhs-notify/terms-and-conditions
+
+- title: Cookies
+  link: /cookies/
+
+- title: Sitemap
+  link: /sitemap/

@@ -2,12 +2,12 @@
 # Feel free to add content and custom Front Matter to this file.
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
-layout: page
+layout: no-nav-page
 title: Security
-parent: About
-nav_order: 3
-permalink: /about/security
+permalink: /security/
 redirect_from: /features/security
+redirect_from: /about/security
+
 ---
 
 NHS Notify is part of NHS England and is built for the security needs of its organisations and services.
@@ -24,14 +24,14 @@ NHS Notify also has approaches for:
 
 <!-- no toc -->
 
-- [network security](#network-security)
-- [security groups and policies](#security-groups-and-policies)
-- [secure development practices](#secure-development-practices)
-- [data protection](#data-protection)
-- [patch management](#patch-management)
-- [security monitoring and logging](#security-monitoring-and-logging)
-- [security configuration](#security-configuration)
-- [regulatory compliance](#regulatory-compliance)
+- [Network security](#network-security)
+- [Security groups and policies](#security-groups-and-policies)
+- [Secure development practices](#secure-development-practices)
+- [Data protection](#data-protection)
+- [Patch management](#patch-management)
+- [Security monitoring and logging](#security-monitoring-and-logging)
+- [Security configuration](#security-configuration)
+- [Regulatory compliance](#regulatory-compliance)
 
 ## Network security
 
