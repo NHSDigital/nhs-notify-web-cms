@@ -56,7 +56,7 @@ Autocomplete is turned off by default because the text a user enters into ‘cre
 
 ## What we're doing to improve accessibility
 
-Our [roadmap]({% link pages/about/roadmap.md %}) shows how and when we plan to improve accessibility on this website.
+Our [new and upcoming features]({% link pages/about/new-and-upcoming-features.md %}) show how and when we plan to improve accessibility on this website.
 
 ## Preparation of this accessibility statement
 
