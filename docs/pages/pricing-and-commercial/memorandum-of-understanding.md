@@ -13,7 +13,7 @@ To use NHS Notify, you must agree to the terms in this memorandum of understandi
 
 We'll send you the memorandum of understanding to sign digitally during onboarding. You must sign this before you can go live with NHS Notify.
 
-The [memorandum of understanding (blank version)](link to doc) is available online for you to read beforehand.
+The [memorandum of understanding (blank version)]({% link assets/commercialdocs/memorandum-of-understanding-nhs-notify-blank-for info.pdf %}) is available online for you to read beforehand.
 
 ## About the memorandum of understanding
 
