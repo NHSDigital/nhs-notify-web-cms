@@ -9,7 +9,7 @@
 - It uses Jekyll to generate static web HTML files from markdown content
 - the source code for the web site is in /docs folder
 - page content is inside the `/docs/pages` folder
-- page css is inside `/docs/_sass` folder
+- page css is inside `/docs/assets/css` folder
 
 ## Getting Started - First time setup
 
