@@ -39,7 +39,7 @@ The process starts once you've signed the payment terms.
 
 1. Send a purchase order (PO) to <england.nhsnotifyinvoicing@nhs.net>. Raise the PO based on your total expected annual charge per message channel.
 2. Charges will apply from your 'service commencement’ date, which we'll confirm with you.
-3. We'll provide monthly estimates of your charges within/at least 20 days before the end of the month.
+3. We'll provide monthly estimates of your charges within 20 days of the last day of the month.
 4. We raise invoices every financial quarter in arrears through NHS Shared Business Services.
 5. You must pay invoices within 30 days.
 
