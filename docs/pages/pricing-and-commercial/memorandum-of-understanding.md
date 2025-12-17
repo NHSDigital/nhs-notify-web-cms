@@ -9,11 +9,11 @@ nav_order: 5
 permalink: /pricing-and-commercial/memorandum-of-understanding
 ---
 
-To use NHS Notify, you must agree to the terms in this memorandum of understanding and the [payment terms](https://notify.nhs.uk/pricing-and-commercial/how-to-pay#payment-terms).
+To use NHS Notify, you must agree to the terms in this memorandum of understanding and the <a href="/assets/commercialdocs/Payment%20terms%20NHS%20Notify%20-%20December%202025.pdf" target="_blank">payment terms</a>.
 
 We'll send you the memorandum of understanding to sign digitally during onboarding. You must sign this before you can go live with NHS Notify.
 
-The [memorandum of understanding (blank version)]({% link assets/commercialdocs/memorandum-of-understanding-nhs-notify-blank-for info.pdf %}) is available online for you to read beforehand.
+The <a href="/assets/commercialdocs/Memorandum%20of%20understanding%20NHS Notify%20-%20December%202025.pdf" target="_blank">memorandum of understanding (blank version)</a> is available online for you to read beforehand.
 
 ## About the memorandum of understanding
 
