@@ -12,9 +12,9 @@ redirect_from: /pricing/letters
 
 The cost of sending a standard letter depends on the postage you choose and how many sheets of paper you need.
 
-NHS Notify's standard postage rate is 70p + VAT per letter.
+NHS Notify's standard postage rate is 76 pence plus VAT per letter.
 
-This is our most cost-effective option. While the cost to send a standard letter is 65p, we charge a blended rate of 70p to cover sending some letters as accessible formats.
+This is our most cost-effective option. While the cost to send a standard letter is 72 pence, we charge a blended rate of 76 pence to cover sending some letters as accessible formats.
 
 Our price includes:
 
