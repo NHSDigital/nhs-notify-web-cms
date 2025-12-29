@@ -65,6 +65,15 @@ Add any sections not in the manual order list at the end
 {%- endunless -%}
 {%- endfor -%}
 
+{%- comment -%}
+Find the parent page title for the section heading
+{%- endcomment -%}
+{%- assign parent_page = site.pages | where_exp: "item", "item.dir == first_level_dir" | where: "has_children", true |
+first -%}
+{%- if parent_page -%}
+{%- assign section_heading = parent_page.title -%}
+{%- endif -%}
+
 <div class="nhsuk-width-container">
   {%- include breadcrumb.html -%}
   <main class="nhsuk-main-wrapper--s" id="maincontent" role="main">
@@ -127,6 +136,62 @@ Add any sections not in the manual order list at the end
             {{ content }}
           </div>
         </div>
+
+        {%- comment -%}
+        Mobile navigation - appears below content on narrow viewports
+        {%- endcomment -%}
+        <div class="nhsnotify-index-navigation nhsnotify-u-hide-desktop">
+          <nav class="nhsnotify-side-nav">
+            {% if section_heading %}
+            <h4 class="nhsuk-heading-l">{{ section_heading }} <span class="nhsuk-u-visually-hidden">navigation</span>
+            </h4>
+            {% endif %}
+            <ul class="nhsuk-list nhsnotify-side-nav__list">
+              {%- comment -%}
+              First render pages without sections (sorted by nav_order)
+              {%- endcomment -%}
+              {% for post in sorted_pages_without_sections %}
+              {% unless post.has_children %}
+              {% if post.published != false and post.title != "" and post.title != nil %}
+              <li class="
+                    nhsnotify-side-nav__item
+                    {% if post.url == page.url %}
+                      nhsnotify-side-nav__item--current
+                    {% endif %}
+                  ">
+                <a class="nhsnotify-side-nav__link" href="{{ site.baseurl | append: post.url }}">{{ post.title }}</a>
+              </li>
+              {% endif %}
+              {% endunless %}
+              {% endfor %}
+
+              {%- comment -%}
+              Then render sections with their pages
+              {%- endcomment -%}
+              {% for section in ordered_sections %}
+              {% if section.name != "" %}
+              <li class="nhsuk-u-font-weight-bold nhsnotify-side-nav__list-section">{{ section.name }}</li>
+              {% endif %}
+              {% assign sorted = section.items | sort: 'nav_order' %}
+              {% for post in sorted %}
+              {% unless post.has_children %}
+              {% if post.published != false and post.title != "" and post.title != nil %}
+              <li class="
+                    nhsnotify-side-nav__item
+                    {% if post.url == page.url %}
+                      nhsnotify-side-nav__item--current
+                    {% endif %}
+                  ">
+                <a class="nhsnotify-side-nav__link" href="{{ site.baseurl | append: post.url }}">{{ post.title }}</a>
+              </li>
+              {% endif %}
+              {% endunless %}
+              {% endfor %}
+              {% endfor %}
+            </ul>
+          </nav>
+        </div>
+
       </div>
     </div>
   </main>

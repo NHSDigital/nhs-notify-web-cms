@@ -66,30 +66,21 @@
 }
 
 .nhsnotify-side-nav__item {
-  padding: 4px 0 0.5em;
+  padding: 4px 0;
 
     &.nhsnotify-side-nav__item--current {
-      left: -1.2em;
       padding-left: 0.75em;
       position: relative;
+      font-weight: 600;
+      border-left: 4px solid $nhsuk-link-colour;
     }
   }
-
-.nhsnotify-side-nav__item--current {
-  font-weight: 600;
-  border-left: 4px solid $blue-000;
-  padding-left: 1em;
-}
 
 .nhsnotify-side-nav__link {
   text-decoration: none;
 
-  @include nhsuk-media-query($until: desktop) {
-    text-decoration: underline;
-  }
-
   &:visited {
-    color:  $blue-000;
+    color:  $nhsuk-link-colour;
   }
 
   &:hover {
