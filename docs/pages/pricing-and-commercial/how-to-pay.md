@@ -18,7 +18,7 @@ The payment terms document is a financial agreement that sets out our charges an
 
 We'll send the payment terms to you to sign digitally via DocuSign during onboarding. You must sign this document and set up the payment process before you can go live.
 
-The [payment terms (blank version)]({% link assets/commercialdocs/payment-terms-nhs-notify-blank-for-info.pdf %}) are available for you to read beforehand.
+The <a href="/assets/commercialdocs/Payment%20terms%20NHS%20Notify%20-%20December%202025.pdf" target="_blank">payment terms (blank version)</a> are available for you to read beforehand.
 
 ## How charges and payment work
 
@@ -39,7 +39,7 @@ The process starts once you've signed the payment terms.
 
 1. Send a purchase order (PO) to <england.nhsnotifyinvoicing@nhs.net>. Raise the PO based on your total expected annual charge per message channel.
 2. Charges will apply from your 'service commencement’ date, which we'll confirm with you.
-3. We'll provide monthly estimates of your charges within/at least 20 days before the end of the month.
+3. We'll provide monthly estimates of your charges within 20 days of the last day of the month.
 4. We raise invoices every financial quarter in arrears through NHS Shared Business Services.
 5. You must pay invoices within 30 days.
 
