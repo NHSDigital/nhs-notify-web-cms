@@ -86,8 +86,6 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # Needed to get PR information, if any
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
-          SONAR_ORGANISATION_KEY: ${{env.SONAR_ORGANISATION_KEY}}
-          SONAR_PROJECT_KEY: ${{env.SONAR_PROJECT_KEY}}
 
           # Deployment job
   deploy:
