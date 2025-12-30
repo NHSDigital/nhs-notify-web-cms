@@ -1,0 +1,49 @@
+---
+layout: default
+---
+
+<div class="nhsuk-width-container">
+  <main class="nhsuk-main-wrapper" id="maincontent" role="main">
+    <div class="nhsuk-grid-row">
+      <div class="nhsuk-grid-column-two-thirds">
+
+        {%- comment -%}
+        Mini-hub heading with topic subtitle
+        {%- endcomment -%}
+        <h1>
+          <span role="text">
+            {{ page.title }}
+            {% if page.mini_hub_topic %}
+            <span class="nhsuk-caption-xl nhsuk-caption--bottom">
+              <span class="nhsuk-u-visually-hidden">
+                -
+              </span>
+              {{ page.mini_hub_topic }}
+            </span>
+            {% endif %}
+          </span>
+        </h1>
+
+        {%- comment -%}
+        Contents list navigation
+        {%- endcomment -%}
+        {% if page.mini_hub_pages %}
+        {% include components/contents-list.html items=page.mini_hub_pages %}
+        {% endif %}
+
+        {%- comment -%}
+        Page content
+        {%- endcomment -%}
+        {{ content }}
+
+        {%- comment -%}
+        Pagination navigation
+        {%- endcomment -%}
+        {% if page.previous_page or page.next_page %}
+        {% include components/pagination.html previous=page.previous_page next=page.next_page %}
+        {% endif %}
+
+      </div>
+    </div>
+  </main>
+</div>
