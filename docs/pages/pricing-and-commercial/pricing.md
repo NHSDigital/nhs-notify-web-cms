@@ -31,7 +31,7 @@ It costs 2.33 pence (plus VAT) for every text message you send.
 
 ## Letters
 
-It costs 70p (plus VAT) to send a letter using NHS Notify's standard postage.
+It costs 76 pence plus VAT to send a letter using NHS Notify's standard postage.
 
 {% include components/action-link.html
     url='/pricing-and-commercial/letters'
