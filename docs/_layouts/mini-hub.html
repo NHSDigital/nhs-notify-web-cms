@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<div class="nhsuk-width-container">
+<div class="nhsuk-width-container nhsnotify-mini-hub">
   <main class="nhsuk-main-wrapper" id="maincontent" role="main">
     <div class="nhsuk-grid-row">
       <div class="nhsuk-grid-column-two-thirds">
@@ -10,6 +10,9 @@ layout: default
         {%- comment -%}
         Mini-hub heading with topic subtitle
         {%- endcomment -%}
+
+        {% include breadcrumb.html %}
+
         <h1>
           <span role="text">
             {{ page.title }}
