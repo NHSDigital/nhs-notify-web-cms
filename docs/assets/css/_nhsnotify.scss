@@ -198,15 +198,7 @@
 }
 */
 
-/* Mini-hub: adjust breadcrumb spacing to match NHS Service Manual pattern */
-.nhsnotify-mini-hub .nhsuk-breadcrumb {
-  margin-top: 0;
-  margin-bottom: nhsuk-spacing(3);
-
-  @include nhsuk-media-query($from: tablet) {
-    margin-bottom: nhsuk-spacing(4);
-  }
-}
+/* Mini-hub breadcrumb styles removed */
 
 // Home page button margin override
 .nhsnotify-home-page .nhsuk-button {
