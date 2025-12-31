@@ -3,37 +3,13 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: page
-title: Onboard with NHS Notify
+title: Check you're ready for integration
 parent: Get started
-nav_order: 6
-permalink: /get-started/onboard-with-nhs-notify
-published: false
+nav_order: 4
+permalink: /get-started/check-you-are-ready-for-integration
 ---
 
-Use this page to find out what you need to do step by step to onboard with NHS Notify.
-
-1. [Get invited to onboard](#1-get-invited-to-onboard)<!-- markdownlint-disable-line -->
-2. [Prepare your integration](#2-prepare-your-integration)
-3. [Confirm your setup to get access to our integration environment](#3-confirm-your-setup-to-get-access-to-our-integration-environment)
-4. [Build your integration](#4-build-your-integration)
-5. [Complete integration testing](#5-complete-integration-testing)
-6. [Apply to go live](#6-apply-to-go-live)
-7. [Go live](#7-go-live)
-
-## 1. Get invited to onboard
-
-Once you [get started]({% link pages/get-started/get-started.md %}) and register your interest, we'll contact you to either:
-
-- learn more about your use case
-- invite your organisation or service to onboard
-
-If your organisation or service is invited to onboard, we'll send you an email. This email will include:
-
-- what you need to do next
-- an online form to confirm your setup
-- the Supplier Conformance Assessment List SCAL you need to complete before you go live
-
-## 2. Prepare your integration
+## 1. Prepare your integration
 
 You must prepare your integration before you can get access to NHS Notify's integration environment.
 
@@ -72,7 +48,7 @@ You'll need to:
 1. <a href="https://digital.nhs.uk/developer/api-catalogue/nhs-notify-mesh/set-up-nhs-notify-mesh#set-up-your-mesh-mailboxes" target="_blank">Set up your MESH mailboxes (opens in a new tab)</a> and make a note of their IDs.
 2. Decide which reports you want when you get reports on how your messages perform.
 
-## 3. Confirm your setup to get access to our integration environment
+## 2. Confirm your setup to get access to our integration environment
 
 You must confirm how you'll be set up with NHS Notify using our online form so we can prepare your integration environment to meet your needs.
 
@@ -160,7 +136,7 @@ They'll contact you to either:
 - ask you about some of the answers you provided
 - provide access to NHS Notify's integration environment
 
-## 4. Build your integration
+## 3. Build your integration
 
 Once you get access to our integration environment, you can start building your integration with <a href="https://digital.nhs.uk/developer/api-catalogue/nhs-notify" target="_blank">NHS Notify API (opens in a new tab)</a> or <a href="https://digital.nhs.uk/developer/api-catalogue/nhs-notify-mesh" target="_blank">NHS Notify MESH (opens in a new tab)</a>.
 
@@ -168,22 +144,11 @@ How you build your integration to meet your needs is your responsibility.
 
 If you're sending campaign or event based messages, you need to create and submit your templates during this step. You will also need to [approve your messages before we send them]({% link pages/using-nhs-notify/approve-your-messages.md %}).
 
-## 5. Complete integration testing
+## 4. Complete integration testing
 
 You'll need to [complete integration testing]({% link pages/using-nhs-notify/complete-your-testing.md %}) to make sure you're ready to start sending messages with NHS Notify.
 
 If you're sending NHS App messages, you'll also need to [complete NHS App testing]({% link pages/using-nhs-notify/complete-your-testing.md %}).
-
-## 6. Apply to go live
-
-You'll need technical or developer support to complete tasks in this step. They must also be ready to support the go live process.
-
-When you’re ready to go live, contact your onboarding manager.
-
-They'll ask you to:
-
-- send them your SCAL
-- sign our <a href="https://digital.nhs.uk/developer/guides-and-documentation/online-connection-agreement" target="_blank">connection agreement (opens in a new tab)</a> if you're a non-NHSE organisation
 
 ### If you're using NHS Notify API
 
@@ -199,26 +164,11 @@ Your onboarding manager will ask for your:
 
 Your onboarding manager will ask for your PROD Mesh Mailbox ID.
 
-### Before you go live
+## Next step
 
-Once we’ve received your details, you’ll need to:
+Once you've completed all these tasks, you can check which NHS Notify features you'll need and register your interest.
 
-- [complete smoke testing]({% link pages/using-nhs-notify/complete-your-testing.md %}), with support from NHS Notify and your technical team
-- discuss your rollout or implementation plan with us
-
-We will:
-
-- check your SCAL and confirm all assurance is complete
-- set you up in the production environment
-- work with you to support your rollout or implementation plan
-- agree a go live date with you
-
-## 7. Go live
-
-On your go live date, you can start making requests via <a href="https://digital.nhs.uk/developer/api-catalogue/nhs-notify" target="_blank">NHS Notify API (opens in a new tab)</a> or <a href="https://digital.nhs.uk/developer/api-catalogue/nhs-notify-mesh" target="_blank">NHS Notify MESH (opens in a new tab)</a> to send messages with NHS Notify.
-
-### After you go live
-
-NHS Notify will set up a series of early service support calls with you to check your integration is performing as expected.
-
-If you need help after these calls, contact [support]({% link pages/support/support.md %}).
+{% include components/action-link.html
+    url='/get-started/read-and-understand-our-terms-of-service'
+    text='Check which features you can use and register'
+%}
