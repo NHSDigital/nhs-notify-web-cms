@@ -65,11 +65,15 @@ When you’ve read and understood these and received appropriate legal advice, y
 
 ## Acceptable use policy
 
-Needed at this stage?
+All End User Organisations using the NHS Notify service should read and abide by this NHS Notify acceptable use policy and the connection agreement acceptable use policy.
+
+[Read and understand our Acceptable use policy (opens in a new tab)](https://digital.nhs.uk/services/nhs-notify/acceptable-use-policy){:target="\_blank"}
 
 ## Privacy (transparency notice)
 
-Needed at this stage?
+All End User Organisations using the NHS Notify service should read and abide by our privacy (transparency) notice.
+
+[Read and understand our privacy policy (opens in a new tab)](https://digital.nhs.uk/services/nhs-notify/transparency-notice){:target="\_blank"}
 
 ## Next step
 

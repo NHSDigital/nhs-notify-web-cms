@@ -22,26 +22,49 @@ next_page:
   url: /get-started-2/read-and-understand-our-terms-of-service
 ---
 
-You can only use NHS Notify if your organisation or service sends:
+What you need before you start.
 
-- event-based messages
-- direct messages
-- messages that are part of a campaign
+## Organisation type and funding
 
-You must also:
+You must:
 
 - be funded, directly or indirectly, by the NHS or NHS England
 - have funding or a budget agreed for sending messages
+
+## Message types and content
+
+You must:
+
 - intend to only send communications to patients or other members of the public – NHS Notify cannot be used to message NHS staff
 - not use NHS Notify to send marketing communications
 - check if other organisations or teams within NHS are already sending messages about the same subject matter
-- have a way to get the NHS numbers of your recipients
-- have technical or developer support to build your integration with NHS Notify
 
 {% include components/inset-text.html
   text='If you intend to add links in NHS App messages, you must also onboard to NHS Login'
   classes='nhsuk-u-margin-top-2'
 %}
+
+## Commercial and data
+
+You must:
+
+- have a way to get the NHS numbers of your recipients
+- be prepared to sign a connection agreement as an NHS England organisation
+- be prepared to sign our Memorandum of Understanding and agree to our Payment terms
+
+## Technical preparation
+
+You must complete:
+
+- connection to MESH if you intend to use it for integration
+- all sandbox testing
+
+You must also have the right technical support available to build your integration with NHS Notify:
+
+- Tester
+- Clinical safety advisor
+- Technical advisor
+- Information governance or security advisor
 
 ## Next step
 
