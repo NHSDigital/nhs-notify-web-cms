@@ -10,6 +10,8 @@ permalink: /using-nhs-notify/upload-a-letter
 section: Writing a message
 ---
 
+Provide a Word version of your letter and we'll print and post it for you.
+
 Follow these steps to set up a new letter template.
 
 {% include components/inset-text.html
@@ -17,15 +19,15 @@ Follow these steps to set up a new letter template.
 %}
 
 1. Download a blank letter template. You must use one of these files to ensure your letter meets the required layout for print and post.
-2. Write your letter content within the blank template. Add any formatting and personalisation. Use single curly brackets for variables, for example {first_name}. Read our guidance on how to use personalisation for letters.
+2. Write your letter content within the blank template. Add any formatting and personalisation. Use single curly brackets for personalisation, for example {first_name}. Read our guidance on how to use [personalisation] for letters.
 3. Provide your final Word files to us by raising a Service Now request.
 4. We will provide a digital proof for you to approve.
 
-[details component] How to raise a ServiceNow request
+{% include components/details.html
+heading='How to raise a Service Now request for letter templates'
+text='To ensure your request reaches the NHS Notify team quickly, follow these steps:
 
-To ensure your request reaches the NHS Notify team quickly, follow these steps:
-
-Go to the ServiceNow portal.
+Go to the Service Now.
 
 Sign in with your NHS.net account, or register for a Portal account.
 
@@ -42,8 +44,8 @@ In the description field, include the date you need the messages to be live and 
 If you have not set up routing plans yet, include your template order, fallback times, and whether you need Braille, audio CD, or physical inserts.
 
 You can attach your Word (.docx) templates directly to the request.
-
-Upload a PDF of your letter and we'll print and post it for you.
+'
+%}
 
 Your PDF must meet our letter specification. The page size and layout is A4 portrait (210mm x 297mm).
 
