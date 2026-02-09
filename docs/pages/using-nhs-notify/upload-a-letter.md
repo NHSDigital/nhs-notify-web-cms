@@ -12,51 +12,35 @@ section: Writing a message
 
 Provide a Word version of your letter and we'll print and post it for you.
 
-Follow these steps to set up a new letter template.
-
 {% include components/inset-text.html
   text='You no longer need to convert your letter template files to PDF. You can provide your file in Microsoft Word format (.docx).'
 %}
 
-1. Download a blank letter template. You must use one of these files to ensure your letter meets the required layout for print and post.
-2. Write your letter content within the blank template. Add any formatting and personalisation. Use single curly brackets for personalisation, for example {first_name}. Read our guidance on how to use [personalisation] for letters.
-3. Provide your final Word files to us by raising a Service Now request.
-4. We will provide a digital proof for you to approve.
+1. [Download a blank Word letter template](#download-our-blank-letter-template).<!-- markdownlint-disable-line -->
+2. Write your letter content in the blank template.
+3. [Format your letter template](#formatting-your-letter-template). Add any personalisation.
+4. [Name your letter template](#naming-your-letter-template).
+5. Provide your final letter templates by submitting a <a href="https://nhsdigitallive.service-now.com/csm" target="_blank">Service Now request (opens in a new tab)</a>.
+6. We'll send you a digital proof for you to approve.
 
 {% include components/details.html
 heading='How to raise a Service Now request for letter templates'
 text='To ensure your request reaches the NHS Notify team quickly, follow these steps:
 
-Go to the Service Now.
+1. Go to <a href="https://nhsdigitallive.service-now.com/csm" target="_blank">Service Now (opens in a new tab)</a>.
+2. Sign in with your NHS.net account, or register for a Portal account.
+3. Select the <b>Submit a case</b> tile. In the <b>Categories</b> menu, select <b>Contact us</b>. Then select the <b>Contact us</b> tile.
+4. In the <b>Short description</b> field, include: NHS Notify, your service name, campaign and action. For example: NHS Notify - CSMS - normal results - new letter templates provided.
+5. In the <b>Description</b> field, include XYZ
+6. For the <b>service</b>, select NHS Notify from the drop-down list.
+7. For the <b>service offering</b>, select XYZ from the drop-down list.
+8. Attach your Word (.docx) letter templates directly to the request.
+   '
+   %}
 
-Sign in with your NHS.net account, or register for a Portal account.
+Your letter template must meet our letter specification. The page size and layout is A4 portrait (210mm x 297mm).
 
-Select the Submit a case tile, then select Contact us.
-
-In the short description field, enter: NHS Notify, your service name, campaign and action. For example: NHS Notify - CSMS - normal results - new templates provided.
-
-For the service, select NHS Notify from the drop-down list.
-
-For the service offering, select NHS Notify templates from the drop-down list.
-
-In the description field, include the date you need the messages to be live and your template names and IDs. If you are replacing an old template, include both the new and old IDs.
-
-If you have not set up routing plans yet, include your template order, fallback times, and whether you need Braille, audio CD, or physical inserts.
-
-You can attach your Word (.docx) templates directly to the request.
-'
-%}
-
-Your PDF must meet our letter specification. The page size and layout is A4 portrait (210mm x 297mm).
-
-You'll need to:
-
-1. [Download our blank Word letter template](#download-our-blank-letter-template).<!-- markdownlint-disable-line -->
-2. [Format your letter](#formatting-your-letter).
-3. [Convert your letter to a PDF](#converting-your-letter-to-a-pdf).
-4. Email your letter PDF to our onboarding team at <england.nhsnotifyonboarding@nhs.net>.
-
-## Download our blank letter template
+## Download a blank Word letter template
 
 Download the relevant blank letter template to set up your letter:
 
@@ -70,11 +54,11 @@ You'll need the desktop Microsoft Word app.
 
 Save the template then add your message content.
 
-## Formatting your letter
+## Formatting your letter template
 
 Do not change the page margins in the letter template. It has the correct layout for printing.
 
-Organise your message content using the styles in the template.
+Organise your letter content using the styles in the template.
 
 If you're copying and pasting text from another document, paste it without any formatting. Then [apply the styles](https://support.microsoft.com/en-gb/office/apply-styles-f8b96097-4d25-4fac-8200-6139c8093109) in the template.
 
@@ -236,19 +220,9 @@ The page count shows the current page number and the total number of pages. For 
 
 It updates automatically.
 
-## Converting your letter to a PDF
+### Naming your letter template
 
-When you've finished editing your template in Microsoft Word, you'll need to save it as a PDF.
-
-Before you start, check that your English message content is in the Noto Sans font and any message content in other languages is in the relevant language variant of the Noto Sans font.
-
-1. In the 'Review' tab, go to 'Markup'. Select 'No markup' from the drop-down list to hide any comments or tracked changes.
-2. Select 'File' and 'Save as'. Select 'PDF' from the drop-down list.
-3. For Windows, select 'Standard (publishing online and printing)' in the 'Optimize for' section. Then select 'Save'. For Mac, select 'Best for printing' in the 'File format' section. Then select 'Save'.
-
-### Naming your PDF
-
-Name your PDF template clearly so that it's easy to identify. Make sure you include the following details:
+Name your letter template clearly so that it's easy to identify. Make sure you include the following details:
 
 - organisation or service name
 - cohort or topic of your message
