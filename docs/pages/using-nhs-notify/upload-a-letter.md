@@ -18,23 +18,22 @@ Provide a Word version of your letter and we'll print and post it for you.
 
 1. [Download a blank Word letter template](#download-our-blank-letter-template).<!-- markdownlint-disable-line -->
 2. Write your letter content in the blank template.
-3. [Format your letter template](#formatting-your-letter-template). Add any personalisation.
+3. [Format your letter template](#formatting-your-letter-template). Add any [personalisation]({% link pages/using-nhs-notify/personalisation.md %}).
 4. [Name your letter template](#naming-your-letter-template).
-5. Provide your final letter templates by submitting a <a href="https://nhsdigitallive.service-now.com/csm" target="_blank">Service Now request (opens in a new tab)</a>.
-6. We'll send you a digital proof for you to approve.
+5. Provide your final letter templates by submitting a <a href="https://nhsdigitallive.service-now.com/csm" target="_blank">Service Now request (opens in a new tab)</a>. You can include multiple letter templates.
+6. We'll send you digital proofs so you can [approve your messages]({% link pages/using-nhs-notify/approve-your-messages.md %}).
 
 {% include components/details.html
 heading='How to raise a Service Now request for letter templates'
-text='To ensure your request reaches the NHS Notify team quickly, follow these steps:
+text='Follow these steps to ensure your request reaches the NHS Notify team:
 
 1. Go to <a href="https://nhsdigitallive.service-now.com/csm" target="_blank">Service Now (opens in a new tab)</a>.
 2. Sign in with your NHS.net account, or register for a Portal account.
 3. Select the <b>Submit a case</b> tile. In the <b>Categories</b> menu, select <b>Contact us</b>. Then select the <b>Contact us</b> tile.
-4. In the <b>Short description</b> field, include: NHS Notify, your service name, campaign and action. For example: NHS Notify - CSMS - normal results - new letter templates provided.
-5. In the <b>Description</b> field, include XYZ
-6. For the <b>service</b>, select NHS Notify from the drop-down list.
-7. For the <b>service offering</b>, select XYZ from the drop-down list.
-8. Attach your Word (.docx) letter templates directly to the request.
+4. In the <b>Description</b> field, include: NHS Notify, your organisation or service name, the cohort or topic of your message, language used (including English), accessible format or standard format used, message channel - letter, and version number. This should match the [name of your letter template](#naming-your-letter-template).
+5. For the <b>service</b>, select NHS Notify from the drop-down list.
+6. For the <b>service offering</b>, select XYZ from the drop-down list.
+7. Attach your Word (.docx) letter templates directly to the request.
    '
    %}
 

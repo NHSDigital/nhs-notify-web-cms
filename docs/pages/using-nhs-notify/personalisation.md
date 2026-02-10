@@ -21,14 +21,14 @@ text='Hello `((fullName))`, your NHS Number is `((nhsNumber))`. Your appointment
 classes='nhsuk-u-margin-top-2'
 %}
 
-Use single curly brackets to add personalisation to letter templates. For example:
+Use single curly brackets with `d.` at the start to add personalisation to letter templates. For example:
 
 {% include components/inset-text.html
-text='Hello `{fullName}`, your NHS Number is `{nhsNumber}`. Your appointment is on `{appointmentDate}` at `{gpSurgery}`.'
+text='Hello `{d.fullName}`, your NHS Number is `{d.nhsNumber}`. Your appointment is on `{d.appointmentDate}` at `{d.gpSurgery}`.'
 classes='nhsuk-u-margin-top-2'
 %}
 
-You can read personalisation instructions while you’re editing a template.
+You can read personalisation instructions while you’re editing NHS App message, email and text message templates.
 
 You can use [Personal Demographics Service (PDS) personalisation fields](#pds-personalisation-fields-automatic-data) and [custom personalisation fields](#custom-personalisation-fields-your-data) in the same template.
 
