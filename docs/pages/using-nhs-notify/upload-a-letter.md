@@ -10,18 +10,21 @@ permalink: /using-nhs-notify/upload-a-letter
 section: Writing a message
 ---
 
-Provide a Word version of your letter and we'll print and post it for you.
+Upload a Microsoft Word version of your letter and we'll print and post it for you.
 
 {% include components/inset-text.html
-  text='You no longer need to convert your letter template files to PDF. You can provide your file in Microsoft Word format (.docx).'
+  text='You do not need to convert your letter template files to PDF. You can upload your file in Microsoft Word format.'
 %}
 
-1. [Download a blank Word letter template](#download-our-blank-letter-template).<!-- markdownlint-disable-line -->
-2. Write your letter content in the blank template.
-3. [Format your letter template](#formatting-your-letter-template). Add any [personalisation]({% link pages/using-nhs-notify/personalisation.md %}).
-4. [Name your letter template](#naming-your-letter-template).
-5. Provide your final letter templates by submitting a <a href="https://nhsdigitallive.service-now.com/csm" target="_blank">Service Now request (opens in a new tab)</a>. You can include multiple letter templates.
-6. We'll send you digital proofs so you can [approve your messages]({% link pages/using-nhs-notify/approve-your-messages.md %}).
+1. [Download a blank Word letter template](#download-a-blank-word-letter-template).<!-- markdownlint-disable-line -->
+2. Add your letter content to the blank template.
+3. [Format your letter template](#formatting-your-letter-template).
+4. Add any [personalisation]({% link pages/using-nhs-notify/personalisation.md %}).
+5. [Name your letter template](#naming-your-letter-template).
+6. Upload your final letter template by submitting a <a href="https://nhsdigitallive.service-now.com/csm" target="_blank">Service Now request (opens in a new tab)</a>. You can include multiple letter templates.
+7. We'll send you digital proofs so you can [approve your messages]({% link pages/using-nhs-notify/approve-your-messages.md %}).
+
+Your letter template must meet our letter specification. The page size and layout is A4 portrait (210mm x 297mm).
 
 {% include components/details.html
 heading='How to raise a Service Now request for letter templates'
@@ -30,14 +33,12 @@ text='Follow these steps to ensure your request reaches the NHS Notify team:
 1. Go to <a href="https://nhsdigitallive.service-now.com/csm" target="_blank">Service Now (opens in a new tab)</a>.
 2. Sign in with your NHS.net account, or register for a Portal account.
 3. Select the <b>Submit a case</b> tile. In the <b>Categories</b> menu, select <b>Contact us</b>. Then select the <b>Contact us</b> tile.
-4. In the <b>Description</b> field, include: NHS Notify, your organisation or service name, the cohort or topic of your message, language used (including English), accessible format or standard format used, message channel - letter, and version number. This should match the [name of your letter template](#naming-your-letter-template).
-5. For the <b>service</b>, select NHS Notify from the drop-down list.
-6. For the <b>service offering</b>, select XYZ from the drop-down list.
-7. Attach your Word (.docx) letter templates directly to the request.
+4. In the <b>Description</b> field, include the same information as the [name of your letter template](#naming-your-letter-template).
+5. For the <b>service</b>, select <b>NHS Notify</b> from the drop-down list.
+6. For the <b>service offering</b>, select <b>NHS Notify - letter</b> from the drop-down list.
+7. Attach your Word letter templates directly to the request.
    '
    %}
-
-Your letter template must meet our letter specification. The page size and layout is A4 portrait (210mm x 297mm).
 
 ## Download a blank Word letter template
 
