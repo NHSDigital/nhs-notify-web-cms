@@ -28,7 +28,7 @@ text='Hello `{d.fullName}`, your NHS Number is `{d.nhsNumber}`. Your appointment
 classes='nhsuk-u-margin-top-2'
 %}
 
-You can read personalisation instructions while you’re editing NHS App message, email and text message templates.
+You can read personalisation instructions while you’re editing templates for NHS App messages, emails and text messages.
 
 You can use [Personal Demographics Service (PDS) personalisation fields](#pds-personalisation-fields-automatic-data) and [custom personalisation fields](#custom-personalisation-fields-your-data) in the same template.
 

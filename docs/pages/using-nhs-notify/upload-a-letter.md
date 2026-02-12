@@ -19,7 +19,7 @@ Upload a Microsoft Word version of your letter and we'll print and post it for y
 1. [Download a blank Word letter template](#download-a-blank-word-letter-template).<!-- markdownlint-disable-line -->
 2. Add your letter content to the blank template.
 3. [Format your letter template](#formatting-your-letter-template).
-4. Add any [personalisation]({% link pages/using-nhs-notify/personalisation.md %}).
+4. Add any personalisation fields by using single curly brackets with d. at the start. Find out more about [personalisation]({% link pages/using-nhs-notify/personalisation.md %}).
 5. [Name your letter template](#naming-your-letter-template).
 6. Upload your final letter template by submitting a <a href="https://nhsdigitallive.service-now.com/csm" target="_blank">Service Now request (opens in a new tab)</a>. You can include multiple letter templates.
 7. We'll send you digital proofs so you can [approve your messages]({% link pages/using-nhs-notify/approve-your-messages.md %}).
