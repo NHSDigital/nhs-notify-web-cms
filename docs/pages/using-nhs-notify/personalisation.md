@@ -14,14 +14,21 @@ section: Writing a message
 
 You can send personalised messages by adding personalisation fields to a single template.
 
-Use double brackets to add a personalisation field to your template. Do not include spaces in your personalisation fields. For example:
+Use double brackets to add personalisation to templates for NHS App messages, emails and text messages. Do not include spaces in your personalisation fields. For example:
 
 {% include components/inset-text.html
 text='Hello `((fullName))`, your NHS Number is `((nhsNumber))`. Your appointment is on `((appointmentDate))` at `((gpSurgery))`.'
 classes='nhsuk-u-margin-top-2'
 %}
 
-You can read personalisation instructions while you’re editing a template.
+Use single curly brackets with `d.` at the start to add personalisation to letter templates. For example:
+
+{% include components/inset-text.html
+text='Hello `{d.fullName}`, your NHS Number is `{d.nhsNumber}`. Your appointment is on `{d.appointmentDate}` at `{d.gpSurgery}`.'
+classes='nhsuk-u-margin-top-2'
+%}
+
+You can read personalisation instructions while you’re editing templates for NHS App messages, emails and text messages.
 
 You can use [Personal Demographics Service (PDS) personalisation fields](#pds-personalisation-fields-automatic-data) and [custom personalisation fields](#custom-personalisation-fields-your-data) in the same template.
 
