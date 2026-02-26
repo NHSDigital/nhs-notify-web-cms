@@ -7,6 +7,7 @@ title: Get started
 nav_order: 1
 has_children: true
 permalink: /get-started-new/
+published: false
 ---
 
 Before we can invite you to register your interest in using NHS Notify, you need to check:

@@ -22,7 +22,7 @@ previous_page:
 next_page:
   title: Check you are ready for integration
   url: /get-started-new/check-you-are-ready-for-integration
-  published: false
+published: false
 ---
 
 You must understand how long it might take to go live with NHS Notify so you can plan your integration.

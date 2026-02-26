@@ -20,7 +20,7 @@ previous_page:
 next_page:
   title: Read and understand our terms of service
   url: /get-started-new/read-and-understand-our-terms-of-service
-  published: false
+published: false
 ---
 
 What you need before you start.

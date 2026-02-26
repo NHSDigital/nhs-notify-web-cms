@@ -22,7 +22,7 @@ previous_page:
 next_page:
   title: Understand our onboarding timescales
   url: /get-started-new/understand-onboarding-timescales
-  published: false
+published: false
 ---
 
 You must read and understand all of our service terms and get a legal opinion before you continue.

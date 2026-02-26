@@ -22,7 +22,7 @@ previous_page:
 next_page:
   title: Check which features you need and register
   url: /get-started-new/check-which-features-you-need-and-register
-  published: false
+published: false
 ---
 
 ## 1. Prepare your integration
