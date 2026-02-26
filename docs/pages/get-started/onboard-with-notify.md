@@ -1,13 +1,13 @@
-# Feel free to add content and custom Front Matter to this file.
+# Feel free to add content and custom Front Matter to this file
 
-# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-
+## To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
+<!-- vale off -->
 layout: page
 title: Onboard with NHS Notify
 parent: Get started
 nav_order: 2
 permalink: /get-started/onboard-with-nhs-notify
-
+<!-- vale on -->
 ---
 
 Use this page to find out what you need to do step by step to onboard with NHS Notify.
