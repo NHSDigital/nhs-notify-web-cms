@@ -2,26 +2,27 @@
 layout: mini-hub
 title: Check you are ready for integration
 nav_order: 5
-permalink: /get-started/check-you-are-ready-for-integration
+permalink: /get-started-new/check-you-are-ready-for-integration
 mini_hub_topic: You must follow the steps to prepare for integration
 mini_hub_pages:
   - title: Check you can use NHS Notify
-    url: /get-started/check-you-can-use-nhs-notify
+    url: /get-started-new/check-you-can-use-nhs-notify
   - title: Read and understand our terms of service
-    url: /get-started/read-and-understand-our-terms-of-service
+    url: /get-started-new/read-and-understand-our-terms-of-service
   - title: Understand our onboarding timescales
-    url: /get-started/understand-onboarding-timescales
+    url: /get-started-new/understand-onboarding-timescales
   - title: Check you are ready for integration
     url:
     current: true
   - title: Check which features you need and register
-    url: /get-started/check-which-features-you-need-and-register
+    url: /get-started-new/check-which-features-you-need-and-register
 previous_page:
   title: Understand our onboarding timescales
-  url: /get-started/understand-onboarding-timescales
+  url: /get-started-new/understand-onboarding-timescales
 next_page:
   title: Check which features you need and register
-  url: /get-started/check-which-features-you-need-and-register
+  url: /get-started-new/check-which-features-you-need-and-register
+  published: false
 ---
 
 ## 1. Prepare your integration

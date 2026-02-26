@@ -2,24 +2,25 @@
 layout: mini-hub
 title: Check you can use NHS Notify
 nav_order: 2
-permalink: /get-started/check-you-can-use-nhs-notify
+permalink: /get-started-new/check-you-can-use-nhs-notify
 mini_hub_topic: How to get prepared and start using NHS Notify
 mini_hub_pages:
   - title: Check you can use NHS Notify
     url:
     current: true
   - title: Read and understand our terms of service
-    url: /get-started/read-and-understand-our-terms-of-service
+    url: /get-started-new/read-and-understand-our-terms-of-service
   - title: Understand our onboarding timescales
-    url: /get-started/understand-onboarding-timescales
+    url: /get-started-new/understand-onboarding-timescales
   - title: Check you are ready for integration
-    url: /get-started/check-you-are-ready-for-integration
+    url: /get-started-new/check-you-are-ready-for-integration
   - title: Check which features you need and register
-    url: /get-started/check-which-features-you-need-and-register
+    url: /get-started-new/check-which-features-you-need-and-register
 previous_page:
 next_page:
   title: Read and understand our terms of service
-  url: /get-started/read-and-understand-our-terms-of-service
+  url: /get-started-new/read-and-understand-our-terms-of-service
+  published: false
 ---
 
 What you need before you start.

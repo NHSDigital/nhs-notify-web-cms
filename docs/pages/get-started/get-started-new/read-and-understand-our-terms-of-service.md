@@ -2,26 +2,27 @@
 layout: mini-hub
 title: Read and understand our terms of service
 nav_order: 3
-permalink: /get-started/read-and-understand-our-terms-of-service
+permalink: /get-started-new/read-and-understand-our-terms-of-service
 mini_hub_topic: You must read and understand our terms of service before you register
 mini_hub_pages:
   - title: Check you can use NHS Notify
-    url: /get-started/check-you-can-use-nhs-notify
+    url: /get-started-new/check-you-can-use-nhs-notify
   - title: Read and understand our terms of service
     url:
     current: true
   - title: Understand our onboarding timescales
-    url: /get-started/understand-onboarding-timescales
+    url: /get-started-new/understand-onboarding-timescales
   - title: Check you are ready for integration
-    url: /get-started/check-you-are-ready-for-integration
+    url: /get-started-new/check-you-are-ready-for-integration
   - title: Check which features you need and register
-    url: /get-started/check-which-features-you-need-and-register
+    url: /get-started-new/check-which-features-you-need-and-register
 previous_page:
   title: Check you can use NHS Notify
-  url: /get-started/
+  url: /get-started-new
 next_page:
   title: Understand our onboarding timescales
-  url: /get-started/understand-onboarding-timescales
+  url: /get-started-new/understand-onboarding-timescales
+  published: false
 ---
 
 You must read and understand all of our service terms and get a legal opinion before you continue.
