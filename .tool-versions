@@ -12,7 +12,7 @@ python 3.13.2
 # TODO: Move this section - consider using a different file for the repository template dependencies.
 # docker/ghcr.io/anchore/grype v0.104.3@sha256:d340f4f8b3b7e6e72a6c9c0152f25402ed8a2d7375dba1dfce4e53115242feb6  # SEE: https://github.com/anchore/grype/pkgs/container/grype
 # docker/ghcr.io/anchore/syft v1.39.0@sha256:6f13bb010923c33fb197047c8f88888e77071bd32596b3f605d62a133e493ce4 # SEE: https://github.com/anchore/syft/pkgs/container/syft
-# docker/ghcr.io/gitleaks/gitleaks v8.24.0@sha256:2bcceac45179b3a91bff11a824d0fb9
+# docker/ghcr.io/gitleaks/gitleaks v8.24.0@sha256:2bcceac45179b3a91bff11a824d0fb952585b429e54fc928728b1d4d5c3e5176 # SEE: https://github.com/gitleaks/gitleaks/pkgs/container/gitleaks
 # docker/ghcr.io/igorshubovych/markdownlint-cli v0.37.0@sha256:fb3e79946fce78e1cde84d6798c6c2a55f2de11fc16606a40d49411e281d950d # SEE: https://github.com/igorshubovych/markdownlint-cli/pkgs/container/markdownlint-cli
 # docker/ghcr.io/make-ops-tools/gocloc latest@sha256:6888e62e9ae693c4ebcfed9f1d86c70fd083868acb8815fe44b561b9a73b5032 # SEE: https://github.com/make-ops-tools/gocloc/pkgs/container/gocloc
 # docker/ghcr.io/nhs-england-tools/github-runner-image 20230909-321fd1e-rt@sha256:ce4fd6035dc450a50d3cbafb4986d60e77cb49a71ab60a053bb1b9518139a646 # SEE: https://github.com/nhs-england-tools/github-runner-image/pkgs/container/github-runner-image
