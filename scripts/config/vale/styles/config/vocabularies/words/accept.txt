@@ -18,12 +18,11 @@ bundler
 endfor
 npm
 src
-url
 [iI]nset
 urlset
 [A-Z]+s
 Noto
-URL
+[Uu][Rr][Ll]
 ctrl
 pending_enrichment
 unnotified
