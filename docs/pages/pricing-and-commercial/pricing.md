@@ -22,7 +22,7 @@ Find out [how to pay]({% link pages/pricing-and-commercial/how-to-pay.md %}).
 
 ## Text messages (SMS)
 
-It costs 2.33 pence (plus VAT) for every text message you send.
+It costs 2.4 pence (plus VAT) for every text message you send.
 
 {% include components/action-link.html
     url='/pricing-and-commercial/text-messages'

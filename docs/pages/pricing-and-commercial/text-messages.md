@@ -10,7 +10,7 @@ permalink: /pricing-and-commercial/text-messages
 redirect_from: /pricing/text-messages
 ---
 
-It costs 2.33 pence (plus VAT) for each text message you send.
+It costs 2.4 pence (plus VAT) for each text message you send.
 
 You may pay more for each message if you:
 
