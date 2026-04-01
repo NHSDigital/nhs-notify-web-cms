@@ -33,7 +33,7 @@ module.exports = {
     standard: 'WCAG2AA',
     userAgent: 'pa11y-ci',
     concurrency: 8,
-    hideElements: 'a[href$=".pdf"]',
+    beforeScript: './.pa11y-before.js'
   },
   urls: getUrlsFromSiteMap()
 };;
