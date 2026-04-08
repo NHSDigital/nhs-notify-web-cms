@@ -1,0 +1,16 @@
+{
+  "name": "nhs-notify-web-cms",
+  "scripts": {
+    "build:container": "npm run build:container --workspaces --if-present",
+    "build:archive": "npm run build:archive --workspaces --if-present",
+    "generate-dependencies": "npm run generate-dependencies --workspaces --if-present",
+    "lint": "npm run lint --workspaces",
+    "lint:fix": "npm run lint:fix --workspaces",
+    "start": "npm run start --workspace frontend",
+    "test:unit": "npm run test:unit --workspaces",
+    "typecheck": "npm run typecheck --workspaces"
+  },
+  "workspaces": [
+    "containers/wagtail"
+  ]
+}
