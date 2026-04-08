@@ -93,9 +93,9 @@ In the form you'll be asked to:
 heading='Confirm your use case'
 text='You can only use NHS Notify if your organisation or service sends messages that are:
 
-- [part of a campaign](/using-nhs-notify/campaigns)
-- [triggered when something happens in your service](/using-nhs-notify/event-based-messaging)
-- [sent directly on a one-to-one basis](/using-nhs-notify/direct-messaging)
+- [part of a campaign](/about/campaigns)
+- [triggered when something happens in your service](/about/event-based-messaging)
+- [sent directly on a one-to-one basis](/about/direct-messaging)
   '
   %}
 
