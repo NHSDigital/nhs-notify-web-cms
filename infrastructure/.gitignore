@@ -1,8 +1,3 @@
-# Ignore the lock file as this is just an example
-.terraform.lock.hcl
-# Ignore Terraform plan
-*tfplan*
-
 # SEE: https://github.com/github/gitignore/blob/main/Terraform.gitignore
 
 # Local .terraform directories
@@ -35,6 +30,7 @@ override.tf.json
 
 # Include tfplan files to ignore the plan output of command: terraform plan -out=tfplan
 # example: *tfplan*
+*tfplan*
 
 # Ignore CLI configuration files
 .terraformrc

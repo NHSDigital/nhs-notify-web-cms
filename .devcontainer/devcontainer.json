@@ -1,7 +1,11 @@
 {
   "customizations": {
     "codespaces": {
-      "openFiles": ["README.md", ".github/SECURITY.md", "docs/pages/index.md"]
+      "openFiles": [
+        "README.md",
+        ".github/SECURITY.md",
+        "docs/pages/index.md"
+      ]
     },
     "vscode": {
       "extensions": [
@@ -55,8 +59,12 @@
       }
     }
   },
-  "forwardPorts": [4000],
+  "forwardPorts": [
+    4000
+  ],
   "image": "ghcr.io/nhsdigital/nhs-notify-template-repository:latest",
   "name": "Jekyll",
-  "runArgs": ["--platform=linux/amd64"]
+  "runArgs": [
+    "--platform=linux/amd64"
+  ]
 }

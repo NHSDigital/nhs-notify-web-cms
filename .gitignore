@@ -12,3 +12,13 @@ version.json
 
 # Please, add your custom content below!
 .reports
+# dependencies
+node_modules
+.node-version
+*/node_modules
+/.pnp
+.pnp.js
+/build
+dist
+.DS_Store
+.reports
