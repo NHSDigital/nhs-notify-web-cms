@@ -33,7 +33,7 @@ text='Follow these steps to ensure your request reaches the NHS Notify team:
 1. Go to <a href="https://nhsdigitallive.service-now.com/csm" target="_blank">Service Now (opens in a new tab)</a>.
 2. Sign in with your NHS.net account, or register for a Portal account.
 3. Select the <b>Submit a case</b> tile. In the <b>Categories</b> menu, select <b>Contact us</b>. Then select the <b>Contact us</b> tile.
-4. In the <b>Description</b> field, include the same information as the [name of your letter template](#naming-your-letter-template).
+4. In the <b>Description</b> field, include the email address you want the proofs sent to and the same information as the [name of your letter template](#naming-your-letter-template).
 5. For the <b>service</b>, select <b>NHS Notify</b> from the drop-down list.
 6. For the <b>service offering</b>, select <b>NHS Notify - letter</b> from the drop-down list.
 7. Attach your Word letter templates directly to the request.

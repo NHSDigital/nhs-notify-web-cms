@@ -89,13 +89,11 @@ Read more about <a href="https://digital.nhs.uk/developer/api-catalogue/nhs-noti
 '
 %}
 
-### Providing example personalisation data
+### Example personalisation data
 
-You must provide example data if you use custom personalisation. This means you can check how your templates will look during [proofing]({% link pages/using-nhs-notify/approve-your-messages.md %}), as the data in personalisation fields can affect message cost and length.
+After you [request a proof]({% link pages/using-nhs-notify/approve-your-messages.md %}), we'll include example data in the proof we email to you. This allows you to check how personalisation will be displayed in your message. The data in personalisation fields can affect message cost and length.
 
-You do not need to do this if you only use PDS fields in your template.
-
-Download and fill in the [example data file]({% link assets/personalisationexampledata/personalisation-blank-example-data-nhs-notify.csv %}). You can also download a [completed example file]({% link assets/personalisationexampledata/personalisation-completed-example-data-nhs-notify.csv %}) to check how to format your data.
+If you'd like to provide your own example data, reply to the email and attach an [example data file]({% link assets/personalisationexampledata/personalisation-blank-example-data-nhs-notify.csv %}) containing your example data. You can download a [completed example file]({% link assets/personalisationexampledata/personalisation-completed-example-data-nhs-notify.csv %}) to check how to format your data.
 
 For each personalisation field, provide short, medium and long examples. For example, if your personalisation field was `((gpSurgery))`, you could use the following example data:
 
