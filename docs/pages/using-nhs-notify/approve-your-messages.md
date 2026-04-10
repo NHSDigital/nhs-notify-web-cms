@@ -47,7 +47,7 @@ You can request proofs for one template or a group of templates in a campaign.
 
 We'll include example data in your proof to show you how [personalisation]({% link pages/using-nhs-notify/personalisation.md %}) will be displayed in your message.
 
-You can also choose to [provide your own example personalisation data]({% link pages/using-nhs-notify/personalisation.md %}).
+You can also choose to [provide your own example personalisation data](https://notify.nhs.uk/using-nhs-notify/personalisation#example-personalisation-data).
 
 ## How to approve or reject your proofs
 
