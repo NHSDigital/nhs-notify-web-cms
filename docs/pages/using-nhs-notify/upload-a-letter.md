@@ -75,6 +75,7 @@ Find out how to use:
 - [personalisation](#personalisation)
 - [headings](#headings)
 - [paragraphs and body text](#paragraphs-and-body-text)
+- [page breaks](#page-breaks)
 - [links and URLs](#links-and-urls)
 - [bullet points](#bullet-points)
 - [images](#images)
@@ -142,6 +143,10 @@ Use the style 'Normal' in the template for body text.
 Paragraphs can be split across 2 pages.
 
 If you do not want a paragraph to run over different pages, add a page break before the paragraph.
+
+## Page breaks
+
+Select 'Insert', 'Pages' then 'Page break' in Microsoft Word to add a page break.
 
 ## Links and URLs
 
