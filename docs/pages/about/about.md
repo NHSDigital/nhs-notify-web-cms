@@ -79,9 +79,9 @@ Once you’ve created a template you can:
 
 ### Plan how your messages will be sent
 
-Routing plans allow you to send messages to audiences more effectively and sometimes at lower costs.
+Message plans allow you to send messages to audiences more effectively and sometimes at lower costs.
 
-You can set up routing plans to:
+You can set up message plans to:
 
 - use certain templates for specific audiences
 - message a recipient with each channel in a specific order
@@ -89,8 +89,8 @@ You can set up routing plans to:
 - stop sending messages after a channel is successful
 
 {% include components/action-link.html
-    url='/using-nhs-notify/routing-plans'
-    text='More about routing plans'
+    url='/using-nhs-notify/message-plans'
+    text='More about message plans'
 %}
 
 ### Prevent sending people unnecessary messages

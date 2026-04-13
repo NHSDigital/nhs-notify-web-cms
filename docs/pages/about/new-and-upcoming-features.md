@@ -28,13 +28,13 @@ You can [contact us]({% link pages/support/support.md %}) if you:
 - Enabled users to create and manage their own message templates
 - Enabled multiple users to access the same service account so teams can manage work at the same time
 - Let users provide alternative contact details in approved circumstances
-- Introduced more choice for routing plan fallback timings (1 to 72 hours), giving users more flexibility to match message urgency
+- Introduced more choice for message plan fallback timings (1 to 72 hours), giving users more flexibility to match message urgency
 
 ## What we're working on now
 
 - Improving the speed of onboarding new users and providing clearer updates
 - Increasing capacity and reliability of letter printing by adding new print suppliers
-- Allowing users to manage their own routing plans from a list of standard options
+- Allowing users to manage their own message plans from a list of standard options
 - Improving letter template editing and proofing capabilities within the web interface
 - Alpha testing how secondary care providers can send message content from letters as digital messages using the NHS App
 
