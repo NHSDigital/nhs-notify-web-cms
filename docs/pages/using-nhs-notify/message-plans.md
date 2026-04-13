@@ -12,7 +12,7 @@ section: Sending a message
 
 Use message plans to tell us how to send messages to your recipients. You can choose which message channels to use and in what order.
 
-You can set up message plans yourself in your NHS Notify account. We no longer need to set these up for you.
+You'll soon be able to set up message plans yourself in your NHS Notify account. We'll no longer need to set these up for you.
 
 ## Choosing your message order
 
