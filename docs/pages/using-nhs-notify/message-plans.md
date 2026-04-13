@@ -3,39 +3,44 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: page
-title: Routing plans
+title: Message plans
 parent: Using NHS Notify
 nav_order: 4
-permalink: /using-nhs-notify/routing-plans
+permalink: /using-nhs-notify/message-plans
 section: Sending a message
 ---
 
-You'll need to create a routing plan to decide how messages will be sent to your recipients.
+Use message plans to tell us how to send messages to your recipients. You can choose which message channels to use and in what order.
 
-Setting up a routing plan can make your messages more effective and sometimes lower messaging costs.
+You can set up message plans yourself in your NHS Notify account. We no longer need to set these up for you.
 
-You can set up routing plans to:
+## Choosing your message order
 
-- [send messages in a cascade](#message-cascades)
-- use specific message templates for different groups of recipients
-- stop sending messages to a recipient when a channel is successful
+You can choose from a list of pre-defined message plans.
 
-## Routing plans and contact details from the Personal Demographics Service (PDS)
+For example: NHS App, email, text message, letter.
 
-NHS Notify checks for each recipient's contact details before we send any messages using a routing plan.
+How fallbacks work
+If we cannot deliver a message through your first choice, we automatically try the next channel in your message plan.
 
-This means that if we do not find a recipient's contact details for a message channel, we'll automatically skip that channel.
+A fallback happens if:
 
-We do not re-check for contact details each time there's a fallback in a routing plan.
+- the recipient does not have valid contact details for a channel
+- the message is not read or delivered within a certain amount of time
+- the message fails to send for a technical reason
 
-## Message cascades
+We'll stop sending messages once a chosen channel is successful.
 
-A message cascade allows you to message a recipient with different channels in the order you choose. You can set up primary and secondary message cascades in your routing plan.
+For example, you might try to send an NHS App message first. If the recipient reads the message within 24 hours, no further messages get sent. If the recipient does not read the first message within 24 hours, we'll then try to send an email.
 
-### Primary cascades
+## Linking your templates
 
-Use primary message cascades to send a message with a different channel as a fallback if a primary channel fails.
+You can choose specific templates for each channel in your message plan.
 
-### Secondary cascades
+## Contact details
 
-Use secondary message cascades to send a message with another channel at the same time as your primary channel. For example, sending a text message at the same time as an email. You cannot fall back to another channel with secondary cascades.
+We check the Personal Demographics Service (PDS) for each recipient's contact details before we start sending messages.
+
+If we do not have a contact detail for a specific channel, we'll skip that channel and move to the next one in your message plan.
+
+We only check for contact details once at the start. We do not re-check PDS each time there is a fallback.
