@@ -118,7 +118,7 @@ text='You’ll be asked if your organisation or service will:
 - use custom personalisation fields
 - have test data prepared for your custom personalisation fields
 
-The form will also ask for the routing plans that you want to use for your messages.
+The form will also ask for the message plans that you want to use for your messages.
 '
 %}
 
