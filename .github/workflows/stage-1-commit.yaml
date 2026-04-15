@@ -1,5 +1,8 @@
 name: "Commit stage"
 
+permissions:
+  contents: read
+
 on:
   workflow_call:
     inputs:
@@ -43,7 +46,7 @@ jobs:
         with:
           fetch-depth: 0 # Full history is needed to scan all commits
       - name: "Scan secrets"
-        uses: ./.github/actions/scan-secrets
+        uses: NHSDigital/nhs-notify-shared-modules/.github/actions/scan-secrets@3.0.9
   check-file-format:
     name: "Check file format"
     runs-on: ubuntu-latest
@@ -54,7 +57,7 @@ jobs:
         with:
           fetch-depth: 0 # Full history is needed to compare branches
       - name: "Check file format"
-        uses: ./.github/actions/check-file-format
+        uses: NHSDigital/nhs-notify-shared-modules/.github/actions/check-file-format@3.0.9
   check-markdown-format:
     name: "Check Markdown format"
     runs-on: ubuntu-latest
@@ -65,7 +68,7 @@ jobs:
         with:
           fetch-depth: 0 # Full history is needed to compare branches
       - name: "Check Markdown format"
-        uses: ./.github/actions/check-markdown-format
+        uses: NHSDigital/nhs-notify-shared-modules/.github/actions/check-markdown-format@3.0.9
   check-english-usage:
     name: "Check English usage"
     runs-on: ubuntu-latest
@@ -76,16 +79,16 @@ jobs:
         with:
           fetch-depth: 0 # Full history is needed to compare branches
       - name: "Check English usage"
-        uses: ./.github/actions/check-english-usage
-  lint-terraform:
-    name: "Lint Terraform"
-    runs-on: ubuntu-latest
-    timeout-minutes: 2
-    steps:
-      - name: "Checkout code"
-        uses: actions/checkout@v4
-      - name: "Lint Terraform"
-        uses: ./.github/actions/lint-terraform
+        uses: NHSDigital/nhs-notify-shared-modules/.github/actions/check-english-usage@3.0.9
+  # lint-terraform:
+  #   name: "Lint Terraform"
+  #   runs-on: ubuntu-latest
+  #   timeout-minutes: 2
+  #   steps:
+  #     - name: "Checkout code"
+  #       uses: actions/checkout@v4
+  #     - name: "Lint Terraform"
+  #       uses: NHSDigital/nhs-notify-shared-modules/.github/actions/lint-terraform@3.0.9
   count-lines-of-code:
     name: "Count lines of code"
     runs-on: ubuntu-latest
@@ -97,7 +100,7 @@ jobs:
       - name: "Checkout code"
         uses: actions/checkout@v4
       - name: "Count lines of code"
-        uses: ./.github/actions/create-lines-of-code-report
+        uses: NHSDigital/nhs-notify-shared-modules/.github/actions/create-lines-of-code-report@3.0.9
         with:
           build_datetime: "${{ inputs.build_datetime }}"
           build_timestamp: "${{ inputs.build_timestamp }}"
@@ -116,7 +119,7 @@ jobs:
       - name: "Checkout code"
         uses: actions/checkout@v4
       - name: "Scan dependencies"
-        uses: ./.github/actions/scan-dependencies
+        uses: NHSDigital/nhs-notify-shared-modules/.github/actions/scan-dependencies@3.0.9
         with:
           build_datetime: "${{ inputs.build_datetime }}"
           build_timestamp: "${{ inputs.build_timestamp }}"
