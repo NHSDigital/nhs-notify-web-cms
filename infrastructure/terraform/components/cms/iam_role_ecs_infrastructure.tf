@@ -46,13 +46,30 @@ resource "aws_iam_role_policy" "ecs_infrastructure_express_gateway_replica" {
         }
       },
       {
-        Sid    = "ELBOperations"
+        Sid    = "ELBCreateOperations"
         Effect = "Allow"
         Action = [
           "elasticloadbalancing:CreateListener",
           "elasticloadbalancing:CreateLoadBalancer",
           "elasticloadbalancing:CreateRule",
-          "elasticloadbalancing:CreateTargetGroup",
+          "elasticloadbalancing:CreateTargetGroup"
+        ]
+        Resource = [
+          "arn:aws:elasticloadbalancing:*:*:loadbalancer/app/*/*",
+          "arn:aws:elasticloadbalancing:*:*:listener/app/*/*/*",
+          "arn:aws:elasticloadbalancing:*:*:listener-rule/app/*/*/*/*",
+          "arn:aws:elasticloadbalancing:*:*:targetgroup/*/*"
+        ]
+        Condition = {
+          StringEquals = {
+            "aws:RequestTag/AmazonECSManaged" = "true"
+          }
+        }
+      },
+      {
+        Sid    = "ELBModifyDeleteOperations"
+        Effect = "Allow"
+        Action = [
           "elasticloadbalancing:ModifyListener",
           "elasticloadbalancing:ModifyRule",
           "elasticloadbalancing:AddListenerCertificates",
@@ -174,11 +191,23 @@ resource "aws_iam_role_policy" "ecs_infrastructure_express_gateway_replica" {
         }
       },
       {
-        Sid    = "CertificateOperations"
+        Sid    = "CertificateCreateOperations"
         Effect = "Allow"
         Action = [
           "acm:RequestCertificate",
-          "acm:AddTagsToCertificate",
+          "acm:AddTagsToCertificate"
+        ]
+        Resource = "arn:aws:acm:*:*:certificate/*"
+        Condition = {
+          StringEquals = {
+            "aws:RequestTag/AmazonECSManaged" = "true"
+          }
+        }
+      },
+      {
+        Sid    = "CertificateDeleteOperations"
+        Effect = "Allow"
+        Action = [
           "acm:DeleteCertificate",
           "acm:DescribeCertificate"
         ]
@@ -335,6 +364,7 @@ resource "aws_iam_role_policy" "ecs_infrastructure_express" {
           "ec2:DescribeVpcs",
           "ec2:CreateSecurityGroup",
           "ec2:DeleteSecurityGroup",
+          "ec2:DescribeAccountAttributes",
           "ec2:AuthorizeSecurityGroupIngress",
           "ec2:AuthorizeSecurityGroupEgress",
           "ec2:RevokeSecurityGroupIngress",
