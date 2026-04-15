@@ -1,0 +1,57 @@
+services:
+  # postgres:
+  #   image: postgres:16.6
+  #   container_name: wagtail-db
+  #   environment:
+  #     POSTGRES_DB: wagtail
+  #     POSTGRES_USER: wagtail
+  #     POSTGRES_PASSWORD: wagtail-dev-password
+  #   ports:
+  #     - "5432:5432"
+  #   volumes:
+  #     - postgres_data:/var/lib/postgresql/data
+  #   healthcheck:
+  #     test: ["CMD-SHELL", "pg_isready -U wagtail"]
+  #     interval: 10s
+  #     timeout: 5s
+  #     retries: 5
+
+  # redis:
+  #   image: redis:7-alpine
+  #   container_name: wagtail-redis
+  #   command: redis-server --requirepass redis-dev-password
+  #   ports:
+  #     - "6379:6379"
+  #   volumes:
+  #     - redis_data:/data
+  #   healthcheck:
+  #     test: ["CMD", "redis-cli", "-a", "redis-dev-password", "ping"]
+  #     interval: 10s
+  #     timeout: 3s
+  #     retries: 5
+
+  wagtail:
+    build:
+      context: .
+      dockerfile: docker/Dockerfile
+      args:
+        BASE_IMAGE: python:3.12-slim
+    container_name: wagtail-app
+    ports:
+      - "8080:8080"
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8080/health/"]
+      interval: 10s
+      timeout: 5s
+      retries: 3
+      start_period: 10s
+
+# volumes:
+#   postgres_data:
+#     driver: local
+#   redis_data:
+#     driver: local
+#   media_files:
+#     driver: local
+#   static_files:
+#     driver: local

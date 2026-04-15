@@ -1,0 +1,3 @@
+# Minimal Flask app for testing
+Flask>=3.0,<4.0
+gunicorn>=22.0,<23.0
