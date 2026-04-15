@@ -1,28 +1,25 @@
 ---
 layout: mini-hub
-title: Check you are ready for integration
-nav_order: 5
-permalink: /get-started-new/check-you-are-ready-for-integration
+title: Onboard with NHS Notify
+nav_order: 4
+permalink: /get-started/onboard-with-nhs-notify
 mini_hub_topic: You must follow the steps to prepare for integration
 mini_hub_pages:
   - title: Check you can use NHS Notify
-    url: /get-started-new/check-you-can-use-nhs-notify
+    url: /get-started/check-you-can-use-nhs-notify
   - title: Read and understand our terms of service
-    url: /get-started-new/read-and-understand-our-terms-of-service
-  - title: Understand our onboarding timescales
-    url: /get-started-new/understand-onboarding-timescales
-  - title: Check you are ready for integration
+    url: /get-started/read-and-understand-our-terms-of-service
+  - title: Register your interest
+    url: /get-started/register-your-interest
+  - title: Onboard with NHS Notify
     url:
     current: true
-  - title: Check which features you need and register
-    url: /get-started-new/check-which-features-you-need-and-register
 previous_page:
-  title: Understand our onboarding timescales
-  url: /get-started-new/understand-onboarding-timescales
+  title: Register your interest
+  url: /get-started/register-your-interest
 next_page:
-  title: Check which features you need and register
-  url: /get-started-new/check-which-features-you-need-and-register
-published: false
+
+published: true
 ---
 
 ## 1. Prepare your integration
@@ -118,7 +115,7 @@ text='You’ll be asked if your organisation or service will:
 - use custom personalisation fields
 - have test data prepared for your custom personalisation fields
 
-The form will also ask for the message plans that you want to use for your messages.
+The form will also ask for the routing plans that you want to use for your messages.
 '
 %}
 
@@ -179,7 +176,3 @@ Your onboarding manager will ask for your:
 ### If you’re using NHS Notify MESH
 
 Your onboarding manager will ask for your PROD Mesh Mailbox ID.
-
-## Next step
-
-Once you've completed all these tasks, you can check which NHS Notify features you'll need and register your interest.
