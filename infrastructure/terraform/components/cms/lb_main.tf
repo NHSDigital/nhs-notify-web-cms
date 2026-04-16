@@ -1,9 +1,9 @@
 resource "aws_lb" "main" {
-  name_prefix        = "cms-"
-  internal           = true
+  name               = local.csi
+  internal           = false
   load_balancer_type = "application"
 
-  subnets         = local.private_subnets
+  subnets         = local.public_subnets
   security_groups = [aws_security_group.alb.id]
 
   drop_invalid_header_fields = true

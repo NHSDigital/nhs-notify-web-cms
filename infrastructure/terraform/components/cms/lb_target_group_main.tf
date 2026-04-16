@@ -1,5 +1,5 @@
 resource "aws_lb_target_group" "main" {
-  name_prefix = "cms-"
+  name        = local.csi
   port        = 8080
   protocol    = "HTTP"
   target_type = "ip"
@@ -13,6 +13,12 @@ resource "aws_lb_target_group" "main" {
     timeout             = 5
     interval            = 30
     matcher             = "200"
+  }
+
+  stickiness {
+    type            = "lb_cookie"
+    cookie_duration = 86400  # 24 hours
+    enabled         = true
   }
 
   deregistration_delay = 30

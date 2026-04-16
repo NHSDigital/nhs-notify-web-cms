@@ -5,6 +5,8 @@ resource "aws_ecs_service" "main" {
   launch_type     = "FARGATE"
   desired_count   = var.ecs_min_capacity
 
+  enable_execute_command = true
+
   network_configuration {
     subnets          = local.private_subnets
     security_groups  = [aws_security_group.ecs_tasks.id]

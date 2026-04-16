@@ -68,6 +68,14 @@ resource "aws_ecs_task_definition" "main" {
         {
           name  = "CSRF_TRUSTED_ORIGINS"
           value = "https://${local.root_domain_name}"
+        },
+        {
+          name  = "WAGTAIL_SITE_HOSTNAME"
+          value = local.root_domain_name
+        },
+        {
+          name  = "WAGTAIL_SITE_PORT"
+          value = "443"
         }
       ]
 
@@ -81,7 +89,7 @@ resource "aws_ecs_task_definition" "main" {
           valueFrom = aws_ssm_parameter.redis_auth_token.arn
         },
         {
-          name      = "DJANGO_SECRET_KEY"
+          name      = "SECRET_KEY"
           valueFrom = aws_ssm_parameter.django_secret_key.arn
         }
       ]

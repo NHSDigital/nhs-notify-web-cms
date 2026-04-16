@@ -89,6 +89,16 @@ WSGI_APPLICATION = "cms.wsgi.application"
 # Database
 # https://docs.djangoproject.com/en/4.2/ref/settings/#databases
 
+# Construct DATABASE_URL from individual components if not provided
+# This allows password rotation via SSM parameter
+if "DATABASE_URL" not in os.environ and all(
+    key in os.environ for key in ["DATABASE_HOST", "DATABASE_PORT", "DATABASE_NAME", "DATABASE_USER", "DATABASE_PASSWORD"]
+):
+    os.environ["DATABASE_URL"] = (
+        f"postgres://{os.environ['DATABASE_USER']}:{os.environ['DATABASE_PASSWORD']}"
+        f"@{os.environ['DATABASE_HOST']}:{os.environ['DATABASE_PORT']}/{os.environ['DATABASE_NAME']}"
+    )
+
 DATABASES = {
     "default": dj_database_url.config(
         default="sqlite:///" + os.path.join(BASE_DIR, "db.sqlite3"),

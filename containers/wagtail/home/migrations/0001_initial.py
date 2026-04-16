@@ -1,6 +1,7 @@
 # Squashed migration - represents the complete initial state of the home app
 # Combines: 0001_initial, 0002_create_homepage, 0003_contentpage_sectionindexpage...
 
+import os
 from django.db import migrations, models
 import django.db.models.deletion
 import wagtail.fields
@@ -47,6 +48,9 @@ def create_homepage(apps, schema_editor):
     site = Site.objects.filter(is_default_site=True).first()
     if site:
         site.root_page = homepage
+        # Update hostname and port from environment variables
+        site.hostname = os.environ.get('WAGTAIL_SITE_HOSTNAME', 'localhost')
+        site.port = int(os.environ.get('WAGTAIL_SITE_PORT', '80'))
         site.save()
 
     # Handle locales if they exist (Wagtail 2.11+)
