@@ -57,4 +57,5 @@ EXPOSE 8080
 CMD set -xe; \
     python manage.py collectstatic --noinput; \
     python manage.py migrate --noinput; \
+    python manage.py setup_homepage; \
     gunicorn cms.wsgi:application --bind 0.0.0.0:8080 --workers 2 --timeout 60 --access-logfile - --error-logfile -

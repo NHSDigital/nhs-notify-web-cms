@@ -9,6 +9,7 @@ https://docs.djangoproject.com/en/4.2/ref/settings/
 """
 
 import os
+from urllib.parse import quote
 
 import dj_database_url
 
@@ -94,10 +95,14 @@ WSGI_APPLICATION = "cms.wsgi.application"
 if "DATABASE_URL" not in os.environ and all(
     key in os.environ for key in ["DATABASE_HOST", "DATABASE_PORT", "DATABASE_NAME", "DATABASE_USER", "DATABASE_PASSWORD"]
 ):
-    os.environ["DATABASE_URL"] = (
-        f"postgres://{os.environ['DATABASE_USER']}:{os.environ['DATABASE_PASSWORD']}"
-        f"@{os.environ['DATABASE_HOST']}:{os.environ['DATABASE_PORT']}/{os.environ['DATABASE_NAME']}"
-    )
+    # URL-encode username and password to handle special characters
+    user = quote(os.environ['DATABASE_USER'], safe='')
+    password = quote(os.environ['DATABASE_PASSWORD'], safe='')
+    host = os.environ['DATABASE_HOST']
+    port = os.environ['DATABASE_PORT']
+    name = os.environ['DATABASE_NAME']
+    
+    os.environ["DATABASE_URL"] = f"postgres://{user}:{password}@{host}:{port}/{name}"
 
 DATABASES = {
     "default": dj_database_url.config(

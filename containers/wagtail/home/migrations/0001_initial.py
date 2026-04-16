@@ -208,7 +208,4 @@ class Migration(migrations.Migration):
             },
             bases=('wagtailcore.page',),
         ),
-
-        # Create the homepage instance and set as site root
-        migrations.RunPython(create_homepage, remove_homepage),
     ]
