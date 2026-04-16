@@ -16,7 +16,7 @@
 
 - heading: Plan how your messages will be sent
   description: |
-    Set up routing plans to decide how your messages will be sent to recipients.
+    Set up message plans to decide how your messages will be sent to recipients.
   image: 3-plan-your-messages.svg
   image_alt: ""
   number: 3
