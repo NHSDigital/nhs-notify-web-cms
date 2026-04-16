@@ -136,13 +136,13 @@ variable "cache_snapshot_retention_limit" {
 variable "ecs_task_cpu" {
   type        = string
   description = "CPU units for ECS task (256, 512, 1024, 2048, 4096)"
-  default     = "512"
+  default     = "1024"
 }
 
 variable "ecs_task_memory" {
   type        = string
   description = "Memory for ECS task in MiB (512, 1024, 2048, 3072, 4096, 5120, 6144, 7168, 8192)"
-  default     = "1024"
+  default     = "2048"
 }
 
 variable "ecs_min_capacity" {

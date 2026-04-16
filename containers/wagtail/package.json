@@ -6,6 +6,7 @@
   "name": "nhs-notify-cms-wagtail",
   "private": true,
   "scripts": {
+    "build:container": "cd ../.. && make docker-build-and-push base_image=python:3.12-slim dir=containers/wagtail",
     "build:static": "mkdir -p static/dist && cp -r node_modules/nhsuk-frontend/dist/nhsuk/* static/dist/"
   },
   "version": "1.0.0"

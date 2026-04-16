@@ -18,11 +18,13 @@ docker-compose exec wagtail python manage.py createsuperuser
 ```
 
 To stop:
+
 ```bash
 docker-compose down
 ```
 
 To reset database (removes all data):
+
 ```bash
 docker-compose down -v
 ```
@@ -30,27 +32,31 @@ docker-compose down -v
 ## Features
 
 - **Wagtail 7.3+**: Latest stable Wagtail CMS
-- **Django 4.2+**: Modern Django framework
+- **Django 5.1**: Modern Django framework
 - **Markdown support**: Easy content editing with wagtail-markdown
-- **NHS.UK Frontend**: Official NHS design system (via CDN)
+- **NHS.UK Frontend 10.1.0**: Official NHS design system
 - **Custom NHS Notify branding**: Matching the Jekyll site styling
 - **Single command startup**: `docker-compose up --build`
+- **PostgreSQL 16**: Production database backend
+- **Gunicorn**: Production WSGI server
+- **Health checks**: `/health/` endpoint for monitoring
+- **Whitenoise**: Efficient static file serving
 
 ## Styling and Templates
 
 The CMS uses the official NHS.UK Frontend design system with custom NHS Notify branding:
 
 - **Base template**: [home/templates/base.html](home/templates/base.html)
-- **Custom CSS**: [static/css/nhsnotify.css](static/css/nhsnotify.css)
-- **NHS.UK Frontend**: Loaded from CDN (v10.1.0)
-- **Fonts**: Self-hosted Frutiger fonts in [static/fonts/](static/fonts/)
-- **Favicons**: NHS-branded icons in [static/favicons/](static/favicons/)
+- **NHS.UK Frontend**: Built via NPM during Docker build (v10.1.0)
+- **Static assets**: Generated in `static/dist/` from `node_modules`
 
 Templates include:
-- Side navigation for section pages
-- Breadcrumb navigation
+
+- NHS header with navigation
+- NEWS banner
+- NHS footer with links
+- Responsive NHS.UK grid layout
 - Child page listings for section index pages
-- Responsive layout matching the Jekyll site
 - **PostgreSQL**: Production database backend
 - **Gunicorn**: Production WSGI server
 - **Health checks**: `/health/` endpoint for ALB
@@ -63,82 +69,63 @@ Templates include:
 - `manage.py` - Django management script
 - `docker/` - Docker configuration
 - `docker-compose.yml` - Local development environment
-- `CONTENT_MIGRATION.md` - Guide for porting Jekyll content to Wagtail
+- `package.json` - NPM dependencies for NHS.UK Frontend
 
 ## Page Types
 
-The CMS includes three page types to mirror the Jekyll site structure:
+The CMS includes three page types:
 
 1. **HomePage** - Site root (only one allowed)
-   - Fields: introduction, body
+   - StreamField sections: hero, benefits, how_it_works, pricing, CTA
+   - Auto-created by migration
 
-2. **SectionIndexPage** - Container pages that list child pages (e.g., "Get Started", "Pricing")
-   - Fields: introduction, body, show_children
-   - Automatically displays child pages if enabled
+2. **SectionIndexPage** - Container pages that list child pages
+   - Fields: introduction (markdown), body (markdown)
+   - Automatically displays child pages
+   - Can be nested
 
 3. **ContentPage** - Standard content pages
-   - Fields: introduction, body, show_in_navigation
-   - Can be nested under other pages
+   - Fields: introduction (markdown), body (markdown)
+   - Cannot have children
 
 ## Migrating Content from Jekyll
 
 The Jekyll site content is in the `docs/` directory. To migrate it to Wagtail:
 
-1. Read [CONTENT_MIGRATION.md](CONTENT_MIGRATION.md) for detailed instructions
-2. Start with key pages (Home, Get Started, Pricing)
-3. Create pages through the Wagtail admin at http://localhost:8080/admin/
-4. Copy content from Jekyll markdown files, converting as needed
+1. Create pages through the Wagtail admin at http://localhost:8080/admin/
+2. Start with key section pages (About, Get Started, Pricing, Using NHS Notify, Support)
+3. Copy markdown content from `tmp/` folder files
+4. Use the markdown editor to paste content directly
 
 For the PoC, manual migration through the admin is recommended. A bulk import tool can be added later.
 
-## Features
-
-- **Wagtail 6.3**: Latest stable Wagtail CMS
-- **Django 5.0**: Modern Django framework
-- **PostgreSQL**: Production database backend
-- **Redis**: Caching and session storage
-- **S3 Storage**: Media files stored in AWS S3
-- **Gunicorn**: Production WSGI server
-- **Health checks**: `/health/` endpoint for ALB
-- **Prometheus metrics**: `/metrics` endpoint for monitoring
-- **Security hardened**: CSP, HSTS, secure cookies
-
 ## Environment Variables
 
-The container expects these environment variables (provided by ECS):
+The container expects these environment variables:
 
 ### Django Settings
-- `DJANGO_SECRET_KEY`: Django secret key (from SSM Parameter Store)
-- `DJANGO_SETTINGS_MODULE`: `config.settings.production` (default)
-- `ALLOWED_HOSTS`: Comma-separated list of allowed hostnames
+
+- `DJANGO_SECRET_KEY`: Django secret key (generate with `python -c "from django.core.management.utils import get_random_secret_key; print(get_random_secret_key())"`)
+- `DJANGO_SETTINGS_MODULE`: `cms.settings.production` (default)
 - `DEBUG`: Set to `false` in production
 
 ### Database
-- `DATABASE_HOST`: RDS PostgreSQL endpoint
+
+- `DATABASE_HOST`: PostgreSQL endpoint
 - `DATABASE_PORT`: Database port (default: `5432`)
 - `DATABASE_NAME`: Database name (default: `wagtail`)
 - `DATABASE_USER`: Database username
-- `DATABASE_PASSWORD`: Database password (from SSM Parameter Store)
-- `DATABASE_SSLMODE`: SSL mode for database connection (default: `prefer`)
-
-### Redis Cache
-- `REDIS_HOST`: ElastiCache Redis endpoint
-- `REDIS_PORT`: Redis port (default: `6379`)
-- `REDIS_AUTH_TOKEN`: Redis authentication token (from SSM Parameter Store)
-- `REDIS_SSL`: Enable SSL for Redis (default: `true`)
-
-### S3 Storage
-- `AWS_STORAGE_BUCKET_NAME`: S3 bucket for media files
-- `AWS_S3_REGION_NAME`: AWS region (default: `eu-west-2`)
+- `DATABASE_PASSWORD`: Database password
 
 ### Wagtail
+
 - `WAGTAILADMIN_BASE_URL`: Full URL to the Wagtail admin (e.g., `https://cms.example.com`)
 
 ## Local Development
 
 ### Using Docker Compose (Recommended)
 
-1. **Start all services** (PostgreSQL, Redis, Wagtail):
+1. **Start all services** (PostgreSQL and Wagtail):
    ```bash
    docker-compose up -d
    ```

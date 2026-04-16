@@ -23,7 +23,7 @@ resource "aws_ecs_task_definition" "main" {
       environment = [
         {
           name  = "DJANGO_SETTINGS_MODULE"
-          value = "config.settings.production"
+          value = "cms.settings.production"
         },
         {
           name  = "DATABASE_HOST"
@@ -63,7 +63,11 @@ resource "aws_ecs_task_definition" "main" {
         },
         {
           name  = "ALLOWED_HOSTS"
-          value = local.root_domain_name
+          value = "${local.root_domain_name},*"
+        },
+        {
+          name  = "CSRF_TRUSTED_ORIGINS"
+          value = "https://${local.root_domain_name}"
         }
       ]
 

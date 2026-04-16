@@ -20,5 +20,8 @@ WAGTAIL_REDIRECTS_FILE_STORAGE = "cache"
 # Force HTTPS redirect
 SECURE_SSL_REDIRECT = True
 
+# Exempt health check from HTTPS redirect (ALB uses HTTP for health checks)
+SECURE_REDIRECT_EXEMPT = [r"^health/$"]
+
 SECURE_CONTENT_TYPE_NOSNIFF = True
 SECURE_REFERRER_POLICY = "no-referrer-when-downgrade"

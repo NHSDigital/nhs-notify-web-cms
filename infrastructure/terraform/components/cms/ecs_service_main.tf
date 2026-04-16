@@ -1,5 +1,5 @@
 resource "aws_ecs_service" "main" {
-  name            = "${local.csi}-s"
+  name            = "${local.csi}-a"
   cluster         = aws_ecs_cluster.main.id
   task_definition = aws_ecs_task_definition.main.arn
   launch_type     = "FARGATE"
