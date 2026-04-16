@@ -1,23 +1,95 @@
 # NHS Notify Wagtail CMS Container
 
-Production-ready Wagtail CMS container for NHS Notify.
+Minimal Wagtail CMS PoC for NHS Notify.
 
 ## Quick Start
 
 ```bash
-# Start all services (PostgreSQL, Redis, Wagtail)
-make up
+# Start all services (PostgreSQL and Wagtail)
+docker-compose up
 
-# Create a superuser account
-make superuser
+# In another terminal, create a superuser account
+docker-compose exec wagtail python manage.py createsuperuser
 
-# View logs
-make logs
-
-# Access at http://localhost:8080
+# Access at:
+# - Site: http://localhost:8080
+# - Admin: http://localhost:8080/admin/
+# - Health check: http://localhost:8080/health/
 ```
 
-For all available commands: `make help`
+To stop:
+```bash
+docker-compose down
+```
+
+To reset database (removes all data):
+```bash
+docker-compose down -v
+```
+
+## Features
+
+- **Wagtail 7.3+**: Latest stable Wagtail CMS
+- **Django 4.2+**: Modern Django framework
+- **Markdown support**: Easy content editing with wagtail-markdown
+- **NHS.UK Frontend**: Official NHS design system (via CDN)
+- **Custom NHS Notify branding**: Matching the Jekyll site styling
+- **Single command startup**: `docker-compose up --build`
+
+## Styling and Templates
+
+The CMS uses the official NHS.UK Frontend design system with custom NHS Notify branding:
+
+- **Base template**: [home/templates/base.html](home/templates/base.html)
+- **Custom CSS**: [static/css/nhsnotify.css](static/css/nhsnotify.css)
+- **NHS.UK Frontend**: Loaded from CDN (v10.1.0)
+- **Fonts**: Self-hosted Frutiger fonts in [static/fonts/](static/fonts/)
+- **Favicons**: NHS-branded icons in [static/favicons/](static/favicons/)
+
+Templates include:
+- Side navigation for section pages
+- Breadcrumb navigation
+- Child page listings for section index pages
+- Responsive layout matching the Jekyll site
+- **PostgreSQL**: Production database backend
+- **Gunicorn**: Production WSGI server
+- **Health checks**: `/health/` endpoint for ALB
+- **Whitenoise**: Efficient static file serving
+
+## Project Structure
+
+- `cms/` - Django project configuration and settings
+- `home/` - Wagtail app with page models (HomePage, SectionIndexPage, ContentPage)
+- `manage.py` - Django management script
+- `docker/` - Docker configuration
+- `docker-compose.yml` - Local development environment
+- `CONTENT_MIGRATION.md` - Guide for porting Jekyll content to Wagtail
+
+## Page Types
+
+The CMS includes three page types to mirror the Jekyll site structure:
+
+1. **HomePage** - Site root (only one allowed)
+   - Fields: introduction, body
+
+2. **SectionIndexPage** - Container pages that list child pages (e.g., "Get Started", "Pricing")
+   - Fields: introduction, body, show_children
+   - Automatically displays child pages if enabled
+
+3. **ContentPage** - Standard content pages
+   - Fields: introduction, body, show_in_navigation
+   - Can be nested under other pages
+
+## Migrating Content from Jekyll
+
+The Jekyll site content is in the `docs/` directory. To migrate it to Wagtail:
+
+1. Read [CONTENT_MIGRATION.md](CONTENT_MIGRATION.md) for detailed instructions
+2. Start with key pages (Home, Get Started, Pricing)
+3. Create pages through the Wagtail admin at http://localhost:8080/admin/
+4. Copy content from Jekyll markdown files, converting as needed
+
+For the PoC, manual migration through the admin is recommended. A bulk import tool can be added later.
 
 ## Features
 

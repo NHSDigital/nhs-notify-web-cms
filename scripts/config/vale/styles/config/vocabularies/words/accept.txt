@@ -1,6 +1,5 @@
 :
 APIM
-[A-Z]+s
 Bitwarden
 bot
 bundler

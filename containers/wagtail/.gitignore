@@ -15,7 +15,6 @@ db.sqlite3
 db.sqlite3-journal
 /media
 /staticfiles
-/static
 
 # Local development
 .vscode/
@@ -24,6 +23,9 @@ db.sqlite3-journal
 *.swo
 *~
 .DS_Store
+tmp/
 
-# Docker
-.dockerignore
+# Node.js
+node_modules/
+static/dist/
+static/nhsuk/

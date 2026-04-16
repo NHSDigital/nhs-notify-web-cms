@@ -1,3 +1,8 @@
-# Minimal Flask app for testing
-Flask>=3.0,<4.0
-gunicorn>=22.0,<23.0
+# Django and Wagtail CMS
+django>=4.2,<5.2
+wagtail>=7.3,<7.4
+wagtail-markdown>=0.10
+dj-database-url
+psycopg[binary]
+whitenoise
+gunicorn==23.0.0
