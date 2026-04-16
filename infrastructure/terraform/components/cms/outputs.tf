@@ -1,15 +1,15 @@
 ##
-# ECS Express Gateway Service Outputs
+# ECS Outputs
 ##
 
 output "ecs_service_arn" {
-  description = "ARN of the ECS Express Gateway Service"
-  value       = aws_ecs_express_gateway_service.main.service_arn
+  description = "ARN of the ECS Service"
+  value       = aws_ecs_service.main.id
 }
 
 output "ecs_service_name" {
-  description = "Name of the ECS Express Gateway Service"
-  value       = aws_ecs_express_gateway_service.main.service_name
+  description = "Name of the ECS Service"
+  value       = aws_ecs_service.main.name
 }
 
 output "ecs_cluster_name" {
@@ -17,12 +17,14 @@ output "ecs_cluster_name" {
   value       = aws_ecs_cluster.main.name
 }
 
-output "ecs_ingress_endpoints" {
-  description = "Ingress endpoint URLs from the ECS Express Gateway Service"
-  value = {
-    for path in aws_ecs_express_gateway_service.main.ingress_paths :
-    path.access_type => path.endpoint
-  }
+output "alb_dns_name" {
+  description = "DNS name of the Application Load Balancer"
+  value       = aws_lb.main.dns_name
+}
+
+output "service_url" {
+  description = "Service URL"
+  value       = "https://${local.root_domain_name}"
 }
 
 ##

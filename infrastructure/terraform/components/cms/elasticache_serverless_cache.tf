@@ -29,7 +29,7 @@ resource "aws_elasticache_serverless_cache" "main" {
       Name = "${local.csi}-valkey-serverless"
     }
   )
-} 
+}
 
 # Create Valkey user for authentication
 resource "aws_elasticache_user" "main" {

@@ -3,7 +3,7 @@ resource "aws_route53_record" "main" {
   name    = local.root_domain_name
   type    = "CNAME"
   ttl     = 300
-  records = [aws_ecs_express_gateway_service.main.ingress_paths[0].endpoint]
+  records = [aws_lb.main.dns_name]
 
-  depends_on = [aws_ecs_express_gateway_service.main]
+  depends_on = [aws_lb.main]
 }

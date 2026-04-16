@@ -1,6 +1,6 @@
 resource "random_password" "django_secret_key" {
-  length           = 50
-  special          = true
+  length  = 50
+  special = true
 
   # Django secret key has stricter requirements
   override_special = "!@#$%^&*()-_=+[]{}|;:,.<>?"
