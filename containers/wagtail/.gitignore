@@ -1,0 +1,31 @@
+# Local environment
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.pyc
+
+# Django
+*.log
+db.sqlite3
+db.sqlite3-journal
+/media
+/staticfiles
+
+# Local development
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+tmp/
+
+# Node.js
+node_modules/
+static/dist/
+static/nhsuk/

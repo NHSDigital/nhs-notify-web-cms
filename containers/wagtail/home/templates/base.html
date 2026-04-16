@@ -1,0 +1,110 @@
+{% load static wagtailcore_tags %}
+<!DOCTYPE html>
+<html lang="en" class="nhsuk-template-app">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <meta name="description" content="NHS Notify - Digital messaging platform for the NHS">
+
+    <title>{% block title %}{{ page.title }} - NHS Notify{% endblock %}</title>
+
+    <!-- NHS.UK Frontend CSS -->
+    <link rel="stylesheet" href="{% static 'dist/nhsuk-frontend.min.css' %}">
+
+    {% block extra_css %}{% endblock %}
+</head>
+
+<body>
+    <a class="nhsuk-skip-link" href="#maincontent">Skip to main content</a>
+
+    <!-- Header -->
+    <header class="nhsuk-header" role="banner" data-module="nhsuk-header">
+        <div class="nhsuk-header__container nhsuk-width-container">
+            <div class="nhsuk-header__service">
+                <a class="nhsuk-header__service-logo" href="/" aria-label="NHS Notify homepage">
+                    <svg class="nhsuk-header__logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 80" height="40" width="100" focusable="false" role="img" aria-label="NHS">
+                        <title>NHS</title>
+                        <path fill="currentcolor" d="M200 0v80H0V0h200Zm-27.5 5.5c-14.5 0-29 5-29 22 0 10.2 7.7 13.5 14.7 16.3l.7.3c5.4 2 10.1 3.9 10.1 8.4 0 6.5-8.5 7.5-14 7.5s-12.5-1.5-16-3.5L135 70c5.5 2 13.5 3.5 20 3.5 15.5 0 32-4.5 32-22.5 0-19.5-25.5-16.5-25.5-25.5 0-5.5 5.5-6.5 12.5-6.5a35 35 0 0 1 14.5 3l4-13.5c-4.5-2-12-3-20-3Zm-131 2h-22l-14 65H22l9-45h.5l13.5 45h21.5l14-65H64l-9 45h-.5l-13-45Zm63 0h-18l-13 65h17l6-28H117l-5.5 28H129l13.5-65H125L119.5 32h-20l5-24.5Z"/>
+                    </svg>
+                    <span class="nhsuk-header__service-name">Notify</span>
+                </a>
+            </div>
+        </div>
+        {% load wagtailcore_tags %}
+        <nav class="nhsuk-header__navigation" aria-label="Primary navigation">
+            <div class="nhsuk-width-container">
+                <ul class="nhsuk-header__navigation-list">
+                    {% for child in self.get_site.root_page.get_children.live.in_menu %}
+                    <li class="nhsuk-header__navigation-item{% if child == self or child in self.get_ancestors %} nhsuk-header__navigation-item--current{% endif %}">
+                        <a class="nhsuk-header__navigation-link" href="{% pageurl child %}">
+                            {{ child.title }}
+                        </a>
+                    </li>
+                    {% endfor %}
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <div class="nhsuk-phase-banner">
+        <div class="nhsuk-width-container">
+            <div class="nhsuk-phase-banner__content">
+                <strong class="nhsuk-tag">NEWS</strong>
+                <span class="nhsuk-phase-banner__text">NHS announces move to digital-first messaging.
+                    <a class="nhsuk-link" href="/using-nhs-notify/nhs-digital-first-strategy">Send messages with the NHS App first using NHS Notify</a>.
+                </span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main content -->
+    <div class="nhsuk-width-container">
+        {% block breadcrumbs %}{% endblock %}
+
+        <main class="nhsuk-main-wrapper" id="maincontent" role="main">
+            {% block content %}{% endblock %}
+        </main>
+    </div>
+
+    <!-- Footer -->
+    <footer class="nhsuk-footer" role="contentinfo">
+        <div class="nhsuk-width-container">
+            <div class="nhsuk-footer__meta">
+                <h2 class="nhsuk-u-visually-hidden">Support links</h2>
+                <ul class="nhsuk-footer__list">
+                    <li class="nhsuk-footer__list-item">
+                        <a class="nhsuk-footer__list-item-link" href="/accessibility/">Accessibility statement</a>
+                    </li>
+                    <li class="nhsuk-footer__list-item">
+                        <a class="nhsuk-footer__list-item-link" href="/security/">Security</a>
+                    </li>
+                    <li class="nhsuk-footer__list-item">
+                        <a class="nhsuk-footer__list-item-link" href="https://digital.nhs.uk/services/nhs-notify/acceptable-use-policy" target="_blank">Acceptable use policy</a>
+                    </li>
+                    <li class="nhsuk-footer__list-item">
+                        <a class="nhsuk-footer__list-item-link" href="https://digital.nhs.uk/services/nhs-notify/transparency-notice" target="_blank">Privacy</a>
+                    </li>
+                    <li class="nhsuk-footer__list-item">
+                        <a class="nhsuk-footer__list-item-link" href="https://digital.nhs.uk/services/nhs-notify/terms-and-conditions" target="_blank">Terms and conditions</a>
+                    </li>
+                    <li class="nhsuk-footer__list-item">
+                        <a class="nhsuk-footer__list-item-link" href="/cookies/">Cookies</a>
+                    </li>
+                    <li class="nhsuk-footer__list-item">
+                        <a class="nhsuk-footer__list-item-link" href="/sitemap/">Sitemap</a>
+                    </li>
+                </ul>
+                <p class="nhsuk-body-s">&copy; NHS England</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- NHS.UK Frontend JavaScript -->
+    <script src="{% static 'dist/nhsuk-frontend.min.js' %}"></script>
+    <script>
+        window.nhsuk.initAll();
+    </script>
+
+    {% block extra_js %}{% endblock %}
+</body>
+</html>

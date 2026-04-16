@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+{% load wagtailmarkdown wagtailcore_tags %}
+
+{% block content %}
+    <div class="nhsuk-grid-row">
+        <div class="nhsuk-grid-column-two-thirds">
+            <h1>{{ page.title }}</h1>
+
+            {% if page.introduction %}
+                <div class="nhsuk-lede-text">{{ page.introduction|markdown }}</div>
+            {% endif %}
+
+            {% if page.body %}
+                <div class="nhsuk-body">
+                    {{ page.body|richtext }}
+                </div>
+            {% endif %}
+        </div>
+    </div>
+{% endblock %}

@@ -1,0 +1,34 @@
+{% extends "base.html" %}
+{% load wagtailmarkdown wagtailcore_tags %}
+
+{% block content %}
+    <div class="nhsuk-grid-row">
+        <div class="nhsuk-grid-column-two-thirds">
+            <h1>{{ page.title }}</h1>
+
+            {% if page.introduction %}
+                <div class="nhsuk-lede-text">{{ page.introduction|markdown }}</div>
+            {% endif %}
+
+            {% if page.body %}
+                <div class="nhsuk-body">
+                    {{ page.body|markdown }}
+                </div>
+            {% endif %}
+
+            <!-- Child Pages -->
+            {% with children=page.get_children.live %}
+                {% if children %}
+                    <h2>In this section</h2>
+                    <ul class="nhsuk-list">
+                        {% for child in children %}
+                            <li>
+                                <a href="{% pageurl child %}">{{ child.title }}</a>
+                            </li>
+                        {% endfor %}
+                    </ul>
+                {% endif %}
+            {% endwith %}
+        </div>
+    </div>
+{% endblock %}

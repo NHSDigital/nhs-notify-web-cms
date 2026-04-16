@@ -52,6 +52,7 @@ function docker-build() {
   for version in $(_get-all-effective-versions) latest; do
     docker tag "${DOCKER_IMAGE}:$(_get-effective-version)" "${DOCKER_IMAGE}:${version}"
   done
+
   docker rmi --force "$(docker images | grep "<none>" | awk '{print $3}')" 2> /dev/null ||:
 }
 
@@ -300,4 +301,139 @@ function _get-git-branch-name() {
   fi
 
   echo "$branch_name"
+}
+
+# ==============================================================================
+# NHS Notify Project-Specific Functions - Container Support
+
+# Get git-based version suffix for containers.
+# Returns either "release-<semver>-<shortsha>" for tagged commits
+# or "sha-<shortsha>" for untagged commits.
+function docker-get-git-version-suffix() {
+
+  local short_sha=$(git rev-parse --short HEAD)
+  local git_tag=$(git describe --tags --exact-match 2>/dev/null || true)
+
+  if [ -n "$git_tag" ]; then
+    local release_version="${git_tag#v}"
+    echo "release-${release_version}-${short_sha}"
+  else
+    echo "sha-${short_sha}"
+  fi
+}
+
+# Authenticate Docker with AWS ECR.
+# Arguments (provided as environment variables):
+#   AWS_ACCOUNT_ID=[AWS account ID]
+#   AWS_REGION=[AWS region, e.g., eu-west-2]
+function docker-ecr-login() {
+
+  if [ -z "${AWS_ACCOUNT_ID:-}" ]; then
+    echo "Error: AWS_ACCOUNT_ID environment variable is required" >&2
+    return 1
+  fi
+
+  if [ -z "${AWS_REGION:-}" ]; then
+    echo "Error: AWS_REGION environment variable is required" >&2
+    return 1
+  fi
+
+  echo "Authenticating Docker with ECR..."
+  aws ecr get-login-password --region "${AWS_REGION}" | \
+    docker login --username AWS --password-stdin \
+    "${AWS_ACCOUNT_ID}.dkr.ecr.${AWS_REGION}.amazonaws.com"
+}
+
+# Authenticate Docker with GitHub Container Registry.
+# Arguments (provided as environment variables):
+#   GITHUB_TOKEN=[GitHub personal access token with packages:read/write scope]
+function docker-ghcr-login() {
+
+  if [ -z "${GITHUB_TOKEN:-}" ]; then
+    echo "Error: GITHUB_TOKEN environment variable is required" >&2
+    return 1
+  fi
+
+  echo "Authenticating Docker with GitHub Container Registry..."
+  echo "${GITHUB_TOKEN}" | docker login ghcr.io --username "$(git config user.name)" --password-stdin
+}
+
+# Build container image.
+# Arguments (provided as environment variables):
+#   BASE_IMAGE=[base Docker image, e.g., node:22-alpine]
+#   dir=[path to container directory, default is '.']
+#   DOCKER_IMAGE=[full ECR image URI with tag]
+# Prerequisites:
+#   - Container directory must have build.sh script
+#   - Container directory must have docker/lambda/Dockerfile
+function docker-build-container() {
+
+  local dir=${dir:-$PWD}
+
+  if [ -z "${BASE_IMAGE:-}" ]; then
+    echo "Error: BASE_IMAGE environment variable is required" >&2
+    return 1
+  fi
+
+  if [ ! -f "${dir}/build.sh" ]; then
+    echo "Error: build.sh not found in ${dir}" >&2
+    return 1
+  fi
+
+  if [ ! -f "${dir}/docker/Dockerfile" ]; then
+    echo "Error: docker/Dockerfile not found in ${dir}" >&2
+    return 1
+  fi
+
+  # Run the container build script first
+  echo "Running build.sh in ${dir}..."
+  current_dir=$(pwd)
+  cd "$dir"
+  chmod +x ./build.sh
+  ./build.sh
+
+  # Build the Docker image
+  echo "Building container image..."
+  docker buildx build \
+    -f docker/Dockerfile \
+    --platform=linux/amd64 \
+    --provenance=false \
+    --sbom=false \
+    --build-arg BASE_IMAGE="${BASE_IMAGE}" \
+    -t "${DOCKER_IMAGE}" \
+    --load \
+    .
+
+  cd "$current_dir"
+}
+
+# Push container image to ECR.
+# Arguments (provided as environment variables):
+#   DOCKER_IMAGE=[full ECR image URI with tag]
+#   PUBLISH_CONTAINER_IMAGE=[true to push, false to skip, default is true]
+function docker-push-container() {
+
+  if [ "${PUBLISH_CONTAINER_IMAGE:-true}" = "true" ]; then
+    echo "Pushing to ECR..."
+    echo "Pushing ${DOCKER_IMAGE}..."
+    docker push "${DOCKER_IMAGE}"
+    echo "Push complete."
+  else
+    echo "PUBLISH_CONTAINER_IMAGE is false. Skipping push."
+    echo "Built image is available locally as: ${DOCKER_IMAGE}"
+  fi
+}
+
+# Calculate and print Docker image name for NHS Notify containers.
+# Arguments (provided as environment variables):
+#   CONTAINER_IMAGE_PREFIX, AWS_ACCOUNT_ID, AWS_REGION (required)
+#   CONTAINER_IMAGE_SUFFIX, ECR_REPO, CONTAINER_NAME, dir (optional)
+function docker-calculate-image-name() {
+  local dir=${dir:-$PWD}
+  local container_name="${CONTAINER_NAME:-$(basename "$dir")}"
+  local ecr_repo="${ECR_REPO:-nhs-main-acct-main}"
+  local image_suffix="${CONTAINER_IMAGE_SUFFIX:-$(docker-get-git-version-suffix)}"
+  local image_tag="${CONTAINER_IMAGE_PREFIX}-${container_name}"
+  local ecr_repo_uri="${AWS_ACCOUNT_ID}.dkr.ecr.${AWS_REGION}.amazonaws.com/${ecr_repo}"
+  echo "${ecr_repo_uri}:${image_tag}-${image_suffix}"
 }

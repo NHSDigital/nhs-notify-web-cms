@@ -1,96 +1,174 @@
-# This file is for you! Edit it to implement your own Terraform make targets.
+# Terraform Make Targets for TFScaffold
+# NHS Notify standard for production infrastructure
+# Requires infrastructure/terraform/bin/terraform.sh
 
 # ==============================================================================
-# Custom implementation - implementation of a make target should not exceed 5 lines of effective code.
-# In most cases there should be no need to modify the existing make targets.
+# TFScaffold Terraform Operations
 
-terraform-init: # Initialise Terraform - optional: terraform_dir|dir=[path to a directory where the command will be executed, relative to the project's top-level directory, default is one of the module variables or the example directory, if not set], terraform_opts|opts=[options to pass to the Terraform init command, default is none/empty] @Development
-	make _terraform cmd="init" \
-		dir=$(or ${terraform_dir}, ${dir}) \
-		opts=$(or ${terraform_opts}, ${opts})
+terraform-plan: # Plan Terraform changes - mandatory: component=[component_name], environment=[environment]; optional: project=[default: nhs], region=[default: eu-west-2], group=[default: dev], opts=[additional options] @Development
+	# Example: make terraform-plan component=mycomp environment=myenv group=mygroup
+	# Args: --project nhs --region eu-west-2 --component mycomp --environment myenv --group mygroup --action plan
+	make _terraform-scaffold action=plan \
+		component=$(component) \
+		environment=$(environment) \
+		project=$(or ${project}, nhs) \
+		region=$(or ${region}, eu-west-2) \
+		group=$(or ${group}, dev) \
+		opts=$(or ${opts}, )
 
-terraform-plan: # Plan Terraform changes - optional: terraform_dir|dir=[path to a directory where the command will be executed, relative to the project's top-level directory, default is one of the module variables or the example directory, if not set], terraform_opts|opts=[options to pass to the Terraform plan command, default is none/empty] @Development
-	make _terraform cmd="plan" \
-		dir=$(or ${terraform_dir}, ${dir}) \
-		opts=$(or ${terraform_opts}, ${opts})
+terraform-plan-destroy: # Plan Terraform destroy - mandatory: component=[component_name], environment=[environment]; optional: project, region, group, opts @Development
+	# Example: make terraform-plan-destroy component=mycomp environment=myenv group=mygroup
+	# Args: --project nhs --region eu-west-2 --component mycomp --environment myenv --group mygroup --action plan-destroy
+	make _terraform-scaffold action=plan-destroy \
+		component=$(component) \
+		environment=$(environment) \
+		project=$(or ${project}, nhs) \
+		region=$(or ${region}, eu-west-2) \
+		group=$(or ${group}, dev) \
+		opts=$(or ${opts}, )
 
-terraform-apply: # Apply Terraform changes - optional: terraform_dir|dir=[path to a directory where the command will be executed, relative to the project's top-level directory, default is one of the module variables or the example directory, if not set], terraform_opts|opts=[options to pass to the Terraform apply command, default is none/empty] @Development
-	make _terraform cmd="apply" \
-		dir=$(or ${terraform_dir}, ${dir}) \
-		opts=$(or ${terraform_opts}, ${opts})
+terraform-apply: # Apply Terraform changes - mandatory: component=[component_name], environment=[environment]; optional: project, region, group, build_id, opts @Development
+	# Example: make terraform-apply component=mycomp environment=myenv group=mygroup
+	# Args: --project nhs --region eu-west-2 --component mycomp --environment myenv --group mygroup --action apply
+	make _terraform-scaffold action=apply \
+		component=$(component) \
+		environment=$(environment) \
+		project=$(or ${project}, nhs) \
+		region=$(or ${region}, eu-west-2) \
+		group=$(or ${group}, dev) \
+		build_id=$(or ${build_id}, ) \
+		opts=$(or ${opts}, )
 
-terraform-destroy: # Destroy Terraform resources - optional: terraform_dir|dir=[path to a directory where the command will be executed, relative to the project's top-level directory, default is one of the module variables or the example directory, if not set], terraform_opts|opts=[options to pass to the Terraform destroy command, default is none/empty] @Development
-	make _terraform \
-		cmd="destroy" \
-		dir=$(or ${terraform_dir}, ${dir}) \
-		opts=$(or ${terraform_opts}, ${opts})
+terraform-destroy: # Destroy Terraform resources - mandatory: component=[component_name], environment=[environment]; optional: project, region, group, opts @Development
+	# Example: make terraform-destroy component=mycomp environment=myenv group=mygroup
+	# Args: --project nhs --region eu-west-2 --component mycomp --environment myenv --group mygroup --action destroy
+	make _terraform-scaffold action=destroy \
+		component=$(component) \
+		environment=$(environment) \
+		project=$(or ${project}, nhs) \
+		region=$(or ${region}, eu-west-2) \
+		group=$(or ${group}, dev) \
+		opts=$(or ${opts}, )
 
-terraform-fmt: # Format Terraform files - optional: terraform_dir|dir=[path to a directory where the command will be executed, relative to the project's top-level directory, default is one of the module variables or the example directory, if not set], terraform_opts|opts=[options to pass to the Terraform fmt command, default is '-recursive'] @Quality
-	make _terraform cmd="fmt" \
-		dir=$(or ${terraform_dir}, ${dir}) \
-		opts=$(or ${terraform_opts}, ${opts})
+terraform-output: # Get Terraform outputs - mandatory: component=[component_name], environment=[environment]; optional: project, region, group @Development
+	# Example: make terraform-output component=mycomp environment=myenv group=mygroup
+	# Args: --project nhs --region eu-west-2 --component mycomp --environment myenv --group mygroup --action output
+	make _terraform-scaffold action=output \
+		component=$(component) \
+		environment=$(environment) \
+		project=$(or ${project}, nhs) \
+		region=$(or ${region}, eu-west-2) \
+		group=$(or ${group}, dev)
 
-terraform-validate: # Validate Terraform configuration - optional: terraform_dir|dir=[path to a directory where the command will be executed, relative to the project's top-level directory, default is one of the module variables or the example directory, if not set], terraform_opts|opts=[options to pass to the Terraform validate command, default is none/empty] @Quality
-	make _terraform cmd="validate" \
-		dir=$(or ${terraform_dir}, ${dir}) \
-		opts=$(or ${terraform_opts}, ${opts})
-
-clean:: # Remove Terraform files (terraform) - optional: terraform_dir|dir=[path to a directory where the command will be executed, relative to the project's top-level directory, default is one of the module variables or the example directory, if not set] @Operations
-	make _terraform cmd="clean" \
-		dir=$(or ${terraform_dir}, ${dir}) \
-		opts=$(or ${terraform_opts}, ${opts})
-
-_terraform: # Terraform command wrapper - mandatory: cmd=[command to execute]; optional: dir=[path to a directory where the command will be executed, relative to the project's top-level directory, default is one of the module variables or the example directory, if not set], opts=[options to pass to the Terraform command, default is none/empty]
-	# 'TERRAFORM_STACK' is passed to the functions as environment variable
-	TERRAFORM_STACK=$(or ${TERRAFORM_STACK}, $(or ${terraform_stack}, $(or ${STACK}, $(or ${stack}, scripts/terraform/examples/terraform-state-aws-s3))))
-	dir=$(or ${dir}, ${TERRAFORM_STACK})
-	source scripts/terraform/terraform.lib.sh
-	terraform-${cmd} # 'dir' and 'opts' are accessible by the function as environment variables, if set
+_terraform-scaffold: # Internal wrapper for terraform.sh - mandatory: action=[terraform action]; optional: component, environment, project, region, group, bootstrap, build_id, opts
+	cd infrastructure/terraform && \
+	if [ "$(bootstrap)" = "true" ]; then \
+		./bin/terraform.sh \
+			--bootstrap \
+			--project $(project) \
+			--region $(region) \
+			--group $(group) \
+			--action $(action) \
+			$(if $(opts),-- $(opts),); \
+	else \
+		./bin/terraform.sh \
+			--project $(project) \
+			--region $(region) \
+			--component $(component) \
+			--environment $(environment) \
+			--group $(group) \
+			$(if $(build_id),--build-id $(build_id),) \
+			--action $(action) \
+			$(if $(opts),-- $(opts),); \
+	fi
 
 # ==============================================================================
-# Quality checks - please DO NOT edit this section!
+# Formatting and Validation
 
-terraform-shellscript-lint: # Lint all Terraform module shell scripts @Quality
-	for file in $$(find scripts/terraform -type f -name "*.sh"); do
-		file=$${file} scripts/shellscript-linter.sh
+terraform-fmt: # Format Terraform files in components/ and modules/ (excludes etc/) @Quality
+	# Example: make terraform-fmt
+	@cd infrastructure/terraform && \
+		for dir in components modules; do \
+			[ -d "$$dir" ] && terraform fmt -recursive "$$dir"; \
+		done
+
+terraform-fmt-check: # Check Terraform formatting in components/ and modules/ (excludes etc/) @Quality
+	# Example: make terraform-fmt-check
+	@cd infrastructure/terraform && \
+		for dir in components modules; do \
+			[ -d "$$dir" ] && terraform fmt -check -recursive "$$dir"; \
+		done
+
+terraform-validate: # Validate Terraform configuration - mandatory: component=[component_name] @Quality
+	# Example: make terraform-validate component=mycomp
+	# Note: Validation does not require environment/group as it checks syntax only
+	cd infrastructure/terraform/components/$(component) && \
+	terraform init -backend=false && \
+	terraform validate
+
+terraform-validate-all: # Validate all Terraform components @Quality
+	# Example: make terraform-validate-all
+	for dir in infrastructure/terraform/components/*; do \
+		if [ -d "$$dir" ]; then \
+			echo "Validating $$(basename $$dir)..."; \
+			cd $$dir && \
+			terraform init -backend=false && \
+			terraform validate && \
+			cd - > /dev/null; \
+		fi; \
 	done
 
+# TODO - Re-visit Trivy usage https://nhsd-jira.digital.nhs.uk/browse/CCM-15549
+# terraform-sec: # Run Trivy IaC security scanning on Terraform code @Quality
+# 	# Example: make terraform-sec
+# 	./scripts/terraform/trivy-scan.sh --mode iac infrastructure/terraform
+
+terraform-docs: # Generate Terraform documentation - optional: component=[specific component, or all if omitted] @Quality
+	# Example: make terraform-docs component=mycomp
+	# Example: make terraform-docs (generates for all components)
+	@if [ -n "$(component)" ]; then \
+		./scripts/terraform/terraform-docs.sh infrastructure/terraform/components/$(component); \
+	else \
+		for dir in infrastructure/terraform/components/* infrastructure/terraform/modules/*; do \
+			if [ -d "$$dir" ]; then \
+				./scripts/terraform/terraform-docs.sh $$dir; \
+			fi; \
+		done; \
+	fi
+
 # ==============================================================================
-# Module tests and examples - please DO NOT edit this section!
+# Cleanup
 
-terraform-example-provision-aws-infrastructure: # Provision example of AWS infrastructure @ExamplesAndTests
-	make terraform-init
-	make terraform-plan opts="-out=terraform.tfplan"
-	make terraform-apply opts="-auto-approve terraform.tfplan"
-
-terraform-example-destroy-aws-infrastructure: # Destroy example of AWS infrastructure @ExamplesAndTests
-	make terraform-destroy opts="-auto-approve"
-
-terraform-example-clean: # Remove Terraform example files @ExamplesAndTests
-	dir=$(or ${dir}, ${TERRAFORM_STACK})
-	source scripts/terraform/terraform.lib.sh
-	terraform-clean
-	rm -f ${TERRAFORM_STACK}/.terraform.lock.hcl
+clean:: # Remove Terraform build artifacts and cache @Operations
+	# Example: make clean
+	rm -rf infrastructure/terraform/components/*/build
+	rm -rf infrastructure/terraform/components/*/.terraform
+	rm -rf infrastructure/terraform/components/*/.terraform.lock.hcl
+	rm -rf infrastructure/terraform/bootstrap/.terraform
+	rm -rf infrastructure/terraform/bootstrap/.terraform.lock.hcl
+	rm -rf infrastructure/terraform/plugin-cache/*
 
 # ==============================================================================
-# Configuration - please DO NOT edit this section!
+# Installation
 
-terraform-install: # Install Terraform @Installation
+terraform-install: # Install Terraform using asdf @Installation
+	# Example: make terraform-install
 	make _install-dependency name="terraform"
 
 # ==============================================================================
 
 ${VERBOSE}.SILENT: \
-	_terraform \
+	_terraform-scaffold \
 	clean \
 	terraform-apply \
 	terraform-destroy \
-	terraform-example-clean \
-	terraform-example-destroy-aws-infrastructure \
-	terraform-example-provision-aws-infrastructure \
+	terraform-docs \
 	terraform-fmt \
-	terraform-init \
+	terraform-fmt-check \
 	terraform-install \
+	terraform-output \
 	terraform-plan \
-	terraform-shellscript-lint \
+	terraform-plan-destroy \
+#	terraform-sec \
 	terraform-validate \
+	terraform-validate-all \

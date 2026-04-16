@@ -7,6 +7,7 @@ vale 3.14.1
 python 3.13.2
 
 # ==============================================================================
+
 # The section below is reserved for Docker image versions.
 
 # TODO: Move this section - consider using a different file for the repository template dependencies.
@@ -15,6 +16,7 @@ python 3.13.2
 # docker/ghcr.io/gitleaks/gitleaks v8.30.0@sha256:691af3c7c5a48b16f187ce3446d5f194838f91238f27270ed36eef6359a574d9 # SEE: https://github.com/gitleaks/gitleaks/pkgs/container/gitleaks
 # docker/ghcr.io/igorshubovych/markdownlint-cli v0.48.0@sha256:c97f19b52cf7371ff767c080e3e15c15f1cbd3336fc41aeca7a93bb2cdb9843c # SEE: https://github.com/igorshubovych/markdownlint-cli/pkgs/container/markdownlint-cli
 # docker/ghcr.io/make-ops-tools/gocloc latest@sha256:6888e62e9ae693c4ebcfed9f1d86c70fd083868acb8815fe44b561b9a73b5032 # SEE: https://github.com/make-ops-tools/gocloc/pkgs/container/gocloc
+
 # docker/ghcr.io/nhs-england-tools/github-runner-image 20230909-321fd1e-rt@sha256:ce4fd6035dc450a50d3cbafb4986d60e77cb49a71ab60a053bb1b9518139a646 # SEE: https://github.com/nhs-england-tools/github-runner-image/pkgs/container/github-runner-image
 # docker/hadolint/hadolint 2.14.0-alpine@sha256:7aba693c1442eb31c0b015c129697cb3b6cb7da589d85c7562f9deb435a6657c # SEE: https://hub.docker.com/r/hadolint/hadolint/tags
 # docker/hashicorp/terraform 1.14.8@sha256:42ecfb253183ec823646dd7859c5652039669409b44daa72abf57112e622849a # SEE: https://hub.docker.com/r/hashicorp/terraform/tags

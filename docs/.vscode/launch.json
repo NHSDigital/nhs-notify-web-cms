@@ -5,9 +5,13 @@
       "name": "Debug",
       "preLaunchTask": "stop-already-running",
       "request": "launch",
-      "runtimeArgs": ["debug"],
+      "runtimeArgs": [
+        "debug"
+      ],
       "runtimeExecutable": "make",
-      "skipFiles": ["<node_internals>/**"],
+      "skipFiles": [
+        "<node_internals>/**"
+      ],
       "type": "node"
     }
   ],
