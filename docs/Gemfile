@@ -19,6 +19,8 @@ group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.12"
   gem "jekyll-drawio"
   gem "jekyll-redirect-from"
+  # Only enable the admin UI for local development serve.
+  gem "jekyll-admin" unless ENV["JEKYLL_ENV"] == "production"
 end
 
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem

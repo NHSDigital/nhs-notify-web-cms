@@ -8,7 +8,7 @@ h help:
 	@egrep '^\S|^$$' Makefile
 
 include-npm-deps:
-	@cp node_modules/nhsuk-frontend/dist/nhsuk.min.js assets/js/nhsuk.min.js
+	@cp node_modules/nhsuk-frontend/dist/nhsuk/nhsuk-frontend.min.js assets/js/nhsuk-frontend.min.js
 
 config: install
 
