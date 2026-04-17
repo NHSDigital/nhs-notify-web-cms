@@ -3,7 +3,7 @@ layout: mini-hub
 title: Read and understand our terms of service
 nav_order: 3
 permalink: /get-started/read-and-understand-our-terms-of-service
-mini_hub_topic: You must read and understand our terms of service before you register
+mini_hub_topic: You must read and understand all of our service terms and get a legal opinion before you continue
 mini_hub_pages:
   - title: Check you can use NHS Notify
     url: /get-started/check-you-can-use-nhs-notify
@@ -23,9 +23,6 @@ next_page:
   url: /get-started/register-your-interest
 published: true
 ---
-
-You must read and understand all of our service terms and get a legal opinion before you continue.
-
 ## Online connection agreement
 
 If your organisation is not part of NHS England, you’ll need to sign our [online connection agreement (opens in a new tab)](https://digital.nhs.uk/developer/guides-and-documentation/online-connection-agreement){:target="\_blank"}.
@@ -36,7 +33,7 @@ We'll send you the online connection agreement to sign during onboarding. You mu
 
 The payment terms document is a financial agreement that sets out our charges and rules.
 
-It will forms part of your wider connection agreement with NHS England.
+It will form part of your wider connection agreement with NHS England.
 
 [Read and understand our payment terms]({% link pages/pricing-and-commercial/how-to-pay.md %})
 
@@ -67,7 +64,7 @@ NHS Notify is part of NHS England and is built for the security needs of its org
 
 All organisations using NHS Notify should read and abide by our acceptable use policy.
 
-[Read and understand our Acceptable use policy (opens in a new tab)](https://digital.nhs.uk/services/nhs-notify/acceptable-use-policy){:target="\_blank"}
+[Read and understand our acceptable use policy (opens in a new tab)](https://digital.nhs.uk/services/nhs-notify/acceptable-use-policy){:target="\_blank"}
 
 ## Privacy (transparency notice)
 

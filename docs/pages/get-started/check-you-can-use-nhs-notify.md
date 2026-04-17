@@ -3,7 +3,7 @@ layout: mini-hub
 title: Check you can use NHS Notify
 nav_order: 2
 permalink: /get-started/check-you-can-use-nhs-notify
-mini_hub_topic: How to get prepared and start using NHS Notify
+mini_hub_topic: What you need before you start
 mini_hub_pages:
   - title: Check you can use NHS Notify
     url:
@@ -21,8 +21,6 @@ next_page:
   url: /get-started/read-and-understand-our-terms-of-service
 published: true
 ---
-
-What you need before you start.
 
 ## Organisation type and funding
 
@@ -43,7 +41,7 @@ You must also:
 
 - intend to only send communications to patients or other members of the public – NHS Notify cannot be used to message NHS staff
 - not use NHS Notify to send marketing communications
-- check if other organisations or teams within NHS are already sending messages about the same subject matter
+- check if other organisations or teams within the NHS are already sending messages about the same subject matter
 
 ### If you intend to add links in NHS App messages
 
@@ -72,8 +70,8 @@ You must have a developer or a technical team to build your integration with NHS
 
 You must also decide how you want to integrate with NHS Notify. You can integrate through either:
 
-- [API](https://notify.nhs.uk/about/api)
-- [MESH](https://notify.nhs.uk/about/mesh)
+- [NHS Notify API](https://notify.nhs.uk/about/api)
+- [NHS Notify MESH](https://notify.nhs.uk/about/mesh)
 
 If you're integrating through API, you can try our <a href="https://digital.nhs.uk/developer/api-catalogue/nhs-notify#overview--environments-and-testing" target="_blank" rel="noopener noreferrer">sandbox test environment for early developer testing (opens in a new tab)</a>.
 
