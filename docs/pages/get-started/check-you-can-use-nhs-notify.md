@@ -73,7 +73,7 @@ You must also decide how you want to integrate with NHS Notify. You can integrat
 - [NHS Notify API](https://notify.nhs.uk/about/api)
 - [NHS Notify MESH](https://notify.nhs.uk/about/mesh)
 
-If you're integrating through API, you can try our <a href="https://digital.nhs.uk/developer/api-catalogue/nhs-notify#overview--environments-and-testing" target="_blank" rel="noopener noreferrer">sandbox test environment for early developer testing (opens in a new tab)</a>.
+If you're integrating through NHS Notify API, you can try our <a href="https://digital.nhs.uk/developer/api-catalogue/nhs-notify#overview--environments-and-testing" target="_blank" rel="noopener noreferrer">sandbox test environment for early developer testing (opens in a new tab)</a>.
 
 ## Next step
 
