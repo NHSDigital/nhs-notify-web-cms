@@ -14,7 +14,7 @@ NHS Notify allows you to message patients and members of the public using other 
 
 ## Language (A to Z)
 
-NHS Notify can support any languages and character sets that are listed in the [Personal Demographics Service (PDS)](https://digital.nhs.uk/services/personal-demographics-service).
+NHS Notify can support any languages and character sets that are listed in the <a href="https://digital.nhs.uk/services/personal-demographics-service" target="_blank">Personal Demographics Service (PDS) (opens in a new tab)</a>.
 
 {% include components/details.html
 heading='Languages and character sets we support'
@@ -51,7 +51,8 @@ text='
   %}
 
 {% include components/inset-text.html
-  text="You can request additional languages, as long as they’re in PDS. We’ll need to test these languages so make sure you leave enough time for this."
+  text="You can request additional languages, as long as they're in PDS. We'll need to test these languages so make sure you leave enough time for this."
+  classes="nhsuk-u-margin-top-2"
 %}
 
 ## How to send letters in other languages
@@ -73,7 +74,7 @@ Aim to keep your message content to 2 double-sided sheets to save costs. This wi
 
 ### We'll check for recipients who need letters in other languages
 
-NHS Notify checks for recipients who need letters in other languages using the [Personal Demographics Service (PDS)](https://digital.nhs.uk/services/personal-demographics-service).
+NHS Notify checks for recipients who need letters in other languages using the <a href="https://digital.nhs.uk/services/personal-demographics-service" target="_blank">Personal Demographics Service (PDS) (opens in a new tab)</a>.
 
 You need to decide whether to message recipients based on their access or language needs.
 

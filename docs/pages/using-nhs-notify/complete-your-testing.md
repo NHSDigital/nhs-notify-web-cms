@@ -9,6 +9,7 @@ nav_order: 2
 permalink: /using-nhs-notify/complete-your-testing
 section: Going live
 ---
+
 You'll need to carry out testing to make sure you're ready to start sending messages to recipients with NHS Notify.
 
 You're responsible for:
@@ -26,12 +27,12 @@ You need to complete:
 
 We need specific evidence for your NHS App testing.
 
-To complete integration testing, you need to give us your final templates and routing plans.
+To complete integration testing, you need to give us your final templates and message plans.
 
 You can start testing earlier using:
 
-- our [Sandbox environment](https://digital.nhs.uk/developer/api-catalogue/nhs-notify#overview--environments-and-testing)
-- [free-text inputs with NHS Notify API](https://digital.nhs.uk/developer/api-catalogue/nhs-notify#overview--enable-users-to-write-and-send-messages-from-your-software) or [NHS Notify MESH](https://digital.nhs.uk/developer/api-catalogue/nhs-notify-mesh/set-up-nhs-notify-mesh#write-your-messages) - our [routing plan IDs](https://digital.nhs.uk/developer/api-catalogue/nhs-notify#overview--making-your-request-to-send-messages-from-your-software) can be helpful if you've not got your own set up yet
+- our <a href="https://digital.nhs.uk/developer/api-catalogue/nhs-notify#overview--environments-and-testing" target="_blank">Sandbox environment (opens in a new tab)</a>
+- <a href="https://digital.nhs.uk/developer/api-catalogue/nhs-notify#overview--enable-users-to-write-and-send-messages-from-your-software" target="_blank">free-text inputs with NHS Notify API (opens in a new tab)</a> or <a href="https://digital.nhs.uk/developer/api-catalogue/nhs-notify-mesh/set-up-nhs-notify-mesh#write-your-messages" target="_blank">NHS Notify MESH (opens in a new tab)</a> - our <a href="https://digital.nhs.uk/developer/api-catalogue/nhs-notify#overview--making-your-request-to-send-messages-from-your-software" target="_blank">routing plan IDs (opens in a new tab)</a> can be helpful if you've not got your own set up yet
 
 ## Before you start
 
@@ -40,7 +41,7 @@ Make sure your team has someone to:
 - test (like a test engineer, developer or someone who can send API or MESH requests)
 - manage your testing and report on progress (like a test manager or delivery manager)
 
-Make sure you've [prepared your integration](https://notify.nhs.uk/get-started/onboard-with-nhs-notify#2-prepare-your-integration).
+Make sure you've [prepared your integration](/get-started/onboard-with-nhs-notify#2-prepare-your-integration).
 
 ## How to carry out integration testing
 
@@ -49,7 +50,7 @@ Make sure you've [prepared your integration](https://notify.nhs.uk/get-started/o
 To prepare for testing, you need to:
 
 - arrange your own Personal Demographics Service (PDS) data - contact your onboarding manager if you have any questions
-- provide us with your [test personalisation data](https://notify.nhs.uk/using-nhs-notify/personalisation#providing-example-data) (if you're using templates rather than free-text inputs)
+- provide us with your [test personalisation data](/using-nhs-notify/personalisation#providing-example-data) (if you're using templates rather than free-text inputs)
 - ask your onboarding manager to set up your NHS App test data (if you're using the NHS App)
 
 ### 2. Confirm your connection to the integration environment
@@ -59,38 +60,39 @@ You need to show you've connected to our INT environment by sending an API reque
 You'll know your connection is working when you can successfully run tests in the INT environment.
 
 {% include components/inset-text.html
-  text='If you’re using free-text inputs and NHS Notify’s dedicated routing plans, you do not need to do any more steps for integration testing.
+text='If you’re using free-text inputs and NHS Notify’s dedicated message plans, you do not need to do any more steps for integration testing.
 
 Next, carry out [NHS App testing](#nhs-app-integration-testing) (if you’re sending NHS App messages) and [production smoke testing](#production-smoke-testing).'
+classes='nhsuk-u-margin-top-2'
 %}
 
 ### 3. Approve proofs of your messages
 
 You need to [approve final proofs of your messages]({% link pages/using-nhs-notify/approve-your-messages.md %}). This is to ensure that NHS Notify sends your messages exactly as you expect your recipients to get them.
 
-### 4. Wait for NHS Notify to set up your routing plans
+### 4. Wait for NHS Notify to set up your message plans
 
-NHS Notify will build your routing plans in the INT environment.
+NHS Notify will build your message plans in the INT environment.
 
-### 5. Check your templates and routing plans work as you expect
+### 5. Check your templates and message plans work as you expect
 
-You need to check that we've set up your templates and routing plans in line with your needs.
+You need to check that we've set up your templates and message plans in line with your needs.
 
 It's up to you to decide how to do this. We recommend making sure that:
 
-- the message channels in your routing plan are in the correct order
-- the correct templates are used in the correct routing plans, for example, one plan might be for invitations and one might be for reminders
+- the message channels in your message plan are in the correct order
+- the correct templates are used in the correct message plans, for example, one plan might be for invitations and one might be for reminders
 
 {% include components/details.html
-    heading='If you need help getting test evidence'
-    text='Let your onboarding manager know 2 weeks in advance if you need support to carry out this step.
+heading='If you need help getting test evidence'
+text='Let your onboarding manager know 2 weeks in advance if you need support to carry out this step.
 
 We can get evidence of your test outputs for emails and text messages if you give us your test data and request IDs. Find out about [NHS App message test outputs](#nhs-app-integration-testing).'
 %}
 
 {% include components/details.html
-    heading='If you need support'
-    text='Contact your onboarding manager if you need support or have any problems with your testing. Tell us the following details:
+heading='If you need support'
+text='Contact your onboarding manager if you need support or have any problems with your testing. Tell us the following details:
 
 - a description of the request and what you expected to happen
 - the date and time of the request
@@ -98,7 +100,7 @@ We can get evidence of your test outputs for emails and text messages if you giv
 - the request ID that the API batch-message endpoint returned, if you used NHS Notify API
 - the request item ID that the API message endpoint returned, if you used NHS Notify API
 - the request ID that MESH returned, if you used NHS Notify MESH'
-%}
+  %}
 
 ## NHS App integration testing
 
@@ -113,7 +115,7 @@ Give your onboarding manager the following details of the people on your team wh
 - their email addresses - these can be personal details if they're testing on personal devices
 - whether they have Android or Apple devices
 
-We'll then send you a link to download the app from the [Apple Store](https://www.apple.com/uk/store) or [Google Play](https://play.google.com/store/apps?hl=en).
+We'll then send you a link to download the app from the <a href="https://www.apple.com/uk/app-store/" target="_blank">Apple Store (opens in a new tab)</a> or <a href="https://play.google.com/store/apps?hl=en" target="_blank">Google Play (opens in a new tab)</a>.
 
 ### 2. Sign in with test accounts
 
@@ -158,7 +160,7 @@ Your test results should show certain results for each test patient account:
 
 - NHS App does not receive the message
 - Rejected callback goes to NHS Notify (if you've set up callbacks)
-- The next available message channel in the routing plan is triggered
+- The next available message channel in the message plan is triggered
 
 ## Production smoke testing
 
@@ -183,7 +185,7 @@ We'll:
 
 ### During your smoke test call
 
-We'll share test data with you, including NHS numbers and routing plans.
+We'll share test data with you, including NHS numbers and message plans.
 
 You'll then use this data to send requests using either NHS Notify API or NHS Notify MESH.
 

@@ -1,0 +1,212 @@
+.nhsnotify-image {
+  width: unset;
+  background-color: unset;
+  border-bottom: 0;
+  margin: unset;
+}
+
+.nhsnotify-banner--blue {
+  background-color: $blue-000;
+  color: white;
+}
+
+.nhsnotify-banner--white {
+  background-color: white;
+}
+
+.nhsnotify-list {
+  padding-top: 2em;
+}
+
+.nhsnotify-list__item {
+  padding-bottom: 5em;
+
+  &:last-child {
+    padding-bottom: 0;
+  }
+
+  li {
+    margin-bottom: 0;
+  }
+}
+
+.nhsnotify-list__item-header {
+  display: flex;
+  @extend .nhsuk-u-margin-bottom-3;
+}
+
+.nhsnotify-list__item-header-number {
+  width: 2em;
+  height: 2em;
+  line-height: 2em;
+  border-radius: 50%;
+
+  background-color: $blue-000;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+}
+
+.nhsnotify-list__item-header-title {
+  width: 85%;
+  padding: 0.3em 0 0 1.5em;
+}
+
+.nhsnotify-list__item-description {
+  padding-left: 5.5em;
+}
+
+.nhsuk-card__description {
+  @media screen and (min-width: 990px) {
+    height: 56px;
+  }
+}
+
+.nhsuk-card__pricing {
+  @extend .nhsuk-heading-m;
+  margin: 0;
+}
+
+/*
+.nhsuk-header__navigation-item {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.nhsuk-header__navigation-item:first-child .nhsuk-header__navigation-link {
+  padding-left: 0;
+}
+
+.nhsuk-header__navigation-item:nth-child(5) .nhsuk-header__navigation-link {
+  padding-right: 0;
+}
+
+.nhsuk-header__drop-down .nhsuk-header__navigation-item:first-child .nhsuk-header__navigation-link {
+  padding-left: 16px;
+}
+
+.nhsuk-header__navigation-link {
+  text-decoration: underline;
+
+  &:hover {
+    text-decoration: none;
+  }
+
+}
+*/
+
+.nhsuk-phase-banner {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #fff;
+}
+
+.nhsuk-phase-banner__content {
+  font-size: 1rem;
+  line-height: 1.25;
+  margin-bottom: 0px;
+}
+
+.nhsuk-phase-banner__text {
+  font-size: 1rem;
+  line-height: 1.25;
+  padding-left: 0.5em;
+  color: $nhsuk-text-color;
+}
+
+.nhsuk-inset-text-override {
+  @include nhsuk-reading-width(); /* [2] */
+
+  @include nhsuk-responsive-margin(7, "bottom");
+  @include nhsuk-responsive-margin(4, "top");
+  @include nhsuk-responsive-padding(4);
+
+  border-left: $nhsuk-border-width-inset-text solid $color_nhsuk-blue;
+
+  @include nhsuk-media-query($media-type: print) {
+    border-color: $nhsuk-print-text-color;
+  }
+}
+
+.nhsuk-image-with-caption {
+  background-color: $color_nhsuk-white;
+  border-bottom: 1px solid $color_nhsuk-grey-4;
+
+  margin-left: 0; /* [1] */
+  margin-right: 0; /* [1] */
+
+  @include nhsuk-responsive-margin(6, "bottom");
+  @include nhsuk-responsive-margin(3, "top");
+
+  @include nhsuk-media-query($from: desktop) {
+    width: 100%; /* [2] */
+  }
+
+  @include nhsuk-media-query($media-type: print) {
+    width: 50%; /* [3] */
+  }
+
+  & + .nhsuk-image {
+    @include nhsuk-responsive-margin(0, "top"); /* [4] */
+  }
+}
+
+// Breadcrumb spacing override
+/*
+.nhsnotify-breadcrumb {
+  @include nhsuk-print-hide();
+
+  padding-top: 20px;
+
+  + .nhsuk-width-container .nhsuk-main-wrapper {
+    margin-top: 20px;
+  }
+
+}
+
+.nhsuk-breadcrumb__item:not(:last-child):after {
+  display: none;
+  height: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  width: 0px;
+}
+
+.nhsnotify-breadcrumb-chevron {
+  width: 18px;
+  height: 18px;
+  margin-bottom: -4px;
+}
+
+.nhsnotify-breadcrumb-chevron:last-child {
+  display: none;
+}
+*/
+
+
+
+
+// Custom breadcrumb styles
+/*
+.nhsuk-breadcrumb {
+  margin-top: 0;
+  padding-bottom: 0;
+
+  @include nhsuk-media-query($from: tablet) {
+    margin-top: 0;
+  }
+}
+*/
+
+// Home page button margin override
+.nhsnotify-home-page .nhsuk-button {
+  margin-bottom: 0;
+}
+
+
+
+// Hide the outline on header account link when it's the only item
+.nhsuk-header__account-item:only-child,
+.nhsuk-header__account-item:last-child {
+  outline: none;
+}

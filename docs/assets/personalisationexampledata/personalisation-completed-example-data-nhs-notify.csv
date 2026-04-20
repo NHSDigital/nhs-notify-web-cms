@@ -1,0 +1,5 @@
+Personalisation field,Short length data example,Medium length data example,Long length data example
+gpSurgeryName,New Surgery,"The Health Centre, Knaresborough Road",Church Avenue and Park Grove Medical Group Surgery
+gpSurgeryAddress,"1 New Lane, LS1 1AB","The Health Centre, Knaresborough Road, Knaresborough, HG1 1AB","Church Avenue and Park Grove Medical Group Surgery, 1 New Lane, Leeds, West Yorkshire, LS1 1AB, United Kingdom"
+gpSurgeryPhone,0300 123 1111,0300 123 2222,0300 123 3333
+appointmentDate,1 January 2027,2 January 2027,3 January 2027

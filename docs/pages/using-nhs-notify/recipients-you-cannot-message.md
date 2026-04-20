@@ -12,7 +12,7 @@ section: Sending a message
 
 NHS Notify automatically prevents you from sending messages to people who you should not contact. This includes recipients with certain information on their records.
 
-We check the [Personal Demographics Service (PDS)](https://digital.nhs.uk/services/personal-demographics-service) for recipients with:
+We check the <a href="https://digital.nhs.uk/services/personal-demographics-service" target="_blank">Personal Demographics Service (PDS) (opens in a new tab)</a> for recipients with:
 
 - [flagged records](#flagged-records)<!-- markdownlint-disable-line -->
 - [exit codes](#exit-codes)
@@ -28,7 +28,7 @@ Some patients' data is strictly controlled. These records have flags on them in 
 
 ### Sensitive flag (S flag)
 
-Patients with a sensitive flag (sometimes called an S flag) have [restricted contact details](https://digital.nhs.uk/services/personal-demographics-service/restricting-access-to-a-patients-demographic-record). We do not have access to any information that could reveal their location.
+Patients with a sensitive flag (sometimes called an S flag) have <a href="https://digital.nhs.uk/services/personal-demographics-service/restricting-access-to-a-patients-demographic-record" target="_blank">restricted contact details (opens in a new tab)</a>. We do not have access to any information that could reveal their location.
 
 S flags help to protect patients who may be at risk, such as victims of domestic violence, law court witnesses or vulnerable children awaiting adoption.
 

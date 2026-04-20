@@ -10,9 +10,9 @@ permalink: /using-nhs-notify/tell-us-who-you-want-to-message
 section: Sending a message
 ---
 
-You only need a patient's [NHS number](https://digital.nhs.uk/services/personal-demographics-service/nhs-number) to send them messages.
+You only need a patient's <a href="https://digital.nhs.uk/services/personal-demographics-service/nhs-number" target="_blank">NHS number (opens in a new tab)</a> to send them messages.
 
-NHS Notify finds people's contact details using their NHS numbers in the [Personal Demographics Service (PDS)](https://digital.nhs.uk/services/personal-demographics-service).
+NHS Notify finds people's contact details using their NHS numbers in the <a href="https://digital.nhs.uk/services/personal-demographics-service" target="_blank">Personal Demographics Service (PDS) (opens in a new tab)</a>.
 
 ## How to provide recipients' NHS numbers
 
@@ -25,14 +25,17 @@ Use the format shown in the
 
 ### If you're using MESH
 
-If you're using the [Message Exchange for Social Care and Health (MESH)](https://digital.nhs.uk/services/message-exchange-for-social-care-and-health-mesh), upload NHS numbers in a CSV file.
+If you're using the <a href="https://digital.nhs.uk/services/message-exchange-for-social-care-and-health-mesh" target="_blank">Message Exchange for Social Care and Health (MESH) (opens in a new tab)</a>, upload NHS numbers in a CSV file.
 
 The onboarding team will give you an example CSV file on request.
 
-Use the format shown in the
-<a href="https://digital.nhs.uk/developer/api-catalogue/nhs-notify" target="_blank">API documentation (opens in a new tab)</a>.
+<!--Use the format shown in the
+<a href="https://digital.nhs.uk/developer/api-catalogue/nhs-notify" target="_blank">API documentation (opens in a new tab)</a>.-->
 
-## Providing your own recipient contact details
+## Providing your own contact details for recipients
 
-If you need to use contact details that are not from PDS, you must make a formal request to NHS Notify.
-Overriding contact details is only granted to specific use cases that provide compelling data to our onboarding team. NHS Notify will consult with relevant NHS England legal and clinical teams for approval.
+If you need to use contact details that are not from PDS, you must ask NHS Notify for permission.
+
+We only allow this in exceptional circumstances. We will check your request with our information governance, legal and clinical teams for approval.
+
+You can only request to use these contact details for the recipient. You cannot use this to contact a proxy, carer, parent or anyone else on the recipient's behalf.

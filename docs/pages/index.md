@@ -17,11 +17,12 @@ permalink: /
         </p>
         {% include components/button-reverse.html
           text="Get started"
-          url="https://notify.nhs.uk/get-started/"
+          url="/get-started/"
+          target=""
         %}
       </div>
       <div class="nhsuk-grid-column-one-half">
-        {% include components/image.html src=site.data.home.heading.image alt=site.data.home.heading.image_alt class="nhsnotify-image" %}
+        {% include components/image.html src=site.data.home.heading.image alt=site.data.home.heading.image_alt classes="nhsnotify-image" %}
       </div>
     </div>
   </div>
@@ -83,11 +84,12 @@ permalink: /
         </p>
         {% include components/button-reverse.html
           text="Get started"
-          url="https://notify.nhs.uk/get-started/"
+          url="/get-started/"
+          target=""
         %}
       </div>
       <div class="nhsuk-grid-column-one-half">
-        {% include components/image.html src=site.data.home.find-out-more.image alt=site.data.home.find-out-more.image_alt class="nhsnotify-image" %}
+        {% include components/image.html src=site.data.home.find-out-more.image alt=site.data.home.find-out-more.image_alt classes="nhsnotify-image" %}
       </div>
     </div>
   </div>

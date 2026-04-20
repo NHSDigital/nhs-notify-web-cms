@@ -8,7 +8,10 @@ function getUrlsFromSiteMap() {
 
   const sitemap = new XMLParser().parse(file);
 
-  return sitemap.urlset.url.map(r => r.loc);
+  // Filter out PDF files from accessibility testing
+  return sitemap.urlset.url
+    .map(r => r.loc)
+    .filter(url => !url.endsWith('.pdf'));
 }
 
 module.exports = {

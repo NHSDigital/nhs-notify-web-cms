@@ -49,7 +49,8 @@ If you're copying and pasting text from another document, paste it without any f
 You can also use [Microsoft Word's format painter](https://support.microsoft.com/en-gb/office/use-the-format-painter-4bb415a9-d4e4-42b7-b579-170adc594e40) to copy the formatting of the styles and apply it to your text.
 
 {% include components/inset-text.html
-    text="Keep the comments and pre-formatted text in the template until you've finished adding your message content. They'll help you to apply the styles."
+  text="Keep the comments and pre-formatted text in the template until you've finished adding your message content. They'll help you to apply the styles."
+  classes='nhsuk-u-margin-top-2'
 %}
 
 Find out how to use:
@@ -139,7 +140,8 @@ Use the style 'Hyperlink' in the template for links.
 Write links in full, starting with https://. For example:
 
 {% include components/inset-text.html
-    text='<b><span>https://www.service-manual.nhs.uk/content</span></b>'
+  text='https://www.service-manual.nhs.uk/content'
+  classes='nhsuk-u-margin-top-2'
 %}
 
 Links in letters are in bold to make them stand out. Do not use underlined text or italics.
@@ -180,7 +182,8 @@ You'll need to generate the QR code yourself.
 You must also provide a short URL or written instructions for how to find your webpage. For example:
 
 {% include components/inset-text.html
-    text='<span>scan the QR code or visit <b>https://www.notify.nhs.uk</b></span>'
+  text='scan the QR code or visit https://www.notify.nhs.uk'
+  classes='nhsuk-u-margin-top-2'
 %}
 
 ## Content you should not edit
@@ -216,7 +219,8 @@ It appears above the body content of the letter and is right aligned.
 The page count shows the current page number and the total number of pages. For example:
 
 {% include components/inset-text.html
-    text='Page 1 of 2'
+  text='Page 1 of 2'
+  classes='nhsuk-u-margin-top-2'
 %}
 
 It updates automatically.
@@ -245,5 +249,6 @@ Name your PDF template clearly so that it's easy to identify. Make sure you incl
 For example:
 
 {% include components/inset-text.html
-    text='vaccinations_under-16_english_standard_letter_v1'
+  text='vaccinations_under-16_english_standard_letter_v1'
+  classes='nhsuk-u-margin-top-2'
 %}

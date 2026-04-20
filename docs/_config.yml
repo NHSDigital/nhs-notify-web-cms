@@ -22,8 +22,8 @@ title: NHS Notify CMS
 # email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
   NHS Notify Web CMS
-baseurl: "/nhs-notify-web-cms" # the subpath of your site, e.g. /blog
-url: "https://nhsdigital.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://notify.nhs.uk" # the base hostname & protocol for your site, e.g. http://example.com
 
 collections_dir: collections
 
@@ -37,6 +37,7 @@ plugins:
   - jekyll-content-security-policy-generator
   - jekyll-feed
   - jekyll-sitemap
+  - jekyll-redirect-from
 
 color_scheme: nhs
 mermaid:
@@ -70,10 +71,11 @@ callouts:
     color: red
 
 sass:
-  style: compact # possible values: nested expanded compact compressed
+  sass_dir: assets/css
   load_paths:
-    - _sass/
-    - node_modules/nhsuk-frontend/packages/
+    - node_modules
+    - node_modules/nhsuk-frontend/dist
+  style: compressed
 
 # Exclude from processing.
 # The following items will not be processed, by default.

@@ -24,6 +24,6 @@ NHS England is working with secondary care trusts and their suppliers to support
 
 Over the coming months, we’ll be working closely with trusts to test and roll out solutions that make sure all recipients’ messages can be viewed in the NHS App. We'll also focus on getting the best value for money from other channels like text messages and letters.
 
-If you're a trust or supplier and want to explore how NHS Notify can support your messaging plans, you can visit our [get started](https://notify.nhs.uk/get-started/) page and complete the registration form.
+If you're a trust or supplier and want to explore how NHS Notify can support your messaging plans, you can visit our [get started](/get-started/) page and complete the registration form.
 
-For more information, you can read [our blog](https://digital.nhs.uk/blog/transformation-blog/2025/a-digital-first-approach-to-patient-communications){:target="\_blank"} or access the [operational planning guidance](https://www.england.nhs.uk/long-read/2025-26-priorities-and-operational-planning-guidance/){:target="\_blank"}.
+For more information, you can read <a href="https://digital.nhs.uk/blog/transformation-blog/2025/a-digital-first-approach-to-patient-communications" target="_blank">our blog (opens in a new tab)</a> or access the <a href="https://www.england.nhs.uk/long-read/2025-26-priorities-and-operational-planning-guidance/" target="_blank">operational planning guidance (opens in a new tab)</a>.
