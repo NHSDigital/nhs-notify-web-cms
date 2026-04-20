@@ -27,7 +27,7 @@ You need to complete:
 
 We need specific evidence for your NHS App testing.
 
-To complete integration testing, you need to give us your final templates and routing plans.
+To complete integration testing, you need to give us your final templates and message plans.
 
 You can start testing earlier using:
 
@@ -60,7 +60,7 @@ You need to show you've connected to our INT environment by sending an API reque
 You'll know your connection is working when you can successfully run tests in the INT environment.
 
 {% include components/inset-text.html
-text='If you’re using free-text inputs and NHS Notify’s dedicated routing plans, you do not need to do any more steps for integration testing.
+text='If you’re using free-text inputs and NHS Notify’s dedicated message plans, you do not need to do any more steps for integration testing.
 
 Next, carry out [NHS App testing](#nhs-app-integration-testing) (if you’re sending NHS App messages) and [production smoke testing](#production-smoke-testing).'
 classes='nhsuk-u-margin-top-2'
@@ -70,18 +70,18 @@ classes='nhsuk-u-margin-top-2'
 
 You need to [approve final proofs of your messages]({% link pages/using-nhs-notify/approve-your-messages.md %}). This is to ensure that NHS Notify sends your messages exactly as you expect your recipients to get them.
 
-### 4. Wait for NHS Notify to set up your routing plans
+### 4. Wait for NHS Notify to set up your message plans
 
-NHS Notify will build your routing plans in the INT environment.
+NHS Notify will build your message plans in the INT environment.
 
-### 5. Check your templates and routing plans work as you expect
+### 5. Check your templates and message plans work as you expect
 
-You need to check that we've set up your templates and routing plans in line with your needs.
+You need to check that we've set up your templates and message plans in line with your needs.
 
 It's up to you to decide how to do this. We recommend making sure that:
 
-- the message channels in your routing plan are in the correct order
-- the correct templates are used in the correct routing plans, for example, one plan might be for invitations and one might be for reminders
+- the message channels in your message plan are in the correct order
+- the correct templates are used in the correct message plans, for example, one plan might be for invitations and one might be for reminders
 
 {% include components/details.html
 heading='If you need help getting test evidence'
@@ -160,7 +160,7 @@ Your test results should show certain results for each test patient account:
 
 - NHS App does not receive the message
 - Rejected callback goes to NHS Notify (if you've set up callbacks)
-- The next available message channel in the routing plan is triggered
+- The next available message channel in the message plan is triggered
 
 ## Production smoke testing
 
@@ -185,7 +185,7 @@ We'll:
 
 ### During your smoke test call
 
-We'll share test data with you, including NHS numbers and routing plans.
+We'll share test data with you, including NHS numbers and message plans.
 
 You'll then use this data to send requests using either NHS Notify API or NHS Notify MESH.
 
