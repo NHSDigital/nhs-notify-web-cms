@@ -36,8 +36,6 @@ They will receive a text message instead, which tells them they have a new messa
   classes='nhsuk-u-margin-top-2'
 %}
 
-
-
 [Learn more about NHS App messages]({% link pages/about/nhs-app-messages.md %}).
 
 ## Emails

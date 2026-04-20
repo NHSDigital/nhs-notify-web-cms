@@ -69,7 +69,7 @@ A recipient can receive a text message instead, which tells them they have a new
 
 This feature is currently available to national programmes where:
 
-* the message plan uses the NHS App first, with fallbacks to text messages or letters
-* the message is not in an additional language or accessible format, such as Braille or large print
+- the message plan uses the NHS App first, with fallbacks to text messages or letters
+- the message is not in an additional language or accessible format, such as Braille or large print
 
 This feature will be available to more organisations later in 2026.
