@@ -49,9 +49,9 @@ Do this by:
 - speaking to our engagement team when you first [get started]({% link pages/get-started/get-started.md %}) with NHS Notify
 - raising a <a href="https://nhsdigitallive.service-now.com/csm" target="_blank">Service Now request (opens in a new tab)</a> if you're already using NHS Notify and have existing templates
 
-### 2. Create your templates and routing plans
+### 2. Create your templates and message plans
 
-Set up a routing plan that requests accessible formats.
+Set up a message plan that requests accessible formats.
 
 Create separate templates for each type of accessible format you’ll need. Select the ‘standard letter’ template type.
 
