@@ -23,16 +23,16 @@ Find out about delivery times for:
 
 NHS Notify can send NHS App messages to recipients with the NHS App at any time.
 
-## If a recipient has push notifications turned on
+### If a recipient has push notifications turned on
 
-They will receive a push notification between 6am and 10pm. If you send a message outside of these hours, the notification will be sent from 6am.
+They will receive a push notification between 6am and 10pm. If you send a message outside of these hours, the notification will be sent from 6am the following day.
 
-## If a recipient has push notifications turned off
+### If a recipient has push notifications turned off
 
 They will receive a text message instead, which tells them they have a new message in the NHS App.
 
 {% include components/inset-text.html
-  text="This feature is currently available to eligible national programmes. We'll make it available to more organisations later in 2026."
+  text="This feature is currently available to eligible national programmes. It will be available to more organisations later in 2026."
   classes='nhsuk-u-margin-top-2'
 %}
 
