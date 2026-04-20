@@ -24,11 +24,11 @@ You can [contact us]({% link pages/support/support.md %}) if you:
 
 ## Latest features and updates
 
-- Enabled users to send text message notifications to prompt recipients to read their messages in the NHS App
-- Enabled users to create and manage their own message templates
-- Enabled multiple users to access the same service account so teams can manage work at the same time
-- Let users provide alternative contact details in approved circumstances
-- Introduced more choice for message plan fallback timings (1 to 72 hours), giving users more flexibility to match message urgency
+- Eligible national programmes can send text message notifications to prompt recipients to read their messages in the NHS App
+- Users can create and manage their own message templates
+- Multiple users can access the same service account so teams can manage work at the same time
+- Users can provide alternative contact details in approved circumstances
+- Users have more choice for message plan fallback timings (1 to 72 hours), giving more flexibility to match message urgency
 
 ## What we're working on now
 
