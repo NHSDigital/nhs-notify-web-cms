@@ -24,7 +24,7 @@ You can [contact us]({% link pages/support/support.md %}) if you:
 
 ## Latest features and updates
 
-- Enabled users to send text message notifications to prompt recipients to read their messages in the NHS App
+- Enabled eligible national programmes to send text message notifications to prompt recipients to read their messages in the NHS App
 - Enabled users to create and manage their own message templates
 - Enabled multiple users to access the same service account so teams can manage work at the same time
 - Let users provide alternative contact details in approved circumstances
