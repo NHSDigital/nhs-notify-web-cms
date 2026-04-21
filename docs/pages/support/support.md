@@ -9,7 +9,7 @@ has_children: true
 permalink: /support/
 ---
 
-NHS Notify is a <a href="https://digital.nhs.uk/services/reference-guide#service-levels" target="_blank">silver service (opens in a new tab)</a>.
+NHS Notify is a <a href="https://digital.nhs.uk/services/reference-guide#service-levels" target="_blank">gold service (opens in a new tab)</a>.
 
 If you're live with NHS Notify and need help, <a href="https://nhsdigitallive.service-now.com/csm" target="_blank">submit a case with Service Now (opens in a new tab)</a>.
 
