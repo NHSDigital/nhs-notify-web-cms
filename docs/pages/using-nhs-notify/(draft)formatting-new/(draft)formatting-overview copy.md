@@ -44,3 +44,69 @@ To format a letter template:
 1. <a href="https://notify.nhs.uk/using-nhs-notify/upload-a-letter#download-a-blank-word-letter-template" target="_blank">Download a blank Word letter template</a>.
 2. Add your formatting.
 3. <a href="https://notify.nhs.uk/using-nhs-notify/upload-a-letter" target="_blank">Upload your letter</a>.
+
+## Formats supported by message channels
+
+<table class="nhsuk-table">
+  <thead class="nhsuk-table__head">
+    <tr class="nhsuk-table__row">
+      <th scope="col" class="nhsuk-table__header">
+        Message channel
+      </th>
+      <th scope="col" class="nhsuk-table__header">
+        Format
+      </th>
+    </tr>
+  </thead>
+  <tbody class="nhsuk-table__body">
+    <tr class="nhsuk-table__row">
+      <td class="nhsuk-table__cell">
+        NHS App<br> Email<br> Letter
+      </td>
+      <td class="nhsuk-table__cell">
+        Bold text
+      </td>
+    </tr>
+    <tr class="nhsuk-table__row">
+      <td class="nhsuk-table__cell">
+        NHS App<br> Email<br> Letter
+      </td>
+      <td class="nhsuk-table__cell">
+        Bullet points
+      </td>
+    </tr>
+    <tr class="nhsuk-table__row">
+      <td class="nhsuk-table__cell">
+        NHS App<br> Email<br> Letter
+      </td>
+      <td class="nhsuk-table__cell">
+        Numbered lists
+      </td>
+      <tr class="nhsuk-table__row">
+      <td class="nhsuk-table__cell">
+        NHS App<br> Email<br> Letter
+      </td>
+      <td class="nhsuk-table__cell">
+        Headings
+    <tr class="nhsuk-table__row">
+      <td class="nhsuk-table__cell">
+        NHS App<br> Email<br> Letter
+      </td>
+      <td class="nhsuk-table__cell">
+        Paragraphs
+    <tr class="nhsuk-table__row">
+      <td class="nhsuk-table__cell">
+        NHS App<br> Email<br>
+      </td>
+      <td class="nhsuk-table__cell">
+        Line breaks
+    <tr class="nhsuk-table__row">
+      <td class="nhsuk-table__cell">
+        Email
+      </td>
+      <td class="nhsuk-table__cell">
+        Horizontal lines
+      </td>
+    </tr>
+  </tbody>
+</table>
