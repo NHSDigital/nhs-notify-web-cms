@@ -2,6 +2,7 @@
 layout: mini-hub
 title: Onboard with NHS Notify
 nav_order: 4
+parent: Get started
 permalink: /get-started/onboard-with-nhs-notify
 mini_hub_topic: You must follow the steps to prepare for integration
 mini_hub_pages:

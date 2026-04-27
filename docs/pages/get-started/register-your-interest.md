@@ -2,6 +2,7 @@
 layout: mini-hub
 title: Register your interest
 nav_order: 3
+parent: Get started
 permalink: /get-started/register-your-interest
 mini_hub_topic: Answer a few questions to register your interest with NHS Notify
 mini_hub_pages:
@@ -22,6 +23,7 @@ next_page:
   url: /get-started/onboard-with-nhs-notify
 published: true
 ---
+
 Complete the following form to register your interest with NHS Notify. This will open in a new tab.
 
 {% include components/button.html
@@ -34,13 +36,13 @@ Complete the following form to register your interest with NHS Notify. This will
 
 Once you have registered your interest, we'll contact you to either:
 
-* learn more about your use case
-* invite your organisation or service to onboard
+- learn more about your use case
+- invite your organisation or service to onboard
 
 If your organisation or service is invited to onboard, we'll send you an email. This email will include:
 
-* what you need to do next
-* an online form to continue your setup
-* the Supplier Conformance Assessment List (SCAL) you need to complete before you go live.
+- what you need to do next
+- an online form to continue your setup
+- the Supplier Conformance Assessment List (SCAL) you need to complete before you go live.
 
 You can read more about the onboarding process on the next page.
