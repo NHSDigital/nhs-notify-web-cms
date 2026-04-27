@@ -5,13 +5,13 @@ nav_order: 3
 permalink: /using-nhs-notify/bullet-points-numbered-lists
 mini_hub_topic: Formatting
 mini_hub_pages:
-  - title: Bullet points and numbered lists
-    url:
-    current: true
   - title: Overview
     url: /using-nhs-notify/formatting/overview
   - title: Bold text
     url: /using-nhs-notify/formatting/bold-text
+  - title: Bullet points and numbered lists
+    url:
+    current: true
   - title: Fonts for letter templates
     url: /using-nhs-notify/letter-fonts
   - title: Headings

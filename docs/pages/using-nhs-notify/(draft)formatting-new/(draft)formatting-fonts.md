@@ -5,15 +5,15 @@ nav_order: 4
 permalink: /using-nhs-notify/letter-fonts
 mini_hub_topic: Formatting
 mini_hub_pages:
-  - title: Fonts for letter templates
-    url:
-    current: true
   - title: Overview
     url: /using-nhs-notify/formatting/overview
   - title: Bold text
     url: /using-nhs-notify/formatting/bold-text
   - title: Bullet points and numbered lists
     url: /using-nhs-notify/bullet-points-numbered-lists
+  - title: Fonts for letter templates
+    url:
+    current: true
   - title: Headings
     url: /using-nhs-notify/headings
   - title: Paragraphs, line breaks, and horizontal lines

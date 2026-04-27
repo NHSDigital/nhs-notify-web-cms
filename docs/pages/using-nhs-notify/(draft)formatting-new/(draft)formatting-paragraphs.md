@@ -5,9 +5,6 @@ nav_order: 6
 permalink: /using-nhs-notify/paragraphs
 mini_hub_topic: Formatting
 mini_hub_pages:
-  - title: Paragraphs, line breaks, and horizontal lines
-    url:
-    current: true
   - title: Overview
     url: /using-nhs-notify/formatting/overview
   - title: Bold text
@@ -18,6 +15,9 @@ mini_hub_pages:
     url: /using-nhs-notify/letter-fonts
   - title: Headings
     url: /using-nhs-notify/headings
+  - title: Paragraphs, line breaks, and horizontal lines
+    url:
+    current: true
 
 previous_page:
   title: Headings
