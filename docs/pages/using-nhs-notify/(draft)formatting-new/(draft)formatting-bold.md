@@ -26,6 +26,8 @@ next_page:
   title: Bullet points and numbered lists
   url: /using-nhs-notify/bullet-points-numbered-lists
 published: true
+
+redirect_from: //using-nhs-notify/formatting/
 ---
 
 You can add bold text to:
