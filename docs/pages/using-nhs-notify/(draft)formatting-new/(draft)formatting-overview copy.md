@@ -25,8 +25,6 @@ next_page:
   title: Bold text
   url: /using-nhs-notify/formatting/bold-text
 published: true
-
-redirect_from: /using-nhs-notify/formatting/
 ---
 
 NHS Notify uses Markdown to format message content in NHS App message and email templates.
@@ -110,5 +108,3 @@ To format a letter template:
         Horizontal lines
       </td>
     </tr>
-  </tbody>
-</table>
