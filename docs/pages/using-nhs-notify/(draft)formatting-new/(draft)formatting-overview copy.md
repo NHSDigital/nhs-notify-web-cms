@@ -1,9 +1,9 @@
 ---
 layout: mini-hub
-title: Formatting
+title: Overview
 nav_order: 1
 permalink: /using-nhs-notify/formatting/overview
-mini_hub_topic: What you need before you start
+mini_hub_topic: Formatting
 mini_hub_pages:
   - title: Overview
     url:
