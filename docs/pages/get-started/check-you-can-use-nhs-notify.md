@@ -2,6 +2,7 @@
 layout: mini-hub
 title: Check you can use NHS Notify
 nav_order: 2
+parent: Get started
 permalink: /get-started/check-you-can-use-nhs-notify
 mini_hub_topic: What you need before you start
 mini_hub_pages:
@@ -50,10 +51,10 @@ Your organisation must onboard with NHS login if your message links to a service
 This keeps users logged in so they do not have to enter their details again.
 
 {% include components/inset-text.html
-  text='You must onboard with NHS login at the same time you onboard with NHS Notify.
+text='You must onboard with NHS login at the same time you onboard with NHS Notify.
 
-  <a href="https://digital.nhs.uk/services/nhs-login/nhs-login-for-partners-and-developers/nhs-login-integration-toolkit/apply-for-nhs-login" target="_blank">Onboard with NHS login (opens in a new tab)</a>'
-  classes='nhsuk-u-margin-top-2'
+<a href="https://digital.nhs.uk/services/nhs-login/nhs-login-for-partners-and-developers/nhs-login-integration-toolkit/apply-for-nhs-login" target="_blank">Onboard with NHS login (opens in a new tab)</a>'
+classes='nhsuk-u-margin-top-2'
 %}
 
 ## Commercial and data

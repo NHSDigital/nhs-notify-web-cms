@@ -2,6 +2,7 @@
 layout: mini-hub
 title: Read and understand our terms of service
 nav_order: 3
+parent: Get started
 permalink: /get-started/read-and-understand-our-terms-of-service
 mini_hub_topic: You must read and understand all of our service terms and get a legal opinion before you continue
 mini_hub_pages:
@@ -23,6 +24,7 @@ next_page:
   url: /get-started/register-your-interest
 published: true
 ---
+
 ## Online connection agreement
 
 If your organisation is not part of NHS England, you’ll need to sign our [online connection agreement (opens in a new tab)](https://digital.nhs.uk/developer/guides-and-documentation/online-connection-agreement){:target="\_blank"}.
