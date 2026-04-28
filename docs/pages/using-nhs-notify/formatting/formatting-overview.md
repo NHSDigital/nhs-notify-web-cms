@@ -3,6 +3,7 @@ layout: mini-hub
 title: Overview
 nav_order: 1
 permalink: /using-nhs-notify/formatting/
+section: Writing a message
 mini_hub_topic: Formatting
 mini_hub_pages:
   - title: Overview
