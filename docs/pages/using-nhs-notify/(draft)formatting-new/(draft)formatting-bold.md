@@ -6,7 +6,7 @@ permalink: /using-nhs-notify/formatting/bold-text
 mini_hub_topic: Formatting
 mini_hub_pages:
   - title: Overview
-    url: /using-nhs-notify/formatting/overview
+    url: /using-nhs-notify/formatting/
   - title: Bold text
     url:
     current: true
@@ -21,7 +21,7 @@ mini_hub_pages:
 
 previous_page:
   title: Overview
-  url: /using-nhs-notify/formatting/overview
+  url: /using-nhs-notify/formatting/
 next_page:
   title: Bullet points and numbered lists
   url: /using-nhs-notify/formatting/bullet-points-numbered-lists
