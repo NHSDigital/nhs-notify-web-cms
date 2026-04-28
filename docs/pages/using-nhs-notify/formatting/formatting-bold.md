@@ -36,7 +36,7 @@ You can add bold text to:
 Use bold text sparingly. Do not use bold to emphasise text.
 
 {% include components/inset-text.html
-text='Find out more about how to use <a href="https://service-manual.nhs.uk/content/formatting#bold-italics-and-underlining" target="_blank">bold in the NHS Digital service manual</a>.'
+text='Find out more about how to use [bold in the NHS Digital service manual](https://service-manual.nhs.uk/content/formatting#bold-italics-and-underlining).'
 classes='nhsuk-u-margin-top-2'
 %}
 

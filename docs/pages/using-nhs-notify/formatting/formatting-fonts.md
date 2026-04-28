@@ -34,9 +34,9 @@ NHS Notify prints letters in the font Noto Sans.
 
 ## Download your font
 
-You must download and use Noto Sans as the font for all of your letters, including <a href="https://notify.nhs.uk/using-nhs-notify/letters-in-other-languages" target="_blank">letters in other languages</a>. If you’re sending letters in other languages that use different character sets, download Noto Sans in those languages.
+You must download and use Noto Sans as the font for all of your letters, including [letters in other languages]({% link pages/using-nhs-notify/letters-in-other-languages.md %}). If you’re sending letters in other languages that use different character sets, download Noto Sans in those languages.
 
-Go to <a href="https://fonts.google.com/noto/fonts" target="_blank">Noto Sans on Google Fonts</a> and choose the languages you need by selecting **Get font**. Then select **Download all** to download Noto Sans to your device as a zip file.
+Go to [Noto Sans on Google Fonts](https://fonts.google.com/noto/fonts) and choose the languages you need by selecting **Get font**. Then select **Download all** to download Noto Sans to your device as a zip file.
 
 Noto Sans is a free font.
 
@@ -54,7 +54,7 @@ text='
 {% include components/details.html
 heading='Downloading Noto Sans for Mac'
 text='
-Follow the <a href="https://support.apple.com/en-gb/guide/font-book/fntbk1000/mac" target="_blank">install fonts guidance</a>. Make sure you install the static fonts.
+Follow the [install fonts guidance](https://support.apple.com/en-gb/guide/font-book/fntbk1000/mac). Make sure you install the static fonts.
 
-Read <a href="https://fonts.google.com/knowledge/using_type/installing_and_managing_fonts" target="_blank">Google’s guidance on installing fonts</a> for more information.'
+Read [Google’s guidance on installing fonts](https://fonts.google.com/knowledge/using_type/installing_and_managing_fonts) for more information.'
 %}

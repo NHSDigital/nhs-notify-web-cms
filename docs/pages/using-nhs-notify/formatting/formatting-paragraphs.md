@@ -36,7 +36,7 @@ You can add paragraphs and line breaks to:
 You can add horizontal lines to emails, to create separate sections.
 
 {% include components/inset-text.html
-text='Find out more about <a href="https://service-manual.nhs.uk/content/writing-nhs-messages" target="_blank"> writing NHS messages (NHS Digital service manual)</a>.'
+text='Find out more about [writing NHS messages (NHS Digital service manual)](https://service-manual.nhs.uk/content/writing-nhs-messages).'
 classes='nhsuk-u-margin-top-2'
 %}
 

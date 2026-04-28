@@ -39,7 +39,7 @@ Use headings to tell recipients what your message is about, break up content, an
 Headings are in bold. They are not in italics or underlined.
 
 {% include components/inset-text.html
-text='Find out more about using <a href="https://service-manual.nhs.uk/content/formatting#headings" target="_blank"> headings in the NHS Digital service manual</a>.'
+text='Find out more about using [headings in the NHS Digital service manual](https://service-manual.nhs.uk/content/formatting#headings).'
 classes='nhsuk-u-margin-top-2'
 %}
 

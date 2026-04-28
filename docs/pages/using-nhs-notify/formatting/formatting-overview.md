@@ -42,9 +42,9 @@ You do not need to use Markdown to format letter templates.
 
 To format a letter template:
 
-1. <a href="https://notify.nhs.uk/using-nhs-notify/upload-a-letter#download-a-blank-word-letter-template" target="_blank">Download a blank Word letter template</a>.
+1. [Download a blank Word letter template](https://notify.nhs.uk/using-nhs-notify/upload-a-letter#download-a-blank-word-letter-template).
 2. Add your formatting.
-3. <a href="https://notify.nhs.uk/using-nhs-notify/upload-a-letter" target="_blank">Upload your letter</a>.
+3. [Upload your letter]({% link pages/using-nhs-notify/upload-a-letter.md %}).
 
 ## Formats supported by message channels
 
@@ -120,6 +120,6 @@ To format a letter template:
 </table>
 
 {% include components/inset-text.html
-text='Text message (SMS) templates cannot be formatted, other than to add <a href="https://notify.nhs.uk/using-nhs-notify/links-and-urls" target="_blank"> links and URLs</a>.'
+text='Text message (SMS) templates cannot be formatted, other than to add [links and URLs](https://notify.nhs.uk/using-nhs-notify/links-and-urls).'
 classes='nhsuk-u-margin-top-2'
 %}

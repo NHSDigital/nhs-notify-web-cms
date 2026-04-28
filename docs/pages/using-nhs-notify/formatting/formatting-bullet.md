@@ -39,7 +39,7 @@ Use bullet points to make your text easier to read.
 Use numbered lists instead of bullet points to guide a user through a process, or when the order of the items in a list is relevant.
 
 {% include components/inset-text.html
-text='Find out more about <a href="https://service-manual.nhs.uk/content/writing-nhs-messages" target="_blank">writing messages (NHS Digital service manual)</a>.'
+text='Find out more about [writing messages (NHS Digital service manual)](https://service-manual.nhs.uk/content/writing-nhs-messages).'
 classes='nhsuk-u-margin-top-2'
 %}
 
