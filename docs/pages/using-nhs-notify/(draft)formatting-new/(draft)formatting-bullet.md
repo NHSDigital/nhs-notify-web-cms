@@ -2,7 +2,7 @@
 layout: mini-hub
 title: Bullet points and numbered lists
 nav_order: 3
-permalink: /using-nhs-notify/bullet-points-numbered-lists
+permalink: /using-nhs-notify/formatting/bullet-points-numbered-lists
 mini_hub_topic: Formatting
 mini_hub_pages:
   - title: Overview

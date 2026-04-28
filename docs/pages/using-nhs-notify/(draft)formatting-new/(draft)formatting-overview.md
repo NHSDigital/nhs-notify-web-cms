@@ -2,7 +2,7 @@
 layout: mini-hub
 title: Overview
 nav_order: 1
-permalink: /using-nhs-notify/formatting/overview
+permalink: /using-nhs-notify/formatting/
 mini_hub_topic: Formatting
 mini_hub_pages:
   - title: Overview

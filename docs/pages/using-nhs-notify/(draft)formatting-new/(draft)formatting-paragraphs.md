@@ -2,7 +2,7 @@
 layout: mini-hub
 title: Paragraphs, line breaks, and horizontal lines
 nav_order: 6
-permalink: /using-nhs-notify/paragraphs
+permalink: /using-nhs-notify/formatting/paragraphs
 mini_hub_topic: Formatting
 mini_hub_pages:
   - title: Overview

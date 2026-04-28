@@ -2,7 +2,7 @@
 layout: mini-hub
 title: Fonts for letter templates
 nav_order: 4
-permalink: /using-nhs-notify/letter-fonts
+permalink: /using-nhs-notify/formatting/letter-fonts
 mini_hub_topic: Formatting
 mini_hub_pages:
   - title: Overview
