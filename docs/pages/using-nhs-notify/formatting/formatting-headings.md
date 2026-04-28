@@ -34,7 +34,7 @@ You can add headings to:
 - emails
 - letters
 
-Use headings to tell recipients what your message is about, break up content, and help recipients find what they need. In letters, you can use headings to summarise what your letter is about.
+Use headings to tell recipients what your message is about, break up content, and help recipients find what they need. 
 
 Headings are in bold. They are not in italics or underlined.
 
@@ -58,9 +58,9 @@ To add a heading to letters, use the style **Heading 2**, NHS letter heading in 
 
 Use subheadings to break up the rest of your content. Your first subheading must come after a heading.
 
+To add subheadings to NHS App messages and emails, use 2 hash symbols followed by a space. For example:
+
 {% include components/inset-text.html
   text='`## This is a subheading`'
   classes='nhsuk-u-margin-top-2'
 %}
-
-To add subheadings to NHS App messages and emails, use 2 hash symbols followed by a space. For example:
