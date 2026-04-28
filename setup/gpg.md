@@ -57,7 +57,7 @@ GPG settings take effect after a restart.
 
 1. Visit [https://github.com/codespaces](https://github.com/codespaces)
 2. Find your Codespace
-3. Click the three dots menu and select **Stop codespace**
+3. Click the three dots menu and select **Stop Codespace**
 4. Reopen the Codespace
 
 ## Verify GPG is configured
