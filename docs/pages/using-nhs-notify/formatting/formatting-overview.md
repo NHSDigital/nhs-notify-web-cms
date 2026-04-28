@@ -109,3 +109,10 @@ To format a letter template:
         Horizontal lines
       </td>
     </tr>
+  </tbody>
+</table>
+
+{% include components/inset-text.html
+text='Text message (SMS) templates cannot be formatted, other than to add <a href="https://notify.nhs.uk/using-nhs-notify/links-and-urls" target="_blank"> links and URLs</a>.'
+classes='nhsuk-u-margin-top-2'
+%}
