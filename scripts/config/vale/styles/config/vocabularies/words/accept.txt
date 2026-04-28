@@ -2,12 +2,15 @@
 [cC]yber
 [iI]nset
 [Uu][Rr][Ll]
+ad-hoc
 APIM
 Bitwarden
 bot
 bundler
 Burkina
 clientRef
+Codespace
+Codespaces
 Cohorting
 ctrl
 Dependabot
@@ -17,6 +20,7 @@ Futuna
 Gitleaks
 Grype
 idempotence
+J[Ii][Rr][Aa]
 Maarten
 Marino
 namePrefix
@@ -33,6 +37,7 @@ Podman
 precompiled
 Python
 realtime
+rebasing
 Rica
 rollout
 Sao
