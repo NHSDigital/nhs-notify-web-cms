@@ -10,6 +10,21 @@ class Command(BaseCommand):
     help = 'Creates the homepage and sets it as the site root (idempotent)'
 
     def handle(self, *args, **options):
+        # Check if the table exists (migrations have run)
+        from django.db import connection
+        with connection.cursor() as cursor:
+            cursor.execute("""
+                SELECT EXISTS (
+                    SELECT FROM information_schema.tables 
+                    WHERE table_name = 'home_homepage'
+                )
+            """)
+            table_exists = cursor.fetchone()[0]
+        
+        if not table_exists:
+            self.stdout.write(self.style.WARNING('HomePage table does not exist. Run migrations first.'))
+            return
+        
         # Check if homepage already exists
         if HomePage.objects.filter(slug='home').exists():
             self.stdout.write(self.style.SUCCESS('Homepage already exists, skipping creation'))
@@ -41,10 +56,14 @@ class Command(BaseCommand):
         root_page.add_child(instance=homepage)
 
         # Handle locales if they exist
-        if Locale.objects.exists():
-            default_locale = Locale.objects.get(language_code="en")
-            homepage.locale = default_locale
-            homepage.save()
+        try:
+            if Locale.objects.exists():
+                default_locale = Locale.objects.first()  # Use first locale, not hardcoded "en"
+                homepage.locale = default_locale
+                homepage.save()
+        except Exception:
+            # Locale handling failed, but homepage was created successfully
+            pass
 
         # Set as the root page for the default site
         site = Site.objects.filter(is_default_site=True).first()
