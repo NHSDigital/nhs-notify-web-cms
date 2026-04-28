@@ -62,7 +62,7 @@ To format a letter template:
   <tbody class="nhsuk-table__body">
     <tr class="nhsuk-table__row">
       <td class="nhsuk-table__cell">
-        NHS App<br> Email<br> Letter
+        NHS App<br> Letter
       </td>
       <td class="nhsuk-table__cell">
         Bold text
@@ -83,24 +83,31 @@ To format a letter template:
       <td class="nhsuk-table__cell">
         Numbered lists
       </td>
-      <tr class="nhsuk-table__row">
+    </tr>
+    <tr class="nhsuk-table__row">
       <td class="nhsuk-table__cell">
         NHS App<br> Email<br> Letter
       </td>
       <td class="nhsuk-table__cell">
         Headings
+      </td>
+    </tr>
     <tr class="nhsuk-table__row">
       <td class="nhsuk-table__cell">
         NHS App<br> Email<br> Letter
       </td>
       <td class="nhsuk-table__cell">
         Paragraphs
+      </td>
+    </tr>
     <tr class="nhsuk-table__row">
       <td class="nhsuk-table__cell">
         NHS App<br> Email<br>
       </td>
       <td class="nhsuk-table__cell">
         Line breaks
+      </td>
+    </tr>
     <tr class="nhsuk-table__row">
       <td class="nhsuk-table__cell">
         Email
