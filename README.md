@@ -22,8 +22,13 @@ This will setup a development environment for you to edit the web site in. The f
 ### Pre-requisites
 
 - A GitHub account
-- For submitting changes, code must be signed.
-- To sign code using GitHub code spaces, please configure GPG signing for the repository, from your Settings page.
+- For submitting changes, code must be signed with a GPG key linked to your GitHub account.
+
+Setup guides:
+
+- [GPG setup for Codespaces](setup/gpg.md)
+- [GitHub Copilot quick start](setup/copilot.md)
+- [FAQ](setup/faq.md)
 
 ### 1. From a web browser, visit the Web CMS GitHub Repository page
 
