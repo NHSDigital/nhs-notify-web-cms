@@ -34,7 +34,7 @@ You can add headings to:
 - emails
 - letters
 
-Use headings to tell recipients what your message is about, break up content, and help recipients find what they need. 
+Use headings to tell recipients what your message is about, break up content, and help recipients find what they need.
 
 Headings are in bold. They are not in italics or underlined.
 
