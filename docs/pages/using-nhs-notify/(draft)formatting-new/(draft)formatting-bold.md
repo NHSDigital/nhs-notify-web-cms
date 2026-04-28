@@ -11,20 +11,20 @@ mini_hub_pages:
     url:
     current: true
   - title: Bullet points and numbered lists
-    url: /using-nhs-notify/bullet-points-numbered-lists
+    url: /using-nhs-notify/formatting/bullet-points-numbered-lists
   - title: Fonts for letter templates
-    url: /using-nhs-notify/letter-fonts
+    url: /using-nhs-notify/formatting/letter-fonts
   - title: Headings
-    url: /using-nhs-notify/headings
+    url: /using-nhs-notify/formatting/headings
   - title: Paragraphs, line breaks, and horizontal lines
-    url: /using-nhs-notify/paragraphs
+    url: /using-nhs-notify/formatting/paragraphs
 
 previous_page:
   title: Overview
   url: /using-nhs-notify/formatting/overview
 next_page:
   title: Bullet points and numbered lists
-  url: /using-nhs-notify/bullet-points-numbered-lists
+  url: /using-nhs-notify/formatting/bullet-points-numbered-lists
 published: true
 ---
 

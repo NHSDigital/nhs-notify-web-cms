@@ -13,18 +13,18 @@ mini_hub_pages:
     url:
     current: true
   - title: Fonts for letter templates
-    url: /using-nhs-notify/letter-fonts
+    url: /using-nhs-notify/formatting/letter-fonts
   - title: Headings
-    url: /using-nhs-notify/headings
+    url: /using-nhs-notify/formatting/headings
   - title: Paragraphs, line breaks, and horizontal lines
-    url: /using-nhs-notify/paragraphs
+    url: /using-nhs-notify/formatting/paragraphs
 
 previous_page:
   title: Bold text
   url: /using-nhs-notify/formatting/bold-text
 next_page:
   title: Fonts for letter templates
-  url: /using-nhs-notify/letter-fonts
+  url: /using-nhs-notify/formatting/letter-fonts
 published: true
 ---
 
