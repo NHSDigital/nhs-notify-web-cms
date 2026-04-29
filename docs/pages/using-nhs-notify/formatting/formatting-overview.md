@@ -1,13 +1,14 @@
 ---
 layout: mini-hub
 title: Overview
+nav_title: Formatting
 nav_order: 1
-permalink: /using-nhs-notify/formatting/
+permalink: /using-nhs-notify/formatting
 section: Writing a message
 mini_hub_topic: Formatting
 mini_hub_pages:
   - title: Overview
-    url:
+    url: /using-nhs-notify/formatting
     current: true
   - title: Bold text
     url: /using-nhs-notify/formatting/bold-text

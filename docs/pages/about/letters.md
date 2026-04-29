@@ -38,7 +38,7 @@ You might also want to understand more about:
 - [return addresses]({% link pages/using-nhs-notify/tell-recipients-who-your-messages-are-from.md %})
 - [sending letters to people with access needs]({% link pages/using-nhs-notify/accessible-formats.md %})
 - [sending letters to people who speak other languages]({% link pages/using-nhs-notify/letters-in-other-languages.md %})
-- [formatting]({% link pages/using-nhs-notify/formatting.md %})
+- [formatting]({% link pages/using-nhs-notify/formatting/formatting-overview.md %})
 - [links and URLs]({% link pages/using-nhs-notify/links-and-urls.md %})
 - [personalisation]({% link pages/using-nhs-notify/personalisation.md %})
 
