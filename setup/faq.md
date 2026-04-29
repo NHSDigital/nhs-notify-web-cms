@@ -2,9 +2,9 @@
 
 ## I've not used git or VSCode (Codespaces) before
 
-- You could start at https://www.youtube.com/watch?v=e9lnsKot_SQ for a brief 4 minute crashcourse in Git.
-- There is a great overview of what Codespaces is here https://www.youtube.com/watch?v=sYJ3CHtT6WM.
-- Fireship has a 100 seconds of VSCode https://www.youtube.com/watch?v=KMxo3T_MTvY video which shows the key features.
+- You could start at <https://www.youtube.com/watch?v=e9lnsKot_SQ> for a brief 4 minute crash course in Git.
+- There is a great overview of what Codespaces is here <https://www.youtube.com/watch?v=sYJ3CHtT6WM>.
+- Fireship has a 100 seconds of VSCode <https://www.youtube.com/watch?v=KMxo3T_MTvY> video which shows the key features.
 
 ## Something is not working. What should I try first?
 
@@ -15,6 +15,30 @@ Turn it off and on again - restart your Codespace first. This fixes most issues,
 3. Click the three dots menu on the right
 4. Select **Stop Codespace**
 5. Reopen the Codespace
+
+## When I try to commit my changes it says "Git: Scan secrets…" and fails?
+
+This repository has 'pre-commit hooks' that run a series of checks before every commit. When VSCode runs these hooks and one fails, the output is heavily truncated and can look misleading, for example:
+
+<img src="../assets/img/FAQ-git-scan-secrets-fail.png" alt="VS Code notification showing Git: Scan secrets...........Passed" width="250"/>
+
+Despite saying "Passed", this message is incomplete. Click **Show Command Output** to see the full results and identify which check actually failed.
+
+<img src="../assets/img/FAQ-git-scan-secrets-fail2.png" alt="Command output showing Check markdown format failing due to bad heading indents" width="600"/>
+
+In the example above, the failure is "Check markdown format" flagging incorrect heading levels in a file.
+
+Fix the issue reported, save and stage the file, and try committing again.
+
+### Running the checks manually
+
+You can run the pre-commit checks at any time from the terminal at the repository root:
+
+```bash
+make githooks-run
+```
+
+<img src="../assets/img/FAQ-git-scan-secrets-pass.png" alt="Terminal output showing all pre-commit hooks passing" width="600"/>
 
 ## How do I check whether GPG commit signing is working?
 

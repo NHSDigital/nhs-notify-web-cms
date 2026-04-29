@@ -12,7 +12,6 @@ clientRef
 Codespace
 Codespaces
 Cohorting
-crashcourse
 ctrl
 Dependabot
 endfor
