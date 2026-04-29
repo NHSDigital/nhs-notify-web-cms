@@ -15,7 +15,7 @@ This guidance is to help teams understand how to use NHS Notify.
 
 - [Create and submit a template]({% link pages/using-nhs-notify/create-and-submit-a-template.md %})
 - [Upload a letter]({% link pages/using-nhs-notify/upload-a-letter.md %})
-- [Formatting]({% link pages/using-nhs-notify/formatting.md %})
+- [Formatting]({% link pages/using-nhs-notify/formatting/formatting-overview.md %})
 - [Links and URLs]({% link pages/using-nhs-notify/links-and-urls.md %})
 - [Personalisation]({% link pages/using-nhs-notify/personalisation.md %})
 - [Accessible formats]({% link pages/using-nhs-notify/accessible-formats.md %})
