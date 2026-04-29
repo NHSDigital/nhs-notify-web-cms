@@ -12,9 +12,11 @@ clientRef
 Codespace
 Codespaces
 Cohorting
+crashcourse
 ctrl
 Dependabot
 endfor
+Fireship
 fullName
 Futuna
 Gitleaks
@@ -54,4 +56,5 @@ Trufflehog
 unnotified
 urlset
 validation_failed
+VSCode
 Wayfinder

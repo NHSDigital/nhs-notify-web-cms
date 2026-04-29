@@ -1,5 +1,11 @@
 # FAQ
 
+## I've not used git or VSCode (Codespaces) before
+
+- You could start at https://www.youtube.com/watch?v=e9lnsKot_SQ for a brief 4 minute crashcourse in Git.
+- There is a great overview of what Codespaces is here https://www.youtube.com/watch?v=sYJ3CHtT6WM.
+- Fireship has a 100 seconds of VSCode https://www.youtube.com/watch?v=KMxo3T_MTvY video which shows the key features.
+
 ## Something is not working. What should I try first?
 
 Turn it off and on again - restart your Codespace first. This fixes most issues, including GPG signing, stale environment variables, and preview problems.
