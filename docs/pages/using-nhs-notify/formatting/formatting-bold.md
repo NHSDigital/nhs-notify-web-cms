@@ -21,7 +21,7 @@ mini_hub_pages:
 
 previous_page:
   title: Overview
-  url: /using-nhs-notify/formatting/
+  url: /using-nhs-notify/formatting
 next_page:
   title: Bullet points and numbered lists
   url: /using-nhs-notify/formatting/bullet-points-numbered-lists
