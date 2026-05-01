@@ -40,10 +40,7 @@ If you're sending messages using multiple channels, you'll get an overall status
 Messages can have the following statuses:
 
 | Status             | Description                                                                                                               |
-| ------------------ | ------------------------------------------------------------------------------------------------------------------------- |
-| pending_enrichment | NHS Notify is waiting to check and improve the recipient's contact details using the Personal Demographics Service (PDS). |
-| enriched           | NHS Notify has found the recipient's contact details.                                                                     |
-| sending            | The message is in the process of being sent.                                                                              |
+| ------------------ | ------------------------------------------------------------------------------------------------------------------------- |                                                                            |
 | delivered          | The message has been successfully delivered.                                                                              |
 | failed             | We have failed to deliver the message.                                                                                    |
 
