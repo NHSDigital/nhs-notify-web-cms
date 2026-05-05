@@ -27,7 +27,7 @@ published: true
 
 ## Online connection agreement
 
-If your organisation is not part of NHS England, you’ll need to sign our [online connection agreement (opens in a new tab)](https://digital.nhs.uk/developer/guides-and-documentation/online-connection-agreement){:target="\_blank"}.
+If your organisation is not part of NHS England, you’ll need to sign our [online connection agreement (opens in a new tab)](https://digital.nhs.uk/services/partner-onboarding/operations#connection-agreement){:target="\_blank"}.
 
 We'll send you the online connection agreement to sign during onboarding. You must sign this before you can go live with NHS Notify.
 
