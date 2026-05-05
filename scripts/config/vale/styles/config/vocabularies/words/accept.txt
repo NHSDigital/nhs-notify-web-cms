@@ -32,6 +32,7 @@ OAuth
 Octokit
 onboarding
 pending_enrichment
+pending_virus_check
 permanent_failure
 phoneNumber
 Podman
@@ -55,5 +56,6 @@ Trufflehog
 unnotified
 urlset
 validation_failed
+virus_scan_failed
 VSCode
 Wayfinder

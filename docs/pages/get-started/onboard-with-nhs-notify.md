@@ -50,7 +50,7 @@ text="To see how your messages perform, you can <a href='https://digital.nhs.uk/
 
 If you want to receive realtime message status callbacks, you'll need to:
 
-- decide which [message, channel or supplier statuses](/using-nhs-notify/message-channel-supplier-status) you want to receive
+- decide which [channel or supplier statuses](/using-nhs-notify/message-channel-supplier-status) you want to receive
 - prepare an endpoint URL for your integration
   "
   %}
