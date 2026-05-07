@@ -1,0 +1,34 @@
+---
+layout: default
+---
+
+{% assign current_dir = page.dir %}
+{% assign paths = page.dir | split: "/" %}
+{% assign parent_dir = paths[1] %}
+
+{%-
+assign nav_pages = site.pages
+| where_exp: "item", "item.dir contains parent_dir"
+-%}
+
+{% assign first_level_dir = parent_dir | prepend: '/' | append: '/' %}
+{%-
+assign first_level = nav_pages
+| where_exp: "item", "item.dir == first_level_dir"
+| group_by: "section"
+| sort: 'name', 'last'
+-%}
+
+<div class="nhsuk-width-container">
+  <main class="nhsuk-main-wrapper" id="maincontent" role="main">
+    <div class="nhsuk-grid-row">
+      <div class="nhsnotify-pane__main-content nhsuk-grid-column-three-quarters">
+        {% if page.section != undefined %}
+        <heading class="nhsuk-heading-s" style="margin-bottom: 0; color: #4c6272">{{ page.section }}</heading>
+        {% endif %}
+        <h1>{{ page.title }}</h1>
+        {{ content }}
+      </div>
+    </div>
+  </main>
+</div>
