@@ -5,58 +5,69 @@
 layout: page
 title: Links and URLs
 parent: Using NHS Notify
-nav_order: 2
+nav_order: 3
 permalink: /using-nhs-notify/links-and-urls
 section: Writing a message
-published: false
 ---
 
-When composing a message, write URLs in full. For example:
+You can include links in your messages. How you do this depends on the message channel.
+
+You can see instructions on links and URLs while you’re editing a template.
+
+## Using the full URL
+
+To add a link to a message, you can write the URL in full. For example:
 
 {% include components/inset-text.html
-    text='<code>Book now at https://www.nhs.uk/example'
+  text='Book now at https://www.nhs.uk/example'
+  classes='nhsuk-u-margin-top-2'
+%}
+
+For NHS App messages and emails, use square brackets around the full URL to make it the link text and use round brackets around the full URL.
+
+Make sure there are no spaces between the brackets or the link will not work. For example:
+
+{% include components/inset-text.html
+  text='`[https://www.nhs.uk/example](https://www.nhs.uk/example)`'
+  classes='nhsuk-u-margin-top-2'
+%}
+
+For letters, you do not need to include https:// at the start. For example:
+
+{% include components/inset-text.html
+  text='Book now at www.nhs.uk/example'
+  classes='nhsuk-u-margin-top-2'
 %}
 
 URLs should be easy to read.
+
+{% include components/details.html
+heading='Short URLs'
+text='
+If you have a long, complex web address, you can request a short URL from GOV.UK. This can take some time and may delay your template creation.
 
 We do not recommend using a third-party link shortening service because:
 
 - your users cannot see where the link will take them
 - your link might stop working if there’s a service outage
-- you can no longer control where the redirect goes
+- you can no longer control where the redirect goes'
+  %}
 
-## Link texts in emails
+## Converting text into a link
 
-When writing an email, you can convert text into a link instead of writing the full web address.
+For NHS App messages and emails, you can convert text into a link.
 
-Link text may be useful if you have:
+Use square brackets around the link text and round brackets around the full URL. Make sure there are no spaces between the brackets or the link will not work. For example:
 
-- long, complex URLs
-- unsubscribe links
-- emails that contain more than 2 links
-
-If the recipient is not expecting to receive an email from you, we recommend using the url instead of link text.
+{% include components/inset-text.html
+  text='`[Read more](https://www.nhs.uk/example)`'
+  classes='nhsuk-u-margin-top-2'
+%}
 
 Link text should tell the recipient what action they need to take and where the link goes.
 
 Never use ‘click here’, ‘click link’, ‘this link’ or ‘more’, as these do not make sense when read out of context.
 
-### How to add link text to an email
+If the recipient is not expecting to receive an email from you, we recommend using the full URL instead of link text.
 
-NHS Notify uses Markdown to format link text.
-
-To convert text into a link, use square brackets around the link text and round brackets around the url. Make sure there are no spaces between the brackets or the link will not work. For example:
-
-{% include components/inset-text.html
-    text='<code>[Book now](https://www.nhs.uk/example)'
-%}
-
-You cannot use Markdown to add link text to a text message or letter template.
-
-To see message formatting instructions while you’re editing an email template:
-
-1. Go to the Templates page.
-2. Create a new email template or choose an existing email template and select Edit.
-3. The formatting guide with the available Markdown is on the right-hand side of the page.
-
-CCM-6061 and CCM-6075 commit workaround.
+You cannot convert text into a link in text message or letter templates.

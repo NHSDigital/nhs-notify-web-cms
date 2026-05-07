@@ -1,27 +1,28 @@
 - heading: Write your messages
   description: |
     Create reusable templates or free-text messages for each message channel:
-    - NHS App messages and notifications
-    - emails
-    - text messages (SMS)
-    - letters
+    - [NHS App messages and notifications](https://notify.nhs.uk/about/nhs-app-messages)
+    - [emails](https://notify.nhs.uk/about/emails)
+    - [text messages (SMS)](https://notify.nhs.uk/about/text-messages-sms)
+    - [letters](https://notify.nhs.uk/about/letters)
   image: 1-write-your-message.svg
-  image_alt: A screenshot showing how you write messages using NHS Notify's user interface.
+  image_alt: ""
 
 - heading: Tell us who to message using their NHS number
   description: |
     You only need a person’s NHS number to send them messages.
-  image: 2-choose-your-recipients.svg
-  image_alt: A screenshot of computer code showing how you provide your recipients.
+  image: choose-your-recipients-no-dob.svg
+  image_alt: ""
 
 - heading: Plan how your messages will be sent
   description: |
-    Set up routing plans to decide how your messages will be sent to recipients.
+    Set up message plans to decide how your messages will be sent to recipients.
   image: 3-plan-your-messages.svg
-  image_alt: A graphic of a phone, laptop and letter (numbered 1, 2 and 3 in that order) to show that you can send messages with each message channel in a specific order.
+  image_alt: ""
+  number: 3
 
 - heading: See how your messages perform
   description: |
     Track how many messages you've sent and find out which ones are not being delivered.
   image: 4-see-message-performance.svg
-  image_alt: A screenshot of NHS Notify showing counts of NHS App messages and text messages that have been sent.
+  image_alt: ""
