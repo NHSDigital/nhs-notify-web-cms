@@ -28,7 +28,7 @@ For NHS App messages and emails, use square brackets around the full URL to make
 Make sure there are no spaces between the brackets or the link will not work. For example:
 
 {% include components/inset-text.html
-  text='`[https://www.nhs.uk/example](https://www.nhs.uk/example)`'
+  text='`[https://www.nhs.uk](https://www.nhs.uk)`'
   classes='nhsuk-u-margin-top-2'
 %}
 
