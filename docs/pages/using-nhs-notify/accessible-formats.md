@@ -14,6 +14,8 @@ Before you start to send messages, consider the access needs of your recipients.
 
 All organisations that provide NHS care or publicly-funded adult social care are legally required to follow the <a href="https://www.england.nhs.uk/about/equality/equality-hub/patient-equalities-programme/equality-frameworks-and-information-standards/accessibleinfo/" target="_blank">NHS England's Accessible Information Standard (opens in a new tab)</a>.
 
+Find out more about <a href="https://service-manual.nhs.uk/content/writing-nhs-messages#supporting-accessibility-and-inclusion" target="_blank">supporting accessibility and inclusion (NHS digital service manual)</a>.
+
 ## Accessible letter formats
 
 NHS Notify offers the following letter formats so you can reach people with access needs.
