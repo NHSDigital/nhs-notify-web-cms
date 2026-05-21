@@ -13,10 +13,10 @@ section: Writing a message
 Upload a Microsoft Word version of your letter and we’ll print and post it for you.
 
 1. Download a blank Word letter template.
-2. Download the correct [fonts for letter templates](https://notify.nhs.uk/using-nhs-notify/formatting/letter-fonts).
+2. Download the correct [fonts for letter templates]({% link pages/using-nhs-notify/formatting/formatting-fonts.md %}).
 3. Add your letter content to the blank template.
-4. Add [formatting](https://notify.nhs.uk/using-nhs-notify/formatting).
-5. Add [personalisation](https://notify.nhs.uk/using-nhs-notify/personalisation) fields by using single curly brackets with d. at the start. For example, {d. appointmentDate}.
+4. Add [formatting]({% link pages/using-nhs-notify/formatting/formatting-overview.md %}).
+5. Add [personalisation]({% link pages/using-nhs-notify/personalisation.md %}) fields by using single curly brackets with d. at the start. For example, {d. appointmentDate}.
 
 ## How to upload your letter template
 
@@ -26,8 +26,9 @@ How you upload your template depends on whether:
 - we've invited you to use the **Upload a letter template** feature in your NHS Notify account
 
 {% include components/inset-text.html
-  text='It can take up to 2 days for letters to be dispatched once you’ve uploaded them. Find out more about [delivery times](https://notify.nhs.uk/using-nhs-notify/delivery-times).'
+  text='It can take up to 2 days for letters to be dispatched once you’ve uploaded them. Find out more about [delivery times]({% link pages/using-nhs-notify/delivery-times.md %}).'
 %}
+
 ### If you use the ServiceNow request process
 
 Name your letter template clearly so it’s easy to identify, and include:
@@ -45,15 +46,15 @@ For example:
   text='vaccinations_under-16_english_standard_letter_v1'
 %}
 
-Upload your final letter template by submitting [a ServiceNow request (opens in a new tab)](https://nhsdigitallive.service-now.com/csm). You can include multiple letter templates.
+Upload your final letter template by submitting <a href="https://nhsdigitallive.service-now.com/csm?id=sc_cat_item&sys_id=6cc625151b9fbad083b0a7d0b24bcb11&referrer=recent_items" target="_blank">ServiceNow request (opens in a new tab)</a>. You can include multiple letter templates.
 
-We’ll send you digital proofs so you [can approve your messages](https://notify.nhs.uk/using-nhs-notify/approve-your-messages).
+We’ll send you digital proofs so you [can approve your messages]({% link pages/using-nhs-notify/approve-your-messages.md %}).
 
 {% include components/details.html
 heading='How to raise a Service Now request for letter templates'
 text='
 
-1. Go to <a href="https://nhsdigitallive.service-now.com/csm" target="_blank">Service Now (opens in a new tab)</a>.
+1. Go to <a href="https://nhsdigitallive.service-now.com/csm?id=sc_cat_item&sys_id=6cc625151b9fbad083b0a7d0b24bcb11&referrer=recent_items" target="_blank">Service Now (opens in a new tab)</a>.
 2. Sign in with your NHS.net account, or register for a Portal account.
 3. In the <b>Description</b> field, include the email address you want the proofs sent to and the name of your letter template.
 4. For the service, select <b>NHS Notify</b> from the drop-down list.
@@ -65,7 +66,7 @@ text='
 ### If you can upload letters using your account
 
 1. Log in to NHS Notify and go to **Templates**. Select **New template**. Choose **Letter** as your template type and select **Continue**.
-2. Give your template a name and choose which campaign it’s for.
+2. Name your template and choose which campaign it’s for.
 3. Choose your file and select **Upload letter template file**.
 4. Choose your **Printing and postage**.
 5. View the **Letter preview**. Check how your personalisation fields appear using short and long example data.
@@ -84,9 +85,9 @@ Download a new template each time you create a letter to ensure you’re using t
 
 You’ll need the desktop Microsoft Word app.
 
-If you need [accessible formats](https://notify.nhs.uk/using-nhs-notify/accessible-formats), set them up using the standard English letter template.
+If you need [accessible formats]({% link pages/using-nhs-notify/accessible-formats.md %}), set them up using the standard English letter template.
 
-Find out more about [letters in other languages](https://notify.nhs.uk/using-nhs-notify/letters-in-other-languages).
+Find out more about [letters in other languages]({% link pages/using-nhs-notify/letters-in-other-languages.md %}).
 
 ## Formatting your letter template
 
@@ -101,7 +102,7 @@ You can also use [Microsoft Word's format painter](https://support.microsoft.com
   classes='nhsuk-u-margin-top-2'
 %}
 
-Find out more about [formatting](https://notify.nhs.uk/using-nhs-notify/formatting) your letter templates.
+Find out more about [formatting]({% link pages/using-nhs-notify/formatting/formatting-overview.md %}) your letter templates.
 
 ## Links and URLs
 
