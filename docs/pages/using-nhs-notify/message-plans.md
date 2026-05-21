@@ -20,7 +20,8 @@ You can choose from a list of pre-defined message plans.
 
 For example: NHS App, email, text message, letter.
 
-How fallbacks work
+## How fallbacks work
+
 If we cannot deliver a message through your first choice, we automatically try the next channel in your message plan.
 
 A fallback happens if:
