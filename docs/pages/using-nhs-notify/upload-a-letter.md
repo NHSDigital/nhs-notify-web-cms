@@ -51,10 +51,10 @@ Upload your final letter template by submitting <a href="https://nhsdigitallive.
 We’ll send you digital proofs so you [can approve your messages]({% link pages/using-nhs-notify/approve-your-messages.md %}).
 
 {% include components/details.html
-heading='How to raise a Service Now request for letter templates'
+heading='How to raise a ServiceNow request for letter templates'
 text='
 
-1. Go to <a href="https://nhsdigitallive.service-now.com/csm?id=sc_cat_item&sys_id=6cc625151b9fbad083b0a7d0b24bcb11&referrer=recent_items" target="_blank">Service Now (opens in a new tab)</a>.
+1. Go to <a href="https://nhsdigitallive.service-now.com/csm?id=sc_cat_item&sys_id=6cc625151b9fbad083b0a7d0b24bcb11&referrer=recent_items" target="_blank">ServiceNow (opens in a new tab)</a>.
 2. Sign in with your NHS.net account, or register for a Portal account.
 3. In the <b>Description</b> field, include the email address you want the proofs sent to and the name of your letter template.
 4. For the service, select <b>NHS Notify</b> from the drop-down list.
