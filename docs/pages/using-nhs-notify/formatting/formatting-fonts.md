@@ -30,7 +30,9 @@ published: true
 
 The font size for standard letters is 12 points. The font size for large print is 16 points.
 
-NHS Notify prints letters in the font Noto Sans.
+NHS Notify uses Noto Sans as the default font for all letters. Use this font to ensure your letter prints correctly and meets NHS brand standards.
+
+Only use a different font if you have a specific reason not to use NHS branding. You must [embed the font in your file (Microsoft Word)](https://support.microsoft.com/en-gb/office/benefits-of-embedding-custom-fonts-cb3982aa-ea76-4323-b008-86670f222dbc). If your font is not embedded, you will not be able to upload your letter.
 
 ## Download your font
 
