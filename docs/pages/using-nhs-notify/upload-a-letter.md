@@ -26,7 +26,7 @@ How you upload your template depends on whether:
 - we've invited you to use the **Upload a letter template** feature in your NHS Notify account
 
 {% include components/inset-text.html
-  text='It can take up to 2 days for letters to be dispatched once you’ve uploaded them. Find out more about [delivery times]({% link pages/using-nhs-notify/delivery-times.md %}).'
+  text='It can take up to 2 days for letters to be dispatched once you’ve uploaded them. Find out more about [delivery times](https://notify.nhs.uk/using-nhs-notify/delivery-times).'
 %}
 
 ### If you use the ServiceNow request process
@@ -54,7 +54,7 @@ We’ll send you digital proofs so you [can approve your messages]({% link page
 heading='How to raise a ServiceNow request for letter templates'
 text='
 
-1. Go to <a href="https://nhsdigitallive.service-now.com/csm?id=sc_cat_item&sys_id=6cc625151b9fbad083b0a7d0b24bcb11&referrer=recent_items" target="_blank">ServiceNow (opens in a new tab)</a>.
+1. Go to ServiceNow (opens in a new tab)</a>.
 2. Sign in with your NHS.net account, or register for a Portal account.
 3. In the <b>Description</b> field, include the email address you want the proofs sent to and the name of your letter template.
 4. For the service, select <b>NHS Notify</b> from the drop-down list.
