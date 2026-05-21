@@ -12,7 +12,7 @@ section: Writing a message
 
 Upload a Microsoft Word version of your letter and we’ll print and post it for you.
 
-## Create your letter template
+## How to create your letter template
 
 1. Download a blank Word letter template.
 2. Download the correct [fonts for letter templates]({% link pages/using-nhs-notify/formatting/formatting-fonts.md %}).
