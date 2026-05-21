@@ -12,6 +12,8 @@ section: Writing a message
 
 Upload a Microsoft Word version of your letter and we’ll print and post it for you.
 
+## Create your letter template
+
 1. Download a blank Word letter template.
 2. Download the correct [fonts for letter templates]({% link pages/using-nhs-notify/formatting/formatting-fonts.md %}).
 3. Add your letter content to the blank template.
@@ -54,7 +56,7 @@ We’ll send you digital proofs so you [can approve your messages]({% link page
 heading='How to raise a ServiceNow request for letter templates'
 text='
 
-1. Go to ServiceNow (opens in a new tab)</a>.
+1. Go to <a href="https://nhsdigitallive.service-now.com/csm?id=sc_cat_item&sys_id=6cc625151b9fbad083b0a7d0b24bcb11&referrer=recent_items" target="_blank">ServiceNow (opens in a new tab)</a>.
 2. Sign in with your NHS.net account, or register for a Portal account.
 3. In the <b>Description</b> field, include the email address you want the proofs sent to and the name of your letter template.
 4. For the service, select <b>NHS Notify</b> from the drop-down list.
