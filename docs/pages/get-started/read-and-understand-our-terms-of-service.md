@@ -11,8 +11,8 @@ mini_hub_pages:
   - title: Read and understand our terms of service
     url:
     current: true
-  - title: Register your interest
-    url: /get-started/register-your-interest
+  - title: Check which features you can get and register
+    url: /get-started/check-which-features-you-can-get-and-register
   - title: Onboard with NHS Notify
     url: /get-started/onboard-with-nhs-notify
 
@@ -20,8 +20,8 @@ previous_page:
   title: Check you can use NHS Notify
   url: /get-started/check-you-can-use-nhs-notify
 next_page:
-  title: Register your interest
-  url: /get-started/register-your-interest
+  title: Check which features you can get and register
+  url: /get-started/check-which-features-you-can-get-and-register
 published: true
 ---
 
