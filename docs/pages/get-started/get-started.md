@@ -9,7 +9,7 @@ has_children: true
 permalink: /get-started/
 ---
 
-Before we can invite you to register your interest in using NHS Notify, you need to:
+Before we can invite you to onboard with NHS Notify, you need to:
 
 - check your organisation can use it
 - understand our terms and conditions

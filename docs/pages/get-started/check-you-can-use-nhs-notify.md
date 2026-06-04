@@ -11,8 +11,8 @@ mini_hub_pages:
     current: true
   - title: Read and understand our terms of service
     url: /get-started/read-and-understand-our-terms-of-service
-  - title: Register your interest
-    url: /get-started/register-your-interest
+  - title: Check which features you can get and register
+    url: /get-started/check-which-features-you-can-get-and-register
   - title: Onboard with NHS Notify
     url: /get-started/onboard-with-nhs-notify
 
@@ -64,6 +64,9 @@ You must:
 - have a way to get the NHS numbers of your recipients
 - be prepared to sign a connection agreement (if your organisation is part of NHS England)
 - be prepared to sign our memorandum of understanding (if your organisation is not part of NHS England)
+- have an Organisation Data Service (ODS) code for your service or organisation - [find your ODS code with the ODS Data Search and Export service](https://www.odsdatasearchandexport.nhs.uk/)
+
+If your organisation or service does not have an ODS code, you can [request a code or update your organisation’s details](https://digital.nhs.uk/services/organisation-data-service#submit-an-organisation-data-request).
 
 ## Technical preparation
 
