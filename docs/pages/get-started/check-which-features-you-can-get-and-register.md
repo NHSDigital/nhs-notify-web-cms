@@ -1,7 +1,7 @@
 ---
 layout: mini-hub
 title: Check which features you can get and register
-nav_order: 3
+nav_order: 4
 parent: Get started
 permalink: /get-started/check-which-features-you-can-get-and-register
 mini_hub_topic: Answer a few questions to check which features you can get before you register
