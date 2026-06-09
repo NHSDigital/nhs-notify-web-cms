@@ -5,7 +5,7 @@
 layout: page
 title: NHS App messages
 parent: About
-nav_order: 10
+nav_order: 1
 permalink: /about/nhs-app-messages
 section: Features by message channel
 redirect_from: /features/nhs-app-messages
