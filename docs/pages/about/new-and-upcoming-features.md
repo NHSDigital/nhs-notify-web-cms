@@ -5,7 +5,7 @@
 layout: page
 title: New and upcoming features
 parent: About
-nav_order: 2
+nav_order: 11
 permalink: /about/new-and-upcoming-features
 redirect_from: /features/roadmap
 redirect_from: /about/roadmap

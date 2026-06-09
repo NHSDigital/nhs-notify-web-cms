@@ -5,7 +5,7 @@
 layout: page
 title: Direct messaging
 parent: About
-nav_order: 3
+nav_order: 9
 permalink: /about/direct-messaging
 section: Features by messaging needs
 redirect_from: /using-nhs-notify/direct-messaging
@@ -24,11 +24,29 @@ You might send direct messages for:
 - general primary care
 - acute secondary care appointments
 
-## What features you can use
+## Choosing your message order
 
-Find out what features you can and cannot use when you send direct messages with NHS Notify.
+If you send direct messages with the NHS App, it's your organisation or service's responsibility to make sure they fallback to another message channel if they do not send. These fallbacks must follow certain rules.
 
-{% include custom-components/direct-message-feature-list.html %}
+You must adhere to the following:
+
+**1. Time sensitive NHS app messages should fallback when:**
+
+- a recipient does not have the NHS App
+- a 'notified' status is not received within 1 hour
+- the message is not read by the recipient within 4 hours
+
+**2. Bulk NHS App messages should fallback when:**
+
+- a recipient does not have the NHS App
+- a 'notified' status is not received within 1 hour
+- the message is not read by the recipient within 24 hours
+
+**3. Acute secondary care appointment NHS App messages should fallback when:**
+
+- a recipient does not have the NHS App
+- a 'notified' status is not received within 1 hour
+- the message is not read by the recipient within 4, 12 or 24 hours
 
 ## Using the NHS App for patient journeys
 
@@ -70,6 +88,6 @@ text='You must adhere to the following in your user journeys:
 - all patient replies are handled via questionnaires controlled within the PEP platform, not through the NHS App
   '%}
 
-## See what's next for NHS Notify
+## New and upcoming features for NHS Notify
 
 If you're thinking of using NHS Notify for direct messaging but cannot find the features you need, read about our [new and upcoming features to find out what we're working on next]({% link pages/about/new-and-upcoming-features.md %}).

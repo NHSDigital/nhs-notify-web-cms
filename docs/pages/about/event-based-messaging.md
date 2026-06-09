@@ -5,7 +5,7 @@
 layout: page
 title: Event based messaging
 parent: About
-nav_order: 2
+nav_order: 8
 permalink: /about/event-based-messaging
 section: Features by messaging needs
 redirect_from: /using-nhs-notify/event-based-messaging
@@ -22,11 +22,34 @@ When an event is triggered you could use NHS Notify to automatically send:
 - booking confirmations
 - test results
 
-## What features you can use
+## Choosing your message order
 
-Find out what features you can and cannot use when you send event based messages with NHS Notify.
+You can use message plans to decide how and what order messages will be sent to your recipients.
 
-{% include custom-components/transactional-feature-list.html %}
+You can send event based messages in the following ways:
+
+- NHS App message only
+- NHS App message, Email
+- NHS App message, Text message
+- NHS App message, Email, Text message
+- NHS App message, Text message, Email
+- NHS App message, Text message, Letter
+- NHS App message, Email, Text message, Letter
+
+### Fallback rules for messages
+
+If we cannot deliver a message through your first choice, we automatically try the next channel in your message plan. This is called a ‘fallback.’
+
+All digital message channels will immediately fallback to the next channel if it is rejected or an 'unnotified' status is received.
+
+NHS App messages will fallback to the next channel when:
+
+- a 'notified' status is not received within 1 hour
+- the message is not read by the recipient within 24 hours
+
+Emails and text messages will fallback to the next channel if they are not delivered after 72 hours.
+
+Letters do not have any fallback rules as they’re always sent last in message plans for transactional messages.
 
 ## Using the NHS App for patient journeys
 
@@ -36,6 +59,6 @@ When you send event based messages with the NHS App, you must adhere to the foll
 - links should only take patients to web content such as your website, NHS.UK or other relevant web pages
 - do not include links that open other mobile applications
 
-## See what's next for NHS Notify
+## New and upcoming features for NHS Notify
 
 If you're thinking of using NHS Notify for event based messaging but cannot find the features you need, read about our [new and upcoming features to find out what we're working on next]({% link pages/about/new-and-upcoming-features.md %}).

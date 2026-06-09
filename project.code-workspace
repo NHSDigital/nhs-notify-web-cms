@@ -38,53 +38,53 @@
       "yzane.markdown-pdf",
       "yzhang.dictionary-completion",
       "yzhang.markdown-all-in-one",
-      "zoma.vscode-auto-open-workspace"
+      "zoma.vscode-auto-open-workspace",
     ],
-    "unwantedRecommendations": []
+    "unwantedRecommendations": [],
   },
   "folders": [
     {
       "name": "Website",
-      "path": "docs"
+      "path": "docs",
     },
     {
       "name": "NHS Notify Web CMS",
-      "path": "."
+      "path": ".",
     },
     {
       "name": "Tests",
-      "path": "./tests"
+      "path": "./tests",
     },
     {
       "name": "Scripts",
-      "path": "./scripts"
+      "path": "./scripts",
     },
     {
       "name": "GitHub",
-      "path": ".github"
+      "path": ".github",
     },
     {
       "name": "Git Hooks",
-      "path": "./.git/hooks"
+      "path": "./.git/hooks",
     },
     {
       "name": "Dev Container",
-      "path": ".devcontainer"
-    }
+      "path": ".devcontainer",
+    },
   ],
   "settings": {
     "[html]": {
-      "editor.defaultFormatter": "vscode.html-language-features"
+      "editor.defaultFormatter": "vscode.html-language-features",
     },
     "[json]": {
-      "editor.defaultFormatter": "esbenp.prettier-vscode"
+      "editor.defaultFormatter": "esbenp.prettier-vscode",
     },
     "[jsonc]": {
-      "editor.defaultFormatter": "esbenp.prettier-vscode"
+      "editor.defaultFormatter": "esbenp.prettier-vscode",
     },
     "[markdown]": {
       "editor.defaultFormatter": "esbenp.prettier-vscode",
-      "editor.wordWrap": "off"
+      "editor.wordWrap": "off",
     },
     "cSpell.language": "en-GB",
     "cSpell.words": [
@@ -97,21 +97,49 @@
       "pythonist",
       "rossbugginsnhs",
       "ruleset",
-      "Stefaniuk"
+      "Stefaniuk",
     ],
     "editor.formatOnSave": true,
     "editor.wordWrap": "off",
-
     "githubCodeOwners.format.enabled": true,
     "markdownlint.config": {
       "MD013": false,
       "MD024": { "siblings_only": true },
       "MD032": false,
-      "MD033": false
+      "MD033": false,
     },
     "window.title": "${separator}${activeRepositoryName}${separator}${activeRepositoryBranchName}${separator}[${remoteName}]",
     "window.titleSeparator": " : ",
     "workspace-terminals.auto": "always",
-    "workspace-terminals.switchTerminal": "always"
-  }
+    "workspace-terminals.switchTerminal": "always",
+  },
+  "launch": {
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "name": "Debug docs site",
+        "type": "node",
+        "request": "launch",
+        "runtimeExecutable": "make",
+        "runtimeArgs": ["debug"],
+        "cwd": "${workspaceFolder:NHS Notify Web CMS}/docs",
+        "console": "integratedTerminal",
+        "preLaunchTask": "stop-already-running",
+        "skipFiles": ["<node_internals>/**"],
+      },
+    ],
+  },
+  "tasks": {
+    "version": "2.0.0",
+    "tasks": [
+      {
+        "label": "stop-already-running",
+        "type": "shell",
+        "command": "kill $(lsof -ti :4000); exit 0;",
+        "options": {
+          "cwd": "${workspaceFolder:NHS Notify Web CMS}/docs",
+        },
+      },
+    ],
+  },
 }
