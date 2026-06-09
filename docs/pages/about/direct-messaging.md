@@ -7,7 +7,7 @@ title: Direct messaging
 parent: About
 nav_order: 9
 permalink: /about/direct-messaging
-section: Features by messaging needs
+section: Send messages based on your needs
 redirect_from: /using-nhs-notify/direct-messaging
 redirect_from: /features/direct-messaging
 ---

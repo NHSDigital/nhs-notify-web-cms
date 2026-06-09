@@ -7,7 +7,7 @@ title: Event based messaging
 parent: About
 nav_order: 8
 permalink: /about/event-based-messaging
-section: Features by messaging needs
+section: Send messages based on your needs
 redirect_from: /using-nhs-notify/event-based-messaging
 redirect_from: /features/event-based-messaging
 ---

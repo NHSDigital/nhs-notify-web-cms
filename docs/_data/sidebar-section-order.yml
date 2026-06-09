@@ -4,9 +4,9 @@
 
 sections:
   - "Accessing NHS Notify"
-  - "Features by organisation type"
-  - "Features by messaging needs"
   - "Features by message channel"
+  - "Features by organisation type"
+  - "Send messages based on your needs"
   - "By use case"
   - "Writing a message"
   - "Sending a message"

@@ -5,9 +5,9 @@
 layout: page
 title: Campaigns
 parent: About
-nav_order: 7
+nav_order:
 permalink: /about/campaigns
-section: Features by messaging needs
+section: Send messages based on your needs
 redirect_from: /using-nhs-notify/campaigns
 redirect_from: /features/campaigns
 ---
