@@ -16,7 +16,7 @@ Use NHS Notify to set up national or targeted campaigns to send messages in bulk
 
 ## Examples of campaign messaging
 
-Create messaging campaigns with NHS Notify to send:
+You could create messaging campaigns with NHS Notify to send things like:
 
 - vaccination invitations
 - screening appointment invitations
@@ -50,7 +50,7 @@ NHS App messages will fallback to the next channel when:
 
 Emails and text messages will fallback to the next channel if they are not delivered after 72 hours.
 
-Letters do not have any fallback rules as they’re always sent last in message plans for transactional messages.
+Letters do not have any fallback rules as they’re always sent last in message plans.
 
 ## Using the NHS App for patient journeys
 

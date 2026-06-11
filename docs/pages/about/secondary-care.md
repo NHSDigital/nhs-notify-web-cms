@@ -14,7 +14,7 @@ Secondary care organisations provide specialist health services, like hospital t
 
 ## Which features you can use
 
-Find out what features you can and cannot use as a secondary care organisation using NHS Notify.
+Find out which features you can and cannot use as a secondary care organisation using NHS Notify.
 
 {% include custom-components/secondary-care-feature-list.html %}
 

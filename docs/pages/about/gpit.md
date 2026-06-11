@@ -14,7 +14,7 @@ GP IT suppliers provide the software systems primary care organisations use to m
 
 ## Which features you can use
 
-Find out what features you can and cannot use as a GP IT supplier using NHS Notify.
+Find out which features you can and cannot use as a GP IT supplier using NHS Notify.
 
 {% include custom-components/gpit-feature-list.html %}
 

@@ -62,7 +62,7 @@ NHS Notify has features for different types of health organisations, including:
 
 - [national programmes (like screening or vaccination programmes)]({% link pages/about/national-programmes.md %})
 - [suppliers of technology services to primary care (GP IT)]({% link pages/about/gpit.md %})
-- [secondary care organisations]({% link pages/about/secondary-care.md %})
+- [secondary care organisations (like hospital trusts)]({% link pages/about/secondary-care.md %})
 - [research services]({% link pages/about/research.md %})
 
 If your organisation type is not on this list, you may still be able to use NHS Notify. [Check if you can use NHS Notify]({% link pages/get-started/check-you-can-use-nhs-notify.md %}).
@@ -70,7 +70,7 @@ If your organisation type is not on this list, you may still be able to use NHS 
 ### Send messages based on your needs
 
 - [Campaigns]({% link pages/about/campaigns.md %})
-- [Event based messaging]({% link pages/about/event-based-messaging.md %})
+- [Event-based messaging]({% link pages/about/event-based-messaging.md %})
 - [Direct messaging]({% link pages/about/direct-messaging.md %})
 
 ### Send messages to groups of recipients without their contact details

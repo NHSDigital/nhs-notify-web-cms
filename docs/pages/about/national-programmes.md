@@ -14,7 +14,7 @@ National programmes are health services run across the country, like vaccination
 
 ## Which features you can use
 
-Find out what features you can and cannot use as a national programme using NHS Notify.
+Find out which features you can and cannot use as a national programme using NHS Notify.
 
 {% include custom-components/national-programmes-feature-list.html %}
 

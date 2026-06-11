@@ -14,7 +14,7 @@ Research services carry out health and social care research to improve treatment
 
 ## Which features you can use
 
-Find out what features you can and cannot use as a research service using NHS Notify.
+Find out which features you can and cannot use as a research service using NHS Notify.
 
 {% include custom-components/research-features-list.html %}
 
