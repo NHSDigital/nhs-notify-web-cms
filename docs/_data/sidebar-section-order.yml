@@ -3,8 +3,11 @@
 # Sections not listed here will appear at the end in alphabetical order
 
 sections:
-  - "By use case"
   - "Accessing NHS Notify"
+  - "Features by message channel"
+  - "Features by organisation type"
+  - "Send messages based on your needs"
+  - "By use case"
   - "Writing a message"
   - "Sending a message"
   - "Going live"

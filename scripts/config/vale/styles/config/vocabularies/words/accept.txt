@@ -20,6 +20,7 @@ fullName
 Futuna
 Gitleaks
 Grype
+ICBs
 idempotence
 J[Ii][Rr][Aa]
 Maarten
