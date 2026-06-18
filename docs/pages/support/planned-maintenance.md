@@ -15,7 +15,7 @@ You’ll be able to use the service again soon.
 
 If you reached this page after submitting information, your progress has not been saved. You’ll need to enter the information again when the service is available.
 
-If you need urgent support, <a href="https://nhsdigitallive.service-now.com/csm?id=sc_cat_item&sys_id=6cc625151b9fbad083b0a7d0b24bcb11&referrer=recent_items" target="_blank">submit a case with Service Now (opens in a new tab)</a>.
+If you need urgent support, <a href="https://nhsdigitallive.service-now.com/csm?id=sc_cat_item&sys_id=6cc625151b9fbad083b0a7d0b24bcb11&referrer=recent_items" target="_blank">submit a case with ServiceNow (opens in a new tab)</a>.
 
 {% include components/details.html
 heading='How to submit a ServiceNow case'
