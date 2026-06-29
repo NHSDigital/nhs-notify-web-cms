@@ -38,10 +38,10 @@ heading='Set up your APIM application ID'
 text="To set up an APIM application ID, you need to:
 
 1. <a href='https://digital.nhs.uk/developer' target='_blank'>Sign in to your NHS Digital developer account (opens in a new tab)</a>.
-2. Select 'environment access' from your developer account dashboard.
+2. Select **environment access** from your developer account dashboard.
 3. Create an APIM application.
-4. Select 'integration test' as the environment.
-5. Select 'NHS Notify API (integration environment)' as the connected API.
+4. Select **integration test** as the environment.
+5. Select **NHS Notify API (integration environment)** as the connected API.
    "
    %}
 
