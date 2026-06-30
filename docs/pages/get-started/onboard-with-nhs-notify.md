@@ -38,9 +38,10 @@ heading='Set up your APIM application ID'
 text="To set up an APIM application ID, you need to:
 
 1. <a href='https://digital.nhs.uk/developer' target='_blank'>Sign in to your NHS Digital developer account (opens in a new tab)</a>.
-2. Create an APIM application.
-3. Select 'integration test' as the environment.
-4. Select 'Communications Manager (integration environment)' as the connected API.
+2. Select **environment access** from your developer account dashboard.
+3. Create an APIM application.
+4. Select **integration test** as the environment.
+5. Select **NHS Notify API (integration environment)** as the connected API.
    "
    %}
 
@@ -67,13 +68,8 @@ You'll need to:
 You must confirm how you'll be set up with NHS Notify using our online form so we can prepare your integration environment to meet your needs.
 
 {% include components/inset-text.html
-  text='Only complete the online form and confirm your setup if you’ve been invited to onboard.'
+  text="You can only complete the form if you've been invited to onboard. Check your invitation email for the link to the form."
   classes='nhsuk-u-margin-top-2'
-%}
-
-{% include components/action-link.html
-    url='https://forms.office.com/Pages/ResponsePage.aspx?id=slTDN7CF9UeyIge0jXdO4-wXWyN79ZdLkmec1Fsc491UNFRYSDFTOUs5TzZQUjlOVUlGWTQxQTlMQy4u'
-    text='Confirm your setup with NHS Notify'
 %}
 
 ### Before you confirm your setup
