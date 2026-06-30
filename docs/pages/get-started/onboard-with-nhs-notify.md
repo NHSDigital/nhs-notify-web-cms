@@ -41,7 +41,7 @@ text="To set up an APIM application ID, you need to:
 2. Select **environment access** from your developer account dashboard.
 3. Create an APIM application.
 4. Select **integration test** as the environment.
-5. Select **NHS Notify API (integration environment)** as the connected API.
+5. Select **Communications Manager (integration testing environment)** as the connected API.
    "
    %}
 
