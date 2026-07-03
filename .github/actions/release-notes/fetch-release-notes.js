@@ -274,7 +274,10 @@ function compareReleasesByDateDesc(left, right) {
     return 1;
   }
 
-  return left.name.localeCompare(right.name);
+  return right.name.localeCompare(left.name, undefined, {
+    numeric: true,
+    sensitivity: 'base',
+  });
 }
 
 function formatReleaseName(name) {

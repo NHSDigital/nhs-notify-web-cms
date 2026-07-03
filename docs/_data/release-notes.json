@@ -12,17 +12,6 @@
       ]
     },
     {
-      "name": "Digital Letters 1.0.0",
-      "jira_name": "digital-letters-1.0.0",
-      "release_date": "2026-06-17",
-      "items": [
-        {
-          "key": "CCM-18337",
-          "release_notes": "Investigate and resolve the memory issues for PDM uploader for digital letters"
-        }
-      ]
-    },
-    {
       "name": "Digital Letters 1.0.1",
       "jira_name": "digital-letters-1.0.1",
       "release_date": "2026-06-17",
@@ -42,13 +31,13 @@
       ]
     },
     {
-      "name": "Core 4.67.1",
-      "jira_name": "Release 4.67.1",
-      "release_date": "2026-05-28",
+      "name": "Digital Letters 1.0.0",
+      "jira_name": "digital-letters-1.0.0",
+      "release_date": "2026-06-17",
       "items": [
         {
-          "key": "CCM-17732",
-          "release_notes": "A timeout setting has been increased to resolve an error processing Vaccs reminders"
+          "key": "CCM-18337",
+          "release_notes": "Investigate and resolve the memory issues for PDM uploader for digital letters"
         }
       ]
     },
@@ -60,6 +49,17 @@
         {
           "key": "CCM-8366",
           "release_notes": "Users can now send a test message to their NHS App test account"
+        }
+      ]
+    },
+    {
+      "name": "Core 4.67.1",
+      "jira_name": "Release 4.67.1",
+      "release_date": "2026-05-28",
+      "items": [
+        {
+          "key": "CCM-17732",
+          "release_notes": "A timeout setting has been increased to resolve an error processing Vaccs reminders"
         }
       ]
     },
