@@ -14,6 +14,8 @@ You can include links in your messages. How you do this depends on the message c
 
 You can see instructions on links and URLs while you’re editing a template.
 
+Find out more about how to write good <a href="https://service-manual.nhs.uk/content/formatting#links" target="_blank">links in the NHS digital service manual</a>.
+
 ## Using the full URL
 
 To add a link to a message, you can write the URL in full. For example:
@@ -28,7 +30,7 @@ For NHS App messages and emails, use square brackets around the full URL to make
 Make sure there are no spaces between the brackets or the link will not work. For example:
 
 {% include components/inset-text.html
-  text='`[https://www.nhs.uk/example](https://www.nhs.uk/example)`'
+  text='`[https://www.nhs.uk](https://www.nhs.uk)`'
   classes='nhsuk-u-margin-top-2'
 %}
 

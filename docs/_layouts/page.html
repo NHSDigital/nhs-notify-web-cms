@@ -86,7 +86,8 @@ Add any sections not in the manual order list at the end
                         nhsnotify-side-nav__item--current
                       {% endif %}
                     ">
-                  <a class="nhsnotify-side-nav__link" href="{{ site.baseurl | append: post.url }}">{{ post.title }}</a>
+                  <a class="nhsnotify-side-nav__link" href="{{ site.baseurl | append: post.url }}">{{ post.nav_title |
+                    default: post.title }}</a>
                 </li>
                 {% endif %}
                 {% endunless %}
@@ -109,7 +110,8 @@ Add any sections not in the manual order list at the end
                         nhsnotify-side-nav__item--current
                       {% endif %}
                     ">
-                  <a class="nhsnotify-side-nav__link" href="{{ site.baseurl | append: post.url }}">{{ post.title }}</a>
+                  <a class="nhsnotify-side-nav__link" href="{{ site.baseurl | append: post.url }}">{{ post.nav_title |
+                    default: post.title }}</a>
                 </li>
                 {% endif %}
                 {% endunless %}

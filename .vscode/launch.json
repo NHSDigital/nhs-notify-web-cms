@@ -1,0 +1,16 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Debug docs site",
+      "type": "node",
+      "request": "launch",
+      "runtimeExecutable": "make",
+      "runtimeArgs": ["debug"],
+      "cwd": "${workspaceFolder}/docs",
+      "console": "integratedTerminal",
+      "preLaunchTask": "stop-already-running",
+      "skipFiles": ["<node_internals>/**"]
+    }
+  ]
+}

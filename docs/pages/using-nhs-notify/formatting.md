@@ -8,6 +8,7 @@ parent: Using NHS Notify
 nav_order: 2
 permalink: /using-nhs-notify/formatting
 section: Writing a message
+published: false
 ---
 
 NHS Notify uses Markdown to format message content.

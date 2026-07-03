@@ -25,6 +25,6 @@ You might also want to understand more about:
 
 - [email delivery times]({% link pages/using-nhs-notify/delivery-times.md %})
 - [how to tell recipients who your emails are from]({% link pages/using-nhs-notify/tell-recipients-who-your-messages-are-from.md %})
-- [formatting]({% link pages/using-nhs-notify/formatting.md %})
+- [formatting]({% link pages/using-nhs-notify/formatting/formatting-overview.md %})
 - [links and URLs]({% link pages/using-nhs-notify/links-and-urls.md %})
 - [personalisation]({% link pages/using-nhs-notify/personalisation.md %})

@@ -31,7 +31,7 @@ You’ll receive a daily report of messages and channels that have completed tha
 
 To get an overall status of a message you've sent use the [message status](#message-status).
 
-To see the status of a specific channel in your routing plan, use the [channel and supplier status](#channel-and-supplier-status).
+To see the status of a specific channel in your message plan, use the [channel and supplier status](#channel-and-supplier-status).
 
 ## Message status
 
@@ -40,10 +40,7 @@ If you're sending messages using multiple channels, you'll get an overall status
 Messages can have the following statuses:
 
 | Status             | Description                                                                                                               |
-| ------------------ | ------------------------------------------------------------------------------------------------------------------------- |
-| pending_enrichment | NHS Notify is waiting to check and improve the recipient's contact details using the Personal Demographics Service (PDS). |
-| enriched           | NHS Notify has found the recipient's contact details.                                                                     |
-| sending            | The message is in the process of being sent.                                                                              |
+| ------------------ | ------------------------------------------------------------------------------------------------------------------------- |                                                                            |
 | delivered          | The message has been successfully delivered.                                                                              |
 | failed             | We have failed to deliver the message.                                                                                    |
 
@@ -68,11 +65,11 @@ Messages and channels that have not reached a recipient will have a 'failed' sta
 
 ## Channel and supplier status
 
-You can find out what's happened to each channel in a routing plan with the channel and supplier status.
+You can find out what's happened to each channel in a message plan with the channel and supplier status.
 
 ### Channel status descriptions
 
-Channel statuses tell you at a high level what's happened to each channel in a routing plan. The channel status is also what's used to trigger fallbacks in your routing plans.
+Channel statuses tell you at a high level what's happened to each channel in a message plan. The channel status is also what's used to trigger fallbacks in your message plans.
 
 For example, a 'failed' channel status for an NHS App message could trigger a fallback that sends an email.
 
@@ -81,7 +78,7 @@ Each channel can have the following statuses:
 | Status    | Description                                  |
 | --------- | -------------------------------------------- |
 | created   | The channel has been created.                |
-| skipped   | The channel was skipped in the routing plan. |
+| skipped   | The channel was skipped in the message plan. |
 | sending   | The channel is currently being sent.         |
 | delivered | The channel has reached the recipient        |
 | failed    | The channel did not reach the recipient      |

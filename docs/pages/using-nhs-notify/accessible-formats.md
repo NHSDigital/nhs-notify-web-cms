@@ -14,6 +14,8 @@ Before you start to send messages, consider the access needs of your recipients.
 
 All organisations that provide NHS care or publicly-funded adult social care are legally required to follow the <a href="https://www.england.nhs.uk/about/equality/equality-hub/patient-equalities-programme/equality-frameworks-and-information-standards/accessibleinfo/" target="_blank">NHS England's Accessible Information Standard (opens in a new tab)</a>.
 
+Find out more about <a href="https://service-manual.nhs.uk/content/writing-nhs-messages#supporting-accessibility-and-inclusion" target="_blank">supporting accessibility and inclusion (NHS digital service manual)</a>.
+
 ## Accessible letter formats
 
 NHS Notify offers the following letter formats so you can reach people with access needs.
@@ -49,9 +51,9 @@ Do this by:
 - speaking to our engagement team when you first [get started]({% link pages/get-started/get-started.md %}) with NHS Notify
 - raising a <a href="https://nhsdigitallive.service-now.com/csm" target="_blank">Service Now request (opens in a new tab)</a> if you're already using NHS Notify and have existing templates
 
-### 2. Create your templates and routing plans
+### 2. Create your templates and message plans
 
-Set up a routing plan that requests accessible formats.
+Set up a message plan that requests accessible formats.
 
 Create separate templates for each type of accessible format you’ll need. Select the ‘standard letter’ template type.
 

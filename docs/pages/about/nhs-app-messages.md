@@ -29,7 +29,7 @@ You might also want to understand more about:
 
 - [delivery times for NHS App messages]({% link pages/using-nhs-notify/delivery-times.md %})
 - [how to tell recipients who your NHS App messages are from]({% link pages/using-nhs-notify/tell-recipients-who-your-messages-are-from.md %})
-- [formatting]({% link pages/using-nhs-notify/formatting.md %})
+- [formatting]({% link pages/using-nhs-notify/formatting/formatting-overview.md %})
 - [links and URLs]({% link pages/using-nhs-notify/links-and-urls.md %})
 - [personalisation]({% link pages/using-nhs-notify/personalisation.md %})
 
@@ -62,3 +62,14 @@ When a recipient receives a NHS App message, a badge notification will appear on
     alt="A screenshot of the NHS App icon with a red badge showing 1 notification."
     caption="An example of a badge notification pushed by the NHS App when a message is sent to a recipient’s NHS App inbox."
 %}
+
+### If a recipient has push notifications turned off
+
+A recipient can receive a text message instead, which tells them they have a new message in the NHS App.
+
+This feature is currently available to national programmes where:
+
+- the message plan uses the NHS App first, with fallbacks to text messages or letters
+- the message is not in an additional language or accessible format, such as Braille or large print
+
+This feature will be available to more organisations later in 2026.

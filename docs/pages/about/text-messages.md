@@ -27,6 +27,6 @@ You might want to understand more about:
 - [delivery times for text messages]({% link pages/using-nhs-notify/delivery-times.md %})
 - [how to tell audiences who your text messages are from]({% link pages/using-nhs-notify/tell-recipients-who-your-messages-are-from.md %})
 - [sending text messages to international numbers]({% link pages/pricing-and-commercial/text-messages.md %}#sending-text-messages-to-international-numbers)
-- [formatting]({% link pages/using-nhs-notify/formatting.md %})
+- [formatting]({% link pages/using-nhs-notify/formatting/formatting-overview.md %})
 - [links and URLs]({% link pages/using-nhs-notify/links-and-urls.md %})
 - [personalisation]({% link pages/using-nhs-notify/personalisation.md %})

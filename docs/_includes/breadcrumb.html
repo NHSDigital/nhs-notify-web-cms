@@ -22,7 +22,7 @@
     </li>
     {% endif %}
 
-    {% if page.parent == "Using NHS Notify" %}
+    {% if page.parent == "Using NHS Notify" or page.mini_hub_topic == "Formatting" %}
     <li class="nhsuk-breadcrumb__list-item">
       <a class="nhsuk-breadcrumb__link" href="{{site.baseurl}}/using-nhs-notify">Using NHS Notify</a>
     </li>
@@ -88,7 +88,7 @@
   </a>
   {% endif %}
 
-  {% if page.parent == "Using NHS Notify" %}
+  {% if page.parent == "Using NHS Notify" or page.mini_hub_topic == "Formatting" %}
   <a class="nhsuk-back-link" href="{{site.baseurl}}/using-nhs-notify">
     <span class="nhsuk-u-visually-hidden">Back to &nbsp;</span>
     Using NHS Notify

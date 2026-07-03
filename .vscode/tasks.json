@@ -1,0 +1,13 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "stop-already-running",
+      "type": "shell",
+      "command": "kill $(lsof -ti :4000); exit 0;",
+      "options": {
+        "cwd": "${workspaceFolder}/docs"
+      }
+    }
+  ]
+}
