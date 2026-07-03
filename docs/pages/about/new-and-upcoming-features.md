@@ -15,13 +15,6 @@ redirect_from: /about/roadmap
 This page shows the latest updates to NHS Notify and what we plan to work on next.
 
 This information is a guide. It does not cover everything we do and some things may change.
-
-You can [contact us]({% link pages/support/support.md %}) if you:
-
-- have questions about our latest features and upcoming plans
-- want to get involved in user research
-- have suggestions for new features
-
 ## Latest features and updates
 
 - Eligible national programmes can send text message notifications to prompt recipients to read their messages in the NHS App
