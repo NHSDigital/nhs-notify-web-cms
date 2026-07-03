@@ -1,5 +1,3 @@
-:
-[A-Z]+s
 [cC]yber
 [iI]nset
 [Uu][Rr][Ll]
@@ -14,6 +12,7 @@ Codespace
 Codespaces
 Cohorting
 ctrl
+css
 Dependabot
 endfor
 endif
