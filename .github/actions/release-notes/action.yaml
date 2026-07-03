@@ -13,6 +13,10 @@ inputs:
     description: "Maximum JIRA issues to fetch per page"
     required: false
     default: "50"
+  project-key:
+    description: "JIRA project key used to look up fix version release dates"
+    required: false
+    default: "CCM"
 
 runs:
   using: "composite"
@@ -22,6 +26,7 @@ runs:
         RELEASE_NOTES_CACHE_FILE: "${{ inputs.output-file }}"
         RELEASE_NOTES_JQL: "${{ inputs.jql }}"
         RELEASE_NOTES_MAX_RESULTS: "${{ inputs.max-results }}"
+        RELEASE_NOTES_PROJECT_KEY: "${{ inputs.project-key }}"
       shell: bash
       run: |
         node ./.github/actions/release-notes/fetch-release-notes.js

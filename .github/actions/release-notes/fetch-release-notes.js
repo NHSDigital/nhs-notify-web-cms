@@ -6,6 +6,7 @@ const path = require('node:path');
 const DEFAULT_RELEASE_NOTES_JQL = 'project = CCM AND "Release Notes" IS NOT EMPTY AND fixVersion IS NOT EMPTY AND updated >= -365d';
 const DEFAULT_RELEASE_NOTES_CACHE_FILE = 'docs/_data/release-notes.json';
 const DEFAULT_RELEASE_NOTES_MAX_RESULTS = 50;
+const DEFAULT_RELEASE_NOTES_PROJECT_KEY = 'CCM';
 
 async function main() {
   const repoRoot = process.cwd();
@@ -18,6 +19,7 @@ async function main() {
 
   const releaseNotesJql = process.env.RELEASE_NOTES_JQL || DEFAULT_RELEASE_NOTES_JQL;
   const maxResults = Number.parseInt(process.env.RELEASE_NOTES_MAX_RESULTS || String(DEFAULT_RELEASE_NOTES_MAX_RESULTS), 10);
+  const releaseNotesProjectKey = process.env.RELEASE_NOTES_PROJECT_KEY || DEFAULT_RELEASE_NOTES_PROJECT_KEY;
   const startedAt = new Date();
 
   if (!Number.isInteger(maxResults) || maxResults <= 0) {
@@ -35,6 +37,8 @@ async function main() {
   // Look up the custom field ID once so the search request can read release notes text.
   const fields = await requestFields(jiraBaseUrl);
   const releaseNotesFieldId = resolveReleaseNotesFieldId(fields);
+  const projectVersions = await requestProjectVersions(jiraBaseUrl, releaseNotesProjectKey);
+  const releaseDatesByName = buildReleaseDateMap(projectVersions);
 
   console.log(`Resolved Release Notes field: ${releaseNotesFieldId}`);
 
@@ -73,7 +77,7 @@ async function main() {
   }
 
   const output = {
-    releases: groupIssuesByFixVersion(Array.from(issuesByKey.values())),
+    releases: groupIssuesByFixVersion(Array.from(issuesByKey.values()), releaseDatesByName),
   };
 
   fs.writeFileSync(path.resolve(repoRoot, outputFile), `${JSON.stringify(output, null, 2)}\n`, 'utf8');
@@ -82,6 +86,11 @@ async function main() {
 
 async function requestFields(jiraBaseUrl) {
   return fetchJson(`${jiraBaseUrl}/field`);
+}
+
+async function requestProjectVersions(jiraBaseUrl, projectKey) {
+  const encodedProjectKey = encodeURIComponent(projectKey);
+  return fetchJson(`${jiraBaseUrl}/project/${encodedProjectKey}/versions`);
 }
 
 async function requestSearch({
@@ -138,6 +147,25 @@ function resolveReleaseNotesFieldId(fields) {
     throw new Error("Unable to resolve the JIRA field named 'Release Notes'.");
   }
   return match.id;
+}
+
+function buildReleaseDateMap(versions) {
+  const releaseDatesByName = new Map();
+
+  if (!Array.isArray(versions)) {
+    return releaseDatesByName;
+  }
+
+  for (const version of versions) {
+    const name = String(version && version.name ? version.name : '').trim();
+    const releaseDate = String(version && version.releaseDate ? version.releaseDate : '').trim();
+
+    if (name && releaseDate) {
+      releaseDatesByName.set(name, releaseDate);
+    }
+  }
+
+  return releaseDatesByName;
 }
 
 function normalizeIssue(issue, releaseNotesFieldId) {
@@ -204,7 +232,7 @@ function extractText(value) {
   return String(value).trim();
 }
 
-function groupIssuesByFixVersion(issues) {
+function groupIssuesByFixVersion(issues, releaseDatesByName) {
   const releases = new Map();
 
   for (const issue of issues) {
@@ -220,20 +248,49 @@ function groupIssuesByFixVersion(issues) {
     }
   }
 
-  return Array.from(releases, ([name, items]) => ({
-    name: formatReleaseName(name),
+  return Array.from(releases, ([rawName, items]) => ({
+    name: formatReleaseName(rawName),
+    jira_name: rawName,
+    release_date: releaseDatesByName.get(rawName) || null,
     items,
-  }));
+  })).sort(compareReleasesByDateDesc);
+}
+
+function compareReleasesByDateDesc(left, right) {
+  const leftDate = left.release_date ? Date.parse(left.release_date) : Number.NaN;
+  const rightDate = right.release_date ? Date.parse(right.release_date) : Number.NaN;
+  const leftHasDate = Number.isFinite(leftDate);
+  const rightHasDate = Number.isFinite(rightDate);
+
+  if (leftHasDate && rightHasDate && leftDate !== rightDate) {
+    return rightDate - leftDate;
+  }
+
+  if (leftHasDate && !rightHasDate) {
+    return -1;
+  }
+
+  if (!leftHasDate && rightHasDate) {
+    return 1;
+  }
+
+  return left.name.localeCompare(right.name);
 }
 
 function formatReleaseName(name) {
-  // Only reformat kebab-case names (e.g. digital-letters-0.0.0 → Digital Letters 0.0.0).
-  // Names that already contain spaces are left as-is.
-  if (!name.includes('-') || name.includes(' ')) {
-    return name;
+  const trimmedName = String(name || '').trim();
+
+  // Jira names prefixed with "Release" are displayed as "Core".
+  if (/^release\s+/i.test(trimmedName)) {
+    return trimmedName.replace(/^release\s+/i, 'Core ');
   }
 
-  return name
+  // Reformat kebab-case names (e.g. digital-letters-0.0.0 → Digital Letters 0.0.0).
+  if (!trimmedName.includes('-') || trimmedName.includes(' ')) {
+    return trimmedName;
+  }
+
+  return trimmedName
     .split('-')
     .map((part) => part.charAt(0).toUpperCase() + part.slice(1))
     .join(' ');

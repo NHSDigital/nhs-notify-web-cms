@@ -6,7 +6,7 @@ nav_order: 3
 permalink: /about/release-notes/
 ---
 
-This page lists release notes from JIRA, grouped by release name.
+This page lists release notes for NHS Notify services.
 
 {% assign releases = site.data["release-notes"].releases %}
 
@@ -14,6 +14,11 @@ This page lists release notes from JIRA, grouped by release name.
 {% for release in releases %}
 
 ## {{ release.name }}
+
+{% if release.release_date %}
+
+Released on {{ release.release_date | date: "%d %B %Y" }}
+{% endif %}
 
 {% if release.items and release.items.size > 0 %}
 {% include components/timeline.html items=release.items %}

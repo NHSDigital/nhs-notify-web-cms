@@ -2,6 +2,8 @@
   "releases": [
     {
       "name": "Digital Letters 1.1.0",
+      "jira_name": "digital-letters-1.1.0",
+      "release_date": "2026-07-02",
       "items": [
         {
           "key": "CCM-20922",
@@ -10,7 +12,20 @@
       ]
     },
     {
+      "name": "Digital Letters 1.0.0",
+      "jira_name": "digital-letters-1.0.0",
+      "release_date": "2026-06-17",
+      "items": [
+        {
+          "key": "CCM-18337",
+          "release_notes": "Investigate and resolve the memory issues for PDM uploader for digital letters"
+        }
+      ]
+    },
+    {
       "name": "Digital Letters 1.0.1",
+      "jira_name": "digital-letters-1.0.1",
+      "release_date": "2026-06-17",
       "items": [
         {
           "key": "CCM-18345",
@@ -27,16 +42,9 @@
       ]
     },
     {
-      "name": "Digital Letters 1.0.0",
-      "items": [
-        {
-          "key": "CCM-18337",
-          "release_notes": "Investigate and resolve the memory issues for PDM uploader for digital letters"
-        }
-      ]
-    },
-    {
-      "name": "Release 4.67.1",
+      "name": "Core 4.67.1",
+      "jira_name": "Release 4.67.1",
+      "release_date": "2026-05-28",
       "items": [
         {
           "key": "CCM-17732",
@@ -45,7 +53,20 @@
       ]
     },
     {
+      "name": "WebUI 0.1.18",
+      "jira_name": "WebUI 0.1.18",
+      "release_date": "2026-05-28",
+      "items": [
+        {
+          "key": "CCM-8366",
+          "release_notes": "Users can now send a test message to their NHS App test account"
+        }
+      ]
+    },
+    {
       "name": "WebUI 0.1.17",
+      "jira_name": "WebUI 0.1.17",
+      "release_date": "2026-05-21",
       "items": [
         {
           "key": "CCM-17623",
@@ -74,24 +95,9 @@
       ]
     },
     {
-      "name": "Release 4.65.1",
-      "items": [
-        {
-          "key": "CCM-17272",
-          "release_notes": "- Memory allocation has been increased to support Digitrials' large 'aspiring' templates"
-        },
-        {
-          "key": "CCM-15512",
-          "release_notes": "- Carbone letter events can now be consumed"
-        },
-        {
-          "key": "CCM-13387",
-          "release_notes": "- We’ve added a new printSupplier field in NHS Notify Core to store the allocated supplier selected by supplier‑api for each letter.\r\nThis ensures that Core’s internal state now matches the final print supplier, improving accuracy for reporting, billing, and operational audits.\r\nDownstream systems can now use this field for correct supplier tracking and reconciliation across domains."
-        }
-      ]
-    },
-    {
       "name": "WebUI 0.1.16",
+      "jira_name": "WebUI 0.1.16",
+      "release_date": "2026-05-01",
       "items": [
         {
           "key": "CCM-16488",
@@ -112,33 +118,28 @@
       ]
     },
     {
-      "name": "Release 4.64.1",
+      "name": "Core 4.65.1",
+      "jira_name": "Release 4.65.1",
+      "release_date": "2026-04-29",
       "items": [
         {
-          "key": "CCM-15626",
-          "release_notes": "A change has been made to support letters which use large templates that were previously prone to timing out."
+          "key": "CCM-17272",
+          "release_notes": "- Memory allocation has been increased to support Digitrials' large 'aspiring' templates"
         },
         {
-          "key": "CCM-15207",
-          "release_notes": "We’ve defined and registered JSON Schemas for the message and channel status events published by NHS Notify Core.\r\n\r\nThis provides a versioned contract for the callbacks bounded context, allowing subscribers to validate event payloads reliably.\r\n\r\nThese schemas support the migration to an event‑driven callbacks domain, ensuring consistent communication across services.\r\n\r\nWe’ve improved internal event handling and validation processes to strengthen system integrity."
+          "key": "CCM-15512",
+          "release_notes": "- Carbone letter events can now be consumed"
         },
         {
-          "key": "CCM-15037",
-          "release_notes": "Preparatory work to support the introduction of British Sign Language"
-        }
-      ]
-    },
-    {
-      "name": "Release 4.63.0",
-      "items": [
-        {
-          "key": "CCM-15266",
-          "release_notes": "Additional monitoring and alerting added"
+          "key": "CCM-13387",
+          "release_notes": "- We’ve added a new printSupplier field in NHS Notify Core to store the allocated supplier selected by supplier‑api for each letter.\r\nThis ensures that Core’s internal state now matches the final print supplier, improving accuracy for reporting, billing, and operational audits.\r\nDownstream systems can now use this field for correct supplier tracking and reconciliation across domains."
         }
       ]
     },
     {
       "name": "WebUI 0.1.15",
+      "jira_name": "WebUI 0.1.15",
+      "release_date": "2026-04-22",
       "items": [
         {
           "key": "CCM-15036",
@@ -156,6 +157,8 @@
     },
     {
       "name": "WebUI 0.1.14",
+      "jira_name": "WebUI 0.1.14",
+      "release_date": "2026-04-17",
       "items": [
         {
           "key": "CCM-14264",
@@ -172,20 +175,43 @@
       ]
     },
     {
-      "name": "Supplier Api 1.1.5",
+      "name": "Core 4.64.1",
+      "jira_name": "Release 4.64.1",
+      "release_date": "2026-04-15",
       "items": [
         {
-          "key": "CCM-13906",
-          "release_notes": "A change has been made to prioritise urgent letters so that they are processed ahead of BAU letters"
+          "key": "CCM-15626",
+          "release_notes": "A change has been made to support letters which use large templates that were previously prone to timing out."
+        },
+        {
+          "key": "CCM-15207",
+          "release_notes": "We’ve defined and registered JSON Schemas for the message and channel status events published by NHS Notify Core.\r\n\r\nThis provides a versioned contract for the callbacks bounded context, allowing subscribers to validate event payloads reliably.\r\n\r\nThese schemas support the migration to an event‑driven callbacks domain, ensuring consistent communication across services.\r\n\r\nWe’ve improved internal event handling and validation processes to strengthen system integrity."
+        },
+        {
+          "key": "CCM-15037",
+          "release_notes": "Preparatory work to support the introduction of British Sign Language"
         }
       ]
     },
     {
-      "name": "WebUI 0.1.18",
+      "name": "Core 4.63.0",
+      "jira_name": "Release 4.63.0",
+      "release_date": "2026-04-01",
       "items": [
         {
-          "key": "CCM-8366",
-          "release_notes": "Users can now send a test message to their NHS App test account"
+          "key": "CCM-15266",
+          "release_notes": "Additional monitoring and alerting added"
+        }
+      ]
+    },
+    {
+      "name": "Supplier Api 1.1.5",
+      "jira_name": "supplier-api-1.1.5",
+      "release_date": "2026-03-26",
+      "items": [
+        {
+          "key": "CCM-13906",
+          "release_notes": "A change has been made to prioritise urgent letters so that they are processed ahead of BAU letters"
         }
       ]
     }

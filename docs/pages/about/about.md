@@ -120,7 +120,7 @@ To send messages automatically, you'll need a developer to integrate with the NH
 
 ### Keep up to date
 
-You can also view improvements and changes tot he services by reviewing our [release notes]({% link pages/about/release-notes.md %}).
+You can also view improvements and changes to the services by reviewing our [release notes]({% link pages/about/release-notes.md %}).
 
 ### Get support when you need it
 
