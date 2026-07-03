@@ -11,6 +11,14 @@
 - page content is inside the `/docs/pages` folder
 - page css is inside `/docs/_sass` folder
 
+## Release notes data sync
+
+- Release notes data is generated into `docs/_data/release-notes.json`
+- The cache is refreshed by `.github/workflows/release-notes-sync.yaml`
+- The workflow supports a weekly scheduled run and manual `workflow_dispatch`
+- Set the `JIRA_TOKEN` GitHub Actions secret before enabling the workflow
+- The sync action resolves the custom `Release Notes` field dynamically from the JIRA API, so the field ID is not hard coded in the repository
+
 ## Getting Started - First time setup
 
 This is only needed once.

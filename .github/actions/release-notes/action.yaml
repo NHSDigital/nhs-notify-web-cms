@@ -1,0 +1,27 @@
+name: "Release notes sync"
+description: "Fetch release notes data from JIRA and update the Jekyll data cache"
+inputs:
+  output-file:
+    description: "Path to the generated release notes cache file"
+    required: false
+    default: "docs/_data/release-notes.json"
+  jql:
+    description: "JQL used to fetch release notes"
+    required: false
+    default: 'project = CCM AND "Release Notes" IS NOT EMPTY AND fixVersion IS NOT EMPTY AND updated >= -365d'
+  max-results:
+    description: "Maximum JIRA issues to fetch per page"
+    required: false
+    default: "50"
+
+runs:
+  using: "composite"
+  steps:
+    - name: "Fetch release notes cache"
+      env:
+        RELEASE_NOTES_CACHE_FILE: "${{ inputs.output-file }}"
+        RELEASE_NOTES_JQL: "${{ inputs.jql }}"
+        RELEASE_NOTES_MAX_RESULTS: "${{ inputs.max-results }}"
+      shell: bash
+      run: |
+        node ./.github/actions/release-notes/fetch-release-notes.js
