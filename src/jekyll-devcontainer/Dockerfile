@@ -1,18 +1,7 @@
-FROM mcr.microsoft.com/devcontainers/ruby:3.3-bookworm
+FROM --platform=linux/amd64 mcr.microsoft.com/devcontainers/jekyll:2-bullseye
 
-ARG DEBIAN_FRONTEND=noninteractive
+LABEL org.opencontainers.image.source=https://github.com/NHSDigital/nhs-notify-web-cms
 
-# Install Node.js for frontend tooling used by docs build scripts.
-RUN apt-get update \
-    && apt-get install -y --no-install-recommends ca-certificates curl gnupg make \
-    && mkdir -p /etc/apt/keyrings \
-    && curl -fsSL https://deb.nodesource.com/gpgkey/nodesource-repo.gpg.key | gpg --dearmor -o /etc/apt/keyrings/nodesource.gpg \
-    && echo "deb [signed-by=/etc/apt/keyrings/nodesource.gpg] https://deb.nodesource.com/node_22.x nodistro main" > /etc/apt/sources.list.d/nodesource.list \
-    && apt-get update \
-    && apt-get install -y --no-install-recommends nodejs \
-    && npm install -g npm@latest \
-    && gem install bundler:2.5.10 \
-    && apt-get clean \
-    && rm -rf /var/lib/apt/lists/*
+COPY packages.txt packages.txt
 
-WORKDIR /workspaces/nhs-notify-web-cms
+RUN apt-get update && xargs apt-get -y install < packages.txt
