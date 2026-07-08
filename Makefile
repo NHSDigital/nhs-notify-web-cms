@@ -7,14 +7,39 @@ include scripts/init.mk
 
 # Example CI/CD targets are: dependencies, build, publish, deploy, clean, etc.
 
+DEVCONTAINER_DIR ?= src/jekyll-devcontainer
+DEVCONTAINER_IMAGE ?= ghcr.io/nhsdigital/nhs-notify-web-cms-jekyll-devcontainer
+DEVCONTAINER_TITLE ?= NHS Notify Web CMS Jekyll devcontainer
+
 dependencies: # Install dependencies needed to build and test the project @Pipeline
 	# TODO: Implement installation of your project dependencies
 
 build: # Build the project artefact @Pipeline
-	(cd docs && make build)
+	if [[ "$${BUILD_TARGET:-all}" == "devcontainer" ]]; then
+		make build-devcontainer
+	else
+		(cd docs && make build)
+		make build-devcontainer
+	fi
 
 publish: # Publish the project artefact @Pipeline
-	# TODO: Implement the artefact publishing step
+	if [[ "$${BUILD_TARGET:-all}" == "devcontainer" ]]; then
+		make publish-devcontainer
+	else
+		make publish-devcontainer
+	fi
+
+build-devcontainer: # Build the devcontainer image @Pipeline
+	make docker-build \
+		dir=${DEVCONTAINER_DIR} \
+		DOCKER_IMAGE=${DEVCONTAINER_IMAGE} \
+		DOCKER_TITLE="${DEVCONTAINER_TITLE}"
+
+publish-devcontainer: # Publish the devcontainer image @Pipeline
+	make docker-push \
+		dir=${DEVCONTAINER_DIR} \
+		DOCKER_IMAGE=${DEVCONTAINER_IMAGE} \
+		DOCKER_TITLE="${DEVCONTAINER_TITLE}"
 
 deploy: # Deploy the project artefact to the target environment @Pipeline
 	# TODO: Implement the artefact deployment step
@@ -34,7 +59,10 @@ version:
 
 ${VERBOSE}.SILENT: \
 	build \
+	build-devcontainer \
 	clean \
 	config \
 	dependencies \
 	deploy \
+	publish \
+	publish-devcontainer \
