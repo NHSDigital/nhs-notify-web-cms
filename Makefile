@@ -14,19 +14,13 @@ dependencies: # Install dependencies needed to build and test the project @Pipel
 	# TODO: Implement installation of your project dependencies
 
 build: # Build the project artefact @Pipeline
-	if [[ "$${BUILD_TARGET:-all}" == "devcontainer" ]]; then
-		make build-devcontainer
-	else
+	if [[ "$${BUILD_TARGET:-all}" != "devcontainer" ]]; then
 		(cd docs && make build)
-		make build-devcontainer
 	fi
+	make build-devcontainer
 
 publish: # Publish the project artefact @Pipeline
-	if [[ "$${BUILD_TARGET:-all}" == "devcontainer" ]]; then
-		make publish-devcontainer
-	else
-		make publish-devcontainer
-	fi
+	make publish-devcontainer
 
 build-devcontainer: # Build the devcontainer image @Pipeline
 	make -C ${DEVCONTAINER_DIR} build IMAGE=${DEVCONTAINER_IMAGE}
