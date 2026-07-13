@@ -21,7 +21,7 @@
     "fast-xml-parser": "^5.5.7",
     "pa11y-ci": "^3.1.0",
     "pa11y-ci-reporter-html": "^6.0.2",
-    "pm2": "^7.0.1",
+    "pm2": "^7.0.3",
     "sitemap": "^8.0.0"
   },
   "overrides": {
