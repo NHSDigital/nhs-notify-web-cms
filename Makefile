@@ -7,14 +7,26 @@ include scripts/init.mk
 
 # Example CI/CD targets are: dependencies, build, publish, deploy, clean, etc.
 
+DEVCONTAINER_DIR ?= src/jekyll-devcontainer
+DEVCONTAINER_IMAGE ?= ghcr.io/nhsdigital/nhs-notify-web-cms
+
 dependencies: # Install dependencies needed to build and test the project @Pipeline
 	# TODO: Implement installation of your project dependencies
 
 build: # Build the project artefact @Pipeline
-	(cd docs && make build)
+	if [[ "$${BUILD_TARGET:-all}" != "devcontainer" ]]; then
+		(cd docs && make build)
+	fi
+	make build-devcontainer
 
 publish: # Publish the project artefact @Pipeline
-	# TODO: Implement the artefact publishing step
+	make publish-devcontainer
+
+build-devcontainer: # Build the devcontainer image @Pipeline
+	make -C ${DEVCONTAINER_DIR} build IMAGE=${DEVCONTAINER_IMAGE}
+
+publish-devcontainer: # Publish the devcontainer image @Pipeline
+	make -C ${DEVCONTAINER_DIR} publish IMAGE=${DEVCONTAINER_IMAGE}
 
 deploy: # Deploy the project artefact to the target environment @Pipeline
 	# TODO: Implement the artefact deployment step
@@ -34,7 +46,10 @@ version:
 
 ${VERBOSE}.SILENT: \
 	build \
+	build-devcontainer \
 	clean \
 	config \
 	dependencies \
 	deploy \
+	publish \
+	publish-devcontainer \
