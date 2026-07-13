@@ -1,7 +1,14 @@
 {
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
   "customizations": {
     "codespaces": {
-      "openFiles": ["README.md", ".github/SECURITY.md", "docs/pages/index.md"]
+      "openFiles": [
+        "README.md",
+        ".github/SECURITY.md",
+        "docs/pages/index.md"
+      ]
     },
     "vscode": {
       "extensions": [
@@ -55,8 +62,46 @@
       }
     }
   },
-  "forwardPorts": [4000],
-  "image": "ghcr.io/nhsdigital/nhs-notify-web-cms:latest",
-  "name": "Jekyll",
-  "runArgs": ["--platform=linux/amd64"]
+  "features": {
+    "./nhsnotify": {
+      "version": "1.0.1"
+    },
+    "ghcr.io/devcontainers/features/aws-cli:1": {
+      "version": "latest"
+    },
+    "ghcr.io/devcontainers/features/common-utils:2": {
+      "configureZshAsDefaultShell": true,
+      "installOhMyZsh": true,
+      "installOhMyZshConfig": true,
+      "installZsh": true,
+      "upgradePackages": true,
+      "userGid": "automatic",
+      "userUid": "automatic",
+      "username": "automatic"
+    },
+    "ghcr.io/devcontainers/features/docker-in-docker:2": {
+      "azureDnsAutoDetection": true,
+      "dockerDashComposeVersion": "latest",
+      "installDockerBuildx": true,
+      "installDockerComposeSwitch": true,
+      "moby": true,
+      "version": "latest"
+    },
+    "ghcr.io/devcontainers/features/github-cli:1": {
+      "installDirectlyFromGitHubRelease": true,
+      "version": "latest"
+    },
+    "ghcr.io/devcontainers/features/node:1": {
+      "nodeGypDependencies": true,
+      "nvmVersion": "latest",
+      "version": "lts"
+    }
+  },
+  "forwardPorts": [
+    4000
+  ],
+  "name": "NHS Notify Web CMS Dev Container",
+  "runArgs": [
+    "--platform=linux/amd64"
+  ]
 }

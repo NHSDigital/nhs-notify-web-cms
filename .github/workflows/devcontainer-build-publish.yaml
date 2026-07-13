@@ -1,0 +1,44 @@
+name: "Build and publish devcontainer"
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - gem.lock
+      - docs/Gemfile.lock
+      - src/jekyll-devcontainer/**
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  packages: write
+
+jobs:
+  build-and-publish:
+    name: "Build and publish Jekyll devcontainer"
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    env:
+      BUILD_TARGET: devcontainer
+      DEVCONTAINER_IMAGE: ghcr.io/nhsdigital/nhs-notify-web-cms
+    steps:
+      - name: "Checkout code"
+        uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6
+
+      - name: "Set up Node.js"
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: "Log in to GitHub Container Registry"
+        run: |
+          echo "${{ secrets.GITHUB_TOKEN }}" | docker login ghcr.io -u "${{ github.actor }}" --password-stdin
+
+      - name: "Build devcontainer image"
+        run: |
+          make build
+
+      - name: "Publish devcontainer image"
+        run: |
+          make publish

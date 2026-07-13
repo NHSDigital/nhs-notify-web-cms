@@ -40,4 +40,4 @@ We'll support you to send more messages digitally to help reduce your costs.
 
 ## Letter inserts
 
-If you need to include inserts such as leaflets with your letters, contact us by sending an email to <england.nhsnotify@nhs.net>.
+If you need to include inserts such as leaflets with your letters, you can let us know when you [start onboarding with NHS Notify](https://notify.nhs.uk/get-started/).
