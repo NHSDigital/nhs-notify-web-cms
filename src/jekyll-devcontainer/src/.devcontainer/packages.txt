@@ -1,5 +1,5 @@
-ca-certificates
 build-essential
+ca-certificates
 dirmngr
 fonts-liberation
 git
@@ -28,8 +28,8 @@ libpango-1.0-0
 libpangocairo-1.0-0
 libreadline-dev
 libsqlite3-dev
-libstdc++6
 libssl-dev
+libstdc++6
 libx11-6
 libx11-xcb1
 libxcb1
@@ -47,7 +47,7 @@ lsb-release
 openbox
 tk-dev
 wget
-xz-utils
 xdg-utils
 xorg
+xz-utils
 zlib1g-dev
