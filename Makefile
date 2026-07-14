@@ -14,8 +14,8 @@ dependencies: # Install dependencies needed to build and test the project @Pipel
 	# TODO: Implement installation of your project dependencies
 
 build: # Build the project artefact @Pipeline
-	if [[ "$${BUILD_TARGET:-all}" != "devcontainer" ]]; then
-		(cd docs && make build)
+	if [[ "$${BUILD_TARGET:-all}" != "devcontainer" ]]; then \
+		(cd docs && make build); \
 	fi
 	make build-devcontainer
 
