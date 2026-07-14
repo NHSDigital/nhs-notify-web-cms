@@ -8,12 +8,13 @@ cat ~/.zshrc
 source ~/.zshrc
 
 export ASDF_DIR=/.asdf
-. "$ASDF_DIR/asdf.sh"
+export ASDF_DATA_DIR=/.asdf
 export PATH="$ASDF_DIR/shims:$ASDF_DIR/bin:$PATH"
+ASDF_BIN="$ASDF_DIR/bin/asdf"
 
 # Install tools pinned in .tool-versions so runtime versions are consistent.
-asdf install
-asdf reshim
+$ASDF_BIN install
+$ASDF_BIN reshim
 hash -r # Rehash shims so that the new versions are used
 
 echo 'asdf setup complete'
