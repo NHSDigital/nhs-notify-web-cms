@@ -6,10 +6,18 @@ ls -la ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}
 
 cat ~/.zshrc
 source ~/.zshrc
-echo 'asdf setup complete'
 
-make config
-echo 'make config complete'
+repo_root="$(git rev-parse --show-toplevel 2> /dev/null || pwd)"
+cd "$repo_root" || exit 1
 
-jekyll --version && cd docs && bundle install
-echo 'jekyll setup complete'
+pre-commit install \
+    --config scripts/config/pre-commit.yaml \
+    --install-hooks
+
+cd docs || exit 1
+bundle config set --local path vendor/bundle
+bundle install
+npm install
+make include-npm-deps
+
+echo 'post-create setup complete'
