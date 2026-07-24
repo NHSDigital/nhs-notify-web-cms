@@ -19,6 +19,7 @@
 
 #### Setup guides
 
+- [Making changes via vscode.dev](setup/vscode-dev.md)
 - [GPG setup for Codespaces](setup/gpg.md)
 - [First-time Codespaces setup](setup/codespaces.md)
 - [GitHub Copilot quick start](setup/copilot.md)
