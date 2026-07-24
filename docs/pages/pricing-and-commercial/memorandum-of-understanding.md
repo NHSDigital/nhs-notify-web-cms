@@ -3,10 +3,10 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: page
-title: "Memorandum of understanding: your agreement to use NHS Notify"
+title: "Memorandum of understanding and payment terms: your agreement to use NHS Notify"
 parent: Pricing and commercial
 nav_order: 5
-permalink: /pricing-and-commercial/memorandum-of-understanding
+permalink: /pricing-and-commercial/memorandum-of-understanding-and-payment-terms
 ---
 
 To use NHS Notify, you must agree to the terms in this memorandum of understanding and the <a href="/assets/commercialdocs/Payment%20terms%20NHS%20Notify%20-%20December%202025.pdf" target="_blank">payment terms</a>.
