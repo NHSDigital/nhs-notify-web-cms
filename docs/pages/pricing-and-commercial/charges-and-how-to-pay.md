@@ -3,11 +3,12 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: page
-title: How to pay
+title: Charges and how to pay
 parent: Pricing and commercial
 nav_order: 4
-permalink: /pricing-and-commercial/how-to-pay
+permalink: /pricing-and-commercial/charges-and-how-to-pay
 redirect_from: /pricing/how-to-pay
+redirect_from: /pricing-and-commercial/how-to-pay
 ---
 
 This page includes our payment terms and guidance on how to pay.
