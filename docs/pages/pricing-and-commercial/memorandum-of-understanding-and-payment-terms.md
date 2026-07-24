@@ -7,6 +7,7 @@ title: "Memorandum of understanding and payment terms: your agreement to use NHS
 parent: Pricing and commercial
 nav_order: 5
 permalink: /pricing-and-commercial/memorandum-of-understanding-and-payment-terms
+redirect_from: /pricing-and-commercial/memorandum-of-understanding
 ---
 
 To use NHS Notify, you must agree to the memorandum of understanding and payment terms.
