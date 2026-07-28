@@ -43,7 +43,7 @@ If your organisation or service is invited to onboard, we'll send you an email. 
 
 - what you need to do next
 - an online form to continue your setup
-- the Supplier Conformance Assessment List (SCAL) you need to complete before you go live.
+- information on how to complete assurance checks with the Digital Onboarding Service (DOS)
 
 {% include components/button.html
   text="Check features and register"
