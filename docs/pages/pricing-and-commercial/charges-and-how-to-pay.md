@@ -11,37 +11,28 @@ redirect_from: /pricing/how-to-pay
 redirect_from: /pricing-and-commercial/how-to-pay
 ---
 
-This page includes our payment terms and guidance on how to pay.
+## How charges work
 
-## Payment terms
+We charge based on the number of messages you send, specifically letters and text messages.
 
-The payment terms document is a financial agreement that sets out our charges and rules. It forms part of your wider connection agreement with NHS England.
+These charges cover the direct costs of running the service.
 
-We'll send the payment terms to you to sign digitally via DocuSign during onboarding. You must sign this document and set up the payment process before you can go live.
+## Charging rules
 
-The <a href="/assets/commercialdocs/Payment%20terms%20NHS%20Notify%20-%20December%202025.pdf" target="_blank">payment terms (blank version)</a> are available for you to read beforehand.
+As detailed in the [memorandum of understanding and payment terms]({% link pages/pricing-and-commercial/charges-and-how-to-pay.md %}), the following rules apply:
 
-## How charges and payment work
+- charges start from your service start date, or 1 August 2025 (whichever is later), as shown in your memorandum of understanding
+- prices on our website do not include VAT – we'll add VAT where it applies
+- we may change prices or add new channels in future – these will automatically apply and we'll give notice where we can
+- you must not add extra margins or fees when charging any end user organisations – you can only pass on our costs
 
-We charge based on the volume of messages you send, specifically letters and text messages. These charges cover the direct costs of providing the service.
+## How to pay
 
-### Charging rules
+Once you've signed the payment terms:
 
-As detailed in the payment terms, the following rules apply:
-
-- charges apply from the financial year 2025 to 2026 and onwards, until we send you an updated agreement
-- we'll add VAT to your invoices - all prices listed in the payment terms and on our website exclude VAT
-- we'll notify you before we introduce any price increases (for example, postal tariff changes)
-- you must not add any margin or fees when charging any end user organisations - you can only pass on our costs
-
-### Payment process
-
-The process starts once you've signed the payment terms.
-
-1. Send a purchase order (PO) to <england.nhsnotifyinvoicing@nhs.net>. Raise the PO based on your total expected annual charge per message channel.
+1. Send a purchase order (PO) to <england.nhsnotifyinvoicing@nhs.net>. Raise the PO based on your total expected annual charge across all message channels.
 2. Charges will apply from your 'service commencement’ date, which we'll confirm with you.
-3. We'll provide monthly estimates of your charges within 20 days of the last day of the month.
-4. We raise invoices every financial quarter in arrears through NHS Shared Business Services.
-5. You must pay invoices within 30 days.
+3. We raise invoices monthly in arrears through NHS Shared Business Services.
+4. You must pay invoices within 30 days.
 
 If you have any queries about the value of invoices, email <england.nhsnotifyinvoicing@nhs.net> within 3 months of when you received the invoice.
