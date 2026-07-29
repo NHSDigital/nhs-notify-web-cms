@@ -37,7 +37,7 @@ The payment terms document is a financial agreement that sets out our charges an
 
 It will form part of your wider connection agreement with NHS England.
 
-[Read and understand our payment terms]({% link pages/pricing-and-commercial/how-to-pay.md %})
+[Read and understand our payment terms]({% link pages/pricing-and-commercial/charges-and-how-to-pay.md %})
 
 ## Memorandum of understanding
 
@@ -45,7 +45,7 @@ If your organisation is part of NHS England, you must agree to the terms in this
 
 We’ll send you the memorandum of understanding to sign digitally during onboarding. You must sign this before you can go live with NHS Notify.
 
-[Read and understand our memorandum of understanding]({% link pages/pricing-and-commercial/memorandum-of-understanding.md %})
+[Read and understand our memorandum of understanding]({% link pages/pricing-and-commercial/memorandum-of-understanding-and-payment-terms.md %})
 
 ## General terms and conditions
 
