@@ -27,6 +27,7 @@ If you’ve already started onboarding and have questions, contact your onboardi
   text="Get started with NHS Notify"
   url="/get-started"
 %}
+
 ## Get support
 
 NHS Notify is a <a href="https://digital.nhs.uk/services/reference-guide#service-levels" target="_blank">gold service (opens in a new tab)</a>.
