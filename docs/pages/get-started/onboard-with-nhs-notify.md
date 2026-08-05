@@ -173,3 +173,21 @@ Your onboarding manager will ask for your:
 ### If you’re using NHS Notify MESH
 
 Your onboarding manager will ask for your PROD Mesh Mailbox ID.
+
+## 5. Complete assurance checks
+
+You'll need to use the [Digital Onboarding Service (DOS)](https://digital.nhs.uk/services/digital-onboarding-service) to complete assurance checks.
+
+You'll complete an online form to answer questions about how your organisation or service meets NHS standards for:
+
+- clinical safety
+- information governance
+- data protection
+- cyber security
+
+You'll need input from the people responsible for these areas in your organisation to complete the answers.
+
+{% include components/inset-text.html
+  text="Check your onboarding invitation email to find out how to start using DOS."
+  classes='nhsuk-u-margin-top-2'
+%}
