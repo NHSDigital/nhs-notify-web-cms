@@ -18,7 +18,7 @@ There’s also:
 - no setup or integration fee
 - no procurement fees
 
-Find out [how to pay]({% link pages/pricing-and-commercial/how-to-pay.md %}).
+Find out about [charges and how to pay]({% link pages/pricing-and-commercial/charges-and-how-to-pay.md %}).
 
 ## Text messages (SMS)
 
