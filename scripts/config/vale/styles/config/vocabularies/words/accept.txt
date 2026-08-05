@@ -31,7 +31,7 @@ Noto
 npm
 OAuth
 Octokit
-onboarding
+[Oo]nboarding
 pending_enrichment
 pending_virus_check
 permanent_failure

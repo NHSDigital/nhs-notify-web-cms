@@ -180,10 +180,10 @@ You'll need to use the [Digital Onboarding Service (DOS)](https://digital.nhs.uk
 
 You'll complete an online form to answer questions about how your organisation or service meets NHS standards for:
 
-* clinical safety
-* information governance
-* data protection
-* cyber security
+- clinical safety
+- information governance
+- data protection
+- cyber security
 
 You'll need input from the people responsible for these areas in your organisation to complete the answers.
 
