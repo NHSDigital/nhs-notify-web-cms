@@ -34,7 +34,7 @@ NHS Notify is a <a href="https://digital.nhs.uk/services/reference-guide#service
 
 If you need help creating or sending messages, check our guidance for [using NHS Notify]({% link pages/using-nhs-notify/using-nhs-notify.md %}).
 
-If you're live with NHS Notify and need help, <a href="https://www.support.digitalservices.nhs.uk/csm?id=sc_cat_item&sys_id=6cc625151b9fbad083b0a7d0b24bcb11&referrer=recent_items" target="_blank">submit a case with Service Now (opens in a new tab)</a>.
+If you're live with NHS Notify and need help, <a href="https://www.support.digitalservices.nhs.uk/csm?id=sc_cat_item&sys_id=6cc625151b9fbad083b0a7d0b24bcb11&referrer=recent_items" target="_blank">submit a case with ServiceNow (opens in a new tab)</a>.
 
 ## Office hours
 
