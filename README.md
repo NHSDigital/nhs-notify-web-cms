@@ -7,10 +7,26 @@
 
 - This site includes the content for the public [N]HS Notify web site](https://notify.nhs.uk/)
 - It uses Jekyll to generate static web HTML files from markdown content
-- The source code for the web site is in `/docs` directory
-- Page content is inside the `/docs/pages` directory
-- Page CSS is inside `/docs/_sass` directory
+- the source code for the web site is in /docs folder
+- page content is inside the `/docs/pages` folder
+- page css is inside `/docs/_sass` folder
+
+## Release notes data sync
+
+- Release notes data is generated into `docs/_data/release-notes.json`
+- The cache is refreshed by `.github/workflows/release-notes-sync.yaml`
+- The workflow supports a weekly scheduled run and manual `workflow_dispatch`
+- Set the `JIRA_TOKEN` GitHub Actions secret before enabling the workflow
+- The sync action resolves the custom `Release Notes` field dynamically from the JIRA API, so the field ID is not hard coded in the repository
 - The webpage is published to GitHub Pages using [this GitHub Actions workflow](.github/workflows/jekyll-gh-pages.yml)
+
+## Getting Started - First time setup
+
+This is only needed once.
+
+To get started, please create a new GitHub workspace from the main branch.
+
+This will setup a development environment for you to edit the web site in. The first time this runs, it will take approximately 10 minutes. You do not need to install ANY tools on your local computer.
 
 ### Pre-requisites
 
