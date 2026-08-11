@@ -8,7 +8,7 @@ permalink: /release-notes/
 
 Find out about technical updates and bug fixes for NHS Notify.
 
-_This page is aimed at people with technical roles, like developers._
+This page is aimed at people with technical roles, like developers.
 
 {% assign releases = site.data["release-notes"].releases %}
 
