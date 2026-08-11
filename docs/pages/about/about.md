@@ -129,10 +129,6 @@ To send messages automatically, you'll need a developer to integrate with the NH
 
 [Learn more about NHS Notify’s security features.]({% link pages/footer/security.md %})
 
-### Keep up to date
-
-You can also view improvements and changes to the services by reviewing our [release notes]({% link pages/about/release-notes.md %}).
-
 ### Get support when you need it
 
 NHS Notify is available 24 hours a day, 365 days a year and supported from 8am to 6pm, Monday to Friday excluding bank holidays.

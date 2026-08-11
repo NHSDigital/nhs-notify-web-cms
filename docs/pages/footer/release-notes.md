@@ -1,12 +1,14 @@
 ---
 layout: page
-title: Release notes
+title: NHS Notify release notes
 parent: About
 nav_order: 3
-permalink: /about/release-notes/
+permalink: /release-notes/
 ---
 
-This page lists release notes for NHS Notify services.
+Find out about technical updates and bug fixes for NHS Notify.
+
+_This page is aimed at people with technical roles, like developers._
 
 {% assign releases = site.data["release-notes"].releases %}
 
