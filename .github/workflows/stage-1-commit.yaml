@@ -42,7 +42,7 @@ jobs:
     timeout-minutes: 2
     steps:
       - name: "Checkout code"
-        uses: actions/checkout@v4
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 #v7.0.1
         with:
           fetch-depth: 0 # Full history is needed to scan all commits
       - name: "Scan secrets"
@@ -53,7 +53,7 @@ jobs:
     timeout-minutes: 2
     steps:
       - name: "Checkout code"
-        uses: actions/checkout@v4
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 #v7.0.1
         with:
           fetch-depth: 0 # Full history is needed to compare branches
       - name: "Check file format"
@@ -64,7 +64,7 @@ jobs:
     timeout-minutes: 2
     steps:
       - name: "Checkout code"
-        uses: actions/checkout@v4
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 #v7.0.1
         with:
           fetch-depth: 0 # Full history is needed to compare branches
       - name: "Check Markdown format"
@@ -75,20 +75,11 @@ jobs:
     timeout-minutes: 2
     steps:
       - name: "Checkout code"
-        uses: actions/checkout@v4
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 #v7.0.1
         with:
           fetch-depth: 0 # Full history is needed to compare branches
       - name: "Check English usage"
         uses: NHSDigital/nhs-notify-shared-modules/.github/actions/check-english-usage@3.0.9
-  # lint-terraform:
-  #   name: "Lint Terraform"
-  #   runs-on: ubuntu-latest
-  #   timeout-minutes: 2
-  #   steps:
-  #     - name: "Checkout code"
-  #       uses: actions/checkout@v4
-  #     - name: "Lint Terraform"
-  #       uses: NHSDigital/nhs-notify-shared-modules/.github/actions/lint-terraform@3.0.9
   count-lines-of-code:
     name: "Count lines of code"
     runs-on: ubuntu-latest
@@ -98,7 +89,7 @@ jobs:
     timeout-minutes: 2
     steps:
       - name: "Checkout code"
-        uses: actions/checkout@v4
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 #v7.0.1
       - name: "Count lines of code"
         uses: NHSDigital/nhs-notify-shared-modules/.github/actions/create-lines-of-code-report@3.0.9
         with:
@@ -117,7 +108,7 @@ jobs:
     timeout-minutes: 2
     steps:
       - name: "Checkout code"
-        uses: actions/checkout@v4
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 #v7.0.1
       - name: "Scan dependencies"
         uses: NHSDigital/nhs-notify-shared-modules/.github/actions/scan-dependencies@3.0.9
         with:
