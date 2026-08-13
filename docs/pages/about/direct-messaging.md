@@ -33,20 +33,17 @@ You must adhere to the following:
 **1. Time sensitive NHS app messages should fallback when:**
 
 - a recipient does not have the NHS App
-- a 'notified' status is not received within 1 hour
 - the message is not read by the recipient within 4 hours
 
 **2. Bulk NHS App messages should fallback when:**
 
 - a recipient does not have the NHS App
-- a 'notified' status is not received within 1 hour
 - the message is not read by the recipient within 24 hours
 
 **3. Acute secondary care appointment NHS App messages should fallback when:**
 
 - a recipient does not have the NHS App
-- a 'notified' status is not received within 1 hour
-- the message is not read by the recipient within 4, 12 or 24 hours
+- the message is not read by the recipient within 4 or 24 hours
 
 ## Using the NHS App for patient journeys
 
