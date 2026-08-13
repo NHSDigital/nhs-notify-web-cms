@@ -1,6 +1,7 @@
 ---
 layout: mini-hub
 title: Overview
+redirect_from: /using-nhs-notify/personalisation
 nav_title: Personalising your messages
 nav_order: 1
 permalink: /using-nhs-notify/personalising-your-messages
