@@ -41,7 +41,7 @@ You can personalise messages using data from the Personal Demographic Services (
 
 You’ll need to add personalisation fields to your message templates, to send personalised messages to recipients.
 
-Use double brackets to add personalisation fields to NHS App messages, text messages, or email templates. Do not include spaces in your personalisation fields. For example:
+Use double brackets to add personalisation fields to NHS App message, text message, or email templates. Do not include spaces in your personalisation fields. For example:
 
 {% include components/inset-text.html
   text='`Hello ((fullName)), your NHS Number is ((nhsNumber)). Your appointment is on ((appointmentDate)) at ((gpSurgery)).`'
