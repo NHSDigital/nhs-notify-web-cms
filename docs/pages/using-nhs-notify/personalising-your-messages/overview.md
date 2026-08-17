@@ -35,7 +35,7 @@ You can add personalisation fields to:
 - text messages
 - letters
 
-You can personalise messages using data from the Personal Demographic Services (PDS), or your own custom data.
+You can personalise messages using data from the Personal Demographics Services (PDS), or your own custom data.
 
 ## Adding personalisation fields to message templates
 

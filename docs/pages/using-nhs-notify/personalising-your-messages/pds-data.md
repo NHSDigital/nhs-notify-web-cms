@@ -42,4 +42,4 @@ Make sure your personalisation fields in your template match the PDS personalisa
   text='`Hello ((fullName)), your NHS Number is ((nhsNumber)). Your appointment is on ((date)).`'
 %}
 
-Learn more about the <a href="https://digital.nhs.uk/services/personal-demographics-service" target="_blank">Personal Demographic Service (PDS) (opens in a new tab)</a>.
+Learn more about the <a href="https://digital.nhs.uk/services/personal-demographics-service" target="_blank">Personal Demographics Service (PDS) (opens in a new tab)</a>.
