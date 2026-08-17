@@ -3,7 +3,8 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: page
-title: Personalisation
+title: Moved page
+redirect_to: /using-nhs-notify/personalising-your-messages/overview.md
 parent: Using NHS Notify
 nav_order: 4
 permalink: /using-nhs-notify/personalisation

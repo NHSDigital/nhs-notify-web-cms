@@ -9,7 +9,7 @@ mini_hub_topic: Personalising your messages
 mini_hub_pages:
   - title: Overview
     url: /using-nhs-notify/personalising-your-messages
-  - title: Personal Demographic Service (PDS) data
+  - title: Personal Demographics Service (PDS) data
     url: /using-nhs-notify/personalising-your-messages/pds-data
   - title: Custom data
     url: /using-nhs-notify/personalising-your-messages/custom-data
@@ -57,7 +57,7 @@ text='`personalisation_gpSurgery`
 
 The CSV file you use in your MESH request is different to the CSV example data file for custom personalisation fields.
 
-Read more <a href="https://digital.nhs.uk/developer/api-catalogue/nhs-notify-mesh/sending-a-message" target="_blank">sending a message with NHS Notify MESH (opens in a new tab)</a>.
+Read more about <a href="https://digital.nhs.uk/developer/api-catalogue/nhs-notify-mesh/sending-a-message" target="_blank">sending a message with NHS Notify MESH (opens in a new tab)</a>.
 
 ## Example data
 

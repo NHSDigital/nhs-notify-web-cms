@@ -9,7 +9,7 @@ mini_hub_topic: Personalising your messages
 mini_hub_pages:
   - title: Overview
     url: /using-nhs-notify/personalising-your-messages
-  - title: Personal Demographic Service (PDS) data
+  - title: Personal Demographics Service (PDS) data
     url: /using-nhs-notify/personalising-your-messages/pds-data
   - title: Custom data
     url:
@@ -18,7 +18,7 @@ mini_hub_pages:
     url: /using-nhs-notify/personalising-your-messages/providing-your-own-data
 
 previous_page:
-  title: Personal Demographic Service (PDS) data
+  title: Personal Demographics Service (PDS) data
   url: /using-nhs-notify/personalising-your-messages/pds-data
 next_page:
   title: Providing your own data
