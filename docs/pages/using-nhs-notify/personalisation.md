@@ -39,11 +39,13 @@ NHS Notify uses the <a href="https://digital.nhs.uk/services/personal-demographi
 
 You can use the following PDS fields:
 
+<!-- vale off -->
 - fullName
 - firstName
 - lastName
 - nhsNumber
 - date
+<!-- vale on -->
 
 {% include components/inset-text.html
 text='Make sure your personalisation fields match the PDS personalisation fields. This includes using the correct order of upper and lower case letters.'
