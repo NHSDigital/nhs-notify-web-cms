@@ -38,6 +38,7 @@ You need to provide the data for your custom personalisation fields in your API 
 
 If you use your own data, you cannot use the following personalisation fields:
 
+<!-- vale off -->
 - any PDS personalisation fields
 - emailAddress
 - phoneNumber
@@ -49,6 +50,7 @@ If you use your own data, you cannot use the following personalisation fields:
 - clientRef
 - recipientContactValue
 - template
+<!-- vale on -->
 
 {% include components/inset-text.html
   text='Using these fields will cause custom personalisation to fail. This includes variations, like adding spaces, punctuation, and upper or lower case letters.'

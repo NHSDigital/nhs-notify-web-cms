@@ -30,11 +30,13 @@ NHS Notify uses the Personal Demographics Service (PDS) to fill personalisation 
 
 You can use the following PDS fields in your message template:
 
+<!-- vale off -->
 - fullName
 - firstName
 - lastName
 - nhsNumber
 - date
+<!-- vale on -->
 
 Make sure your personalisation fields in your template match the PDS personalisation fields. This includes using the correct order of upper and lower case letters. For example:
 
