@@ -1,0 +1,15 @@
+{
+  "releases": [
+    {
+      "name": "Digital Letters 1.0.1",
+      "jira_name": "digital-letters-1.0.1",
+      "release_date": "2026-06-17",
+      "items": [
+        {
+          "key": "CCM-18212",
+          "release_notes": "NHS Notify is introducing a new capability that enables secondary care NHS Trusts to send PDF digital letters directly to patients via NHS App messages. By making healthcare communications available within the NHS App, patients can access important information quickly, securely and conveniently through a trusted digital channel, while retaining the option to receive a printed paper letter if preferred.\r\n\r\nThe capability will also help NHS organisations reduce the costs associated with printing and postage, supporting more efficient and sustainable delivery of patient communications while maintaining inclusivity for those who need or prefer paper correspondence."
+        }
+      ]
+    }
+  ]
+}
