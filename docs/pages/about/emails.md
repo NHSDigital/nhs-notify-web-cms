@@ -27,4 +27,4 @@ You might also want to understand more about:
 - [how to tell recipients who your emails are from]({% link pages/using-nhs-notify/tell-recipients-who-your-messages-are-from.md %})
 - [formatting]({% link pages/using-nhs-notify/formatting/formatting-overview.md %})
 - [links and URLs]({% link pages/using-nhs-notify/links-and-urls.md %})
-- [personalisation]({% link pages/using-nhs-notify/personalisation.md %})
+- [personalisation]({% link pages/using-nhs-notify/personalising-your-messages/overview.md %})

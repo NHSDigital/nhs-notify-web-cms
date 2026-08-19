@@ -85,7 +85,7 @@ Create reusable templates for the message channels you want to use.
 
 Once you’ve created a template you can:
 
-- [add personalisation]({% link pages/using-nhs-notify/personalisation.md %})
+- [add personalisation]({% link pages/using-nhs-notify/personalising-your-messages/overview.md %})
 - [tell recipients who your messages are from]({% link pages/using-nhs-notify/tell-recipients-who-your-messages-are-from.md %})
 
 ### Plan how your messages will be sent
