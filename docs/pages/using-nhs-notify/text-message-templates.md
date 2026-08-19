@@ -48,7 +48,7 @@ You can also find out about:
 
 ## Personalisation
 
-You can personalise your text messages by adding personalisation fields. [Learn how to use personalisation]({% link pages/using-nhs-notify/personalisation.md %}).
+You can personalise your text messages by adding personalisation fields. [Learn how to use personalisation]({% link pages/using-nhs-notify/personalising-your-messages/overview.md %}).
 
 ## Body text
 

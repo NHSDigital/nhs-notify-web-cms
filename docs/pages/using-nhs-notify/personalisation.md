@@ -4,10 +4,12 @@
 
 layout: page
 title: Personalisation
+redirect_to: /using-nhs-notify/personalising-your-messages/overview.md
 parent: Using NHS Notify
-nav_order: 4
+nav order: 4
 permalink: /using-nhs-notify/personalisation
 section: Writing a message
+published: false
 ---
 
 ## Placing personalisation fields in your template
@@ -38,11 +40,14 @@ NHS Notify uses the <a href="https://digital.nhs.uk/services/personal-demographi
 
 You can use the following PDS fields:
 
+<!-- vale off -->
+
 - fullName
 - firstName
 - lastName
 - nhsNumber
 - date
+<!-- vale on -->
 
 {% include components/inset-text.html
 text='Make sure your personalisation fields match the PDS personalisation fields. This includes using the correct order of upper and lower case letters.'
@@ -100,12 +105,15 @@ For each personalisation field, provide short, medium and long examples. For exa
 {% include components/inset-text.html
 text='
 
+<!-- vale off -->
+
 - New Surgery (short)
 - The Health Centre, Knaresborough Road (medium)
 - Church Avenue and Park Grove Medical Group Surgery (long)
-  '
-  classes='nhsuk-u-margin-top-2'
-  %}
+'
+classes='nhsuk-u-margin-top-2'
+%}
+<!-- vale on -->
 
 Follow these rules for your example data:
 
@@ -127,6 +135,8 @@ classes='nhsuk-u-margin-top-2'
 
 If you use custom personalisation, do not use the following personalisation fields:
 
+<!-- vale off -->
+
 - any [PDS personalisation fields](#pds-personalisation-fields-automatic-data)
 - emailAddress
 - phoneNumber
@@ -138,6 +148,7 @@ If you use custom personalisation, do not use the following personalisation fiel
 - clientRef
 - recipientContactValue
 - template
+<!-- vale on -->
 
 {% include components/inset-text.html
 text='Using these fields will cause custom personalisation to fail. This includes any variations, for example, if you add spaces, punctuation, and upper or lower case letters.'

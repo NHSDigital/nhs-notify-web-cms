@@ -40,7 +40,7 @@ You might also want to understand more about:
 - [sending letters to people who speak other languages]({% link pages/using-nhs-notify/letters-in-other-languages.md %})
 - [formatting]({% link pages/using-nhs-notify/formatting/formatting-overview.md %})
 - [links and URLs]({% link pages/using-nhs-notify/links-and-urls.md %})
-- [personalisation]({% link pages/using-nhs-notify/personalisation.md %})
+- [personalisation]({% link pages/using-nhs-notify/personalising-your-messages/overview.md %})
 
 ## Letter specification
 

@@ -43,10 +43,7 @@ If we cannot deliver a message through your first choice, we automatically try t
 
 All digital message channels will immediately fallback to the next channel if it is rejected or an 'unnotified' status is received.
 
-NHS App messages will fallback to the next channel when:
-
-- a 'notified' status is not received within 1 hour
-- the message is not read by the recipient within 24 hours
+NHS App messages will fallback to the next channel when the message is not read by the recipient within 24 hours.
 
 Emails and text messages will fallback to the next channel if they are not delivered after 72 hours.
 
