@@ -62,8 +62,8 @@ classes='nhsuk-u-margin-top-2'
 You must:
 
 - have a way to get the NHS numbers of your recipients
-- be prepared to sign a connection agreement (if your organisation is part of NHS England)
-- be prepared to sign our memorandum of understanding (if your organisation is not part of NHS England)
+- be prepared to sign a connection agreement (if your organisation or service is not part of NHS England)
+- be prepared to sign our memorandum of understanding (if your organisation or service is part of NHS England)
 - have an Organisation Data Service (ODS) code for your service or organisation - [find your ODS code with the ODS Data Search and Export service](https://www.odsdatasearchandexport.nhs.uk/)
 
 If your organisation or service does not have an ODS code, you can [request a code or update your organisation’s details](https://digital.nhs.uk/services/organisation-data-service#submit-an-organisation-data-request).
