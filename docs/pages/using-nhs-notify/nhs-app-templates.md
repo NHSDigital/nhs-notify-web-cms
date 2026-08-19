@@ -49,7 +49,7 @@ You can also find out about:
 
 ## Personalisation
 
-You can personalise your NHS App messages by adding personalisation fields. [Learn how to use personalisation]({% link pages/using-nhs-notify/personalisation.md %}).
+You can personalise your NHS App messages by adding personalisation fields. [Learn how to use personalisation]({% link pages/using-nhs-notify/personalise-your-messages/overview.md %}).
 
 ## Headings
 

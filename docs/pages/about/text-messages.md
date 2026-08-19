@@ -29,4 +29,4 @@ You might want to understand more about:
 - [sending text messages to international numbers]({% link pages/pricing-and-commercial/text-messages.md %}#sending-text-messages-to-international-numbers)
 - [formatting]({% link pages/using-nhs-notify/formatting/formatting-overview.md %})
 - [links and URLs]({% link pages/using-nhs-notify/links-and-urls.md %})
-- [personalisation]({% link pages/using-nhs-notify/personalisation.md %})
+- [personalisation]({% link pages/using-nhs-notify/personalise-your-messages/overview.md %})

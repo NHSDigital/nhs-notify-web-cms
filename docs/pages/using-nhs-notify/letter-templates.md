@@ -103,7 +103,7 @@ Noto Sans should now be available in Microsoft Word.
 
 ## Personalisation
 
-You can personalise your letters by adding personalisation fields. [Learn how to use personalisation]({% link pages/using-nhs-notify/personalisation.md %}).
+You can personalise your letters by adding personalisation fields. [Learn how to use personalisation]({% link pages/using-nhs-notify/personalise-your-messages/overview.md %}).
 
 ## Headings
 
