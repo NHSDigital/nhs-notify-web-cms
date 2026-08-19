@@ -110,7 +110,7 @@ jobs:
       - name: "Checkout code"
         uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 #v7.0.1
       - name: "Scan dependencies"
-        uses: NHSDigital/nhs-notify-shared-modules/.github/actions/scan-dependencies@5.1.0 # NOSONAR - githubactions:S7637 - internally controlled repo, pinned by tag
+        uses: NHSDigital/nhs-notify-shared-modules/.github/actions/scan-dependencies@3.0.9
         with:
           build_datetime: "${{ inputs.build_datetime }}"
           build_timestamp: "${{ inputs.build_timestamp }}"
