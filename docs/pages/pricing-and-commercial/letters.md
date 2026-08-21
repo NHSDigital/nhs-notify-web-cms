@@ -10,34 +10,55 @@ permalink: /pricing-and-commercial/letters
 redirect_from: /pricing/letters
 ---
 
-The cost of sending a standard letter depends on the postage you choose and how many sheets of paper you need.
+The cost of sending a standard letter depends on the postage you use and how many sheets of paper you need.
 
-NHS Notify's standard postage rate is 76 pence plus VAT per letter.
+NHS Notify’s standard postage is the default and most cost-effective option. It costs 64 pence to send a letter with one double-sided sheet of paper.
 
-This is our most cost-effective option. While the cost to send a standard letter is 72 pence, we charge a blended rate of 76 pence to cover sending some letters as accessible formats.
+Prices include:
 
-Our price includes:
-
-- paper
-- postage
 - double-sided black and white printing
+- postage
+- paper
 - C5 size envelopes with an address window
 - returned letter costs
-- additional charge per letter to cover service costs
+- service costs
 
-Speak to your onboarding manager if you need:
+If your letter uses different postage or has more than one sheet of paper, the cost increases.
 
-- to send letters with more than one double-sided sheet
-- a different postage rate, such as 1st or 2nd class
+| Paper    | Standard postage | Business class | First class |
+| -------- | ---------------- | -------------- | ----------- |
+| 1 sheet  | 64 pence         | 73 pence       | £1.63       |
+| 2 sheets | 67 pence         | 76 pence       | £1.66       |
+| 3 sheets | 70 pence         | 79 pence       | £1.69       |
+| 4 sheets | 73 pence         | 82 pence       | £1.72       |
+| 5 sheets | 76 pence         | 85 pence       | £1.75       |
 
-## Additional charge for letters
+To use business class or first class postage:
 
-From 1 August 2025, you'll pay a small additional charge for each letter you send with NHS Notify. This is included in our standard postage rate. We'll automatically add this charge to your monthly bill, based on the number of letters you send.
+- speak to your onboarding manager if you're onboarding
+- <a href="https://www.support.digitalservices.nhs.uk/csm?id=sc_cat_item&sys_id=6cc625151b9fbad083b0a7d0b24bcb11&referrer=recent_items" target="_blank">submit a case with ServiceNow (opens in a new tab)</a> if you're live with NHS Notify
 
-This additional charge will enable us to make improvements to the service and develop new features for all users of NHS Notify.
+View our [delivery times]({% link pages/using-nhs-notify/delivery-times.md %}).
 
-We'll support you to send more messages digitally to help reduce your costs.
+## Accessible formats
+
+Accessible formats include the standard letter and the accessible format. Prices are based on the number of sheets of your standard letter.
+
+Braille letters cost:
+
+- £3.28 for a letter with one sheet
+- £1.64 for each extra sheet
+
+Audio CD letters cost:
+
+- £6.45 for a letter with one sheet
+- £3.23 for each extra sheet
+
+Find out more about [accessible formats]({% link pages/using-nhs-notify/accessible-formats.md %}).
 
 ## Letter inserts
 
-If you need to include inserts such as leaflets with your letters, you can let us know when you [start onboarding with NHS Notify](https://notify.nhs.uk/get-started/).
+To include inserts such as leaflets with your letters:
+
+- speak to your onboarding manager if you're onboarding
+- <a href="https://www.support.digitalservices.nhs.uk/csm?id=sc_cat_item&sys_id=6cc625151b9fbad083b0a7d0b24bcb11&referrer=recent_items" target="_blank">submit a case with ServiceNow (opens in a new tab)</a> if you're live with NHS Notify
