@@ -66,14 +66,7 @@ Once you've made a request with [NHS Notify API]({% link pages/about/api.md %}) 
 
 We use NHS Notify's standard postage as our default for letters. Most letters get delivered 3 business days after they're dispatched.
 
-If you need different postage, such as 1st or 2nd class, speak to your onboarding manager.
-
-{% include components/inset-text.html
-text="From 28 July, delivery times for all letters except 1st class are changing. This is due to Royal Mail's service reforms.
-
-For more information, visit <a href='https://www.royalmail.com/receiving/the-future-of-letter-deliveries' target='_blank'>Royal Mail's website (opens in a new tab)</a>."
-classes="nhsuk-u-margin-top-2"
-%}
+To find out delivery times for business class and first class letters, visit the <a href="https://www.royalmail.com/receiving/delivery-times" target="_blank">Royal Mail website (opens in a new tab)</a>.
 
 [Learn more about letters]({% link pages/about/letters.md %}).
 
