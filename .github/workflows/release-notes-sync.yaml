@@ -34,6 +34,17 @@ jobs:
             echo "has_changes=true" >> "$GITHUB_OUTPUT"
           fi
 
+      - name: "Configure GPG signing"
+        if: steps.changes.outputs.has_changes == 'true'
+        env:
+          GPG_PRIVATE_KEY: "${{ secrets.GPG_PRIVATE_KEY }}"
+        shell: bash
+        run: |
+          echo "$GPG_PRIVATE_KEY" | gpg --batch --import
+          KEY_ID=$(gpg --list-secret-keys --keyid-format LONG | awk '/^sec/{print $2}' | cut -d'/' -f2 | head -1)
+          git config --global user.signingkey "$KEY_ID"
+          git config --global commit.gpgsign true
+
       - name: "Create pull request"
         if: steps.changes.outputs.has_changes == 'true'
         uses: peter-evans/create-pull-request@5f6978faf089d4d20b00c7766989d076bb2fc7f1 # v8.1.1
