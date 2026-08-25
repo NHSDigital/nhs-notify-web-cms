@@ -1,6 +1,17 @@
 {
   "releases": [
     {
+      "name": "PeteTest",
+      "jira_name": "PeteTest",
+      "release_date": "2026-09-01",
+      "items": [
+        {
+          "key": "CCM-23141",
+          "release_notes": "This is some test release notes"
+        }
+      ]
+    },
+    {
       "name": "Digital Letters 1.0.1",
       "jira_name": "digital-letters-1.0.1",
       "release_date": "2026-06-17",
