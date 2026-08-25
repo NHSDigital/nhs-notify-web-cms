@@ -210,3 +210,49 @@
 .nhsuk-header__account-item:last-child {
   outline: none;
 }
+
+.nhsnotify-timeline {
+  list-style: none;
+  margin: 0 0 40px;
+  padding: 0;
+  position: relative;
+}
+
+.nhsnotify-timeline::before {
+  background-color: $color_nhsuk-grey-3;
+  bottom: 8px;
+  content: "";
+  left: 5px;
+  position: absolute;
+  top: 8px;
+  width: 2px;
+}
+
+.nhsnotify-timeline__item {
+  margin: 0 0 24px;
+  padding: 0 0 0 24px;
+  position: relative;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.nhsnotify-timeline__marker {
+  background-color: $color_nhsuk-white;
+  border: 2px solid $color_nhsuk-grey-3;
+  border-radius: 50%;
+  height: 12px;
+  left: 0;
+  position: absolute;
+  top: 4px;
+  width: 12px;
+}
+
+.nhsnotify-timeline__content {
+  padding-left: 8px;
+}
+
+.nhsnotify-timeline__body > :last-child {
+  margin-bottom: 0;
+}

@@ -1,0 +1,10 @@
+<ol class="nhsnotify-timeline">
+  {% for item in include.items %}
+  <li class="nhsnotify-timeline__item">
+    <div class="nhsnotify-timeline__marker" aria-hidden="true"></div>
+    <div class="nhsnotify-timeline__content">
+      <div class="nhsnotify-timeline__body">{{ item.release_notes | markdownify }}</div>
+    </div>
+  </li>
+  {% endfor %}
+</ol>
