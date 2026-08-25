@@ -1,7 +1,6 @@
 ---
 layout: page
 title: NHS Notify release notes
-parent: About
 nav_order: 3
 permalink: /release-notes/
 ---
