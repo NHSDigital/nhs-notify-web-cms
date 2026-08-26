@@ -20,7 +20,7 @@ There’s also:
 
 Find out about [charges and how to pay]({% link pages/pricing-and-commercial/charges-and-how-to-pay.md %}).
 
-Find out about the [memorandum of understanding and payment terms you must agree to]({% link pages/pricing-and-commercial/memorandum-of-understanding-and-payment-terms.md %}).
+If your organisation is part of NHS England, you must agree to our [memorandum of understanding and payment terms]({% link pages/pricing-and-commercial/memorandum-of-understanding-and-payment-terms.md %}).
 
 ## Text messages (SMS)
 
