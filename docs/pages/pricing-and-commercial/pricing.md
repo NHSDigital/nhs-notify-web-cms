@@ -20,18 +20,20 @@ There’s also:
 
 Find out about [charges and how to pay]({% link pages/pricing-and-commercial/charges-and-how-to-pay.md %}).
 
+Find out about the [memorandum of understanding and payment terms you must agree to]({% link pages/pricing-and-commercial/memorandum-of-understanding-and-payment-terms.md %}).
+
 ## Text messages (SMS)
 
 It costs 2.4 pence (plus VAT) for every text message you send.
 
 {% include components/action-link.html
     url='/pricing-and-commercial/text-messages'
-    text='More about text message pricing'
+    text='Learn more about text message pricing'
 %}
 
 ## Letters
 
-It costs 76 pence plus VAT to send a letter using NHS Notify's standard postage.
+It costs 64 pence to send a letter with one double-sided sheet of paper using NHS Notify's standard postage.
 
 {% include components/action-link.html
     url='/pricing-and-commercial/letters'
