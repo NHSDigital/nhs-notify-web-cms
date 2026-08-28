@@ -46,7 +46,7 @@ URLs should be easy to read.
 {% include components/details.html
 heading='Short URLs'
 text='
-If you have a long, complex web address, you can request a short URL from GOV.UK. This can take some time and may delay your template creation.
+If you have a long, complex web address, you may want to set up a short URL. Ask your IT team to do this for you.
 
 We do not recommend using a third-party link shortening service because:
 
