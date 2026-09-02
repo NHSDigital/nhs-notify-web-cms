@@ -15,7 +15,6 @@ Use NHS Notify to send free unlimited emails to patients and members of the publ
 
 {% include components/image-with-caption.html
     src="nhs-notify-email-example.svg"
-    alt="A screenshot of an email sent by NHS Notify."
     caption="An example of an email sent by NHS Notify."
 %}
 

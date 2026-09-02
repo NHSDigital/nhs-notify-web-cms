@@ -29,7 +29,6 @@ Your NHS App sender name is shown when you send recipients messages in the NHS A
 
 {% include components/image-with-caption.html
     src="nhs-app-sender-name-example-nhs-notify-1.png"
-    alt="A screenshot of a mobile with an NHS App message open showing where the NHS App sender appears to recipients."
     caption="An example NHS App message that shows how NHS App sender names appear to recipients."
 %}
 
@@ -54,7 +53,6 @@ Your email sender name is shown in your recipient's inbox when you send them an 
 
 {% include components/image-with-caption.html
     src="email-sender-name-example-nhs-notify-3.png"
-    alt="A screenshot of an email inbox showing where the email sender name and from email address will appear."
     caption="An example of a recipient's inbox showing your email sender name and from email address."
 %}
 
@@ -121,7 +119,6 @@ The text message sender name shows your recipients who the text message is from.
 
 {% include components/image-with-caption.html
     src="text-message-sender-name-example-nhs-notify-1.png"
-    alt="A screenshot of a mobile with a text message that shows where the text message sender name appears to recipients."
     caption="An example text message that shows how text message sender names appear to recipients."
 %}
 
@@ -140,6 +137,7 @@ Text message sender names must not:
 - contain spaces or special characters such as @%\_();
 - be an existing registered sender name or a variation of one
 - be in the list of sender names you cannot use
+<!-- vale off -->
 
 {% include components/details.html
 heading='List of sender names and terms that you cannot use'
@@ -205,3 +203,5 @@ Do not use any of the following sender names, terms or any variations in your te
 - winner'
 
 %}
+
+<!-- vale on -->
