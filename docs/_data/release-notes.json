@@ -1,6 +1,17 @@
 {
   "releases": [
     {
+      "name": "Core 4.73.0",
+      "jira_name": "core-4.73.0",
+      "release_date": "2026-08-19",
+      "items": [
+        {
+          "key": "CCM-23167",
+          "release_notes": "Test for Aiden"
+        }
+      ]
+    },
+    {
       "name": "Digital Letters 1.0.1",
       "jira_name": "digital-letters-1.0.1",
       "release_date": "2026-06-17",
