@@ -112,7 +112,6 @@ Find out the supplier statuses you can get and how they map to the channel statu
 
 {% include components/image-with-caption.html
     src="nhs-app-status-mapping-2.svg"
-    alt="A diagram showing how supplier statuses for NHS App messages map to channel statuses."
     caption="A diagram showing how supplier statuses for NHS App messages map to channel statuses."
 %}
 
@@ -127,7 +126,6 @@ Find out the supplier statuses you can get and how they map to the channel statu
 
 {% include components/image-with-caption.html
     src="text-and-email-status-mapping-1.svg"
-    alt="A diagram showing how supplier statuses for emails map to channel statuses."
     caption="A diagram showing how supplier statuses for emails map to channel statuses."
 %}
 
@@ -142,7 +140,6 @@ Find out the supplier statuses you can get and how they map to the channel statu
 
 {% include components/image-with-caption.html
     src="text-and-email-status-mapping-1.svg"
-    alt="A diagram showing how supplier statuses for text messages map to channel statuses."
     caption="A diagram showing how supplier statuses for text  messages map to channel statuses."
 %}
 
@@ -161,6 +158,5 @@ Find out the supplier statuses you can get and how they map to the channel statu
 
 {% include components/image-with-caption.html
     src="letter-status-mapping-1.svg"
-    alt="A diagram showing how supplier statuses for letters map to channel statuses."
     caption="A diagram showing how supplier statuses for letters map to channel statuses."
 %}
