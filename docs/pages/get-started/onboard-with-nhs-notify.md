@@ -1,26 +1,9 @@
 ---
-layout: mini-hub
+layout: page
 title: Onboard with NHS Notify
-nav_order: 5
+nav_order: 2
 parent: Get started
 permalink: /get-started/onboard-with-nhs-notify
-mini_hub_topic: You must follow the steps to prepare for integration
-mini_hub_pages:
-  - title: Check you can use NHS Notify
-    url: /get-started/check-you-can-use-nhs-notify
-  - title: Read and understand our terms of service
-    url: /get-started/read-and-understand-our-terms-of-service
-  - title: Check which features you can get and register
-    url: /get-started/check-which-features-you-can-get-and-register
-  - title: Onboard with NHS Notify
-    url:
-    current: true
-previous_page:
-  title: Check which features you can get and register
-  url: /get-started/check-which-features-you-can-get-and-register
-next_page:
-
-published: true
 ---
 
 ## 1. Prepare your integration

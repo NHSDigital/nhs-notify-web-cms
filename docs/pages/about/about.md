@@ -65,7 +65,7 @@ NHS Notify has features for different types of health organisations, including:
 - [secondary care organisations (like hospital trusts)]({% link pages/about/secondary-care.md %})
 - [research services]({% link pages/about/research.md %})
 
-If your organisation type is not on this list, you may still be able to use NHS Notify. [Check if you can use NHS Notify]({% link pages/get-started/check-you-can-use-nhs-notify.md %}).
+If your organisation type is not on this list, you may still be able to use NHS Notify. [Check if you can use NHS Notify]({% link pages/get-started/get-started.md %}).
 
 ### Send messages based on your needs
 
