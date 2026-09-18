@@ -5,6 +5,7 @@ nav_order: 2
 parent: Get started
 permalink: /get-started/onboard-with-nhs-notify
 ---
+You can start onboarding with NHS Notify once we've invited you. If we haven't invited you yet, find out how to [get started with NHS Notify](https://notify.nhs.uk/get-started/).
 
 ## 1. Prepare your integration
 
