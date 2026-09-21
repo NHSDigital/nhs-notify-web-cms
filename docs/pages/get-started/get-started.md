@@ -13,8 +13,7 @@ redirect_from: /get-started/check-which-features-you-can-get-and-register
 
 ---
 
-Use this page to check you're ready to use NHS Notify. You can then complete our online form to register your interest and speak to a member of our team.
-
+Use this page to check you're ready to use NHS Notify. You can complete our online form to check which features you can get and register your interest.
 ## Choose how to integrate with NHS Notify
 
 You'll need a developer or technical team to build and test your integration with NHS Notify.
@@ -24,13 +23,13 @@ You can integrate through either:
 - [NHS Notify API](https://notify.nhs.uk/about/api)
 - [NHS Notify MESH](https://notify.nhs.uk/about/mesh)
 
-Your technical team should review the API and MESH guidance and decide which option best fits your organisation.
+Your technical team should review the API and MESH guidance and decide which option is best for your organisation.
 
 ## Check if you need to apply for NHS login
 
-If you're sending NHS App messages that contain links to a service that requires users to sign in, you'll need to apply for NHS login.
+If you're sending NHS App messages containing links to services that require users to log in, you'll need to apply for NHS login.
 
-This means users stay logged in and do not have to enter their login details again.
+This means users can stay logged in and do not have to enter their details again.
 
 {% include components/inset-text.html
 text='You should onboard with NHS login and NHS Notify at the same time. <a href="https://digital.nhs.uk/services/nhs-login/nhs-login-for-partners-and-developers/nhs-login-integration-toolkit/apply-for-nhs-login" target="_blank">Apply for NHS login (opens in a new tab)</a>.'
@@ -49,11 +48,11 @@ If your organisation is part of NHS England, you'll need to agree to our [memora
 
 If your organisation is not part of NHS England, you'll need to agree to a <a href="https://digital.nhs.uk/services/partner-onboarding/operations#connection-agreement" target="_blank">connection agreement (opens in a new tab)</a>.
 
-We’ll send you copies to sign when you have been invited to onboard.
+We’ll send you copies to sign when we invite you to onboard.
 
 ## Check which features you can get and register
 
-Complete our online form to confirm you can use NHS Notify, see which features you can get, and register your interest.
+Complete our online form to check which features you can get and register your interest.
 
 We’ll reply within 10 working days to arrange a call and discuss when you can start to [onboard with NHS Notify](https://notify.nhs.uk/get-started/onboard-with-nhs-notify).
 
