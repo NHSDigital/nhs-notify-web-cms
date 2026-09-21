@@ -10,7 +10,7 @@ permalink: /pricing-and-commercial/text-messages
 redirect_from: /pricing/text-messages
 ---
 
-It costs 2.4 pence (plus VAT) for each text message you send.
+It costs 2.4 pence for each text message you send.
 
 You may pay more for each message if you:
 
@@ -61,233 +61,238 @@ The cost of each text message you send will be multiplied by a certain amount, d
 
 We will not separate out the pricing for any international text messages in your billing information. It will be included in your overall costs for text messages.
 
+{% capture international_pricing %}
+
+| Country code | Country                                                 | Cost multiplier |
+|--------------|---------------------------------------------------------|-----------------|
+| +1           | Canada<br>United States                                   | 1 ×             |
+| +1242        | Bahamas                                                 | 3 ×             |
+| +1246        | Barbados                                                | 7 ×             |
+| +1264        | Anguilla                                                | 6 ×             |
+| +1268        | Antigua and Barbuda                                     | 5 ×             |
+| +1284        | Virgin Islands, British                                 | 5 ×             |
+| +1345        | Cayman Islands                                          | 6 ×             |
+| +1441        | Bermuda                                                 | 7 ×             |
+| +1473        | Grenada                                                 | 6 ×             |
+| +1649        | Turks and Caicos Islands                                | 6 ×             |
+| +1664        | Montserrat                                              | 6 ×             |
+| +1684        | American Samoa                                          | 2 ×             |
+| +1721        | Sint Maarten                                            | 2 ×             |
+| +1758        | Saint Lucia                                             | 7 ×             |
+| +1767        | Dominica, Commonwealth of                               | 7 ×             |
+| +1784        | Saint Vincent and The Grenadines                        | 7 ×             |
+| +1809        | Dominican Republic                                      | 3 ×             |
+| +1829        | Dominican Republic                                      | 3 ×             |
+| +1849        | Dominican Republic                                      | 3 ×             |
+| +1868        | Trinidad and Tobago                                     | 7 ×             |
+| +1869        | Saint Kitts and Nevis                                   | 6 ×             |
+| +1876        | Jamaica                                                 | 7 ×             |
+| +20          | Egypt                                                   | 7 ×             |
+| +211         | South Sudan                                             | 8 ×             |
+| +212         | Morocco                                                 | 6 ×             |
+| +213         | Algeria                                                 | 6 ×             |
+| +216         | Tunisia                                                 | 9 ×             |
+| +218         | Libya                                                   | 9 ×             |
+| +220         | Gambia                                                  | 4 ×             |
+| +221         | Senegal                                                 | 7 ×             |
+| +222         | Mauritania                                              | 6 ×             |
+| +223         | Mali                                                    | 7 ×             |
+| +224         | Guinea                                                  | 6 ×             |
+| +225         | Cote d'Ivoire                                           | 10 ×            |
+| +226         | Burkina Faso                                            | 4 ×             |
+| +227         | Niger                                                   | 8 ×             |
+| +228         | Togo                                                    | 7 ×             |
+| +229         | Benin                                                   | 7 ×             |
+| +230         | Mauritius                                               | 4 ×             |
+| +231         | Liberia                                                 | 6 ×             |
+| +232         | Sierra Leone                                            | 5 ×             |
+| +233         | Ghana                                                   | 8 ×             |
+| +234         | Nigeria                                                 | 8 ×             |
+| +235         | Chad                                                    | 6 ×             |
+| +236         | Central African Republic                                | 7 ×             |
+| +237         | Cameroon                                                | 5 ×             |
+| +238         | Cape Verde                                              | 5 ×             |
+| +239         | Sao Tome and Principe                                   | 1 ×             |
+| +240         | Equatorial Guinea                                       | 6 ×             |
+| +241         | Gabon                                                   | 8 ×             |
+| +242         | Congo                                                   | 7 ×             |
+| +243         | Congo, Democratic Republic of                           | 5 ×             |
+| +244         | Angola                                                  | 3 ×             |
+| +245         | Guinea-Bissau                                           | 8 ×             |
+| +246         | British Indian Ocean Territory                          | 2 ×             |
+| +248         | Seychelles                                              | 4 ×             |
+| +249         | Sudan                                                   | 8 ×             |
+| +250         | Rwanda, Republic of                                     | 8 ×             |
+| +251         | Ethiopia                                                | 9 ×             |
+| +252         | Somalia                                                 | 5 ×             |
+| +253         | Djibouti, Republic of                                   | 4 ×             |
+| +254         | Kenya                                                   | 3 ×             |
+| +255         | Tanzania                                                | 7 ×             |
+| +256         | Uganda                                                  | 7 ×             |
+| +257         | Burundi                                                 | 8 ×             |
+| +258         | Mozambique                                              | 4 ×             |
+| +260         | Zambia                                                  | 8 ×             |
+| +261         | Madagascar                                              | 12 ×            |
+| +262         | Mayotte<br>Reunion                                        | 3 ×             |
+| +263         | Zimbabwe                                                | 5 ×             |
+| +264         | Namibia                                                 | 1 ×             |
+| +265         | Malawi                                                  | 8 ×             |
+| +266         | Lesotho                                                 | 3 ×             |
+| +267         | Botswana                                                | 3 ×             |
+| +268         | Eswatini                                                | 7 ×             |
+| +269         | Comoros                                                 | 7 ×             |
+| +27          | South Africa                                            | 3 ×             |
+| +291         | Eritrea                                                 | 3 ×             |
+| +297         | Aruba                                                   | 3 ×             |
+| +298         | Faroe Islands                                           | 2 ×             |
+| +299         | Greenland                                               | 1 ×             |
+| +30          | Greece                                                  | 2 ×             |
+| +31          | Netherlands                                             | 3 ×             |
+| +32          | Belgium                                                 | 3 ×             |
+| +33          | France                                                  | 2 ×             |
+| +34          | Spain                                                   | 2 ×             |
+| +350         | Gibraltar                                               | 2 ×             |
+| +351         | Portugal                                                | 2 ×             |
+| +352         | Luxembourg                                              | 2 ×             |
+| +353         | Ireland                                                 | 2 ×             |
+| +354         | Iceland                                                 | 2 ×             |
+| +355         | Albania                                                 | 3 ×             |
+| +356         | Malta                                                   | 2 ×             |
+| +357         | Cyprus                                                  | 2 ×             |
+| +358         | Finland                                                 | 2 ×             |
+| +359         | Bulgaria                                                | 4 ×             |
+| +36          | Hungary                                                 | 2 ×             |
+| +370         | Lithuania                                               | 2 ×             |
+| +371         | Latvia                                                  | 2 ×             |
+| +372         | Estonia                                                 | 2 ×             |
+| +373         | Moldova                                                 | 2 ×             |
+| +374         | Armenia                                                 | 5 ×             |
+| +375         | Belarus                                                 | 6 ×             |
+| +376         | Andorra                                                 | 3 ×             |
+| +377         | Monaco                                                  | 4 ×             |
+| +378         | San Marino, Republic of                                 | 8 ×             |
+| +380         | Ukraine                                                 | 5 ×             |
+| +381         | Serbia                                                  | 7 ×             |
+| +382         | Montenegro                                              | 4 ×             |
+| +383         | Kosovo                                                  | 5 ×             |
+| +385         | Croatia                                                 | 2 ×             |
+| +386         | Slovenia                                                | 4 ×             |
+| +387         | Bosnia and Herzegovina                                  | 3 ×             |
+| +389         | Macedonia                                               | 1 ×             |
+| +39          | Italy                                                   | 2 ×             |
+| +40          | Romania                                                 | 2 ×             |
+| +41          | Switzerland                                             | 2 ×             |
+| +420         | Czech Republic                                          | 2 ×             |
+| +421         | Slovakia                                                | 2 ×             |
+| +423         | Liechtenstein                                           | 1 ×             |
+| +43          | Austria                                                 | 2 ×             |
+| +44          | Guernsey<br>Isle of Man<br>Jersey                           | 2 ×             |
+| +45          | Denmark                                                 | 2 ×             |
+| +46          | Sweden                                                  | 2 ×             |
+| +47          | Norway                                                  | 2 ×             |
+| +48          | Poland                                                  | 1 ×             |
+| +49          | Germany                                                 | 5 ×             |
+| +500         | Falkland Islands                                        | 3 ×             |
+| +501         | Belize                                                  | 5 ×             |
+| +502         | Guatemala                                               | 5 ×             |
+| +503         | El Salvador                                             | 2 ×             |
+| +504         | Honduras                                                | 5 ×             |
+| +505         | Nicaragua                                               | 4 ×             |
+| +506         | Costa Rica                                              | 1 ×             |
+| +507         | Panama                                                  | 4 ×             |
+| +508         | Saint Pierre and Miquelon                               | 4 ×             |
+| +509         | Haiti                                                   | 8 ×             |
+| +51          | Peru                                                    | 5 ×             |
+| +52          | Mexico                                                  | 3 ×             |
+| +53          | Cuba                                                    | 2 ×             |
+| +54          | Argentina                                               | 3 ×             |
+| +55          | Brazil                                                  | 2 ×             |
+| +56          | Chile                                                   | 2 ×             |
+| +57          | Colombia                                                | 2 ×             |
+| +58          | Venezuela                                               | 2 ×             |
+| +590         | Guadeloupe                                              | 4 ×             |
+| +591         | Bolivia                                                 | 4 ×             |
+| +592         | Guyana                                                  | 6 ×             |
+| +593         | Ecuador                                                 | 4 ×             |
+| +594         | French Guiana                                           | 4 ×             |
+| +595         | Paraguay                                                | 3 ×             |
+| +596         | Martinique                                              | 4 ×             |
+| +597         | Suriname                                                | 6 ×             |
+| +598         | Uruguay                                                 | 2 ×             |
+| +599         | Curacao (former Netherlands Antilles)                   | 7 ×             |
+| +60          | Malaysia                                                | 7 ×             |
+| +61          | Australia                                               | 2 ×             |
+| +62          | Indonesia                                               | 12 ×            |
+| +63          | Philippines                                             | 5 ×             |
+| +64          | New Zealand                                             | 2 ×             |
+| +65          | Singapore                                               | 2 ×             |
+| +66          | Thailand                                                | 1 ×             |
+| +670         | Timor L'este                                            | 5 ×             |
+| +672         | Norfolk Island                                          | 2 ×             |
+| +673         | Brunei Darussalam                                       | 2 ×             |
+| +674         | Nauru                                                   | 6 ×             |
+| +675         | Papua New Guinea                                        | 6 ×             |
+| +676         | Tonga                                                   | 4 ×             |
+| +677         | Solomon Islands                                         | 2 ×             |
+| +678         | Vanuatu                                                 | 4 ×             |
+| +679         | Fiji                                                    | 5 ×             |
+| +680         | Palau                                                   | 2 ×             |
+| +681         | Wallis and Futuna                                       | 2 ×             |
+| +682         | Cook Islands                                            | 4 ×             |
+| +683         | Niue                                                    | 8 ×             |
+| +685         | Samoa                                                   | 5 ×             |
+| +686         | Kiribati                                                | 1 ×             |
+| +687         | New Caledonia                                           | 3 ×             |
+| +689         | French Polynesia                                        | 3 ×             |
+| +690         | Tokelau                                                 | 8 ×             |
+| +691         | Micronesia, Federated States of                         | 2 ×             |
+| +692         | Marshall Islands                                        | 2 ×             |
+| +7           | South Ossetia<br>Kazakhstan<br>Abkhazia<br>Russian Federation | 10 ×            |
+| +81          | Japan                                                   | 2 ×             |
+| +82          | Korea, Republic of                                      | 1 ×             |
+| +84          | Vietnam                                                 | 4 ×             |
+| +852         | Hong Kong                                               | 2 ×             |
+| +853         | Macau                                                   | 1 ×             |
+| +855         | Cambodia                                                | 8 ×             |
+| +856         | Laos                                                    | 8 ×             |
+| +86          | China                                                   | 1 ×             |
+| +880         | Bangladesh                                              | 9 ×             |
+| +886         | Taiwan                                                  | 2 ×             |
+| +90          | Turkey<br>Northern Cyprus                                 | 1 ×             |
+| +91          | India                                                   | 2 ×             |
+| +92          | Pakistan                                                | 12 ×            |
+| +93          | Afghanistan                                             | 10 ×            |
+| +94          | Sri Lanka                                               | 12 ×            |
+| +95          | Myanmar                                                 | 9 ×             |
+| +960         | Maldives                                                | 6 ×             |
+| +961         | Lebanon                                                 | 9 ×             |
+| +962         | Jordan                                                  | 8 ×             |
+| +963         | Syria                                                   | 9 ×             |
+| +964         | Iraq                                                    | 9 ×             |
+| +965         | Kuwait                                                  | 7 ×             |
+| +966         | Saudi Arabia                                            | 5 ×             |
+| +967         | Yemen                                                   | 6 ×             |
+| +968         | Oman                                                    | 4 ×             |
+| +970         | Palestinian Territory                                   | 9 ×             |
+| +971         | United Arab Emirates                                    | 3 ×             |
+| +972         | Israel                                                  | 6 ×             |
+| +973         | Bahrain                                                 | 3 ×             |
+| +974         | Qatar                                                   | 6 ×             |
+| +975         | Bhutan                                                  | 10 ×            |
+| +976         | Mongolia                                                | 7 ×             |
+| +977         | Nepal                                                   | 8 ×             |
+| +98          | Iran                                                    | 6 ×             |
+| +992         | Tajikistan                                              | 10 ×            |
+| +993         | Turkmenistan                                            | 7 ×             |
+| +994         | Azerbaijan                                              | 9 ×             |
+| +995         | Georgia                                                 | 4 ×             |
+| +996         | Kyrgyzstan                                              | 8 ×             |
+| +998         | Uzbekistan                                              | 12 ×            |
+| +882         | Worldwide                                               | Not supported   |
+
+{% endcapture %}
+
 {% include components/details.html
 heading='International text message pricing'
-text='
-
-| Country code | Country                                                       | Cost multiplier |
-| ------------ | ------------------------------------------------------------- | --------------- |
-| +1           | Canada<br>United States<br>Dominican Republic                 | 1 ×             |
-| +1242        | Bahamas                                                       | 2 ×             |
-| +1246        | Barbados                                                      | 3 ×             |
-| +1264        | Anguilla                                                      | 3 ×             |
-| +1268        | Antigua and Barbuda                                           | 3 ×             |
-| +1284        | Virgin Islands, British                                       | 3 ×             |
-| +1345        | Cayman Islands                                                | 3 ×             |
-| +1441        | Bermuda                                                       | 3 ×             |
-| +1473        | Grenada                                                       | 3 ×             |
-| +1649        | Turks and Caicos Islands                                      | 3 ×             |
-| +1664        | Montserrat                                                    | 3 ×             |
-| +1684        | American Samoa                                                | 3 ×             |
-| +1721        | Sint Maarten                                                  | 1 ×             |
-| +1758        | Saint Lucia                                                   | 3 ×             |
-| +1767        | Dominica, Commonwealth of                                     | 3 ×             |
-| +1784        | Saint Vincent and The Grenadines                              | 3 ×             |
-| +1868        | Trinidad and Tobago                                           | 3 ×             |
-| +1869        | Saint Kitts and Nevis                                         | 3 ×             |
-| +1876        | Jamaica                                                       | 3 ×             |
-| +20          | Egypt                                                         | 3 ×             |
-| +211         | South Sudan                                                   | 2 ×             |
-| +212         | Morocco                                                       | 2 ×             |
-| +213         | Algeria                                                       | 2 ×             |
-| +216         | Tunisia                                                       | 2 ×             |
-| +218         | Libya                                                         | 2 ×             |
-| +220         | Gambia                                                        | 2 ×             |
-| +221         | Senegal                                                       | 2 ×             |
-| +222         | Mauritania                                                    | 2 ×             |
-| +223         | Mali                                                          | 2 ×             |
-| +224         | Guinea                                                        | 3 ×             |
-| +225         | Cote d’Ivoire                                                 | 2 ×             |
-| +226         | Burkina Faso                                                  | 3 ×             |
-| +227         | Niger                                                         | 3 ×             |
-| +228         | Togo                                                          | 2 ×             |
-| +229         | Benin                                                         | 3 ×             |
-| +230         | Mauritius                                                     | 2 ×             |
-| +231         | Liberia                                                       | 2 ×             |
-| +232         | Sierra Leone                                                  | 2 ×             |
-| +233         | Ghana                                                         | 2 ×             |
-| +234         | Nigeria                                                       | 4 ×             |
-| +235         | Chad                                                          | 3 ×             |
-| +236         | Central African Republic                                      | 3 ×             |
-| +237         | Cameroon                                                      | 2 ×             |
-| +238         | Cape Verde                                                    | 3 ×             |
-| +239         | Sao Tome and Principe                                         | 2 ×             |
-| +240         | Equatorial Guinea                                             | 2 ×             |
-| +241         | Gabon                                                         | 2 ×             |
-| +242         | Congo                                                         | 3 ×             |
-| +243         | Congo, Democratic Republic of                                 | 3 ×             |
-| +244         | Angola                                                        | 3 ×             |
-| +245         | Guinea-Bissau                                                 | 3 ×             |
-| +246         | British Indian Ocean Territory                                | 2 ×             |
-| +248         | Seychelles                                                    | 2 ×             |
-| +249         | Sudan                                                         | 2 ×             |
-| +250         | Rwanda, Republic of                                           | 2 ×             |
-| +251         | Ethiopia                                                      | 2 ×             |
-| +252         | Somalia                                                       | 2 ×             |
-| +253         | Djibouti, Republic of                                         | 2 ×             |
-| +254         | Kenya                                                         | 1 ×             |
-| +255         | Tanzania                                                      | 1 ×             |
-| +256         | Uganda                                                        | 2 ×             |
-| +257         | Burundi                                                       | 3 ×             |
-| +258         | Mozambique                                                    | 2 ×             |
-| +260         | Zambia                                                        | 2 ×             |
-| +261         | Madagascar                                                    | 2 ×             |
-| +262         | Reunion                                                       | 2 ×             |
-| +263         | Zimbabwe                                                      | 1 ×             |
-| +264         | Namibia                                                       | 2 ×             |
-| +265         | Malawi                                                        | 2 ×             |
-| +266         | Lesotho                                                       | 2 ×             |
-| +267         | Botswana                                                      | 2 ×             |
-| +268         | Eswatini                                                      | 2 ×             |
-| +269         | Comoros                                                       | 2 ×             |
-| +27          | South Africa                                                  | 2 ×             |
-| +291         | Eritrea                                                       | 4 ×             |
-| +297         | Aruba                                                         | 3 ×             |
-| +298         | Faroe Islands                                                 | 2 ×             |
-| +299         | Greenland                                                     | 2 ×             |
-| +30          | Greece                                                        | 2 ×             |
-| +31          | Netherlands                                                   | 3 ×             |
-| +32          | Belgium                                                       | 3 ×             |
-| +33          | France                                                        | 2 ×             |
-| +34          | Spain                                                         | 2 ×             |
-| +350         | Gibraltar                                                     | 2 ×             |
-| +351         | Portugal                                                      | 2 ×             |
-| +352         | Luxembourg                                                    | 2 ×             |
-| +353         | Ireland                                                       | 3 ×             |
-| +354         | Iceland                                                       | 2 ×             |
-| +355         | Albania                                                       | 2 ×             |
-| +356         | Malta                                                         | 2 ×             |
-| +357         | Cyprus                                                        | 2 ×             |
-| +358         | Finland                                                       | 3 ×             |
-| +359         | Bulgaria                                                      | 4 ×             |
-| +36          | Hungary                                                       | 3 ×             |
-| +370         | Lithuania                                                     | 2 ×             |
-| +371         | Latvia                                                        | 2 ×             |
-| +372         | Estonia                                                       | 2 ×             |
-| +373         | Moldova                                                       | 3 ×             |
-| +374         | Armenia                                                       | 3 ×             |
-| +375         | Belarus                                                       | 1 ×             |
-| +376         | Andorra                                                       | 2 ×             |
-| +377         | Monaco                                                        | 2 ×             |
-| +378         | San Marino, Republic of                                       | 3 ×             |
-| +380         | Ukraine                                                       | 4 ×             |
-| +381         | Serbia                                                        | 1 ×             |
-| +382         | Montenegro                                                    | 2 ×             |
-| +383         | Kosovo                                                        | 4 ×             |
-| +385         | Croatia                                                       | 2 ×             |
-| +386         | Slovenia                                                      | 2 ×             |
-| +387         | Bosnia and Herzegovina                                        | 2 ×             |
-| +389         | Macedonia                                                     | 1 ×             |
-| +39          | Italy                                                         | 2 ×             |
-| +40          | Romania                                                       | 2 ×             |
-| +41          | Switzerland                                                   | 2 ×             |
-| +420         | Czech Republic                                                | 4 ×             |
-| +421         | Slovakia                                                      | 2 ×             |
-| +423         | Liechtenstein                                                 | 1 ×             |
-| +43          | Austria                                                       | 3 ×             |
-| +44          | Guernsey<br>Isle of Man<br>Jersey                             | 1 ×             |
-| +45          | Denmark                                                       | 2 ×             |
-| +46          | Sweden                                                        | 2 ×             |
-| +47          | Norway                                                        | 3 ×             |
-| +48          | Poland                                                        | 2 ×             |
-| +49          | Germany                                                       | 4 ×             |
-| +500         | Falkland Islands                                              | 2 ×             |
-| +501         | Belize                                                        | 3 ×             |
-| +502         | Guatemala                                                     | 3 ×             |
-| +503         | El Salvador                                                   | 2 ×             |
-| +504         | Honduras                                                      | 2 ×             |
-| +505         | Nicaragua                                                     | 3 ×             |
-| +506         | Costa Rica                                                    | 2 ×             |
-| +507         | Panama                                                        | 2 ×             |
-| +508         | Saint Pierre and Miquelon                                     | 2 ×             |
-| +509         | Haiti                                                         | 3 ×             |
-| +51          | Peru                                                          | 2 ×             |
-| +52          | Mexico                                                        | 2 ×             |
-| +53          | Cuba                                                          | 2 ×             |
-| +54          | Argentina                                                     | 3 ×             |
-| +55          | Brazil                                                        | 2 ×             |
-| +56          | Chile                                                         | 1 ×             |
-| +57          | Colombia                                                      | 1 ×             |
-| +58          | Venezuela                                                     | 2 ×             |
-| +590         | Guadeloupe                                                    | 2 ×             |
-| +591         | Bolivia                                                       | 3 ×             |
-| +592         | Guyana                                                        | 2 ×             |
-| +593         | Ecuador                                                       | 1 ×             |
-| +594         | French Guiana                                                 | 2 ×             |
-| +595         | Paraguay                                                      | 2 ×             |
-| +596         | Martinique                                                    | 2 ×             |
-| +597         | Suriname                                                      | 4 ×             |
-| +598         | Uruguay                                                       | 1 ×             |
-| +599         | Curacao (former Netherlands Antilles)                         | 3 ×             |
-| +60          | Malaysia                                                      | 1 ×             |
-| +61          | Australia                                                     | 2 ×             |
-| +62          | Indonesia                                                     | 2 ×             |
-| +63          | Philippines                                                   | 1 ×             |
-| +64          | New Zealand                                                   | 3 ×             |
-| +65          | Singapore                                                     | 1 ×             |
-| +66          | Thailand                                                      | 2 ×             |
-| +670         | Timor L’este                                                  | 2 ×             |
-| +672         | Norfolk Island                                                | 3 ×             |
-| +673         | Brunei Darussalam                                             | 1 ×             |
-| +674         | Nauru                                                         | 2 ×             |
-| +675         | Papua New Guinea                                              | 2 ×             |
-| +676         | Tonga                                                         | 2 ×             |
-| +677         | Solomon Islands                                               | 1 ×             |
-| +678         | Vanuatu                                                       | 2 ×             |
-| +679         | Fiji                                                          | 2 ×             |
-| +680         | Palau                                                         | 3 ×             |
-| +681         | Wallis and Futuna                                             | 4 ×             |
-| +682         | Cook Islands                                                  | 3 ×             |
-| +683         | Niue                                                          | 4 ×             |
-| +685         | Samoa                                                         | 3 ×             |
-| +686         | Kiribati                                                      | 4 ×             |
-| +687         | New Caledonia                                                 | 3 ×             |
-| +689         | French Polynesia                                              | 2 ×             |
-| +690         | Tokelau                                                       | 4 ×             |
-| +691         | Micronesia, Federated States of                               | 2 ×             |
-| +692         | Marshall Islands                                              | 1 ×             |
-| +7           | South Ossetia<br>Kazakhstan<br>Abkhazia<br>Russian Federation | 4 ×             |
-| +81          | Japan                                                         | 3 ×             |
-| +82          | Korea, Republic of                                            | 2 ×             |
-| +84          | Vietnam                                                       | 2 ×             |
-| +852         | Hong Kong                                                     | 3 ×             |
-| +853         | Macau                                                         | 1 ×             |
-| +855         | Cambodia                                                      | 3 ×             |
-| +856         | Laos                                                          | 2 ×             |
-| +86          | China                                                         | 2 ×             |
-| +880         | Bangladesh                                                    | 3 ×             |
-| +886         | Taiwan                                                        | 2 ×             |
-| +90          | Turkey<br> Northern Cyprus                                    | 2 ×             |
-| +91          | India                                                         | 3 ×             |
-| +92          | Pakistan                                                      | 2 ×             |
-| +93          | Afghanistan                                                   | 3 ×             |
-| +94          | Sri Lanka                                                     | 2 ×             |
-| +95          | Myanmar                                                       | 2 ×             |
-| +960         | Maldives                                                      | 2 ×             |
-| +961         | Lebanon                                                       | 2 ×             |
-| +962         | Jordan                                                        | 2 ×             |
-| +963         | Syria                                                         | 3 ×             |
-| +964         | Iraq                                                          | 2 ×             |
-| +965         | Kuwait                                                        | 2 ×             |
-| +966         | Saudi Arabia                                                  | 2 ×             |
-| +967         | Yemen                                                         | 2 ×             |
-| +968         | Oman                                                          | 1 ×             |
-| +970         | Palestinian Territory                                         | 4 ×             |
-| +971         | United Arab Emirates                                          | 2 ×             |
-| +972         | Israel                                                        | 3 ×             |
-| +973         | Bahrain                                                       | 3 ×             |
-| +974         | Qatar                                                         | 1 ×             |
-| +975         | Bhutan                                                        | 2 ×             |
-| +976         | Mongolia                                                      | 2 ×             |
-| +977         | Nepal                                                         | 2 ×             |
-| +98          | Iran                                                          | 2 ×             |
-| +992         | Tajikistan                                                    | 2 ×             |
-| +993         | Turkmenistan                                                  | 2 ×             |
-| +994         | Azerbaijan                                                    | 2 ×             |
-| +995         | Georgia                                                       | 2 ×             |
-| +996         | Kyrgyzstan                                                    | 2 ×             |
-| +998         | Uzbekistan                                                    | 2 ×             |
-| +882         | Worldwide                                                     | Not supported   |
-
-'
+text=international_pricing
 %}
