@@ -1,5 +1,4 @@
-5632
-69# NHS Notify Web CMS Repository
+# NHS Notify Web CMS Repository
 
 [![CI/CD Pull Request](https://github.com/NHSDigital/nhs-notify-web-cms/actions/workflows/cicd-1-pull-request.yaml/badge.svg)](https://github.com/NHSDigital/nhs-notify-web-cms/actions/workflows/cicd-1-pull-request.yaml)
 [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=NHSDigital_nhs-notify-web-cms&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=NHSDigital_nhs-notify-web-cms)
