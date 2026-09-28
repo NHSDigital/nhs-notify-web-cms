@@ -61,3 +61,12 @@ validation_failed
 virus_scan_failed
 VSCode
 Wayfinder
+international_pricing
+Caicos
+Kitts
+d'Ivoire
+Faso
+Eswatini
+L'este
+Darussalam
+endcapture
