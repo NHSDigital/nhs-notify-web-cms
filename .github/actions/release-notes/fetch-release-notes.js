@@ -3,7 +3,7 @@
 const fs = require('node:fs');
 const path = require('node:path');
 
-const DEFAULT_RELEASE_NOTES_JQL = 'project = CCM AND "Release Notes" IS NOT EMPTY AND fixVersion IS NOT EMPTY AND updated >= -365d';
+const DEFAULT_RELEASE_NOTES_JQL = 'project = CCM AND Status = Done AND "Release Notes" IS NOT EMPTY AND fixVersion IN releaseDate("after -365d") AND fixVersion IN releaseDate("before now()")';
 const DEFAULT_RELEASE_NOTES_CACHE_FILE = 'docs/_data/release-notes.json';
 const DEFAULT_RELEASE_NOTES_MAX_RESULTS = 50;
 const DEFAULT_RELEASE_NOTES_PROJECT_KEY = 'CCM';
