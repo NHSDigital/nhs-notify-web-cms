@@ -1,9 +1,9 @@
 #!/usr/bin/env node
 
-const fs = require('node:fs');
-const path = require('node:path');
+import fs from 'node:fs';
+import path from 'node:path';
 
-const DEFAULT_RELEASE_NOTES_JQL = 'project = CCM AND "Release Notes" IS NOT EMPTY AND fixVersion IS NOT EMPTY AND updated >= -365d';
+const DEFAULT_RELEASE_NOTES_JQL = 'project = CCM AND Status = Done AND "Release Notes" IS NOT EMPTY AND fixVersion IN releaseDate("after -365d") AND fixVersion IN releaseDate("before now()")';
 const DEFAULT_RELEASE_NOTES_CACHE_FILE = 'docs/_data/release-notes.json';
 const DEFAULT_RELEASE_NOTES_MAX_RESULTS = 50;
 const DEFAULT_RELEASE_NOTES_PROJECT_KEY = 'CCM';
@@ -20,7 +20,6 @@ async function main() {
   const releaseNotesJql = process.env.RELEASE_NOTES_JQL || DEFAULT_RELEASE_NOTES_JQL;
   const maxResults = Number.parseInt(process.env.RELEASE_NOTES_MAX_RESULTS || String(DEFAULT_RELEASE_NOTES_MAX_RESULTS), 10);
   const releaseNotesProjectKey = process.env.RELEASE_NOTES_PROJECT_KEY || DEFAULT_RELEASE_NOTES_PROJECT_KEY;
-  const startedAt = new Date();
 
   if (!Number.isInteger(maxResults) || maxResults <= 0) {
     throw new Error('RELEASE_NOTES_MAX_RESULTS must be a positive integer.');
@@ -32,7 +31,7 @@ async function main() {
 
   fs.mkdirSync(path.dirname(path.resolve(repoRoot, outputFile)), { recursive: true });
 
-  console.log(`Fetching release notes from ${jiraBaseUrl}`);
+  console.log(`Fetching release notes from ${JSON.stringify(jiraBaseUrl)}`);
 
   // Look up the custom field ID once so the search request can read release notes text.
   const fields = await requestFields(jiraBaseUrl);
@@ -40,11 +39,10 @@ async function main() {
   const projectVersions = await requestProjectVersions(jiraBaseUrl, releaseNotesProjectKey);
   const releaseDatesByName = buildReleaseDateMap(projectVersions);
 
-  console.log(`Resolved Release Notes field: ${releaseNotesFieldId}`);
+  console.log(`Resolved Release Notes field: ${JSON.stringify(releaseNotesFieldId)}`);
 
   const issuesByKey = new Map();
   let startAt = 0;
-  let pageNumber = 1;
   let total = 0;
 
   while (true) {
@@ -59,7 +57,6 @@ async function main() {
 
     total = Number(payload.total || 0);
     const pageIssues = Array.isArray(payload.issues) ? payload.issues : [];
-    console.log(`Fetched page ${pageNumber} with ${pageIssues.length} issue(s)`);
 
     for (const rawIssue of pageIssues) {
       const issue = normalizeIssue(rawIssue, releaseNotesFieldId);
@@ -73,7 +70,6 @@ async function main() {
     }
 
     startAt += maxResults;
-    pageNumber += 1;
   }
 
   const output = {
@@ -81,7 +77,7 @@ async function main() {
   };
 
   fs.writeFileSync(path.resolve(repoRoot, outputFile), `${JSON.stringify(output, null, 2)}\n`, 'utf8');
-  console.log(`Updated release notes cache at ${outputFile}`);
+  console.log(`Updated release notes cache at ${JSON.stringify(outputFile)}`);
 }
 
 async function requestFields(jiraBaseUrl) {
@@ -127,7 +123,7 @@ function buildHeaders() {
     Accept: 'application/json',
   };
 
-  if (process.env.JIRA_AUTH_HEADER && process.env.JIRA_AUTH_HEADER.trim()) {
+  if (process.env.JIRA_AUTH_HEADER?.trim()) {
     const header = process.env.JIRA_AUTH_HEADER;
     const index = header.indexOf(':');
     if (index <= 0) {
@@ -157,8 +153,8 @@ function buildReleaseDateMap(versions) {
   }
 
   for (const version of versions) {
-    const name = String(version && version.name ? version.name : '').trim();
-    const releaseDate = String(version && version.releaseDate ? version.releaseDate : '').trim();
+    const name = String(version?.name || '').trim();
+    const releaseDate = String(version?.releaseDate || '').trim();
 
     if (name && releaseDate) {
       releaseDatesByName.set(name, releaseDate);
@@ -172,13 +168,13 @@ function normalizeIssue(issue, releaseNotesFieldId) {
   const fields = issue && typeof issue === 'object' ? issue.fields || {} : {};
   const fixVersions = Array.isArray(fields.fixVersions)
     ? fields.fixVersions
-        .map((version) => String(version && version.name ? version.name : '').trim())
+        .map((version) => String(version?.name || '').trim())
         .filter(Boolean)
     : [];
   const releaseNotes = extractText(fields[releaseNotesFieldId]);
   // Keep only the fields needed by the generated JSON.
   const normalized = {
-    key: String(issue && issue.key ? issue.key : '').trim(),
+    key: String(issue?.key || '').trim(),
     fix_versions: fixVersions,
     release_notes: releaseNotes,
   };
@@ -299,7 +295,9 @@ function formatReleaseName(name) {
     .join(' ');
 }
 
-main().catch((error) => {
-  console.error(error.message || error);
+try {
+  await main();
+} catch (error) {
+  console.error(JSON.stringify(error.message || String(error)));
   process.exit(1);
-});
+}
