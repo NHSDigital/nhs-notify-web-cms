@@ -1,6 +1,17 @@
 {
   "releases": [
     {
+      "name": "Core 4.75.0",
+      "jira_name": "core-4.75.0",
+      "release_date": "2026-09-16",
+      "items": [
+        {
+          "key": "CCM-24040",
+          "release_notes": "We've made some background improvements and fixed a couple of bugs including one that affected the processing of letters printed through Xerox"
+        }
+      ]
+    },
+    {
       "name": "Digital Letters 1.0.1",
       "jira_name": "digital-letters-1.0.1",
       "release_date": "2026-06-17",
