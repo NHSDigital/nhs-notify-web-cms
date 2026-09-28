@@ -43,7 +43,6 @@ async function main() {
 
   const issuesByKey = new Map();
   let startAt = 0;
-  let pageNumber = 1;
   let total = 0;
 
   while (true) {
@@ -58,7 +57,6 @@ async function main() {
 
     total = Number(payload.total || 0);
     const pageIssues = Array.isArray(payload.issues) ? payload.issues : [];
-    console.log(`Fetched page ${pageNumber} with ${pageIssues.length} issue(s)`);
 
     for (const rawIssue of pageIssues) {
       const issue = normalizeIssue(rawIssue, releaseNotesFieldId);
@@ -72,7 +70,6 @@ async function main() {
     }
 
     startAt += maxResults;
-    pageNumber += 1;
   }
 
   const output = {
