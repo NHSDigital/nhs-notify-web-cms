@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
-const fs = require('node:fs');
-const path = require('node:path');
+import fs from 'node:fs';
+import path from 'node:path';
 
 const DEFAULT_RELEASE_NOTES_JQL = 'project = CCM AND Status = Done AND "Release Notes" IS NOT EMPTY AND fixVersion IN releaseDate("after -365d") AND fixVersion IN releaseDate("before now()")';
 const DEFAULT_RELEASE_NOTES_CACHE_FILE = 'docs/_data/release-notes.json';
@@ -20,7 +20,6 @@ async function main() {
   const releaseNotesJql = process.env.RELEASE_NOTES_JQL || DEFAULT_RELEASE_NOTES_JQL;
   const maxResults = Number.parseInt(process.env.RELEASE_NOTES_MAX_RESULTS || String(DEFAULT_RELEASE_NOTES_MAX_RESULTS), 10);
   const releaseNotesProjectKey = process.env.RELEASE_NOTES_PROJECT_KEY || DEFAULT_RELEASE_NOTES_PROJECT_KEY;
-  const startedAt = new Date();
 
   if (!Number.isInteger(maxResults) || maxResults <= 0) {
     throw new Error('RELEASE_NOTES_MAX_RESULTS must be a positive integer.');
@@ -299,7 +298,9 @@ function formatReleaseName(name) {
     .join(' ');
 }
 
-main().catch((error) => {
+try {
+  await main();
+} catch (error) {
   console.error(error.message || error);
   process.exit(1);
-});
+}
