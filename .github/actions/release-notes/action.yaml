@@ -8,7 +8,6 @@ inputs:
   jql:
     description: "JQL used to fetch release notes"
     required: false
-    default: 'project = CCM AND "Release Notes" IS NOT EMPTY AND fixVersion IS NOT EMPTY AND updated >= -365d'
   max-results:
     description: "Maximum JIRA issues to fetch per page"
     required: false

@@ -40,6 +40,12 @@ githooks-run: # Run git hooks configured in this repository @Operations
 		--config scripts/config/pre-commit.yaml \
 		--all-files
 
+githooks-dependencies: # Run git hook for manually scanning depdencies
+	pre-commit run \
+		--config scripts/config/pre-commit.yaml \
+		--hook-stage manual scan-dependencies \
+		--all-files
+
 _install-dependency: # Install asdf dependency - mandatory: name=[listed in the '.tool-versions' file]; optional: version=[if not listed]
 	echo ${name}
 	asdf plugin add ${name} ||:

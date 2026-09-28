@@ -1,6 +1,6 @@
 repos:
   - repo: https://github.com/NHSDigital/nhs-notify-shared-modules
-    rev: 3.1.2
+    rev: 6.0.0
     hooks:
       - id: scan-secrets
         args: [check=staged-changes]
@@ -10,3 +10,5 @@ repos:
         args: [check=staged-changes]
       - id: check-english-usage
         args: [check=staged-changes]
+      - id: scan-dependencies # make githooks-dependencies
+        stages: [manual]
