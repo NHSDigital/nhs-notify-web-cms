@@ -7,7 +7,7 @@
       "items": [
         {
           "key": "CCM-24040",
-          "release_notes": "We've made some background improvements and fixed a couple of bugs including one that affected the processing of letters printed through Xerox"
+          "release_notes": "We've made some background improvements and fixed a couple of bugs including one that affected the processing of letters"
         }
       ]
     },
