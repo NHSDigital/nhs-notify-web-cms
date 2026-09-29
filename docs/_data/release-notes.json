@@ -12,6 +12,17 @@
       ]
     },
     {
+      "name": "app-response 1.0.5",
+      "jira_name": "app-response 1.0.5",
+      "release_date": "2026-09-08",
+      "items": [
+        {
+          "key": "CCM-17589",
+          "release_notes": "Services can send an NHS App message with fixed response options. A patient can select one response in the NHS App, and NHS Notify can process that response and send it back to the configured integrator via callback.\r\n\r\nIt supports NHS App only, fixed responses only, and callback-based response return. It does not include SMS fallback, free-text replies, Web UI configuration, or historic response query capability."
+        }
+      ]
+    },
+    {
       "name": "Digital Letters 1.0.1",
       "jira_name": "digital-letters-1.0.1",
       "release_date": "2026-06-17",
