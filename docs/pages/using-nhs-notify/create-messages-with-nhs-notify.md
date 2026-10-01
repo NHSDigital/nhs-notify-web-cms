@@ -4,6 +4,7 @@
 
 layout: page
 title: Create messages with NHS Notify
+redirect_from: /using-nhs-notify/create-and-submit-a-template
 parent: Using NHS Notify
 nav_order: 1
 permalink: /using-nhs-notify/create-messages-with-nhs-notify

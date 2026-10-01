@@ -8,7 +8,7 @@ parent: Using NHS Notify
 nav_order: 1
 permalink: /using-nhs-notify/create-and-submit-a-template
 section: Writing a message
-
+published: false
 ---
 
 To send an NHS App message, email, text message or letter with NHS Notify, you need to add a message template.
