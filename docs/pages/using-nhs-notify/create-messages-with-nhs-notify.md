@@ -12,11 +12,11 @@ section: Writing a message
 
 Once you’ve been accepted to onboard with NHS Notify, you can:
 
-- create NHS App message, email and text message templates, and upload letter templates
+- create NHS App, email and text message templates, and upload letter templates
 - add formatting, links and personalisation to your messages
 - set up message plans and choose which message channels to use
 - send test messages for NHS App message, email and text message templates
-- review on-screen letter template previews before they’re sent
+- review letter template previews before they’re sent
 - submit message templates to NHS Notify to send your messages
 
 {% capture gpit_inset_text %}
@@ -80,8 +80,8 @@ NHS Notify lets you monitor your message performance over time.
 
 You'll be able to check the delivery statuses of your messages, with detailed status descriptions if messages fail. You’ll have access to:
 
-our PowerBI dashboard, if you have an nhs.net email address
-message status endpoints and callbacks, if you're using NHS Notify API
-daily reports of messages and channels, if you're using NHS Notify MESH
+- our Power BI dashboard, if you have an nhs.net email address
+- message status endpoints and callbacks, if you're using NHS Notify API
+- daily reports of messages and channels, if you're using NHS Notify MESH
 
 Find out more about [message, channel and supplier status]({% link pages/using-nhs-notify/message-status.md %}).
