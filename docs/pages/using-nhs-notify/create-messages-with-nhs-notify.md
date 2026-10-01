@@ -19,7 +19,12 @@ Once you’ve been accepted to onboard with NHS Notify, you can:
 - review letter template previews before they’re sent
 - submit message templates to NHS Notify to send your messages
 
+<!-- vale off -->
+
 {% capture gpit_inset_text %}
+
+<!-- vale on -->
+
 If you supply technology services to primary care organisations (GP IT), you'll need to use your own systems to create message templates.
 
 Find out more about which features are available if you're a [supplier of technology services to primary care (GP IT)]({% link pages/about/gpit.md %}).
