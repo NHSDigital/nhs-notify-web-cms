@@ -1,6 +1,6 @@
 # Contributing
 
-This repository provides a reusable starting point for NHS Notify projects.
+Thank you for contributing to NHS Notify.
 Contributions that improve its clarity, quality, and maintainability are welcome.
 
 ## Before Opening A Pull Request
