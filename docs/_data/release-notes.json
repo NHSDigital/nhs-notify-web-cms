@@ -1,6 +1,17 @@
 {
   "releases": [
     {
+      "name": "Core 4.76.0",
+      "jira_name": "core-4.76.0",
+      "release_date": "2026-10-01",
+      "items": [
+        {
+          "key": "CCM-23997",
+          "release_notes": "We've made some improvements to our monitoring and alerting software and fixed a couple of edge case bugs"
+        }
+      ]
+    },
+    {
       "name": "Core 4.75.0",
       "jira_name": "core-4.75.0",
       "release_date": "2026-09-16",
