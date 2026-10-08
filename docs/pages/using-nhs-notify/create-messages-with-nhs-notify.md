@@ -18,7 +18,6 @@ Once you’ve been accepted to [onboard with NHS Notify]({% link pages/get-start
 - set up message plans and choose which message channels to use
 - send test messages for NHS App message, email and text message templates
 - review letter template previews before they’re sent
-- submit message templates to NHS Notify to send your messages
 
 You’ll also need a Care Identity to log in. We can help you set this up.
 
