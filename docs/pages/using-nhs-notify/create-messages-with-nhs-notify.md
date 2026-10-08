@@ -11,14 +11,15 @@ permalink: /using-nhs-notify/create-messages-with-nhs-notify
 section: Writing a message
 ---
 
-Once you’ve been accepted to onboard with NHS Notify, you can:
+Once you’ve been accepted to [onboard with NHS Notify]({% link pages/get-started/onboard-with-nhs-notify.md %}) and have access to our integration environment, you can:
 
 - create NHS App, email and text message templates, and upload letter templates
 - add formatting, links and personalisation to your messages
 - set up message plans and choose which message channels to use
 - send test messages for NHS App message, email and text message templates
 - review letter template previews before they’re sent
-- submit message templates to NHS Notify to send your messages
+
+You’ll also need a Care Identity to log in. We can help you set this up.
 
 <!-- vale off -->
 
@@ -31,10 +32,6 @@ If you supply technology services to primary care organisations (GP IT), you'll 
 Find out more about which features are available if you're a [supplier of technology services to primary care (GP IT)]({% link pages/about/gpit.md %}).
 {% endcapture %}
 {% include components/inset-text.html text=gpit_inset_text %}
-
-You can create and submit message templates after you’re accepted to [onboard with NHS Notify]({% link pages/get-started/onboard-with-nhs-notify.md %}) and have access to our integration environment.
-
-You’ll also need a Care Identity to log in. We can help you set this up.
 
 {% include components/button.html
     text="Log in"
@@ -56,7 +53,6 @@ You can:
 - add formatting
 - personalise your messages
 - add links and URLs
-- review and approve your messages
 
 You can use Markdown to format message content. You'll be able to read tips and guidance as you create your message templates.
 
