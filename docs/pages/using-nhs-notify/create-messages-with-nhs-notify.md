@@ -53,7 +53,6 @@ You can:
 - add formatting
 - personalise your messages
 - add links and URLs
-- review and approve your messages
 
 You can use Markdown to format message content. You'll be able to read tips and guidance as you create your message templates.
 
