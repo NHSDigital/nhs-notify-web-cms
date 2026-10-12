@@ -7,7 +7,7 @@
       "items": [
         {
           "key": "CCM-23744",
-          "release_notes": "Release 1.5.0 has some configuration changes aimed at reducing alerts triggered in support."
+          "release_notes": "Release 1.5.0 has some configuration changes to improve our monitoring and alerting."
         }
       ]
     },
@@ -18,7 +18,7 @@
       "items": [
         {
           "key": "CCM-23997",
-          "release_notes": "We've made some improvements to our monitoring and alerting software and fixed a couple of edge case bugs"
+          "release_notes": "We've made some improvements to our monitoring and alerting software and fixed a couple of edge case bugs."
         }
       ]
     },
@@ -29,7 +29,7 @@
       "items": [
         {
           "key": "CCM-24040",
-          "release_notes": "We've made some background improvements and fixed a couple of bugs including one that affected the processing of letters"
+          "release_notes": "We've made some background improvements and fixed a couple of bugs including one that affected the processing of letters."
         }
       ]
     },
