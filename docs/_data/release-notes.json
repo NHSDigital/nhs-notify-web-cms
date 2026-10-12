@@ -1,6 +1,17 @@
 {
   "releases": [
     {
+      "name": "Sms Nudge 1.5.0",
+      "jira_name": "sms-nudge-1.5.0",
+      "release_date": "2026-10-08",
+      "items": [
+        {
+          "key": "CCM-23744",
+          "release_notes": "Release 1.5.0 has some configuration changes aimed at reducing alerts triggered in support."
+        }
+      ]
+    },
+    {
       "name": "Core 4.76.0",
       "jira_name": "core-4.76.0",
       "release_date": "2026-10-01",
