@@ -36,7 +36,7 @@ To send a test message:
 
 1. In <b>Templates</b>, open the template you want to test.
 2. Select <b>Send a test message</b>.
-3. Enter the contact details you want to send the test message to or add new contact details.
+3. Enter the contact details you want to send the test message to, or add new contact details.
 4. If you've personalised your message, enter example data to check how your personalisation fields will be displayed. Find out more about [personalising your messages]({% link pages/using-nhs-notify/personalising-your-messages/overview.md %}).
 5. Select <b>Send test message<b>.
 
@@ -52,4 +52,4 @@ If you've personalised your message, enter short and long example data to check 
 
 Once you've reviewed your letter and received stakeholder approval, select <b>Approve letter template</b>.
 
-You can then add approved letter templates to your [message plans]({% link pages/using-nhs-notify/message-plans.md %}).
+You can then add your approved letter template to your [message plans]({% link pages/using-nhs-notify/message-plans.md %}).
