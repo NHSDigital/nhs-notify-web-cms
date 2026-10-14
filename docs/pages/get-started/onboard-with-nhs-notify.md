@@ -5,6 +5,7 @@ nav_order: 2
 parent: Get started
 permalink: /get-started/onboard-with-nhs-notify
 ---
+
 You can start onboarding with NHS Notify once we've invited you. If we have not invited you yet, find out how to [get started with NHS Notify](https://notify.nhs.uk/get-started/).
 
 ## 1. Prepare your integration
@@ -136,7 +137,7 @@ Once you get access to our integration environment, you can start building your 
 
 How you build your integration to meet your needs is your responsibility.
 
-If you're sending campaign or event based messages, you need to create and submit your templates during this step. You will also need to [approve your messages before we send them]({% link pages/using-nhs-notify/approve-your-messages.md %}).
+If you're sending campaign or event based messages, you need to create and submit your templates during this step. You will also need to [review your messages]({% link pages/using-nhs-notify/reviewing-your-messages.md %}).
 
 ## 4. Complete integration testing
 

@@ -7,7 +7,7 @@ title: Message, channel and supplier status
 parent: Using NHS Notify
 nav_order: 7
 permalink: /using-nhs-notify/message-channel-supplier-status
-section: Sending a message
+section: Sending messages
 ---
 
 This page describes the statuses you'll see when using NHS Notify API or NHS Notify MESH to find out what's happened to your messages.
@@ -39,10 +39,10 @@ If you're sending messages using multiple channels, you'll get an overall status
 
 Messages can have the following statuses:
 
-| Status             | Description                                                                                                               |
-| ------------------ | ------------------------------------------------------------------------------------------------------------------------- |                                                                            |
-| delivered          | The message has been successfully delivered.                                                                              |
-| failed             | We have failed to deliver the message.                                                                                    |
+| Status | Description |
+| ------------------ | ------------------------------------------------------------------------------------------------------------------------- | |
+| delivered | The message has been successfully delivered. |
+| failed | We have failed to deliver the message. |
 
 ### Failed messages
 

@@ -5,7 +5,7 @@ redirect_from: /using-nhs-notify/personalisation
 nav_title: Personalising your messages
 nav_order: 1
 permalink: /using-nhs-notify/personalising-your-messages
-section: Writing a message
+section: Writing messages
 mini_hub_topic: Personalising your messages
 mini_hub_pages:
   - title: Overview

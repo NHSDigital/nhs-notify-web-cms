@@ -7,7 +7,7 @@ title: Create and submit a template
 parent: Using NHS Notify
 nav_order: 1
 permalink: /using-nhs-notify/create-and-submit-a-template
-section: Writing a message
+section: Writing messages
 published: false
 ---
 
