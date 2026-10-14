@@ -7,7 +7,7 @@ title: Upload a letter
 parent: Using NHS Notify
 nav_order: 4
 permalink: /using-nhs-notify/letter-templates
-section: Writing a message
+section: Writing messages
 published: false
 ---
 

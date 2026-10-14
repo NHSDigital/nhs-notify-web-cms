@@ -7,7 +7,7 @@ title: Message plans
 parent: Using NHS Notify
 nav_order: 4
 permalink: /using-nhs-notify/message-plans
-section: Sending a message
+section: Sending messages
 ---
 
 Use message plans to tell us how to send messages to your recipients. You can choose which message channels to use and in what order.

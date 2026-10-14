@@ -7,7 +7,7 @@ title: Delivery times
 parent: Using NHS Notify
 nav_order: 2
 permalink: /using-nhs-notify/delivery-times
-section: Sending a message
+section: Sending messages
 ---
 
 It can take different amounts of time for messages to be delivered depending on the message channel.

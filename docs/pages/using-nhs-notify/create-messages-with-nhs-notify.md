@@ -8,7 +8,7 @@ redirect_from: /using-nhs-notify/create-and-submit-a-template
 parent: Using NHS Notify
 nav_order: 1
 permalink: /using-nhs-notify/create-messages-with-nhs-notify
-section: Writing a message
+section: Writing messages
 ---
 
 Once you’ve been accepted to [onboard with NHS Notify]({% link pages/get-started/onboard-with-nhs-notify.md %}) and have access to our integration environment, you can:

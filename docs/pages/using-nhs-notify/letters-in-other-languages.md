@@ -7,7 +7,7 @@ title: Letters in other languages
 parent: Using NHS Notify
 nav_order: 8
 permalink: /using-nhs-notify/letters-in-other-languages
-section: Writing a message
+section: Writing messages
 ---
 
 NHS Notify allows you to message patients and members of the public using other languages, including their matching character sets.

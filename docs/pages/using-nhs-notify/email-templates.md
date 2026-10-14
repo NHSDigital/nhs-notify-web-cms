@@ -7,7 +7,7 @@ title: Email templates
 parent: Using NHS Notify
 nav_order: 2
 permalink: /using-nhs-notify/email-templates
-section: Writing a message
+section: Writing messages
 published: false
 ---
 

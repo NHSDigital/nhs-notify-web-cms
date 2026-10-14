@@ -7,7 +7,7 @@ title: Reviewing your messages
 parent: Using NHS Notify
 nav_order: 6
 permalink: /using-nhs-notify/reviewing-your-messages
-section: Writing a message
+section: Writing messages
 redirect_from: /using-nhs-notify/approve-your-messages
 ---
 
@@ -21,6 +21,7 @@ It’s your responsibility to review your templates in a way that meets your ser
 
 {% include components/inset-text.html
   text='You no longer need to request proofs of your messages from NHS Notify. You can send test messages and check previews yourself in your account.'
+  classes='nhsuk-u-margin-top-2'
 %}
 
 ## Reviewing NHS App, email and text message templates
@@ -29,16 +30,26 @@ After you've created an NHS App, email or text message template, you should send
 
 For NHS App messages, you can send test messages to your test NHS App account using the NHS number.
 
-For emails and text messages, you can send test messages to your/an email address, mobile number or a shared inbox. We recommend using work contact details.
+For emails and text messages, you can send test messages to your email address, mobile number or a shared inbox. We recommend using work contact details.
 
 To send a test message:
 
-1. In Templates, open the template you want to test.
+1. In <b>Templates</b>, open the template you want to test.
 2. Select <b>Send a test message</b>.
 3. Enter the contact details you want to send the test message to or add new contact details.
-4. If you've personalised your message, you can enter example data to check how your personalisation fields will be displayed. You can check Personal Demographics Service (PDS) fields and custom fields. Find out more about [personalising your messages]({% link pages/using-nhs-notify/personalising-your-messages/overview.md %}).
+4. If you've personalised your message, enter example data to check how your personalisation fields will be displayed. Find out more about [personalising your messages]({% link pages/using-nhs-notify/personalising-your-messages/overview.md %}).
 5. Select <b>Send test message<b>.
 
 You can edit your template and send more test messages if you need to.
 
-Once you've checked your test message and received stakeholder approval, you can add your template to your message plans.
+Once you've checked your test message and received stakeholder approval, you can add your template to your [message plans]({% link pages/using-nhs-notify/message-plans.md %}).
+
+## Reviewing and approving letters
+
+Once you've uploaded your letter template file, you can view an on-screen PDF preview of it.
+
+If you've personalised your message, enter short and long example data to check how your personalisation fields will be displayed. Find out more about [personalising your messages]({% link pages/using-nhs-notify/personalising-your-messages/overview.md %}).
+
+Once you've reviewed your letter and received stakeholder approval, select <b>Approve letter template</b>.
+
+You can then add approved letter templates to your [message plans]({% link pages/using-nhs-notify/message-plans.md %}).

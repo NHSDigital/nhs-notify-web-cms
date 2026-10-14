@@ -7,7 +7,7 @@ title: Uploading a letter
 parent: Using NHS Notify
 nav_order: 4
 permalink: /using-nhs-notify/upload-a-letter
-section: Writing a message
+section: Writing messages
 ---
 
 Upload a Microsoft Word version of your letter and we’ll print and post it for you.
@@ -49,8 +49,6 @@ For example:
 %}
 
 Upload your final letter template by submitting <a href="https://nhsdigitallive.service-now.com/csm?id=sc_cat_item&sys_id=6cc625151b9fbad083b0a7d0b24bcb11&referrer=recent_items" target="_blank">ServiceNow request (opens in a new tab)</a>. You can include multiple letter templates.
-
-We’ll send you digital proofs so you [can approve your messages]({% link pages/using-nhs-notify/approve-your-messages.md %}).
 
 {% include components/details.html
 heading='How to raise a ServiceNow request for letter templates'

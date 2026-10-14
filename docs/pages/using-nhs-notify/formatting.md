@@ -7,7 +7,7 @@ title: Formatting
 parent: Using NHS Notify
 nav_order: 2
 permalink: /using-nhs-notify/formatting
-section: Writing a message
+section: Writing messages
 published: false
 ---
 
