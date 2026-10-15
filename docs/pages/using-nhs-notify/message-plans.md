@@ -12,13 +12,30 @@ section: Sending messages
 
 Use message plans to tell us how to send messages to your recipients. You can choose which message channels to use and in what order.
 
-You'll soon be able to set up message plans yourself in your NHS Notify account. We'll no longer need to set these up for you.
+{% include components/inset-text.html
+  text='You can now set up message plans yourself in your account. You no longer need to ask NHS Notify to set up message plans for you.'
+  classes='nhsuk-u-margin-top-2'
+%}
+
+Message plans are sometimes referred to as routing plans or routing configurations.
 
 ## Choosing your message order
 
-You can choose from a list of pre-defined message plans.
+In **Message plans**, select **New message plan**.
+
+Then **Choose a message order** by selecting an option from a list of pre-defined message plans.
 
 For example: NHS App, email, text message, letter.
+
+## Adding message plan details
+
+Enter a message plan name.
+
+If your service has got multiple campaigns, choose which campaign your message plan will link to.
+
+If your service only has one campaign set up, your message plan will link to this automatically.
+
+Campaigns are a way of grouping messages. They're used for billing and tracking message performance.
 
 ## How fallbacks work
 
