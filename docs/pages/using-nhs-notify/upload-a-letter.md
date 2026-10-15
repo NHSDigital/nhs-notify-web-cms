@@ -15,7 +15,7 @@ Upload a Microsoft Word version of your letter and we’ll print and post it for
 ## How to create your letter template
 
 1. [Download a blank Word letter template](https://notify.nhs.uk/using-nhs-notify/upload-a-letter#download-a-blank-word-letter-template).
-2. Download the correct [fonts for letter templates]({% link pages/using-nhs-notify/formatting/letter-fonts.md %}).
+2. Download the correct [fonts for letter templates]({% link pages/using-nhs-notify/formatting/formatting-fonts.md %}).
 3. Add your letter content to the blank template.
 4. Add [formatting]({% link pages/using-nhs-notify/formatting/formatting-overview.md %}).
 5. Add [personalisation]({% link pages/using-nhs-notify/personalising-your-messages/overview.md %}) fields by using single curly brackets with d. at the start. For example, {d. appointmentDate}.
@@ -69,7 +69,7 @@ For example:
 %}
 
 {% include components/details.html
-heading='How to raise a ServiceNow request for letter templates'
+heading='How to raise a ServiceNow case for letter templates'
 text='
 
 1. Go to <a href="https://nhsdigitallive.service-now.com/csm?id=sc_cat_item&sys_id=6cc625151b9fbad083b0a7d0b24bcb11&referrer=recent_items" target="_blank">ServiceNow (opens in a new tab)</a>.
@@ -110,6 +110,10 @@ You can also use [Microsoft Word's format painter](https://support.microsoft.com
 %}
 
 Find out more about [formatting]({% link pages/using-nhs-notify/formatting/formatting-overview.md %}) your letter templates.
+
+## Personalisation
+
+Find out more about [personalising your messages]({% link pages/using-nhs-notify/personalising-your-messages/overview.md %}).
 
 ## Links and URLs
 
