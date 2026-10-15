@@ -6,7 +6,7 @@ layout: page
 title: Uploading a letter
 parent: Using NHS Notify
 nav_order: 4
-permalink: /using-nhs-notify/upload-a-letter
+permalink: /using-nhs-notify/uploading-a-letter
 section: Writing messages
 ---
 
@@ -14,41 +14,59 @@ Upload a Microsoft Word version of your letter and we’ll print and post it for
 
 ## How to create your letter template
 
-1. Download a blank Word letter template.
-2. Download the correct [fonts for letter templates]({% link pages/using-nhs-notify/formatting/formatting-fonts.md %}).
+1. [Download a blank Word letter template](https://notify.nhs.uk/using-nhs-notify/upload-a-letter#download-a-blank-word-letter-template).
+2. Download the correct [fonts for letter templates]({% link pages/using-nhs-notify/formatting/letter-fonts.md %}).
 3. Add your letter content to the blank template.
 4. Add [formatting]({% link pages/using-nhs-notify/formatting/formatting-overview.md %}).
 5. Add [personalisation]({% link pages/using-nhs-notify/personalising-your-messages/overview.md %}) fields by using single curly brackets with d. at the start. For example, {d. appointmentDate}.
 
 ## How to upload your letter template
 
-How you upload your template depends on whether:
-
-- you use the ServiceNow letter request process
-- we've invited you to use the **Upload a letter template** feature in your NHS Notify account
+You can upload letter templates directly in your account or by submitting a ServiceNow case, depending on the format you need.
 
 {% include components/inset-text.html
   text='It can take up to 2 days for letters to be dispatched once you’ve uploaded them. Find out more about [delivery times](https://notify.nhs.uk/using-nhs-notify/delivery-times).'
 %}
 
-### If you use the ServiceNow request process
+### Uploading letters using your account
+
+You can use your account to upload:
+
+- standard English letters
+- large print letters
+- letters in other languages
+- British Sign Language (BSL) letters
+
+1. Log in to NHS Notify and go to **Templates**. Select **New template**. Choose **Letter** as your template type and select **Continue**.
+2. Name your template and choose which campaign it’s for.
+3. Choose your file and select **Upload letter template file**.
+4. Choose your **Printing and postage**.
+5. View the **Letter preview**. Check how your personalisation fields appear using short and long example data.
+
+When you’re ready to approve your letter, select **Approve template**. You can now use this letter in your message plans.
+
+### Uploading letters using ServiceNow
+
+You can use ServiceNow to upload:
+
+- Braille letters
+- audio CD letters
+
+Upload your final letter template by submitting a <a href="https://nhsdigitallive.service-now.com/csm?id=sc_cat_item&sys_id=6cc625151b9fbad083b0a7d0b24bcb11&referrer=recent_items" target="_blank">ServiceNow case (opens in a new tab)</a>. You can include multiple letter templates.
 
 Name your letter template clearly so it’s easy to identify, and include:
 
 - service name
 - campaign, cohort or topic of your message
-- language used, including English
-- accessible format or standard format used
+- format used
 - message channel (letter)
 - version number
 
 For example:
 
 {% include components/inset-text.html
-  text='vaccinations_under-16_english_standard_letter_v1'
+  text='vaccinations_under-16_braille_letter_v1'
 %}
-
-Upload your final letter template by submitting <a href="https://nhsdigitallive.service-now.com/csm?id=sc_cat_item&sys_id=6cc625151b9fbad083b0a7d0b24bcb11&referrer=recent_items" target="_blank">ServiceNow request (opens in a new tab)</a>. You can include multiple letter templates.
 
 {% include components/details.html
 heading='How to raise a ServiceNow request for letter templates'
@@ -61,16 +79,6 @@ text='
 5. Attach your Word letter templates directly to the request.
    '
    %}
-
-### If you can upload letters using your account
-
-1. Log in to NHS Notify and go to **Templates**. Select **New template**. Choose **Letter** as your template type and select **Continue**.
-2. Name your template and choose which campaign it’s for.
-3. Choose your file and select **Upload letter template file**.
-4. Choose your **Printing and postage**.
-5. View the **Letter preview**. Check how your personalisation fields appear using short and long example data.
-
-When you’re ready to approve your letter, select **Approve template**. You can now use this letter in your message plans.
 
 ## Download a blank Word letter template
 
