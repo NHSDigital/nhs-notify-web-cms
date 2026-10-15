@@ -21,7 +21,7 @@ Message plans are sometimes referred to as routing plans or routing configuratio
 
 ## Choosing your message order
 
-In **Message plans**, select **New message plan**.
+Log in to your account. In **Message plans**, select **New message plan**.
 
 Then **Choose a message order** by selecting an option from a list of pre-defined message plans.
 
@@ -37,6 +37,12 @@ If your service only has one campaign set up, your message plan will link to thi
 
 Campaigns are a way of grouping messages. They're used for billing and tracking message performance.
 
+## Choosing your templates
+
+You can choose templates for each channel in your message plan.
+
+You can preview your templates when you choose them, and while you review your overall message plan.
+
 ## How fallbacks work
 
 If we cannot deliver a message through your first choice, we automatically try the next channel in your message plan.
@@ -51,9 +57,22 @@ We'll stop sending messages once a chosen channel is successful.
 
 For example, you might try to send an NHS App message first. If the recipient reads the message within 24 hours, no further messages get sent. If the recipient does not read the first message within 24 hours, we'll then try to send an email.
 
-## Linking your templates
+## Testing message plans
 
-You can choose specific templates for each channel in your message plan.
+Once you've created a draft message plan, you can test it using our:
+
+- <a href="https://digital.nhs.uk/developer/api-catalogue/nhs-notify#overview--environments-and-testing" target="_blank">API integration environment (opens in a new tab)</a>
+- <a href="https://digital.nhs.uk/developer/api-catalogue/nhs-notify-mesh/sending-a-message#sending-your-request" target="_blank">integration MESH mailbox (opens in a new tab)</a>
+
+Once you've moved a message plan to production, the templates in it have a **Locked** status. This means you cannot edit them. You can still **copy** locked NHS App message, email and text message templates.
+
+## Moving message plans to production
+
+Once the relevant stakeholders in your team have approved your templates and message plan, select **Move to production**.
+
+You're then ready to start sending messages using this plan.
+
+Next, your developer or technical team need to make a request to send the message plan using <a href="https://digital.nhs.uk/developer/api-catalogue/nhs-notify#post-/v1/message-batches" target="_blank">NHS Notify API (opens in a new tab)</a> or <a href="https://digital.nhs.uk/developer/api-catalogue/nhs-notify-mesh/sending-a-message" target="_blank">NHS Notify MESH (opens in a new tab)</a>. You'll need the **routing plan ID** for this.
 
 ## Contact details
 
@@ -62,3 +81,5 @@ We check the Personal Demographics Service (PDS) for each recipient's contact de
 If we do not have a contact detail for a specific channel, we'll skip that channel and move to the next one in your message plan.
 
 We only check for contact details once at the start. We do not re-check PDS each time there is a fallback.
+
+[Tell us who you want to message]({% link pages/using-nhs-notify/tell-us-who-you-want-to-message.md %}).
