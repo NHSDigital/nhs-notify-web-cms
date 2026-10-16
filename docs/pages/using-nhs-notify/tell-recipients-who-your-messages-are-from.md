@@ -5,7 +5,7 @@
 layout: page
 title: Tell recipients who your messages are from
 parent: Using NHS Notify
-nav_order: 1
+nav_order: 2
 permalink: /using-nhs-notify/tell-recipients-who-your-messages-are-from
 section: Sending messages
 ---

@@ -5,7 +5,7 @@
 layout: page
 title: Message, channel and supplier status
 parent: Using NHS Notify
-nav_order: 7
+nav_order: 8
 permalink: /using-nhs-notify/message-channel-supplier-status
 section: Sending messages
 ---
