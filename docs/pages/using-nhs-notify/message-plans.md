@@ -72,7 +72,7 @@ Once you've moved a message plan to production, the templates in it have a **Loc
 
 Once the relevant stakeholders in your team have approved your templates and message plan, select **Move to production**.
 
-You're then ready to start sending messages using this plan.
+Your message plan can then be used to send messages to recipients.
 
 Next, your developer or technical team need to make a request to send the message plan using <a href="https://digital.nhs.uk/developer/api-catalogue/nhs-notify#post-/v1/message-batches" target="_blank">NHS Notify API (opens in a new tab)</a> or <a href="https://digital.nhs.uk/developer/api-catalogue/nhs-notify-mesh/sending-a-message" target="_blank">NHS Notify MESH (opens in a new tab)</a>. You'll need the **routing plan ID** for this.
 
