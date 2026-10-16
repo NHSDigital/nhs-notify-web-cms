@@ -13,7 +13,7 @@ section: Sending messages
 Use message plans to tell us how to send messages to your recipients. You can choose which message channels to use and in what order.
 
 {% include components/inset-text.html
-  text='You can now set up message plans yourself in your account. You no longer need to ask NHS Notify to set up message plans for you.'
+  text='You can now set up message plans yourself. You no longer need to ask NHS Notify to set up message plans for you.'
   classes='nhsuk-u-margin-top-2'
 %}
 
