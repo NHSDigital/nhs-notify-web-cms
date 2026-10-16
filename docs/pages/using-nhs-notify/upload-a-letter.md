@@ -22,10 +22,12 @@ Upload a Microsoft Word version of your letter and we’ll print and post it for
 
 ## How to upload your letter template
 
-You can upload letter templates directly in your account or by submitting a ServiceNow case, depending on the format you need.
+You can upload letter templates directly in your account or by submitting a ServiceNow case, depending on the letter type you need.
 
 {% include components/inset-text.html
-  text='It can take up to 2 days for letters to be dispatched once you’ve uploaded them. Find out more about [delivery times](https://notify.nhs.uk/using-nhs-notify/delivery-times).'
+text='It can take up to 2 days for letters to be dispatched once you’ve uploaded them. Find out more about [delivery times](https://notify.nhs.uk/using-nhs-notify/delivery-times).'
+classes='nhsuk-u-margin-top-2'
+
 %}
 
 ### Uploading letters using your account
@@ -49,7 +51,7 @@ When you’re ready to approve your letter, select **Approve template**. You can
 
 You can use ServiceNow to upload:
 
-- Braille letters
+- braille letters
 - audio CD letters
 
 Upload your final letter template by submitting a <a href="https://nhsdigitallive.service-now.com/csm?id=sc_cat_item&sys_id=6cc625151b9fbad083b0a7d0b24bcb11&referrer=recent_items" target="_blank">ServiceNow case (opens in a new tab)</a>. You can include multiple letter templates.
