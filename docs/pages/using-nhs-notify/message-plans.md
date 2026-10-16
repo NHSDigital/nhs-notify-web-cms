@@ -29,7 +29,7 @@ For example: NHS App, email, text message, letter.
 
 ## Adding message plan details
 
-Enter a message plan name.
+Enter a **message plan name**.
 
 If your service has got multiple campaigns, choose which campaign your message plan will link to.
 
@@ -39,15 +39,15 @@ Campaigns are a way of grouping messages. They're used for billing and tracking 
 
 ## Choosing your templates
 
-You can choose templates for each channel in your message plan.
+You can **choose templates** for each channel in your message plan.
 
-You can preview your templates when you choose them, and while you review your overall message plan.
+You can **preview** your templates when you choose them, and while you review your overall message plan.
 
 ## How fallbacks work
 
 If we cannot deliver a message through your first choice, we automatically try the next channel in your message plan.
 
-A fallback happens if:
+A **fallback** happens if:
 
 - the recipient does not have valid contact details for a channel
 - the message is not read or delivered within a certain amount of time
@@ -56,6 +56,8 @@ A fallback happens if:
 We'll stop sending messages once a chosen channel is successful.
 
 For example, you might try to send an NHS App message first. If the recipient reads the message within 24 hours, no further messages get sent. If the recipient does not read the first message within 24 hours, we'll then try to send an email.
+
+You can read about your **fallback conditions** when you set up your message plan.
 
 ## Testing message plans
 
