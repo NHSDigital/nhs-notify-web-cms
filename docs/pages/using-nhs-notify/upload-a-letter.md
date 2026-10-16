@@ -68,10 +68,11 @@ For example:
 
 {% include components/inset-text.html
   text='vaccinations_under-16_braille_letter_v1'
+  classes='nhsuk-u-margin-top-2'
 %}
 
 {% include components/details.html
-heading='How to raise a ServiceNow case for letter templates'
+heading='How to submit a ServiceNow case for letter templates'
 text='
 
 1. Go to <a href="https://nhsdigitallive.service-now.com/csm?id=sc_cat_item&sys_id=6cc625151b9fbad083b0a7d0b24bcb11&referrer=recent_items" target="_blank">ServiceNow (opens in a new tab)</a>.
@@ -146,11 +147,11 @@ You must also provide a short URL or written instructions for how to find your w
 
 ## Content you should not edit
 
-### Address field
+### Address fields
 
-The address field fits inside the address window on the envelope.
+The address fields fit inside the address window on the envelope.
 
-The address is a personalisation field and is set automatically.
+The address is made up of personalisation fields and is set automatically.
 
 The recipient's name is always included as the first line of the address.
 
