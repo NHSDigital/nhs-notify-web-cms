@@ -5,7 +5,7 @@
 layout: page
 title: Tell us who you want to message
 parent: Using NHS Notify
-nav_order: 3
+nav_order: 4
 permalink: /using-nhs-notify/tell-us-who-you-want-to-message
 section: Sending messages
 ---
