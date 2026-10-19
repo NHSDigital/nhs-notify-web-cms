@@ -1,6 +1,17 @@
 {
   "releases": [
     {
+      "name": "Template Management 1.0.0",
+      "jira_name": "template-management-1.0.0",
+      "release_date": "2026-10-12",
+      "items": [
+        {
+          "key": "CCM-24388",
+          "release_notes": "We're releasing the following features to your NHS Notify account:\r\n\r\n1. Upload Microsoft Word letter templates, preview personalisation with sample data, and approve templates directly in your account. No need to wait for NHS Notify letter proofs.\r\n\r\n2. Send test NHS App, email and text messages to yourself or a shared inbox to check formatting, personalisation and message length before sending to recipients.\r\n\r\n3. Create and manage message plans yourself, including channel order and template selection across NHS App, email, text message and letter.\r\n\r\nOnly for National Programmes\r\n4. View details of NHS App prompts sent by text message and preview message content in your account."
+        }
+      ]
+    },
+    {
       "name": "Sms Nudge 1.5.0",
       "jira_name": "sms-nudge-1.5.0",
       "release_date": "2026-10-08",
