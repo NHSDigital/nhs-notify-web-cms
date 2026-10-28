@@ -4,6 +4,7 @@
 
 layout: page
 title: Uploading a letter
+redirect_from: /using-nhs-notify/upload-a-letter
 parent: Using NHS Notify
 nav_order: 4
 permalink: /using-nhs-notify/uploading-a-letter
@@ -14,7 +15,7 @@ Upload a Microsoft Word version of your letter and we’ll print and post it for
 
 ## How to create your letter template
 
-1. [Download a blank Word letter template](https://notify.nhs.uk/using-nhs-notify/upload-a-letter#download-a-blank-word-letter-template).
+1. [Download a blank Word letter template](https://notify.nhs.uk/using-nhs-notify/uploading-a-letter#download-a-blank-word-letter-template).
 2. Download the correct [fonts for letter templates]({% link pages/using-nhs-notify/formatting/formatting-fonts.md %}).
 3. Add your letter content to the blank template.
 4. Add [formatting]({% link pages/using-nhs-notify/formatting/formatting-overview.md %}).
