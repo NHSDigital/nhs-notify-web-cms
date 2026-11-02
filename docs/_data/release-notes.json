@@ -1,6 +1,28 @@
 {
   "releases": [
     {
+      "name": "Template Management 1.0.1",
+      "jira_name": "template-management-1.0.1",
+      "release_date": "2026-10-29",
+      "items": [
+        {
+          "key": "CCM-25276",
+          "release_notes": "1. Users can now see the correct sender ID on the confirmation page when sending test messages\r\n2. Users can now view template previews when editing a message plan"
+        }
+      ]
+    },
+    {
+      "name": "Core 4.78.0",
+      "jira_name": "core-4.78.0",
+      "release_date": "2026-10-28",
+      "items": [
+        {
+          "key": "CCM-25049",
+          "release_notes": "We've fixed some bugs, made improvements to our monitoring and alarm software and improved the service's response to intermittent connectivity issues to make it more robust."
+        }
+      ]
+    },
+    {
       "name": "Template Management 1.0.0",
       "jira_name": "template-management-1.0.0",
       "release_date": "2026-10-12",
