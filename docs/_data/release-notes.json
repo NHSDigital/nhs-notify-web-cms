@@ -18,7 +18,7 @@
       "items": [
         {
           "key": "CCM-25049",
-          "release_notes": "We've fixed some bugs, made improvements to our monitoring and alarm software and improved the service's response to intermittent connectivity issues to make it more robust."
+          "release_notes": "We've fixed some bugs, made improvements to our monitoring and alarm software and improved the service's response to intermittent connectivity issues making it more robust."
         }
       ]
     },
