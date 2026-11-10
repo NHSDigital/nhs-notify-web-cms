@@ -5,9 +5,9 @@
 layout: page
 title: "NHS App for messages: new NHS digital-first strategy"
 parent: Using NHS Notify
-nav_order: 8
+nav_order: 9
 permalink: /using-nhs-notify/nhs-digital-first-strategy
-section: Sending a message
+section: Sending messages
 ---
 
 ## What’s changing

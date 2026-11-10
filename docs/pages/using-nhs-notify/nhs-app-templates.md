@@ -7,7 +7,7 @@ title: NHS App message templates
 parent: Using NHS Notify
 nav_order: 1
 permalink: /using-nhs-notify/nhs-app-templates
-section: Writing a message
+section: Writing messages
 published: false
 ---
 

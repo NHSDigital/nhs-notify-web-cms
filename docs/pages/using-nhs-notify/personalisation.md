@@ -8,7 +8,7 @@ redirect_to: /using-nhs-notify/personalising-your-messages/overview.md
 parent: Using NHS Notify
 nav order: 4
 permalink: /using-nhs-notify/personalisation
-section: Writing a message
+section: Writing messages
 published: false
 ---
 
@@ -93,34 +93,6 @@ The CSV file you use in your MESH request is different to the CSV example data f
 Read more about <a href="https://digital.nhs.uk/developer/api-catalogue/nhs-notify-mesh/sending-a-message" target="_blank">how to create your request with NHS Notify MESH (opens in a new tab)</a>.
 '
 %}
-
-### Example personalisation data
-
-After you [request a proof]({% link pages/using-nhs-notify/approve-your-messages.md %}), we'll include example data in the proof we email to you. This allows you to check how personalisation will be displayed in your message. The data in personalisation fields can affect message cost and length.
-
-If you'd like to provide your own example data, reply to the email and attach an [example data file]({% link assets/personalisationexampledata/personalisation-blank-example-data-nhs-notify.csv %}) containing your example data. You can download a [completed example file]({% link assets/personalisationexampledata/personalisation-completed-example-data-nhs-notify.csv %}) to check how to format your data.
-
-For each personalisation field, provide short, medium and long examples. For example, if your personalisation field was `((gpSurgery))`, you could use the following example data:
-
-{% include components/inset-text.html
-text='
-
-<!-- vale off -->
-
-- New Surgery (short)
-- The Health Centre, Knaresborough Road (medium)
-- Church Avenue and Park Grove Medical Group Surgery (long)
-'
-classes='nhsuk-u-margin-top-2'
-%}
-<!-- vale on -->
-
-Follow these rules for your example data:
-
-- the personalisation fields in your template must exactly match the fields in the 'personalisation field' column of your spreadsheet
-- decide the number of characters for your short, medium and long examples - there are no set lengths
-- if a field is always a fixed length, such as a phone number, provide 3 different examples of that fixed length
-- your example data does not need to be real user data
 
 ### Adding personalised links
 

@@ -4,7 +4,7 @@ title: Providing your own data
 nav_title: Personalising your messages
 nav_order: 4
 permalink: /using-nhs-notify/personalising-your-messages/providing-your-own-data
-section: Writing a message
+section: Writing messages
 mini_hub_topic: Personalising your messages
 mini_hub_pages:
   - title: Overview
@@ -58,11 +58,3 @@ text='`personalisation_gpSurgery`
 The CSV file you use in your MESH request is different to the CSV example data file for custom personalisation fields.
 
 Read more about <a href="https://digital.nhs.uk/developer/api-catalogue/nhs-notify-mesh/sending-a-message" target="_blank">sending a message with NHS Notify MESH (opens in a new tab)</a>.
-
-## Example data
-
-After you request a proof, we’ll include example data in the proof we email to you. This allows you to check how personalisation will be displayed in your message.
-
-The data in personalisation fields can affect message cost and length.
-
-Find out how to [approve your messages before we send them]({% link pages/using-nhs-notify/approve-your-messages.md %}).

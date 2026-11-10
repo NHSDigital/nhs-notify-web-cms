@@ -5,9 +5,9 @@
 layout: page
 title: Tell us who you want to message
 parent: Using NHS Notify
-nav_order: 3
+nav_order: 4
 permalink: /using-nhs-notify/tell-us-who-you-want-to-message
-section: Sending a message
+section: Sending messages
 ---
 
 You only need a patient's <a href="https://digital.nhs.uk/services/personal-demographics-service/nhs-number" target="_blank">NHS number (opens in a new tab)</a> to send them messages.

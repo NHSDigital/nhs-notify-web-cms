@@ -68,7 +68,7 @@ classes='nhsuk-u-margin-top-2'
 
 ### 3. Approve proofs of your messages
 
-You need to [approve final proofs of your messages]({% link pages/using-nhs-notify/approve-your-messages.md %}). This is to ensure that NHS Notify sends your messages exactly as you expect your recipients to get them.
+You need to [review your messages]({% link pages/using-nhs-notify/reviewing-your-messages.md %}). This is to ensure that NHS Notify sends your messages exactly as you expect your recipients to get them.
 
 ### 4. Wait for NHS Notify to set up your message plans
 
@@ -173,7 +173,7 @@ For letters, smoke testing will take place 24 hours before you go live. For othe
 
 The output of the smoke tests will be on our test devices. This means you will not see the messages at this stage.
 
-We do not check any links in your message templates during smoke testing. You can check your links work correctly during [proofing]({% link pages/using-nhs-notify/approve-your-messages.md %}) (if you're using templates rather than free-text inputs).
+We do not check any links in your message templates during smoke testing. You can check your links work correctly when you [review your messages]({% link pages/using-nhs-notify/reviewing-your-messages.md %}) (if you're using templates rather than free-text inputs).
 
 ### Before your smoke test
 

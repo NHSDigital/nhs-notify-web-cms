@@ -11,27 +11,27 @@ permalink: /using-nhs-notify/
 
 This guidance is to help teams understand how to use NHS Notify.
 
-## Writing a message
+## Writing messages
 
 - [Create messages with NHS Notify]({% link pages/using-nhs-notify/create-messages-with-nhs-notify.md %})
 - [Formatting]({% link pages/using-nhs-notify/formatting/formatting-overview.md %})
 - [Personalising your messages]({% link pages/using-nhs-notify/personalising-your-messages/overview.md %})
 - [Links and URLs]({% link pages/using-nhs-notify/links-and-urls.md %})
 - [Uploading a letter]({% link pages/using-nhs-notify/upload-a-letter.md %})
+- [Reviewing your messages]({% link pages/using-nhs-notify/reviewing-your-messages.md %})
 - [Accessible formats]({% link pages/using-nhs-notify/accessible-formats.md %})
 - [Letters in other languages]({% link pages/using-nhs-notify/letters-in-other-languages.md %})
 
-## Sending a message
+## Sending messages
 
+- [Message plans]({% link pages/using-nhs-notify/message-plans.md %})
 - [Tell recipients who your messages are from]({% link pages/using-nhs-notify/tell-recipients-who-your-messages-are-from.md %})
 - [Delivery times]({% link pages/using-nhs-notify/delivery-times.md %})
 - [Tell us who you want to message]({% link pages/using-nhs-notify/tell-us-who-you-want-to-message.md %})
-- [Message plans]({% link pages/using-nhs-notify/message-plans.md %})
 - [Recipients you cannot message]({% link pages/using-nhs-notify/recipients-you-cannot-message.md %})
 - [Message, channel and supplier status]({% link pages/using-nhs-notify/message-status.md %})
 - [NHS App for messages: new NHS digital-first strategy]({% link pages/using-nhs-notify/nhs-digital-first-strategy.md %})
 
 ## Going live
 
-- [Approve your messages before we send them]({% link pages/using-nhs-notify/approve-your-messages.md %})
 - [Complete your testing]({% link pages/using-nhs-notify/complete-your-testing.md %})

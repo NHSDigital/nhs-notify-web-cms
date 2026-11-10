@@ -7,7 +7,7 @@ title: Text message templates
 parent: Using NHS Notify
 nav_order: 3
 permalink: /using-nhs-notify/text-message-templates
-section: Writing a message
+section: Writing messages
 published: false
 ---
 

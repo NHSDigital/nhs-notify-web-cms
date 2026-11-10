@@ -7,7 +7,7 @@ title: Links and URLs
 parent: Using NHS Notify
 nav_order: 3
 permalink: /using-nhs-notify/links-and-urls
-section: Writing a message
+section: Writing messages
 ---
 
 You can include links in your messages. How you do this depends on the message channel.

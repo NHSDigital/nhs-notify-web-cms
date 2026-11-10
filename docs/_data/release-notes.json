@@ -1,13 +1,57 @@
 {
   "releases": [
     {
+      "name": "Template Management 1.0.1",
+      "jira_name": "template-management-1.0.1",
+      "release_date": "2026-10-29",
+      "items": [
+        {
+          "key": "CCM-25276",
+          "release_notes": "1. Users can now see the correct sender ID on the confirmation page when sending test messages\r\n2. Users can now view template previews when editing a message plan"
+        }
+      ]
+    },
+    {
+      "name": "Core 4.78.0",
+      "jira_name": "core-4.78.0",
+      "release_date": "2026-10-28",
+      "items": [
+        {
+          "key": "CCM-25049",
+          "release_notes": "We've fixed some bugs, made improvements to our monitoring and alarm software and improved the service's response to intermittent connectivity issues making it more robust."
+        }
+      ]
+    },
+    {
+      "name": "Template Management 1.0.0",
+      "jira_name": "template-management-1.0.0",
+      "release_date": "2026-10-12",
+      "items": [
+        {
+          "key": "CCM-24388",
+          "release_notes": "We're releasing the following features to your NHS Notify account:\r\n\r\n1. Upload Microsoft Word letter templates, preview personalisation with sample data, and approve templates directly in your account. No need to wait for NHS Notify letter proofs.\r\n\r\n2. Send test NHS App, email and text messages to yourself or a shared inbox to check formatting, personalisation and message length before sending to recipients.\r\n\r\n3. Create and manage message plans yourself, including channel order and template selection across NHS App, email, text message and letter.\r\n\r\nOnly for National Programmes\r\n4. View details of NHS App prompts sent by text message and preview message content in your account."
+        }
+      ]
+    },
+    {
+      "name": "Sms Nudge 1.5.0",
+      "jira_name": "sms-nudge-1.5.0",
+      "release_date": "2026-10-08",
+      "items": [
+        {
+          "key": "CCM-23744",
+          "release_notes": "Release 1.5.0 has some configuration changes to improve our monitoring and alerting."
+        }
+      ]
+    },
+    {
       "name": "Core 4.76.0",
       "jira_name": "core-4.76.0",
       "release_date": "2026-10-01",
       "items": [
         {
           "key": "CCM-23997",
-          "release_notes": "We've made some improvements to our monitoring and alerting software and fixed a couple of edge case bugs"
+          "release_notes": "We've made some improvements to our monitoring and alerting software and fixed a couple of edge case bugs."
         }
       ]
     },
@@ -18,7 +62,7 @@
       "items": [
         {
           "key": "CCM-24040",
-          "release_notes": "We've made some background improvements and fixed a couple of bugs including one that affected the processing of letters"
+          "release_notes": "We've made some background improvements and fixed a couple of bugs including one that affected the processing of letters."
         }
       ]
     },

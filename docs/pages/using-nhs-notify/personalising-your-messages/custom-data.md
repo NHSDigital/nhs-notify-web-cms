@@ -4,7 +4,7 @@ title: Custom data
 nav_title: Personalising your messages
 nav_order: 3
 permalink: /using-nhs-notify/personalising-your-messages/custom-data
-section: Writing a message
+section: Writing messages
 mini_hub_topic: Personalising your messages
 mini_hub_pages:
   - title: Overview
@@ -39,6 +39,7 @@ You need to provide the data for your custom personalisation fields in your API 
 If you use your own data, you cannot use the following personalisation fields:
 
 <!-- vale off -->
+
 - any PDS personalisation fields
 - emailAddress
 - phoneNumber

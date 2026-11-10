@@ -4,7 +4,7 @@ title: Personal Demographics Service (PDS) data
 nav_title: Personalising your messages
 nav_order: 2
 permalink: /using-nhs-notify/personalising-your-messages/pds-data
-section: Writing a message
+section: Writing messages
 mini_hub_topic: Personalising your messages
 mini_hub_pages:
   - title: Overview
@@ -31,6 +31,7 @@ NHS Notify uses the Personal Demographics Service (PDS) to fill personalisation 
 You can use the following PDS fields in your message template:
 
 <!-- vale off -->
+
 - fullName
 - firstName
 - lastName
