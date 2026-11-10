@@ -19,8 +19,8 @@
   },
   "devDependencies": {
     "fast-xml-parser": "^5.5.7",
-    "pa11y-ci": "^3.1.0",
-    "pa11y-ci-reporter-html": "^6.0.2",
+    "pa11y-ci": "^5.0.0",
+    "pa11y-ci-reporter-html": "^9.0.0",
     "pm2": "^7.0.3",
     "sitemap": "^8.0.0"
   },
