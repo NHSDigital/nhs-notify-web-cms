@@ -47,9 +47,8 @@ updates:
       default-days: 7
 
   - package-ecosystem: "npm"
-    # Refers to root directory only as updating pnpm workspaces from inside a workspace subdirectory is not supported
     directories:
-      - "/"
+      - "**/*"
     schedule:
       interval: "daily"
     commit-message:
