@@ -4,7 +4,7 @@ updates:
 
   - package-ecosystem: "docker"
     directories:
-      - "/*"
+      - "**/*"
     schedule:
       interval: "daily"
     commit-message:
@@ -149,7 +149,7 @@ updates:
 
   - package-ecosystem: "pip"
     directories:
-      - "/*"
+      - "**/*"
     schedule:
       interval: "daily"
     commit-message:
@@ -171,7 +171,7 @@ updates:
 
   - package-ecosystem: "terraform"
     directories:
-      - "/*"
+      - "**/*"
     schedule:
       interval: "daily"
     commit-message:
@@ -194,6 +194,28 @@ updates:
   - package-ecosystem: "devcontainers"
     directories:
       - "/*"
+    schedule:
+      interval: "daily"
+    commit-message:
+      prefix: "CCM-9336: "
+    cooldown:
+      default-days: 7
+    groups:
+      patch-and-minor:
+        patterns:
+          - "*"
+        update-types:
+          - "minor"
+          - "patch"
+      major:
+        patterns:
+          - "*"
+        update-types:
+          - "major"
+
+  - package-ecosystem: "bundler"
+    directories:
+      - "**/*"
     schedule:
       interval: "daily"
     commit-message:
