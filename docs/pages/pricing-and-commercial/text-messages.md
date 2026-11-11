@@ -10,6 +10,8 @@ permalink: /pricing-and-commercial/text-messages
 redirect_from: /pricing/text-messages
 ---
 
+Last updated: 1 April 2026
+
 It costs 2.4 pence for each text message you send.
 
 You may pay more for each message if you:
