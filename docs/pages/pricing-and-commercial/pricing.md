@@ -9,6 +9,7 @@ has_children: true
 permalink: /pricing-and-commercial/
 redirect_from: /pricing/
 ---
+Last updated: 26 August 2026
 
 It’s free to send NHS App messages and emails through NHS Notify.
 

@@ -9,6 +9,7 @@ nav_order: 3
 permalink: /pricing-and-commercial/letters
 redirect_from: /pricing/letters
 ---
+Last updated: 24 August 2026
 
 The cost of sending a standard letter depends on the postage you use and how many sheets of paper you need.
 
