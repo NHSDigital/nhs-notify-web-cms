@@ -133,7 +133,7 @@ jobs:
       - run: npm ci # Sonar: --ignore-scripts breaks playwright installation for Pa11y
         working-directory: "./docs"
       - name: Setup Ruby
-        uses: ruby/setup-ruby@086ffb1a2090c870a3f881cc91ea83aa4243d408 # v1.195.0
+        uses: ruby/setup-ruby@de492cf36cbab201753d720ce4f4e336cd688c94 # v1.336.0
         with:
           ruby-version: "3.3"
           bundler-cache: true
