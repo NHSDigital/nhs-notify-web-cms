@@ -1,6 +1,17 @@
 {
   "releases": [
     {
+      "name": "Core 4.79.0",
+      "jira_name": "core-4.79.0",
+      "release_date": "2026-11-11",
+      "items": [
+        {
+          "key": "CCM-24103",
+          "release_notes": "We've made some changes to improve performance when processing very large volumes of Vaccs messages."
+        }
+      ]
+    },
+    {
       "name": "Template Management 1.0.1",
       "jira_name": "template-management-1.0.1",
       "release_date": "2026-10-29",
