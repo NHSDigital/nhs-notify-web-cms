@@ -1,6 +1,17 @@
 {
   "releases": [
     {
+      "name": "Template Management 1.0.2",
+      "jira_name": "template-management-1.0.2",
+      "release_date": "2026-11-16",
+      "items": [
+        {
+          "key": "CCM-25838",
+          "release_notes": "We've introduced a new landing page that appears when you first log in to the application, providing access to Templates and Message Plans."
+        }
+      ]
+    },
+    {
       "name": "Core 4.79.0",
       "jira_name": "core-4.79.0",
       "release_date": "2026-11-11",
